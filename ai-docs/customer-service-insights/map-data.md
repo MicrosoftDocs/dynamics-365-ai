@@ -86,3 +86,6 @@ Here are some things to keep in mind when you map your data to custom entities a
 * When you create a custom entity and field in Power Apps, a custom option value is auto-generated for each option label you add to a form. It's important you make sure the picklist's option values are aligned with data requirements. For example, an SLAStatus field should use the value **4** to indicate that a case is not compliant, and the values of a CSAT field should reflect the actual CSAT score (**1** to **5**, in most cases).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

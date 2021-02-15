@@ -24,3 +24,5 @@ By using the Sales accelerator:
 ### See also
 
 [Enable and configure Sales accelerator](enable-configure-sales-accelerator.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

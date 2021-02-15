@@ -23,3 +23,5 @@ Use this reference to understand the available operations that can be performed 
 
 [Predictive lead scoring](configure-predictive-lead-scoring.md)  
 [Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

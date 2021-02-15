@@ -97,3 +97,6 @@ The following charts give you different views of support channel performance:
 * [Case channel (Incoming cases dashboard)](dashboard-incoming-cases.md#case-channel-chart)
 * [Case timing (Incoming cases dashboard)](dashboard-incoming-cases.md#case-timing-chart)
 * [Average CSAT (Customer satisfaction dashboard)](dashboard-CSAT.md#average-csat-chart)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

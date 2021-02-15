@@ -44,3 +44,6 @@ For more information on case title cleansing settings, see [Improve data quality
 For more information on topic granularity settings, see [Set the granularity of how Customer Service Insights generates customer service topics](granularity.md).
 
 For more information on renaming a topic, see [Renaming a topic](topics-page.md#renaming-a-topic).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

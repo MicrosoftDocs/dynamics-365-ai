@@ -93,3 +93,6 @@ Now, your call insights feature is ready with the data of the added environment.
 [Configure call insights to connect call data](ci-admin-config-call-data.md)
 
 [Configure keywords and products to track](ci-admin-config-keywords-products.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -513,3 +513,5 @@ By default, the predictive opportunity scoring widget is available only in the o
 
 [Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)  
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

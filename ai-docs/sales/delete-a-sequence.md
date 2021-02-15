@@ -26,3 +26,6 @@ You can delete sequences that your organization no longer needs, and they'll be 
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

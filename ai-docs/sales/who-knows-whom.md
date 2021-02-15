@@ -85,3 +85,5 @@ Let’s look at an example. Blaine Carmack is a sales representative who sells c
 ### See also
 
 [Configure who knows whom](configure-who-knows-whom.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

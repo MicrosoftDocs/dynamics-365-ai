@@ -56,3 +56,5 @@ Auto capture queries your Outlook account and looks for activities related to th
 
 [Enable and configure auto capture](configure-auto-capture.md)<br>
 [Premium auto capture](premium-auto-capture.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

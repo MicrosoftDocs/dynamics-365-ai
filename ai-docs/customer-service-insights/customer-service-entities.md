@@ -108,3 +108,6 @@ TeamId | UniqueIdentifier (Primary Key) | A unique team identifier.
 Name | String | The name of the team. Customer Service Insights uses this attribute to generate the Team filter values on each dashboard.
 
 For more information about the Team entity, see [Team Entity Reference](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/team).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

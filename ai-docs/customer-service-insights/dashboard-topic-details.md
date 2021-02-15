@@ -138,3 +138,6 @@ The Topic case composition chart shows the path of the topic's support cases dur
 Description | Details
 ----------- | -------
 Topic case composition | Sankey diagram showing the flow of support cases by support channel
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

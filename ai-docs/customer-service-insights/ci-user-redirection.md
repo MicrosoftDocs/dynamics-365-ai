@@ -33,3 +33,6 @@ Customer Service Insights capabilities are becoming deeply integrated into the D
 ![Redirection to admin opt-in for Insights](media/redirect-mssg-3.png "Redirection message for admin opt-in to Insights in Dynamics 365 Customer Service")
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

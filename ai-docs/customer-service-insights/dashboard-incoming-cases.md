@@ -99,3 +99,6 @@ Resolution rate | The resolved new cases associated with this topic divided by t
 Average CSAT  | The sum of CSAT scores associated with this topic divided by the count of resolved cases associated with this topic that have CSAT values
 
 To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic drillthrough** to display the Topic details dashboard. For more information, see [Topic details dashboard](dashboard-topic-details.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

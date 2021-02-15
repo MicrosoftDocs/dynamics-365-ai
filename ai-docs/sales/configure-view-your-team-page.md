@@ -109,3 +109,6 @@ The list is updated every 24 hours to display the current active sellers in the 
 
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)      
 [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

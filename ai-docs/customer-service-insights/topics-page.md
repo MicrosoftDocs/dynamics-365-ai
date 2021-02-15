@@ -170,3 +170,6 @@ There are multiple reasons when your Topics page is empty:
 
   If the problem still exists after you've tried these options, refer to our [forum](https://community.dynamics.com/365/aicustomerservice/f/dynamics-365-customer-service-insights).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

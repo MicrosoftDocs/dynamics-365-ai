@@ -97,3 +97,5 @@ To learn more, see [Optimize ranking of insight cards](optimize-ranking-insight-
 [Edit insight cards](edit-insight-cards.md)
 
 [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

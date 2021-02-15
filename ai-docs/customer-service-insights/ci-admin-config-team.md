@@ -85,3 +85,6 @@ As a customer service manager, when you open the Your team page in settings, you
 [Prerequisites to configure call insights](ci-admin-prereqs.md)
 
 [Overview of call insights in Dynamics 365 Customer Service Insights](ci-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
