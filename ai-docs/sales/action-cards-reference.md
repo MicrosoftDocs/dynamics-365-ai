@@ -174,3 +174,6 @@ The following cards are available under **Insights**.
 ### See also
 
 [Use Sales Insights Assistant to guide customer communications](assistant.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

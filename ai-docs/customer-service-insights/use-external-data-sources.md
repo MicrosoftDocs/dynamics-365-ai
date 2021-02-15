@@ -176,3 +176,6 @@ After mapping is complete, your workspace with external data imported in [Import
 > - You can right click on each topic and use **Drillthrough** to see a detailed dashboard for a topic.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

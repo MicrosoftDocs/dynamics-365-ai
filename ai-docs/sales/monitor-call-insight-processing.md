@@ -48,3 +48,6 @@ To view the **System monitoring** page, follow these steps:
 [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
 
 [Improve seller coaching and sales potential with conversation intelligence](../sales/configure-conversation-intelligence-call-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -80,3 +80,5 @@ To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 an
 [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
 
 [Prerequisites to use conversation intelligence](prereq-sales-insights-app.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

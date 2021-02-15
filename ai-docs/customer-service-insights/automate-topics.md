@@ -69,3 +69,6 @@ After reviewing topic details and identifying a candidate for automation, you ca
 You can also automate topics from  the Topics page: hover over the topic you want to automate in the topic list, then select the **Automate** icon. 
 
 ![Automate topics from Topics page](media/automate-topic-list.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

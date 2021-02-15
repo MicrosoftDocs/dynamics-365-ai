@@ -50,3 +50,6 @@ Talking points will display only the latest communication for each topic on the 
 ### See also
 
 [Configure talking points](configure-talking-points.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

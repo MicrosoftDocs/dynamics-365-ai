@@ -135,3 +135,6 @@ Premium auto capture is now enabled for your organization.
 ### See also
 
 [Introduction to administering Sales Insights](intro-admin-guide-sales-insights.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

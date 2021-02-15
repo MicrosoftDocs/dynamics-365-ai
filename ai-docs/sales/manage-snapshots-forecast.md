@@ -41,3 +41,6 @@ To enable the snapshots, follow these steps:
 
 [About premium forecasting](configure-premium-forecasting.md)<br>
 [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

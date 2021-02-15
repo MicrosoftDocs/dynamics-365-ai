@@ -155,3 +155,5 @@ By default, the health score widget is available only in the out-of-the-box **Sa
 [Opt out of relationship analytics (GDPR)](optout-relationship-analytics-gdpr.md)  
 [GDPR for Sales Insights](embedded-intelligence-gdpr.md)  
 [View and export KPI data (GDPR)](view-export-KPI-data-gdpr.md)  
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

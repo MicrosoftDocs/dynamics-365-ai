@@ -46,3 +46,6 @@ To view the **Team overview** page, sign in to  **Call insights (Preview)**, the
 [Prerequisites to use call insights](ci-admin-prereqs.md)
 
 [First-run setup experience](ci-admin-fre-setup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

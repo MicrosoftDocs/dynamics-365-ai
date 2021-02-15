@@ -98,3 +98,6 @@ By default, the **Up next** widget is displayed on the **Default Main** and **Sa
 
 [Create and manage sequences](create-manage-sequences.md)     
 [What is the sales accelerator?](sales-accelerator-intro.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

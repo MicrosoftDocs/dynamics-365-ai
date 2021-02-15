@@ -77,3 +77,6 @@ The following image shows an example of a **Top factors that influence predictio
 
 [About premium forecasting](configure-premium-forecasting.md)  
 [Enable prediction factors](https://docs.microsoft.com/dynamics365/sales-enterprise/forecast-configure-advanced-settings#enable-prediction-factors)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

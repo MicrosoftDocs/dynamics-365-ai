@@ -133,3 +133,6 @@ Volume change | The incoming volume of cases associated with this topic in the c
 Total cases | The total cases associated with this topic
 
 To see additional information about each topic, right-click the topic name, hover over **Drillthrough**, and then select **Topic drillthrough** to display the Topic details dashboard. For more information, see [Topic details dashboard](dashboard-topic-details.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

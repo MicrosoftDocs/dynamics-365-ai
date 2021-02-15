@@ -33,3 +33,6 @@ When the prediction fails, an alert icon is displayed corresponding to the **Pre
 ### See also
 
 [Premium forecasting](configure-premium-forecasting.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

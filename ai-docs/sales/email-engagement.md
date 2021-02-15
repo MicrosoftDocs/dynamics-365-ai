@@ -348,3 +348,6 @@ To view the tracking preferences for all of the recipients of a message, select 
 ### See also  
 
 [Enable email engagement](configure-email-engagement.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

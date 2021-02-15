@@ -255,3 +255,6 @@ Microsoft Teams call recording for conversation intelligence is configured and r
 
 [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
 [Prerequisites to use conversation intelligence](prereq-sales-insights-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

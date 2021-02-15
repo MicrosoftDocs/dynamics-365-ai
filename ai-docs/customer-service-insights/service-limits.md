@@ -58,3 +58,6 @@ This following table lists the built-in limits for the Customer Service Insights
 | Dashboard interactions | None | There are no limits on the number of interactions allowed on dashboards, such as cross filtering or drillthrough. |
 | Connecting to a Dynamics 365 environment | One workspace per Dynamics 365 environment per user | A Dynamics 365 environment cannot be connected with multiple workspaces at the same time by the same user. If a workspace is created and then deleted, it can be connected  again. <br> <br> In addition, a single workspace cannot be connected to more than one Dynamics 365 environment. |
 | Topics generated from cases | Topics are generated only from cases for which there are at least three related cases.| Because topics are automatically created based on similar customer service cases, the system needs a minimum number of cases to create a topic. <br> <br> In order for topics to be meaningful, we recommend having at least 1,000 cases.|
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
