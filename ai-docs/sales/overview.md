@@ -1,5 +1,5 @@
 ---
-title: "Overview of Dynamics 365 Sales Insights | MicrosoftDocs"
+title: "Overview of Sales Insights Add-in for Microsoft Dynamics 365 Sales | MicrosoftDocs"
 description: "Overview of the AI features that are offered with Sales"
 ms.date: 08/10/2020
 ms.service: crm-online
@@ -15,7 +15,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 01
 topic-status: Drafting
 ---
-# Overview of Sales Insights
+# Overview of Sales Insights Add-in for Microsoft Dynamics 365 Sales
 
 Welcome to Sales Insights add-in for Dynamics 365 Sales.
 
