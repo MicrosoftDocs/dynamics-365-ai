@@ -1,4 +1,4 @@
-# [ales Insights Add-in for Microsoft Dynamics 365 Sales](help-hub.md)
+# [Sales Insights Add-in for Microsoft Dynamics 365 Sales](help-hub.md)
 
 ## [Overview](overview.md) 
 
