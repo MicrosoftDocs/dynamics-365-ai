@@ -26,16 +26,6 @@ productDirectory:
         - url: /dynamics365/ai/customer-service-insights/dashboard-overview
           text: Dashboard overview
     # Card
-    - title: Dynamics 365 Sales Insights
-      imageSrc: https://docs.microsoft.com/dynamics365/images/SalesInsights_color.svg
-      links:
-        - url: /dynamics365/ai/sales/overview
-          text: Overview
-        - url: /dynamics365/ai/sales/dynamics365-sales-insights-app
-          text: Conversation intelligence
-        - url: /dynamics365/ai/sales/faqs-sales-insights
-          text: FAQs
-    # Card
     - title: Dynamics 365 Customer Insights
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/dynamics365/images/CustomerInsights_color.svg
