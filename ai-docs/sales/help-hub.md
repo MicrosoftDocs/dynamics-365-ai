@@ -1,6 +1,6 @@
 ---
-title: "Documentation resources for Dynamics 365 Sales Insights | Microsoft Docs"
-description: "A starting point for browsing help content for Dynamics 365 Sales Insights."
+title: "Documentation resources for Sales Insights Add-in for Dynamics 365 Sales | Microsoft Docs"
+description: "A starting point for browsing help content for Sales Insights Add-in for Microsoft Dynamics 365 Sales."
 ms.date: 10/31/2018
 ms.service: crm-online
 ms.custom: 
@@ -19,12 +19,12 @@ search.app:
   - D365AISales
 ---
 
-# Dynamics 365 Sales Insights Help & Training
+# Sales Insights Add-in for Dynamics 365 Sales Help & Training
 
 <table>
 <tr><td>
 <h2>Get started</h2>
-<li><a href="overview.md" data-raw-source="[Overview](overview.md)">Dynamics 365 Sales Insights overview</a></li>
+<li><a href="overview.md" data-raw-source="[Sales Insights Add-in for Microsoft Dynamics 365 Sales Overview](overview.md)">Sales Insights Add-in for Microsoft Dynamics 365 Sales Overview</a></li>
 <li><a href="dynamics365-sales-insights-app.md" data-raw-source="[Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)">Overview of Overview of Conversation Intelligence</a></li>
 </td><td>
 <h2>Administrator guide</h2>
