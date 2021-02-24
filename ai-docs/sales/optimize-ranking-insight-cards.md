@@ -16,6 +16,12 @@ ms.tgt_pltfrm:
 caps.latest.revision: 1
 ---
 
+
+<!-- Please see the use of "model-driven apps" in line 59 below. The editors are checking for correct use of "model-driven apps" and "customer engagement apps." I think that in line 59, you could just say "in Dynamics 365 Sales" and delete the "model-driven apps," in part because "Sales" is an app itself. --> 
+
+
+
+
 # Optimize ranking of insight cards
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
