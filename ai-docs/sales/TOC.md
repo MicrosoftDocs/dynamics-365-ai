@@ -99,6 +99,7 @@
 #### [What is sales accelerator](sales-accelerator-intro.md)
 #### [Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)
 #### [Connect with customers through a record or the up next widget ](connect-with-customers.md)
+#### [Personalize your sales accelerator](personalize-sales-accelerator.md)
 
 ###	Conversation Intelligence
 #### [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)
