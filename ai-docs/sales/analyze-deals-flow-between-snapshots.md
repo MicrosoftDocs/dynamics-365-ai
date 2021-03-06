@@ -41,7 +41,7 @@ Review the following prerequisite before you start using deals flow analysis:
    > [!div class="mx-imgBorder"]	
    > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-between-dates.png "Deal flow chart between dates")    	
  	
-   - The topmost stack in the column displays the date with aggregated opportunity amount and the number of opportunities that are influencing the aggregated amount.	      
+   - The top-most stack in the column displays the date with aggregated opportunity amount and the number of opportunities that are influencing the aggregated amount.	      
    - The other columns on the stack display the forecast categories and the aggregated opportunity amount for that snapshot in the order defined when the forecast was configured.	 
    - The top node of the stack is always Won, if any won opportunities exist in the snapshot.   
    - The bottom node of the stack is always Lost, if any lost opportunities exist in the snapshot.    
