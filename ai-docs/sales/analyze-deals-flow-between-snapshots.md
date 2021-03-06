@@ -41,20 +41,16 @@ Review the following prerequisite before you start using deals flow analysis:
    > [!div class="mx-imgBorder"]	
    > ![Deal flow chart between dates](media/predictive-forecasting-deal-flow-chart-between-dates.png "Deal flow chart between dates")    	
  	
-   - The topmost stack in the column displays the date with aggregated opportunity amount and the number of opportunities that are influencing the aggregated amount.	
-    
-   - The other columns on the stack display the forecast categories and the aggregated opportunity amount for that snapshot in the order defined when the forecast was configured.	
-
-   - New opportunities that are present in the end date snapshot and not available in the start date snapshot are classified as a **New deals** category under the start date snapshot column stack. 
-    
-     The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast) are not part of this category but rather part of other categories known as [**Pulled in**](#pulled-in) and [**Pushed out**](#pushed-out). 	
-    
-     - <a name="pulled-in"></a>The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast) are classified under the **Pulled in** category under the bottom of the start date snapshot.   
-    
-     - <a name="pushed-out"></a>The opportunities that are added to the start date snapshot due to ownership change (within the forecast) or date change (within the forecast) are classified under the **Pushed out** category under the bottom of the end date snapshot.   
-    
-      Let's look at the following examples: 
-
+   - The top-most stack in the column displays the date with aggregated opportunity amount and the number of opportunities that are influencing the aggregated amount.	      
+   - The other columns on the stack display the forecast categories and the aggregated opportunity amount for that snapshot in the order defined when the forecast was configured.	 
+   - The top node of the stack is always Won, if any won opportunities exist in the snapshot.   
+   - The bottom node of the stack is always Lost, if any lost opportunities exist in the snapshot.    
+   - The other nodes are displayed in the order that is defined in the layout selection within the forecast configuration.    
+   - New opportunities that are present in the end date snapshot and not available in the start date snapshot are classified as a **New deals** category under the start date snapshot column stack.         
+     The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast) are not part of this category but rather part of other categories known as [**Pulled in**](#pulled-in) and [**Pushed out**](#pushed-out). 	       
+     - <a name="pulled-in"></a>The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast) are classified under the **Pulled in** category under the bottom of the start date snapshot.           
+     - <a name="pushed-out"></a>The opportunities that are added to the start date snapshot due to ownership change (within the forecast) or date change (within the forecast) are classified under the **Pushed out** category under the bottom of the end date snapshot.          
+      Let's look at the following examples:    
       - **Date change**: A few opportunities of Kenny Smith are moved from July 22 (Q3) to November 26 (Q4) and these opportunities are shown under the **Pushed out** category for Q3 and **Pulled in** category for Q4.     
 
         > [!div class="mx-imgBorder"]	
