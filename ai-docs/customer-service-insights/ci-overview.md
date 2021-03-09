@@ -58,7 +58,7 @@ The next sections describe:
 
 Before you start using call insights, we suggest you review the following requirements for effective use:
 
--	Verify that you have a subscription to Microsoft Dynamics 365 Customer Service Insights. To learn more, see [About licensing and license management](https://docs.microsoft.com/power-platform/admin/wp-license-management). 
+-	Verify that you have a subscription to Microsoft Dynamics 365 Customer Service Insights. To learn more, see [About licensing and license management](/power-platform/admin/wp-license-management). 
 
 -	As an administrator, verify that the proper hierarchy is defined for you, and that supervisors or agents are added to it. 
 

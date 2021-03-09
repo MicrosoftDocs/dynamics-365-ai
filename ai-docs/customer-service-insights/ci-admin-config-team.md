@@ -17,7 +17,7 @@ manager: shujoshi
 > [!IMPORTANT]
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](/dynamics365/legal/supp-dynamics365-preview).
 
 As an administrator, you can configure the levels of hierarchy for which customer service managers can view in call insights. When configured, customer service managers will be able to view the hierarchy under **Your team**.
 
@@ -35,7 +35,7 @@ The matrix explains which data you’ll view as a customer service manager, for 
 | Level 3 | Choose this option to get insights on level 1, level 2, and level 2’s team members. |
 
 > [!NOTE]
-> Call insights supports up to three levels of hierarchy. To learn more about hierarchy, see [Set up Manager and Position hierarchies](https://docs.microsoft.com/power-platform/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
+> Call insights supports up to three levels of hierarchy. To learn more about hierarchy, see [Set up Manager and Position hierarchies](/power-platform/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
 
 ## Configure hierarchy levels
 

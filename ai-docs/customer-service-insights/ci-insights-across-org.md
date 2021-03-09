@@ -20,22 +20,22 @@ Customer Service Insights is now an embedded in Dynamics 365 Customer Service. O
 
 For details on the Customer Service offerings, see the following capabilities: 
 
-- [Customer Service historical analytics](https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics-insights-csh)
-- [Topic clustering for cases](https://docs.microsoft.com/dynamics365/customer-service/topics-dashboard-cs)
-- [Customer Service Analytics in Power BI ](https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics)
-- [Knowledge search analytics](https://docs.microsoft.com/dynamics365/customer-service/knowledge-search-analytics-cs)
-- [AI suggestions for similar cases and knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/csw-enable-ai-suggested-cases-knowledge-articles)
+- [Customer Service historical analytics](/dynamics365/customer-service/customer-service-analytics-insights-csh)
+- [Topic clustering for cases](/dynamics365/customer-service/topics-dashboard-cs)
+- [Customer Service Analytics in Power BI ](/dynamics365/customer-service/customer-service-analytics)
+- [Knowledge search analytics](/dynamics365/customer-service/knowledge-search-analytics-cs)
+- [AI suggestions for similar cases and knowledge articles](/dynamics365/customer-service/csw-enable-ai-suggested-cases-knowledge-articles)
 
 ## Omnichannel for Customer Service
 
-Customer Service Insights for Omnichannel brings many of the same key operational metrics and features right into your daily contact center operations. Real-time customer sentiment analysis, combined with contextual AI suggestions of relevant cases and knowledge articles, helps agents reduce customer frustration and case resolution times. With the sentiment analysis dashboard, you can leverage Omnichannel's [real-time sentiment data](https://docs.microsoft.com/dynamics365/omnichannel/administrator/enable-sentiment-analysis#preview-sentiment-drivers-reporting) to gain a better understanding of how customer interactions drive KPIs and satisfaction scores. 
+Customer Service Insights for Omnichannel brings many of the same key operational metrics and features right into your daily contact center operations. Real-time customer sentiment analysis, combined with contextual AI suggestions of relevant cases and knowledge articles, helps agents reduce customer frustration and case resolution times. With the sentiment analysis dashboard, you can leverage Omnichannel's [real-time sentiment data](/dynamics365/omnichannel/administrator/enable-sentiment-analysis#preview-sentiment-drivers-reporting) to gain a better understanding of how customer interactions drive KPIs and satisfaction scores. 
 
 For details on Omnichannel offerings, see the following topics:
 
-- [Omnichannel Insights - Sentiment drivers reporting](https://docs.microsoft.com/dynamics365/omnichannel/supervisor/omnichannel-insights-dashboard#preview-omnichannelinsightssentiment-drivers-reporting)
-- [Introduction to Omnichannel Insights dashboard](https://docs.microsoft.com/dynamics365/omnichannel/supervisor/intro-dynamics-365-omnichannel-insights-dashboard)
-- [View smart assist suggestions for knowledge articles and similar cases using AI](https://docs.microsoft.com/dynamics365/omnichannel/agent/agent-oc/oc-view-ai-suggested-cases-articles)
-- [Analyze real-time customer sentiment](https://docs.microsoft.com/dynamics365/omnichannel/administrator/enable-sentiment-analysis) 
+- [Omnichannel Insights - Sentiment drivers reporting](/dynamics365/omnichannel/supervisor/omnichannel-insights-dashboard#preview-omnichannelinsightssentiment-drivers-reporting)
+- [Introduction to Omnichannel Insights dashboard](/dynamics365/omnichannel/supervisor/intro-dynamics-365-omnichannel-insights-dashboard)
+- [View smart assist suggestions for knowledge articles and similar cases using AI](/dynamics365/omnichannel/agent/agent-oc/oc-view-ai-suggested-cases-articles)
+- [Analyze real-time customer sentiment](/dynamics365/omnichannel/administrator/enable-sentiment-analysis) 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
