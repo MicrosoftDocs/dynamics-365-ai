@@ -14,9 +14,9 @@ manager: shujoshi
 Use *adaptive sequences* to define conditions for the steps in a sequence. These conditions determine the course of action the sequence will take after the condition is either met or not. After the result of a condition is determined&mdash;for example, whether a user opened an email (**Yes**) or didn't (**No**)&mdash;the sequence proceeds as you designed it.<!--note from editor: Edits suggested. I was a bit confused by the use of "branch" here, I think calling it a course of action in a sequence is clearer than adding the idea of a branch (which isn't used later in the article).--> Conditions are available for the following activities:
 
 - [Email](#define-conditions-for-email-activity)
-- [Phone call](#define-conditions-for-a-phone-call-activity)
+- [Phone call](#define-conditions-for-phone-call-activity)
 
-<a name="#define-conditions-for-email-activity"></a>
+<a name="define-conditions-for-email-activity"></a>
 ## Define conditions for an email activity
 
 When you add an email activity to a sequence and select **Add** (**+**), the activity selection box displays the **Conditions** tab, where you determine the next course of action in the sequence.
@@ -75,7 +75,7 @@ You can create activities based on flow and complete the sequence.<!--note from 
 >[!NOTE]
 >You can't delete a step that's followed by a condition. To delete such a step, remove the condition and then delete the step. 
 
-<a name="#define-conditions-for-phone-call-activity"></a>
+<a name="define-conditions-for-phone-call-activity"></a>
 ## Define conditions for a phone call activity
 
 When you add phone call activity to the sequence and select **Add** (**+**), the activity selection box displays the **Conditions** tab, where you define the next course of action in the sequence. The actions that can be performed on a phone call activity are displayed in the condition list. However, these actions vary from organization to organization depending on their requirements, and are added by the administrator.
