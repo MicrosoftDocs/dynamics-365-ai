@@ -66,12 +66,12 @@ Before you start using this feature, contact your Dynamics 365 administrator or 
 
         4.	Select your time zone. The time zone allows to match the time properly when your team is spread across countries or regions. By default, Coordinated Universal Time (Greenwich Mean Time) is selected.    
         5.	Save the configurations.      
-     -	**Non-working hours**: Configure a break or time you're taking off<!--note from editor: It's not "unplanned" if you're configuring it.--> from work on a particular day. Choose the period of time you want to take off, and then select **Save**.     
+     -	**Non-working hours**: Configure a break or time you're taking off from work on a particular day. Choose the period of time you want to take off, and then select **Save**.     
         In the following example, you have an appointment with a doctor for a checkup between 1:00 and 4:00 PM on March 2, 2021. When you use the **Non-working hours** option to update your calendar, sales accelerator will consider the break and adjust your activity timeline to match your working hours.    
         >[!div class="mx-imgBorder"]
         >![Non-working hours set for an appointment](media/sa-personal-settings-non-work-hours-settings.png "Non-working hours set for an appointment")    
     -	**Time off**: Configure vacations or personal days off from work. This option blocks a full day or multiple days. When you're applying for multiple days, select the **All-day** option, and then choose start and end dates.     
-        Provide a description so other sellers can know your status and your reason for being away.<!--note from editor: Suggested.--> Select your time zone, and then save the configurations.    
+        Provide a description so other sellers can know your status and your reason for being away. Select your time zone, and then save the configurations.    
         In the following example, you plan to go on vacation with family from March 9 to March 12, and you use the **Time off** option to update your calendar. Sales accelerator will consider the vacation and adjust the activity timeline to match your vacation.   
         >[!div class="mx-imgBorder"]
         >![Time off set for a family vacation](media/sa-personal-settings-time-off-settings.png "Time off set for a family vacation")    
@@ -81,7 +81,7 @@ Before you start using this feature, contact your Dynamics 365 administrator or 
 The **Auto advance** settings specify the next course of action to take when you complete or skip a step.
 
 1.	Sign in to the Dynamics 365 Sales Hub app, and go to **My work** > **Sales accelerator**.
-2.	In the work list, select the settings icon.<!--note from editor: I've changed alt text for these duplicated images, but I think duplicating images within an article is going to throw a build error. I don't know whether this will eventually block the article from being built, but it's just not good design. You could drop the image entirely the second and third times you use it, or perhaps refer the reader back to the first time it was used ("as shown earlier..."). In this case, I don't think the UI is so confusing that you need to illustrate this step. I suppose a third alternative would be to duplicate these images so the build system doesn't know that they're all identical. That seems like too much work though!-->   
+2.	In the work list, select the settings icon.   
     >[!div class="mx-imgBorder"]
     >![Select settings in the work list to configure auto advance steps](media/sa-personal-settings-select-settings-icon-worklist.png "Select settings in the work list to configure auto advance steps")      
 3.	On the **Personal settings** page, select **Auto advance**.      
@@ -89,7 +89,7 @@ The **Auto advance** settings specify the next course of action to take when you
     >![Select auto advance settings](media/sa-personal-settings-auto-advance-settings.png "Select auto advance settings")      
 
     The following settings are available for completing or skipping an activity:       
-    -	**Ask before moving to the next work item**: When an activity is completed or skipped, a message is displayed before you move to the next record in the work list. On the message, you'll select an appropriate option to proceed. The following image shows the message that's displayed when you skip an activity.<!--note from editor: Edits to alt text assume that this message always looks like the one shown in the image. -->     
+    -	**Ask before moving to the next work item**: When an activity is completed or skipped, a message is displayed before you move to the next record in the work list. On the message, you'll select an appropriate option to proceed. The following image shows the message that's displayed when you skip an activity.    
         >[!div class="mx-imgBorder"]
         >![For skipping an activity: "Do you want to go to the next item in your work list or stay here and continue working?" Options are "Go to next" or "Stay here"](media/sa-personal-settings-auto-advance-skip-activity-message.png "For skipping an activity: \"Do you want to go to the next item in your work list or stay here and continue working?\" Options are \"Go to next\" or \"Stay here\"")       
     -	**Automatically go to the next work item**: When an activity is completed or skipped, the next record in the work list queue is automatically displayed.   
@@ -97,7 +97,7 @@ The **Auto advance** settings specify the next course of action to take when you
 4.	Save and close the settings page.
 
 ## Configure steps and activities
-<!--note from editor: "Timeline wall" edited to be consistent with the rest of our doc set.-->
+
 When a step is displayed in the **Up next** widget, a corresponding activity is automatically created on the timeline and linked to the step. When you complete the action, such as sending an email or making a call through the timeline, the step is updated. By configuring the activities and steps, you can choose how the actions you perform on steps will affect the linked activities and sequence steps.     
 
 ### Enable linking sequence steps and activities
@@ -112,7 +112,7 @@ Before you start using this feature, contact your Dynamics 365 administrator or 
 4.	On the **Sequence settings** page, in the **Linked activities** section, turn on **Pre-create linked activities (recommended)**.    
 
     >[!NOTE]
-    > Select the **Exclude phone call activities** check box to avoid creating a duplicate phone call activity when you're using Dynamics 365 Channel Integration Framework as your phone system. If you don't select this option, a duplicate phone call activity will be created on the timeline and a duplicate activity will be created when the step is waiting to be completed on the record.<!--note from editor: Edit okay? I didn't know what "for the same" referred to.-->    
+    > Select the **Exclude phone call activities** check box to avoid creating a duplicate phone call activity when you're using Dynamics 365 Channel Integration Framework as your phone system. If you don't select this option, a duplicate phone call activity will be created on the timeline and a duplicate activity will be created when the step is waiting to be completed on the record.    
 
     >[!div class="mx-imgBorder"]
     >![Enable pre-create linked activities](media/sa-personal-settings-enable-precreate-linked-activities.png "Enable pre-create linked activities")     
@@ -140,6 +140,6 @@ Before you start using this feature, contact your Dynamics 365 administrator or 
 
 ### See also
 
-[Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)
+[Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)      
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

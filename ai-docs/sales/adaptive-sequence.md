@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Adaptive sequences
 
-Use *adaptive sequences* to define conditions for the steps in a sequence. These conditions determine the course of action the sequence will take after the condition is either met or not. After the result of a condition is determined&mdash;for example, whether a user opened an email (**Yes**) or didn't (**No**)&mdash;the sequence proceeds as you designed it.<!--note from editor: Edits suggested. I was a bit confused by the use of "branch" here, I think calling it a course of action in a sequence is clearer than adding the idea of a branch (which isn't used later in the article).--> Conditions are available for the following activities:
+Use *adaptive sequences* to define conditions for the steps in a sequence. These conditions determine the course of action the sequence will take after the condition is either met or not. After the result of a condition is determined&mdash;for example, whether a user opened an email (**Yes**) or didn't (**No**)&mdash;the sequence proceeds as you designed it. Conditions are available for the following activities:
 
 - [Email](#define-conditions-for-email-activity)
 - [Phone call](#define-conditions-for-phone-call-activity)
@@ -21,10 +21,10 @@ Use *adaptive sequences* to define conditions for the steps in a sequence. These
 
 When you add an email activity to a sequence and select **Add** (**+**), the activity selection box displays the **Conditions** tab, where you determine the next course of action in the sequence.
 
-When the seller skips an email activity that includes a condition, the flow<!--note from editor: Is it okay to use "flow" in discussions of sequences in sales accelerator? I know it has a generic meaning beyond Power Automate, but shouldn't we reserve it for that context to keep the association with Power Automate as strong as possible? I recommend replacing "flow" with "sequence" everywhere, if "sequence" is just as accurate.--> follows the **No** path.
+When the seller skips an email activity that includes a condition, the flow follows the **No** path.
 
 >[!IMPORTANT]
->You need to [configure the email engagement feature](configure-email-engagement.md) in your organization before you start using conditions for the email activity. The interactions<!--note from editor: Edit okay? It seems that we've mostly used "interactions" rather than "actions" to describe what customers do with emails.--> that customers have with emails are displayed in the condition list.
+>You need to [configure the email engagement feature](configure-email-engagement.md) in your organization before you start using conditions for the email activity. The interactions that customers have with emails are displayed in the condition list.
 
 The following table lists the interactions that are available in email conditions.
 
@@ -46,8 +46,8 @@ Let's define a flow so that if a customer opens your email, the next step is to 
     >![List of email engagement interactions](media/sa-condition-email-list-interactions.png "List of email engagement interactions")    
 3.	Select **Email open**.     
 4.	On the **Email open result** step, configure the time limit for satisfying the condition before proceeding to next step. 
-    In the following example, we configure the wait time as one day. This establishes the following:<!--note from editor: Suggested.-->
-    - If the customer opens the email within the day, the **Yes** path is initiated, and the sequence moves to the next step after a day has passed. 
+    In the following example, we configure the wait time as one day. This establishes the following:     
+    - If the customer opens the email within the day, the **Yes** path is initiated, and the sequence moves to the next step after a day has passed.   
     If you don't want to wait a day to move to the next step in the **Yes** path, select the **If the action is completed within the time limit, the sequence will move to the yes path** check box.
     - If the customer doesn't open the email within the time limit, the **No** path is executed.   
     >[!div class="mx-imgBorder"]
@@ -69,8 +69,6 @@ Let's define a flow so that if a customer opens your email, the next step is to 
     2.	Create the email activity, and then save the step.     
         >[!div class="mx-imgBorder"]
         >![Save an email activity in the No path](media/sa-condition-no-save-email-activity.png "Save an email activity in the No path")     
-
-You can create activities based on flow and complete the sequence.<!--note from editor: I don't know what this means. -->
 
 >[!NOTE]
 >You can't delete a step that's followed by a condition. To delete such a step, remove the condition and then delete the step. 
@@ -113,7 +111,6 @@ Let's define a flow so that when a seller makes a call to discuss product detail
         >[!div class="mx-imgBorder"]
         >![Save an email activity in the No path](media/sa-condition-phone-no-save-email-activity.png "Save an email activity in the No path")     
  
-Further, you can create activities based on flow and complete the sequence.<!--note from editor: I don't know what this means. -->
 
 ### See also
 
