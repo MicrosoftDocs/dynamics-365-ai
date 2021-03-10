@@ -41,11 +41,13 @@
 #### [Configure sales accelerator](enable-configure-sales-accelerator.md)
 #### [Manage sequences](create-manage-sequences.md)
 ##### [Create and activate a sequence](create-and-activate-a-sequence.md)
+##### [Adaptive sequences](adaptive-sequence.md)
 ##### [Connect a sequence to records](connect-a-sequence-to-records.md)
 ##### [View details of a sequence and its connected records](view-sequence-details-connected-records.md)
 ##### [Clone a sequence](clone-a-sequence.md)
 ##### [Edit a sequence](edit-a-sequence.md)
 ##### [Delete a sequence](delete-a-sequence.md)
+
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
 
 ### Configure conversation intelligence
@@ -97,6 +99,7 @@
 #### [What is sales accelerator](sales-accelerator-intro.md)
 #### [Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)
 #### [Connect with customers through a record or the up next widget ](connect-with-customers.md)
+#### [Personalize your sales accelerator](personalize-sales-accelerator.md)
 
 ###	Conversation Intelligence
 #### [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)
