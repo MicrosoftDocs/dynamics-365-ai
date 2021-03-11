@@ -47,8 +47,8 @@
 ##### [Clone a sequence](clone-a-sequence.md)
 ##### [Edit a sequence](edit-a-sequence.md)
 ##### [Delete a sequence](delete-a-sequence.md)
-
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
+#### [Add the Up next widget to an entity form](add-upnext-widget-form.md)
 
 ### Configure conversation intelligence
 #### [Prerequisites to use Conversation Intelligence](../sales/prereq-sales-insights-app.md)
