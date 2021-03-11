@@ -123,3 +123,6 @@ The activity is added to the record and displayed in the **Up next** widget, bas
 
 [What is the Sales accelerator?](sales-accelerator-intro.md)  
 [Create and manage sequences](create-manage-sequences.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

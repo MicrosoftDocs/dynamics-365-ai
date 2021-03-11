@@ -75,3 +75,6 @@ Let's look at the KPIs and insights on the call summary page in detail:
 [Analyze overall team performance](ci-team-overview.md)
 
 [Analyze agent performance](ci-agent-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

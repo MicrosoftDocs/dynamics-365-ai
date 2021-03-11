@@ -1,5 +1,5 @@
 ---
-title: "Overview of Dynamics 365 Sales Insights | MicrosoftDocs"
+title: "Overview of Sales Insights Add-in for Dynamics 365 Sales | MicrosoftDocs"
 description: "Overview of the AI features that are offered with Sales"
 ms.date: 08/10/2020
 ms.service: crm-online
@@ -15,7 +15,7 @@ ms.tgt_pltfrm:
 caps.latest.revision: 01
 topic-status: Drafting
 ---
-# Overview of Sales Insights
+# Overview of Sales Insights Add-in for Dynamics 365 Sales
 
 Welcome to Sales Insights add-in for Dynamics 365 Sales.
 
@@ -86,3 +86,6 @@ The premium Sales Insights features require a Sales Insights or a Sales Premium 
 
 [Introduction to administer Sales Insights](../sales/intro-admin-guide-sales-insights.md)  
 [Sales Insights privacy notice](privacy-notice.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

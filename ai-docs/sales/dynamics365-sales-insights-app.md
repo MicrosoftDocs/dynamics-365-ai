@@ -101,3 +101,6 @@ The search results show the conversations that contain the tag **hot deal**. In 
 
 [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   
 [View overall sales and seller insights](dynamics365-sales-insights-app-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

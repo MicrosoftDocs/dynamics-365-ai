@@ -29,3 +29,5 @@ You can clone a sequence to make it easier to add or remove steps, and save the 
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

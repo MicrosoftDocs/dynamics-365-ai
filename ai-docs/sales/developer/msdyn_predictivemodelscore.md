@@ -734,3 +734,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See msdyn_predictivescore Entity [msdyn_PS_PMS](msdyn_predictivescore.md#BKMK_msdyn_PS_PMS) One-To-Many relationship.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

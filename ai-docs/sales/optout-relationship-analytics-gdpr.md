@@ -71,3 +71,6 @@ For more examples of using the early or late bound programming style, see [Use t
 ### See also
 
 [Dynamics 365 Sales Insights and GDPR](embedded-intelligence-gdpr.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

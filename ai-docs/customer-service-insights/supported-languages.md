@@ -119,3 +119,6 @@ If more than 70% of the cases are in languages supported by a specific language 
 For example, if you have more than 70% of cases detected in English, the English language model will be used to process all of your cases. If more than 70% of your cases are in Spanish, or most in Spanish with some English cases (since all language models have the capability to process English), the Spanish model will be used to process all of your cases. 
 
 If you have questions, find issues, or have general inquiries, please refer to our [forum](https://community.dynamics.com/365/aicustomerservice/f/dynamics-365-customer-service-insights).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

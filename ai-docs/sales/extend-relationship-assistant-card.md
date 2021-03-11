@@ -50,3 +50,6 @@ You can generate these custom cards in two ways:
 [Configure Assistant](configure-assistant.md)
 
 [Guide customer communications with assistant](assistant.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

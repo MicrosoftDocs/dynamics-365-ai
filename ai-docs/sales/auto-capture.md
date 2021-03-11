@@ -30,3 +30,5 @@ Auto capture is part of the Dynamics 365 Sales Insights suite of features and is
 •	[Premium auto capture](premium-auto-capture.md) 
 
 Your administrator must enable auto capture before you can try it out. For complete details about prerequisites, how to enable the feature, and how to set it up, see [Enable and configure auto capture](configure-auto-capture.md).
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

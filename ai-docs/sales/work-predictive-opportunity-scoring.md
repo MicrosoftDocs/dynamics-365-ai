@@ -99,3 +99,6 @@ For more information about the opportunity score, select the **About** tab. The 
 ### See also
 
 [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

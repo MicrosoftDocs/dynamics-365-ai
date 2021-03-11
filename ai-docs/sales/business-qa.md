@@ -169,3 +169,5 @@ Let’s look at the following three scenarios on how to use the Sales Insights Q
 [Enable preview features](enable-preview-features-sales-insights-app.md)
 
 [View and understand home page](dynamics365-sales-insights-app-home-page.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

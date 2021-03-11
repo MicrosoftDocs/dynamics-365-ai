@@ -95,3 +95,6 @@ When sample data is added to your organization, the following record types are u
 ### See also
 
 [Configure sales accelerator](enable-configure-sales-accelerator.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

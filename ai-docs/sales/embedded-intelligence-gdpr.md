@@ -36,3 +36,6 @@ You can perform the following tasks in the Auto Capture, Relationship analytics,
 ### See also
 
 [Overview of Dynamics 365 Sales Insights](overview.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

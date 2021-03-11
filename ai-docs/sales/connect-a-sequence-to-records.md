@@ -145,3 +145,6 @@ You can create a flow based on a sequence. The flow connects the records automat
 ### See also
 
 [Create and manage sequences](create-manage-sequences.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

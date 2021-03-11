@@ -40,3 +40,6 @@ Before you start, be sure you have met the following prerequisites:
 
 [Configure the sales accelerator](enable-configure-sales-accelerator.md)  
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

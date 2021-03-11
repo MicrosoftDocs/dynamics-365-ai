@@ -311,3 +311,6 @@ Use the **REST** option to invoke REST API.
 
 [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

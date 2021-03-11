@@ -74,7 +74,7 @@ Upload the call recording or transcript to the created call recording repository
     | `conversationType`|--| Specifies the type of conversation. The following types of conversation are supported: audio and transcript. |
     | `startTime` |--|Specifies the start time of the conversation and calculated based on the ISO 8601 format. For example, 2020-11-17T13:33:59.909Z. | 
     | `participants` | | Specifies the details of the participants. |
-    || `id`| Specifies the unique identification number of each participant. For example, 1, 2, and 3. |
+    || `id`| Enter the unique identification number of each participant. The numbers must be positive numbers. For example, 1, 2, and 3. |
     || `role`| Specifies the role of the participant. The value must be agent, customer, or other. |
     || `email` | Specifies the email ID of the participant. |
     || `crmId` | Specifies the CRM ID of the participant. |
@@ -315,10 +315,8 @@ Upload the call recording or transcript to the created call recording repository
     ]
     ```   
 
-
-  
 > [!div class="nextstepaction"] 
-> [Continue with First-run set up experience](fre-setup-sales-insight-app.md#configure-the-conversation-intelligence-application)
+> [Continue with First-run set up experience](fre-setup-sales-insight-app.md#the-conversation-intelligence-application)
 
 ## Update configuration of call data
 
@@ -357,8 +355,9 @@ The call data storage container is updated, and you can start uploading the call
 
 ### See also
 
-[Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)
-
-[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)
-
+[Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)     
+[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)     
 [FAQs](faqs-sales-insights.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

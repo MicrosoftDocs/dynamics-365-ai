@@ -110,3 +110,6 @@ After you opt out of the connection graph, Sales Insights won't analyze your dat
 
 [Get introduced to a lead](../sales/who-knows-whom.md)  
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

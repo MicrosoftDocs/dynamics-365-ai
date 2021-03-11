@@ -34,3 +34,6 @@ If a data subject asks you to rectify or make changes to their personal data tha
 You use Azure Active Directory to manage Dynamics 365 Customer Service Insights users' identities. Organizations manage DSR rectify requests, including limited editing features, per the nature of a given Microsoft service. As a data processor, Microsoft doesn't offer the ability to correct system-generated logs because these logs reflect factual activities and constitute a historical record of events within Microsoft services. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

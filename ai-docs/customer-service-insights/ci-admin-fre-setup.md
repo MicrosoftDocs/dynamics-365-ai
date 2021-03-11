@@ -94,3 +94,6 @@ Depending on your role:
 
 [Connect to Dynamics 365 Customer Service environment](ci-connect-customer-service-env.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

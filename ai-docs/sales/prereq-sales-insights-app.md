@@ -39,3 +39,6 @@ Verify the following requirements before setting up conversation intelligence fo
 
 [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   
 [Overview of conversation intelligence](dynamics365-sales-insights-app.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

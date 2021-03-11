@@ -2,7 +2,7 @@
 title: "Use and manage workspaces to connect to different customer service environments"
 description: "Create workspaces to work with different environments in your customer service system."
 keywords: ""
-ms.date: 5/29/2019
+ms.date: 02/01/2021
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 
@@ -27,6 +27,9 @@ You can use and manage workspaces in a variety of ways, including:
 * [Deleting a workspace](#deleting-a-workspace)
 
 ## Creating a workspace
+
+> [!Note]
+> If you have a Customer Service Enterprise license, you will no longer be able to create new workspaces. Instead, consider migrating to the [embedded experience](https://docs.microsoft.com/dynamics365/customer-service/introduction-customer-service-analytics) within the core Dynamics 365 Customer Service applications. 
 
 To launch Customer Service Insights, navigate to [https://csi.ai.dynamics.com](https://csi.ai.dynamics.com) in your browser. Customer Service Insights opens the **Connect your data** screen so you can create a workspace by connecting to a data source.
 
@@ -95,3 +98,6 @@ If you are a viewer of a shared workspace, you can remove a shared workspace fro
 ![Delete workspace](media/viewer-delete-workspace2.PNG)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

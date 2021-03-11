@@ -91,3 +91,6 @@ The following KPIs and insights in detail are displayed for agents viewing their
 [Analyze overall team performance](ci-team-overview.md)
 
 [View and understand call summary](ci-view-understand-call-summary.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

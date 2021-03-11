@@ -56,3 +56,6 @@ We have no plans to retain customer data after the service ends on May 11, 2020.
 
 Customers and partners can email their inquiries to
  [MIEOL@microsoft.com](mailto:MIEOL@microsoft.com).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
