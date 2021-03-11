@@ -52,7 +52,7 @@ Entities are used to model and manage business data. CDS has two types of entiti
 This section will show you how to create a custom entity that you can use to import data from an external source.
 
 >[!NOTE]
->You will need a database in your Power Apps account, where you have a security role of either a **System Administrator** or **System Customizer** to create custom entities. You can read more about how to do this in the [database security topic for Power Platform](/power-platform/admin/database-security).
+>You will need a database in your Power Apps account, where you have a security role of either a **System Administrator** or **System Customizer** to create custom entities. You can read more about how to do this in the [database security topic for Microsoft Power Platform](/power-platform/admin/database-security).
 
 To create a custom entity:
 1.	In the [Power Apps Portal](https://make.powerapps.com/), select **Data**, then **Entities** in the navigation pane.
@@ -133,7 +133,7 @@ Now that you have created the associated entity within CDS, you will need to set
     > [!div class="mx-imgBorder"]
     > ![Map the status for each string to the correct numerical value](media/csi-map.png)
 
-1. Lastly, the **Temp status** field needs to be mapped to the system **Statecode** field.  Open the [Power Platform Admin center and go to Data Integration](https://admin.powerplatform.microsoft.com/ext/DataIntegration).
+1. Lastly, the **Temp status** field needs to be mapped to the system **Statecode** field.  Open the [Power Platform admin center and go to Data Integration](https://admin.powerplatform.microsoft.com/ext/DataIntegration).
 
 1. Find the project you just created, usually named as **Project #**, and select it to access details for the project.
 1.	Find the item for **Temp status**, click on the **destination field** to open a window for changing the destination field to **Statecode**.
