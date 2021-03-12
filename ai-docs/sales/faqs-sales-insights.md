@@ -170,8 +170,9 @@ The error is occurring due to your organization’s policies to restrict third-p
 ## Sales accelerator     
 **How do I add the Up next widget to an entity form?**    
 >[!NOTE]
->You can add the **Up next** widget only to managed forms.     
-To add the **Up next** widget to an entity form, follow these steps:   
+>You can add the **Up next** widget only to managed entity forms.     
+
+To add the **Up next** widget to an managed entity form, follow these steps:   
 1.	Go to **Settings** > **Solutions** and the create an empty solution. For example, **AddWidget**.    
 2.	Add a **Form** to the solution.    
 3.	Save the changes and publish the customizations.   
@@ -207,7 +208,7 @@ To add the **Up next** widget to an entity form, follow these steps:
       </rows>
     </section>
     ```      
-11.	Replace all the ```<NEW_GUID_G*>``` occurrences by generating a new GUID for each place.     
+11.	Replace all the ```<NEW_GUID_G>``` occurrences by generating a new GUID for each place.     
 12.	For ```<controlDescriptions>``` node, add a child node as following:    
     ```
     <controlDescription forControl="{<GUID_G5>}">
@@ -233,8 +234,7 @@ To add the **Up next** widget to an entity form, follow these steps:
 >[!NOTE]
 >Enable sales insights in your organization before you add the site map to your custom app.     
 
-To add the work list site map to your custom app, follow these steps:   
-
+To add the work list site map to your custom app, follow these steps:     
 1. Open your custom app in the app designer. In the following example, the custom app **Sales SandBox** is opened.   
     > [!div class="mx-imgBorder"]
     > ![Open app designer](media/faq-sa-open-app-designer.png "Open app designer")     
