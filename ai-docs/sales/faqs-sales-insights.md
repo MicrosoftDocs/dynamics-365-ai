@@ -172,7 +172,7 @@ The error is occurring due to your organization’s policies to restrict third-p
 >[!NOTE]
 >You can add the **Up next** widget only to managed entity forms.     
 
-To add the **Up next** widget to an managed entity form, follow these steps:   
+To add the **Up next** widget to a managed entity form, follow these steps:   
 1.	Go to **Settings** > **Solutions** and the create an empty solution. For example, **AddWidget**.    
 2.	Add a **Form** to the solution.    
 3.	Save the changes and publish the customizations.   
