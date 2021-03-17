@@ -51,12 +51,13 @@
       ],
       "titleSuffix": "Dynamics 365 AI",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "recommendations": "true"
     },
     "fileMetadata": {
       "breadcrumb_path": {
-        "**.*":"/dynamics365/ai/breadcrumb/toc.json",
-        "customer-service-virtual-agent/**.*":"/dynamics365/ai/customer-service-virtual-agent/bc/toc.json"
+        "**.*": "/dynamics365/ai/breadcrumb/toc.json",
+        "customer-service-virtual-agent/**.*": "/dynamics365/ai/customer-service-virtual-agent/bc/toc.json"
       },
       "searchScope": {
         "**.*": [
