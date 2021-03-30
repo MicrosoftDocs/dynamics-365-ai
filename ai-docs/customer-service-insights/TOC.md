@@ -2,8 +2,6 @@
 
 ## [Overview](overview.md)
 
-## [Customer Service Insights across your organization](ci-insights-across-org.md)
-
 ## [Service limits in Customer Service Insights](service-limits.md)
 
 ## Standalone app
