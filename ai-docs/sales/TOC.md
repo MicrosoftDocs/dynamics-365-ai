@@ -117,6 +117,8 @@
 #### [msdyn_PredictiveScore](developer/msdyn_predictivescore.md)
 #### [msdyn_PredictiveModelScore](developer/msdyn_predictivemodelscore.md)
 
+## [Troubleshooting](troubleshooting-sp.md)
+
 ## [FAQs](faqs-sales-insights.md)
 
 ## [Privacy notice](privacy-notice.md) 
