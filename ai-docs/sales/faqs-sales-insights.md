@@ -35,6 +35,7 @@ Sales insights is available in the following regions:
 -    Japan (JPN)
 -    North America (NAM)
 -    Oceania (OCE)
+-  Switzerland (CHE)
 
 >[!NOTE]
 >Currently, Sales Insights is not available in the following datacenters&mdash;Brazil, France, Germany, South Africa, UAE, Government Community Cloud (GCC), including USG, Department of Defense (DoD), and China.
@@ -45,40 +46,40 @@ Sales insights features are available in the following regions:
 <table>
 
 <tr>
-<th>Feature</th><th>NAM</th><th>EMEA</th><th>GBR</th><th>APJ</th><th>CAN</th><th>IND</th><th>JPN</th><th>OCE</th>
+<th>Feature</th><th>NAM</th><th>EMEA</th><th>GBR</th><th>APJ</th><th>CAN</th><th>IND</th><th>JPN</th><th>OCE</th><th>CHE</th>
 </tr>
 <tr>
-<td>Assistant</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
+<td>Assistant</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
 </tr>
 <tr>
-<td>Sales accelerator</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
+<td>Sales accelerator</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
 </tr>
 <tr>
-<td>Conversation intelligence</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
+<td>Conversation intelligence</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
 </tr>
 <tr>
-<td>Auto capture</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
+<td>Auto capture</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
 </tr>
 <tr>
-<td>Notes analysis</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
+<td>Notes analysis</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
 </tr>
 <tr>
-<td>Relationship analytics</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
+<td>Relationship analytics</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
 </tr>
 <tr>
-<td>Who knows whom</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td>
+<td>Who knows whom</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td><td style="text-align:center"><b>&#x2716;</b></span</td>
 </tr>
 <tr>
-<td>Talking points</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
+<td>Talking points</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
 </tr>
 <tr>
-<td>Predictive lead scoring</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
+<td>Predictive lead scoring</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
 </tr>
 <tr>
-<td>Predictive opportunity scoring</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
+<td>Predictive opportunity scoring</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
 </tr>
 <tr>
-<td>Premium forecasting</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
+<td>Premium forecasting</td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2716;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td><td style="text-align:center"><b>&#x2714;</b></td>
 </tr>
 </table>
 
@@ -142,6 +143,9 @@ Depending on the region where your organization is hosted, data is stored in the
 | Japan (JPN) | Japan East (Tokyo, Saitama) | Japan West (Osaka) |
 | North America (NAM) | East US (Virginia) | West US 2 (Washington) |
 | Oceania (OCE) | Australia East (New South Wales) | Australia Southeast (Victoria) |
+| Switzerland (CHE) | Switzerland North | Switzerland West |
+
+More information: [Azure Regional Pairs](https://docs.microsoft.com/azure/best-practices-availability-paired-regions#azure-regional-pairs)
 
 **Will Sales Insights affect my storage quota?**    
 Yes. After the install of sales insights, the last two years of key sales data required to deliver the advanced analytics and AI results including contacts, opportunities, leads, accounts, and activities are copied into your Sales Insights managed data lake and will be counted against your total file storage quota.
@@ -170,8 +174,9 @@ The error is occurring due to your organization’s policies to restrict third-p
 ## Sales accelerator     
 **How do I add the Up next widget to an entity form?**    
 >[!NOTE]
->You can add the **Up next** widget only to managed forms.     
-To add the **Up next** widget to an entity form, follow these steps:   
+>You can add the **Up next** widget only to managed entity forms.     
+
+To add the **Up next** widget to a managed entity form, follow these steps:   
 1.	Go to **Settings** > **Solutions** and the create an empty solution. For example, **AddWidget**.    
 2.	Add a **Form** to the solution.    
 3.	Save the changes and publish the customizations.   
@@ -207,7 +212,7 @@ To add the **Up next** widget to an entity form, follow these steps:
       </rows>
     </section>
     ```      
-11.	Replace all the ```<NEW_GUID_G*>``` occurrences by generating a new GUID for each place.     
+11.	Replace all the ```<NEW_GUID_G>``` occurrences by generating a new GUID for each place.     
 12.	For ```<controlDescriptions>``` node, add a child node as following:    
     ```
     <controlDescription forControl="{<GUID_G5>}">
@@ -229,9 +234,41 @@ To add the **Up next** widget to an entity form, follow these steps:
 17.	Publish all customizations.    
 18.	Verify that the **Up next** Widget successfully shows up on the form.
 
+**How to add work list site map to your custom app**    
+>[!NOTE]
+>Enable sales insights in your organization before you add the site map to your custom app.     
+
+To add the work list site map to your custom app, follow these steps:     
+1. Open your custom app in the app designer. In the following example, the custom app **Sales SandBox** is opened.   
+    > [!div class="mx-imgBorder"]
+    > ![Open app designer](media/faq-sa-open-app-designer.png "Open app designer")     
+2. Open the site map designer. Select the pencil icon corresponding to the **Site Map** section.     
+    > [!div class="mx-imgBorder"]
+    > ![Open site map designer](media/faq-sa-open-site-map-designer.png "Open site map designer")     
+3. Select the area in which you want to add the work list entry and then select **+ Add** > **Subarea**.    
+    > [!div class="mx-imgBorder"]
+    > ![Add subarea to an area](media/faq-sa-select-sub-area.png "Add subarea to an area")      
+    In the following example, subarea entry is added to the **Sales** area under **Sales records**.     
+    > [!div class="mx-imgBorder"]
+    > ![Subarea entry is added](media/faq-sa-subarea-entry-added.png "Subarea entry is added")      
+4. Select **New Subarea** and go to the **Properties** tab.
+    > [!div class="mx-imgBorder"]
+    > ![Subarea properties tab](media/faq-sa-subarea-properties.png "Subarea properties tab")       
+5. In the subarea properties, enter the following values:     
+    - Choose **Type** as **URL**.
+    - Enter the **URL** value as `/main.aspx?pagetype=control&controlName=MscrmControls.AcceleratedSales.AnchorShellControl`.
+    - Enter the **Title (1033)** for the entry. For example, **Sales accelerator**.
+    - Select the **Icon** to use in the sitemap. For example, use default icon **salesacceleration.svg**. 
+    - Enter the **ID** field enter a unique ID value. For example, **SalesAccelerationInstance**.    
+        > [!div class="mx-imgBorder"]
+        > ![Subarea properties tab with values](media/faq-sa-subarea-properties-values.png "Subarea properties tab with values")       
+6. (Optional) To show or hide the section only to enabled users, go to **Advanced** and then select **Privileges**. In the **Entity** dropdown list, select **Work Queue record**.     
+7. Save and publish the sitemap.
+    The work list site map entry is added to your custom app.
+
 ## Relationship analytics and health   
 **What do I need in order to use Relationship analytics?​**<br>
-Relationship analytics uses data from Dynamics 365 for Sales. Optionally, it includes data from Exchange Online and LinkedIn InMail with the LinkedIn solution with sync-back enabled. For Exchange data, the graph is built only on user accounts situated in the United States.​    
+Relationship analytics uses data from Dynamics 365 for Sales. Optionally, it includes data from Exchange Online. For Exchange data, the graph is built only on user accounts situated in the United States.​    
 
 **How do I enable Relationship analytics?​**<br>
 Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insights.md)] and enable the Relationship analytics feature from  **Settings** > **AI setup**.​    
@@ -301,7 +338,7 @@ To build a connection graph in who knows whom, Microsoft 365 Exchange is require
 - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
 - Global Geography 3 – Americas (Brazil, Chile, United States).
 
-More information: [Datacenter locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations)
+More information: [Data center locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations)
 
 Also, server-side sync is required for email introduction requests. ​
 
