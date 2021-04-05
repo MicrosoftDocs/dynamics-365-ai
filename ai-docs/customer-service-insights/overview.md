@@ -27,7 +27,7 @@ These capabilities are embedded into the core agent and manager experiences in C
 
 ![Example of KPI summary dashboard](media/summary-dashboard-analytics.png)
 
-## Customer Service Insights across Your organization
+## Customer Service Insights across your organization
 
 Customer Service Insights connects with your Dynamics 365 Customer Service and Omnichannel for Customer Service data to provide your support organization with out-of-the-box AI and BI capabilities, such as customer service analytics and similar case suggestions. Different applications will surface slightly different feature sets, as explained in this topic.
 
@@ -60,7 +60,7 @@ For details on Customer Service Omnichannel offerings, see the following topics:
 - Analyze real-time customer sentiment
 
 > [!Important]
-> If you are a customer who uses the Customer Service Insights standalone web application, your current working environment(s) will be terminated and inaccessible by December 8, 2021. You will no longer be able to use the standalone service after this date. The embedded Customer Service Insights features in the core applications will continue to be available and supported. For users who hold Customer Service Enterprise licenses, you will no longer be able to create new workspaces, but you'll retain access to existing ones. In the interim, the [standalone app guide](quickstart.md) contains documentation for the web application.
+> If you are a customer who uses the Customer Service Insights standalone web application, your current working environments will be terminated and inaccessible by December 8, 2021. You will no longer be able to use the standalone service after this date. The embedded Customer Service Insights features in the core applications will continue to be available and supported. For users who hold Customer Service Enterprise licenses, you will no longer be able to create new workspaces, but you'll retain access to existing ones. In the interim, the [standalone app guide](quickstart.md) contains documentation for the web application.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
