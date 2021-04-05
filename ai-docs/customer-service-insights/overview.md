@@ -21,7 +21,7 @@ Dynamics 365 Customer Service Insights helps both agents and customer service ma
 
 The premium AI capabilities in Customer Service Insights use advanced AI technology in natural language understanding (NLU) and natural language generation (NLG) to help your service team focus on what matters and guide them to success. As an agent, you can leverage real-time similar cases and knowledge article suggestions that are customized for the current context. The AI-driven technology empowers agents to help solve customer issues more quickly, improving resolution rates and customer satisfaction.
 
-These capabilities are deeply embedded into the core agent and manager experiences in Customer Service and Omnichannel..  
+These capabilities are deeply embedded into the core agent and manager experiences in Customer Service and Omnichannel. 
 
 ![Example of KPI summary dashboard](media/summary-dashboard-analytics.png)
 
