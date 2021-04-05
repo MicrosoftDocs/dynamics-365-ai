@@ -2,7 +2,7 @@
 title: "Service limits in Dynamics 365 Customer Service Insights"
 description: "Understand limits and restrictions within the Dynamics 365 Customer Service Insights product."
 keywords: ""
-ms.date: 02/01/2021
+ms.date: 04/05/2021
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid:
@@ -47,7 +47,7 @@ The service protection limits for AI suggestions are defined below. The total li
 
 ## Power Platform Capacity Impact
 
-Enabling these features will impact dataverse entitlements. For more information, see 
+Enabling these features will impact dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
 
 ## Standalone service limits
