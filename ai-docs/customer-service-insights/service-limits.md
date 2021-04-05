@@ -33,7 +33,7 @@ This following table lists the built-in limits for the embedded version of insig
 | Data age limit | 24-month period | Reports are limited to case data from the last 24 months. |
 | Dashboard interactions | No limit | No limits on the number of interactions or drill-throughs within reports. |
 | Topics | At least three related cases | Topics require at least three semantically related cases for the model to generate topics. |
-| Topics refresh | 100k per run | Refresh of topics uses upto 100,000 cases or conversations per run. |
+| Topics refresh | 100k per run | Refresh of topics uses up to 100,000 cases or conversations per run. |
 | Data refresh | Once every 24 hours | Data refresh occurs automatically each day, starting at midnight UTC. The time when the refresh completes is not guaranteed. For more information, see [Information you need to know about Customer Service analytics reports](https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics-insights-csh#information-you-need-to-know-about-customer-service-analytics-reports). |
 | AI suggestions for active cases | Each user license adds 30 active cases where agents can get AI suggested knowledge articles and similar cases in real-time. |
 |AI suggestions for conversations | 150 conversations/month per user license | Each user license adds 150 Omnichannel conversations where agents can get AI suggested knowledge articles and similar cases in real-time. |
@@ -45,9 +45,9 @@ AI suggestions for Case and Knowledge are available starting Oct, 2020. We're in
 
 The service protection limits for AI suggestions are defined below. The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses available in the tenant. For more information about AI suggestions, see [Enable AI suggestions for similar cases and knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/csw-enable-ai-suggested-cases-knowledge-articles).
 
-## Power Platform Capacity Impact
+## Impact on Power Platform Capacity
 
-Enabling these features will impact dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
+Enabling the insights feature will impact Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
 
 ## Standalone service limits
