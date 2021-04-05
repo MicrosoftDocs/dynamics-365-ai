@@ -1,5 +1,5 @@
 ---
-title: "Customer Service Insights Overview"
+title: "Customer Service Insights overview"
 description: "Learn the basics of Dynamics 365 Customer Service Insights."
 keywords: ""
 ms.date: 04/05/2021
@@ -15,7 +15,7 @@ search.appverid: met150
 
 ---
 
-# Customer Service Insights Overview
+# Customer Service Insights overview
 
 Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and proactively improve customer satisfaction by using artificial intelligence (AI) and analytics capabilities for Customer Service and Omnichannel. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers.
 
@@ -23,7 +23,7 @@ The premium AI capabilities in Customer Service Insights use advanced AI technol
 
  Agents can use real-time similar cases and knowledge article suggestions that are customized for their current context. The AI-driven technology empowers agents to help solve customer issues faster, thereby improving resolution rates and customer satisfaction.
 
-These capabilities are deeply embedded into the core agent and manager experiences in Customer Service and Customer Service Omnichannel. 
+These capabilities are embedded into the core agent and manager experiences in Customer Service and Customer Service Omnichannel applications.
 
 ![Example of KPI summary dashboard](media/summary-dashboard-analytics.png)
 
