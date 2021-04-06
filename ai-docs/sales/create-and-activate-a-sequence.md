@@ -59,8 +59,8 @@ Every organization has its own selling processes for sellers to follow. A sequen
         -	A name and description for the activity. The information you enter here will be displayed to sellers.
         -	An email template that you want to assign for this step in the **Select email template** box.   
 
-          > [!div class="mx-imgBorder"]
-          > ![Example automated email activity](media/sequence-activity-automated-email-created.png "Example automated email activity")   
+        > [!div class="mx-imgBorder"]
+        > ![Example automated email activity](media/sequence-activity-automated-email-created.png "Example automated email activity")   
 
         You can define conditions for automated email activity to determine the branch that sequence moves to next step. More information: [Define conditions for email activity](adaptive-sequence.md#define-conditions-for-email-activity).   
 
