@@ -48,7 +48,7 @@
 ##### [Edit a sequence](edit-a-sequence.md)
 ##### [Edit an active sequence](edit-active-sequence.md)
 ##### [Delete a sequence](delete-a-sequence.md)
-#### [Manage Segments](manage-segments.md)
+#### [Manage segments](manage-segments.md)
 ##### [Create and activate a segment](create-and-activate-a-segment.md)
 ##### [Connect a segment to sequence](connect-a-segment-to-sequence.md)
 ##### [Edit a segment](edit-a-segment.md)

@@ -9,7 +9,7 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Manage Segments
+# Manage segments
 
 A segment is a group of records, that are grouped together based on certain conditions, such as location, deal value, language, and product. Using segments, records can be automatically connected to sequences.
 
