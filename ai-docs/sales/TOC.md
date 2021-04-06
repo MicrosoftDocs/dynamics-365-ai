@@ -46,6 +46,7 @@
 ##### [View details of a sequence and its connected records](view-sequence-details-connected-records.md)
 ##### [Clone a sequence](clone-a-sequence.md)
 ##### [Edit a sequence](edit-a-sequence.md)
+##### [Edit an active sequence](edit-active-sequence.md)
 ##### [Delete a sequence](delete-a-sequence.md)
 #### [Manage Segments](manage-segments.md)
 ##### [Create and activate a segment](create-and-activate-a-segment.md)
