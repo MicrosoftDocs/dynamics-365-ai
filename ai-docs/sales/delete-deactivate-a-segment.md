@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Delete or deactivate a segment
 
-You can deactivate or delete a segment that's no longer required in your organization. Deactivation retains the segment in the application, but records won't be connected to it in the future.<!--note from editor: Edit okay? I was a bit confused by this.--> When a segment is deleted, segment records that are already connected to a sequence won't be affected.
+You can deactivate or delete a segment that's no longer required in your organization. Deactivation retains the segment in the application, but records won't be connected to it in the future. When a segment is deleted, segment records that are already connected to a sequence won't be affected.
 
 1.	Sign in to your Dynamics 365 Sales Hub app.
 2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
@@ -22,9 +22,9 @@ You can deactivate or delete a segment that's no longer required in your organiz
     >[!div class="mx-imgBorder"]
     >![Segments page with list of segments](media/sa-segment-edit-list-lead-segments.png "Segments page with list of segments")  
 
-4.	Hover over the segment, select **More options**, and then do one of the following:<!--note from editor: Edit okay? I think this is how you get to "More options"?-->   
+4.	Hover over the segment, select **More options**, and then do one of the following:
 
-    -	Select **Deactivate**, and in the confirmation message that appears, select **Deactivate**.<!--note from editor: Maybe the "Deactivate" command should be active in the screenshot? Just to echo what the steps are saying.-->
+    -	Select **Deactivate**, and in the confirmation message that appears, select **Deactivate**.
 
         >[!NOTE]
         >If there are any sequences attached to the segment, the names of the sequences are displayed in the message.
@@ -34,10 +34,10 @@ You can deactivate or delete a segment that's no longer required in your organiz
 
         The segment is deactivated in the application.
 
-    -	Select **Delete**, and in the confirmation message that appears, select **Delete permanently**.<!--note from editor: Maybe the "Delete permanently" command should be active in the screenshot? Just to echo what the steps are saying.-->
+    -	Select **Delete**, and in the confirmation message that appears, select **Delete permanently**.
 
         >[!NOTE]
-        >If there are any sequences attached to the segment, the names of the sequences are displayed in the message.<!--note from editor: As above, should "Delete permanently" be selected in the screenshot?-->
+        >If there are any sequences attached to the segment, the names of the sequences are displayed in the message.
 
         >[!div class="mx-imgBorder"]
         >![Delete segment](media/sa-segment-delete-segment.png "Delete segment")

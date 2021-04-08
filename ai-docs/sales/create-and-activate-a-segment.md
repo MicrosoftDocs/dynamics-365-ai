@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Create and activate a segment
 
-As a sequence manager, you create segments&mdash;groups of records&mdash;by defining different conditions for each segment. After a segment is activated and a record satisfies the conditions that are defined in the segment, the record becomes a member of the segment. A sequence that's connected to the segment is then automatically connected to records in the segment. You don't have to manually connect the sequence to a new record when it's created in Dynamics 365 Sales.<!--note from editor: In these articles I've seen "associated with," "assigned to," "applied to" and "connected to." Unless there are specific meanings for each (which I might be overlooking?), I think we should use "connected to" most of the time. In this article, I see "applied to" being used both for records being applied to a segment, and a segment being applied to records. I think that the most logical phrase would be to say that a segment is "applied to" records, given that segments are basically a collection of conditions. What do you think?-->
+As a sequence manager, you create segments&mdash;groups of records&mdash;by defining different conditions for each segment. After a segment is activated and a record satisfies the conditions that are defined in the segment, the record becomes a member of the segment. A sequence that's connected to the segment is then automatically connected to records in the segment. You don't have to manually connect the sequence to a new record when it's created in Dynamics 365 Sales.
 <!--markdownlint-disable MD036-->
 **To create and activate a segment**
 <!--markdownlint-enable MD036-->
@@ -20,7 +20,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 3.	Under **Sales accelerator**, select **Segments**.   
 4.	On the **Segments** page, select **+ New segment**.
 
-    The **Create a segment** dialog opens.<!--note from editor: Can you change the segment name to "Printer inquiries"? To go with the American English spelling.-->    
+    The **Create a segment** dialog opens.
 
     >[!div class="mx-imgBorder"]
     >![Create a segment](media/sa-segment-create-a-segment.png "Create a segment")          
@@ -34,13 +34,13 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 	
 6.	Select **Next**.   
 
-    The segment builder<!--note from editor: Is this what you called a "segment designer" in manage-segments.md? I assume this is the better term for it, since it's echoed in the UI.--> page opens.    
+    The segment designer page opens.    
     >[!div class="mx-imgBorder"]
     >![Segment condition builder page](media/sa-segment-condition-builder-home-page.png "Segment condition builder page")
 
-7.	On the condition builder tab, under **AND**, select **+ Add**.<!--note from editor: To go by the screenshot, this looks like it should be "On the **Builder** tab, select **+ Add condition**." but perhaps the screenshot isn't current. Also note, the screenshots show **AND** and **And**.--> Use the following options to define the criteria for the conditions to use for evaluating records:     
+7.	On the **Builder** tab, under **AND**, select **+ Add**. Use the following options to define the criteria for the conditions to use for evaluating records:     
 
-    -	**Add row**: Add conditions for when the segment should be applied. For example, you can add rows to specify that this segment be applied to leads created by the user John Thomas.<!--note from editor: I don't find "John Thomas" in our list of approved names. Is it part of sample data?-->    
+    -	**Add row**: Add conditions for when the segment should be applied. For example, you can add rows to specify that this segment be applied to leads created by the user John Thomas.    
         1.	Select an attribute from the dropdown list in the first column.    
         2.	Select an operator from the dropdown list in the second column.    
         3.	Enter a value to filter by in the third column.   
@@ -51,7 +51,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 
     -	**Add group**: Add multiple conditions as a group to your segment if you want to filter leads by using more than one field.   
 
-        1.	Select **AND** or **Or**<!--note from editor: These definitely should either be both initial caps or both all caps. I can't tell which is correct from the screenshots.--> to group the conditions.     
+        1.	Select **AND** or **Or** to group the conditions.     
 
             >[!div class="mx-imgBorder"]
             >![Add a condition group](media/sa-segment-condition-add-group.png "Add a condition group")        
@@ -77,7 +77,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
 
     A list of records that satisfy the conditions you've defined for the segment in the application are displayed.    
     >[!NOTE]
-    >The records displayed here are only simulated results; they might not be records that the segment can actually be applied to.<!--note from editor: Edits suggested. Notice that this follows the "segment-applies-to-records" pattern that I think is what we want to say (but maybe isn't).-->   
+    >The records displayed here are only simulated results; they might not be records that the segment can actually be applied to.   
 
     >[!div class="mx-imgBorder"]
     >![Simulated results page for the created condition](media/sa-segment-condition-builder-simulated-results.png "Simulated results page for the created condition")       
