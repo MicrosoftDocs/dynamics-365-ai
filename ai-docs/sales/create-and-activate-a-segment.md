@@ -26,6 +26,7 @@ As a sequence manager, you create segments&mdash;groups of records&mdash;by defi
     >![Create a segment](media/sa-segment-create-a-segment.png "Create a segment")          
  
 5.	In the **Create a segment** dialog, enter the following information:     
+
     | Parameter | Description |
     |-----------|-------------|
     | Segment name | The name of the segment. |
