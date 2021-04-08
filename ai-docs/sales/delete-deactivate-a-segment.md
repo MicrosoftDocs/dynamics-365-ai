@@ -9,38 +9,40 @@ ms.author: udag
 manager: shujoshi
 ---
 
-You can deactivate or delete a segment that is no longer required in your organization. Deactivation retains the segment in the application and future records will not be applied. When a segment is deleted, segment records that are already connected to a sequence are not affected.   
+# Delete or deactivate a segment
+
+You can deactivate or delete a segment that's no longer required in your organization. Deactivation retains the segment in the application, but records won't be connected to it in the future.<!--note from editor: Edit okay? I was a bit confused by this.--> When a segment is deleted, segment records that are already connected to a sequence won't be affected.
 
 1.	Sign in to your Dynamics 365 Sales Hub app.
-2.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.
-3.	Under **Sales accelerator**, select **Segments**.   
-    The segments page opens with the list of available segments.  
+2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
+3.	Under **Sales accelerator**, select **Segments**.
+
+    The **Segments** page opens with the list of available segments.  
 
     >[!div class="mx-imgBorder"]
     >![Segments page with list of segments](media/sa-segment-edit-list-lead-segments.png "Segments page with list of segments")  
 
-4.	Select the more options icon corresponding to the segment and select one of the following options as required:   
-    -	**To deactivate**:    
-        1.	Select **Deactivate** and a confirmation message is displayed.     
-            >[!NOTE]
-            >If there are any sequences attached to the segment, the names of the sequences are displayed in the message.    
+4.	Hover over the segment, select **More options**, and then do one of the following:<!--note from editor: Edit okay? I think this is how you get to "More options"?-->   
 
-            >[!div class="mx-imgBorder"]
-            >![Deactivate segment](media/sa-segment-deactivate-segment.png "Deactivate segment")        
+    -	Select **Deactivate**, and in the confirmation message that appears, select **Deactivate**.<!--note from editor: Maybe the "Deactivate" command should be active in the screenshot? Just to echo what the steps are saying.-->
 
-        2.	Select **Deactivate**.     
-            The segment is deactivated from the application.    
-    -	**To delete**:
-        1.	Select **Delete** and a confirmation message is displayed. 
-            >[!NOTE]
-            >If there are any sequences attached to the segment, the names of the sequences are displayed in the message.
+        >[!NOTE]
+        >If there are any sequences attached to the segment, the names of the sequences are displayed in the message.
 
-            >[!div class="mx-imgBorder"]
-            >![Delete segment](media/sa-segment-delete-segment.png "Delete segment")        
+        >[!div class="mx-imgBorder"]
+        >![Deactivate segment](media/sa-segment-deactivate-segment.png "Deactivate segment")
 
-        2.	Select **Delete permanently**. 
-            The segment is removed permanently from the application.
+        The segment is deactivated in the application.
 
+    -	Select **Delete**, and in the confirmation message that appears, select **Delete permanently**.<!--note from editor: Maybe the "Delete permanently" command should be active in the screenshot? Just to echo what the steps are saying.-->
+
+        >[!NOTE]
+        >If there are any sequences attached to the segment, the names of the sequences are displayed in the message.<!--note from editor: As above, should "Delete permanently" be selected in the screenshot?-->
+
+        >[!div class="mx-imgBorder"]
+        >![Delete segment](media/sa-segment-delete-segment.png "Delete segment")
+
+        The segment is removed permanently from the application.
 
 ### See also
 
