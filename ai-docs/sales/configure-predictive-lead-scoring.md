@@ -282,7 +282,7 @@ To view the attributes insights pane:
     
     -	**General**: Contains the prediction influence status, how many times the attribute is populated in open and closed leads, and reason on why the attribute is not selected to create the model.    
     -	**Graph**: Displays how each value of the attribute is contributing towards the qualification rate. In this example, you can see that the lead score values Blank, Word of Mouth, and Employee referral performing better than the average, and Advertisement and Web are performing below the average rate. The average is represented in Blue line and calculated based on the following formula:   
-        `Global qualification rate` = `Total number of leads qualified in your organization`/(`Total number of qualified + disqualified leads through this attribute`)   
+        `Global qualification rate` = {`Total number of leads qualified in your organization`/(`Total number of qualified + disqualified leads through this attribute`)}*100   
         Hover over each bar to view the summary of the value such as, qualification rate, number of open and closed leads.   
         Qualification rate for a value of the attribute is calculated based on the following formula:    
         `Qualification rate for a value of attribute` = (`Total number of leads qualified with given value in attribute`/`Total number of closed leads with that value in attribute`)*100    
