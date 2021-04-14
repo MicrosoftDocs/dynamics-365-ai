@@ -253,7 +253,40 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 4. On the configuration summary page, review the model performance and other parameters. If the retrained model satisfies your organizational requirements, publish the model.
 
     >[!NOTE]
-    >If the parameters of the retrained model aren't satisfactory, edit the attributes and retrain the model.
+    >If the parameters of the retrained model aren't satisfactory, edit the attributes and retrain the model.  
+
+## View attribute insights
+
+You can view detailed information on attributes such as qualification rate, and most important reasons—both positive and negative in the **Attribute Insights** pane. This information provides insights on the performance of each attribute that is influencing the prediction score. Based on these insights you can analyze and understand:     
+
+-	Why certain attributes carry more prediction influence than others
+-	How the attribute values compare to the attribute global qualification rate
+-	How the model harnesses your data to drive the predictive scores    
+
+Additionally, you can connect the attribute values relative impact on the score to the data input behaviors of your sellers and how that may be affecting the accuracy of the predictive score.   
+The insights displayed in the Attribute Insights pane are based on your organizations lead data and how they correlate to qualified outcomes. For example, when a lead has an attribute value that correlates with a qualification rate above the attribute's global qualification rate, the predictive score of that lead increases. The score decreases when qualification rate for a lead is below that of the attribute's average.    
+>[!NOTE]
+>For the models that are created before March 2021, the insights data for attributes will not available. We suggest you retrain or enable the auto-retrain option on the model to view the attribute insights.    
+
+To view the attributes insights pane:    
+1.	Go to the predictive lead scoring configuration page, and select **Edit model**.
+2.	On the **Edit fields** page, select the attribute for which you want to view the insights from the **Primary** or **Related** entities.     
+    In this example, we are selecting the **Lead Source** attribute and the **Attribute Insights** pane is displayed on the right-side of the page.    
+
+    > [!div class="mx-imgBorder"]
+    > ![Attribute insights pane](media/si-admin-predictive-lead-scoring-attribute-insights-pane.png "Attribute insights pane")    
+
+    Typically, the **Attribute Insights** pane is divided into the following section:     
+    >[!NOTE]
+    >The insights for the attributes are updated when the model is retrained either manually or automatically.
+    
+    -	**General**: Contains the prediction influence status, how many times the attribute is populated in open and closed leads, and reason on why the attribute is not selected to create the model.    
+    -	**Graph**: Displays how each value of the attribute is contributing towards the qualification rate. In this example, you can see that the lead score values Blank, Word of Mouth, and Employee referral performing better than the average, and Advertisement and Web are performing below the average rate. The average is represented in Blue line and calculated based on the following formula:   
+        `Global qualification rate` = `Total number of leads qualified in your organization`/(`Total number of qualified + disqualified leads through this attribute`)   
+    Hover over each bar to view the summary of the value such as, qualification rate, number of open and closed leads.   
+    -	**Details**: Provides reasons for why the values are trending as they are in the graph at that point in time. If there is not enough data for attributes from related entities, the application will not display the insights.     
+>[!NOTE]
+>The **About** tab provides more information on the attribute insights.
 
 ## Delete a model
 
@@ -281,7 +314,7 @@ To display the list of business process flows that are defined for leads in your
 
 1. Verify that **Change Tracking** is enabled for the business process flow entity for Azure Data Lake Storage. More information: [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization)
 
-2. Create an entry in `EntityAnalyticsConfig` to enable an entity for Data Lake Storage. You must update the following columns:
+2. Create an entry in `EntityAnalyticsConfig` to enable an entity for Data Lake Storage. Update the following columns:
 
     1. `ParentEntityLogicalName`: The logical name of the entity. 
 
@@ -505,6 +538,7 @@ By default, the predictive lead scoring widget is available only in the out-of-t
     >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.
 
 9. Save and publish the form.
+
 
 ### See also
 

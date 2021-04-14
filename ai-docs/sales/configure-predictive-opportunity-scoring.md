@@ -113,7 +113,7 @@ You can configure the range for the grading according to your organizational req
 
 ### MultiModel
 
-In the lower-left corner of the page, you can use **Add model** to generate a new model to represent a line of business that might use different leads than your first model. The **Add model** command will be disabled as soon as you reach the maximum limit of 10 models (both published and unpublished). More information: [Add a model](#add-a-model)
+In the lower-left corner of the page, you can use **Add model** to generate a new model to represent a line of business that might use different opportunities than your first model. The **Add model** command will be disabled as soon as you reach the maximum limit of 10 models (both published and unpublished). More information: [Add a model](#add-a-model)
 
 > [!div class="mx-imgBorder"]
 > ![Add a model option](media/si-admin-predictive-lead-scoring-add-model.png "Add a model option")
@@ -175,7 +175,7 @@ If you're using your custom attributes for opportunity generation, you can gener
     >[!NOTE]
     >If there aren't enough opportunities to generate the model, an error message is displayed. Review and edit the configurations, and try generating the model again.
 
-9. After the model is generated, the lead scoring configuration page is displayed with the version summary, including model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
+9. After the model is generated, the opportunity scoring configuration page is displayed with the version summary, including model performance, the top fields that are influencing the outcome, and the option to choose to automatically retrain the model. 
 
 10. Select **Publish**, if the accuracy of the score is at an acceptable level in accordance with the standards of your organization.
 
@@ -186,7 +186,7 @@ If you're using your custom attributes for opportunity generation, you can gener
 
 ## Add a model
 
-In organizations that have different lines of business, you might need different models to score the corresponding leads<!--NOTE FROM EDITOR: Should this be "opportunities"?-->. To accomplish this, you can add and publish multiple models that are specific to each line of business in your organization. To ensure that these models are accurate for your organization, you can choose custom attributes (fields) to be used to generate the opportunity score for a model.
+In organizations that have different lines of business, you might need different models to score the corresponding opportunities. To accomplish this, you can add and publish multiple models that are specific to each line of business in your organization. To ensure that these models are accurate for your organization, you can choose custom attributes (fields) to be used to generate the opportunity score for a model.
 
 1. Go to the predictive opportunity scoring configuration summary page.
 
@@ -254,6 +254,39 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
     >[!NOTE]
     >If the parameters of the retrained model aren't satisfactory, edit the attributes and retrain the model. 
 
+## View attribute insights
+
+You can view detailed information on attributes such as qualification rate, and most important reasons—both positive and negative in the **Attribute Insights** pane. This information provides insights on the performance of each attribute that is influencing the prediction score. Based on these insights you can analyze and understand:     
+
+-	Why certain attributes carry more prediction influence than others
+-	How the attribute values compare to the attribute global qualification rate
+-	How the model harnesses your data to drive the predictive scores    
+
+Additionally, you can connect the attribute values relative impact on the score to the data input behaviors of your sellers and how that may be affecting the accuracy of the predictive score.   
+The insights displayed in the Attribute Insights pane are based on your organizations opportunity data and how they correlate to qualified outcomes. For example, when an opportunity has an attribute value that correlates with a qualification rate above the attribute's global qualification rate, the predictive score of that opportunity increases. The score decreases when qualification rate for an opportunity is below that of the attribute's average.    
+>[!NOTE]
+>For the models that are created before March 2021, the insights data for attributes will not available. We suggest you retrain or enable the auto-retrain option on the model to view the attribute insights.    
+
+To view the attributes insights pane:    
+1.	Go to the predictive opportunity scoring configuration page, and select **Edit model**.
+2.	On the **Edit fields** page, select the attribute for which you want to view the insights from the **Primary** or **Related** entities.     
+    In this example, we are selecting the **Lead Source** attribute and the **Attribute Insights** pane is displayed on the right-side of the page.    
+
+    > [!div class="mx-imgBorder"]
+    > ![Attribute insights pane](media/si-admin-predictive-opportunity-scoring-attribute-insights-pane.png "Attribute insights pane")    
+
+    Typically, the **Attribute Insights** pane is divided into the following section:     
+    >[!NOTE]
+    >The insights for the attributes are updated when the model is retrained either manually or automatically.
+    
+    -	**General**: Contains the prediction influence status, how many times the attribute is populated in open and closed opportunities, and reason on why the attribute is not selected to create the model.    
+    -	**Graph**: Displays how each value of the attribute is contributing towards the qualification rate. In this example, you can see that the opportunity score values Blank, Word of Mouth, and Employee referral performing better than the average, and Advertisement and Web are performing below the average rate. The average is represented in Blue line and calculated based on the following formula:   
+        `Global qualification rate` = `Total number of opportunities qualified in your organization`/(`Total number of qualified + disqualified opportunities through this attribute`)   
+    Hover over each bar to view the summary of the value such as, qualification rate, number of open and closed opportunities.   
+    -	**Details**: Provides reasons for why the values are trending as they are in the graph at that point in time. If there is not enough data for attributes from related entities, the application will not display the insights.     
+>[!NOTE]
+>The **About** tab provides more information on the attribute insights.
+
 ## Delete a model
 
 You can delete a model when it's no longer required in your organization. You can have only 10 models&mdash;both published and unpublished&mdash;simultaneously.
@@ -280,7 +313,7 @@ To display the list of business process flows that are defined for opportunities
 
 1. Verify that **Change Tracking** is enabled for the business process flow entity for Azure Data Lake Storage. More information: [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization)
 
-2. Create an entry in `EntityAnalyticsConfig` to enable an entity for Data Lake Storage. You must update the following columns:
+2. Create an entry in `EntityAnalyticsConfig` to enable an entity for Data Lake Storage. Update the following columns:
 
     1. `ParentEntityLogicalName`: The logical name of the entity. 
 
