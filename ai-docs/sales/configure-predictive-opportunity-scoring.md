@@ -282,7 +282,14 @@ To view the attributes insights pane:
     -	**General**: Contains the prediction influence status, how many times the attribute is populated in open and closed opportunities, and reason on why the attribute is not selected to create the model.    
     -	**Graph**: Displays how each value of the attribute is contributing towards the qualification rate. In this example, you can see that the opportunity score values Blank, Word of Mouth, and Employee referral performing better than the average, and Advertisement and Web are performing below the average rate. The average is represented in Blue line and calculated based on the following formula:   
         `Global qualification rate` = `Total number of opportunities qualified in your organization`/(`Total number of qualified + disqualified opportunities through this attribute`)   
-    Hover over each bar to view the summary of the value such as, qualification rate, number of open and closed opportunities.   
+        Hover over each bar to view the summary of the value such as, qualification rate, number of open and closed opportunities. Qualification rate for a value of the attribute is calculated based on the following formula:    
+        `Qualification rate for a value of attribute` = (`Total number of opportunities qualified with given value in attribute`/`Total number of closed opportunities with that value in attribute`)*100    
+        For example, if opportunities with high budget have 42% qualification rate, then the formula is:
+        (`Total number of opportunities with high budget which are qualified)/( Total number of opportunities with high budget which are closed`)*100 = 42  
+        
+        >[!NOTE]
+        >These calculations are based on the sample data at the time of training model and might not represent the current snapshot of data. The past two years data is considered and if model has filter, the calculations are done after the data is filtered.  
+        
     -	**Details**: Provides reasons for why the values are trending as they are in the graph at that point in time. If there is not enough data for attributes from related entities, the application will not display the insights.     
 >[!NOTE]
 >The **About** tab provides more information on the attribute insights.
