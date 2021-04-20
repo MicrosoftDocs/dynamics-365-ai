@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Add the Up next widget to an entity form
 
-By default, the up next widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms for leads or opportunities, you can display the up next widget on your custom forms by following these steps.
+By default, the up next widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the up next widget on your custom forms by following these steps.
 >[!NOTE]
 >- You can add the **Up next** widget only to managed forms.
 >- Adding the **Up next** widget is supported only in the Unified Interface apps.
@@ -23,7 +23,7 @@ By default, the up next widget is available only in the out-of-the-box Sales Ins
     >[!div class="mx-imgBorder"]
     >![Choose custom entity form](media/sa-choose-custom-entity-form.png "Choose custom entity form")   
     >[!NOTE]
-    >Here we are using custom lead form as an example to add up next widget for leads. For Opportunities, you can perform the steps described in the procedure with opportunity form selector.
+    >Here we are using custom lead form as an example to add up next widget for leads. For other record types, you can perform the steps described in the procedure with custom form selector.
 5. Select the open in new tab icon (![open in new tab icon](media/sa-open-new-tab.png "open in new tab icon")) and the form designer tab opens.   
     >[!div class="mx-imgBorder"]
     >![Entity form in designer](media/sa-powerapps-form-designer.png "Entity form in designer")   
