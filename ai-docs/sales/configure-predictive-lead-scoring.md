@@ -263,7 +263,7 @@ On the **Attribute Insights** pane, you can view detailed information about an a
 - How the attribute values compare to the attribute global qualification rate.
 - How the model harnesses your data to drive predictive scores.
 
-Additionally, you can connect the attribute value's relative impact on the score to the data input behaviors of your sellers and how that might affect the accuracy of the predictive score.<!--note from editor: I don't know what "data input behaviors" means here. Can you explain?-->
+Additionally, you can connect the attribute value's relative impact on the score to the data input behaviors of your sellers and how that might affect the accuracy of the predictive score.
 
 The insights displayed on the **Attribute Insights** pane are based on your organization's lead data and how it correlates to qualified outcomes. For example, when a lead has an attribute value that correlates with a qualification rate above the attribute's global qualification rate, the predictive score of that lead increases. When the qualification rate for a lead is below that of the attribute's average, the predictive score decreases.
 
@@ -272,9 +272,9 @@ The following image shows an example of the **Attribute Insights** pane for the 
 > [!div class="mx-imgBorder"]
 > ![Attribute Insights pane](media/si-admin-predictive-lead-scoring-attribute-insights-pane.png "Attribute Insights pane")
 
-Typically, the **Attribute Insights** pane is divided into the following sections:<!--note from editor: The following edit is based on the screenshot, which doesn't indicate that "General" and "Graph" are actually strings in the UI. -->
+Typically, the **Attribute Insights** pane is divided into the following sections:
 
- - A summary of the status of the prediction influence, how many times the attribute is populated in open and closed leads, and the reason the attribute isn't selected to create the model.<!--note from editor: What does it mean that the attribute isn't "selected to create the model"?-->
+ - A summary of the status of the prediction influence, how many times the attribute is populated in open and closed leads, and the reason the attribute isn't automatically selected to create the model.
 
 - A graph that illustrates how each value of the attribute contributes to the qualification rate. In this example, you can see that the lead score values **Blank**, **Word of Mouth**, and **Employee referral** perform better than the average, and **Advertisement** and **Web** perform below the average. The average is represented by a blue line and calculated based on the following formula:
 
@@ -282,7 +282,7 @@ Typically, the **Attribute Insights** pane is divided into the following section
 
   Hover over each bar to view the summary of the value, such as the qualification rate and the number of open and closed leads. The qualification rate for a value of the attribute is calculated based on the following formula:
 
-   `Qualification rate for a value of the attribute` = (`Total number of leads qualified with the given value in the attribute`/`Total number of closed leads with that value in the attribute`) &times: 100    
+   `Qualification rate for a value of the attribute` = (`Total number of leads qualified with the given value in the attribute`/`Total number of closed leads with that value in the attribute`) &times; 100    
 
    For example, if leads with high budget have a 42 percent qualification rate, the formula is:
 
@@ -293,16 +293,16 @@ Typically, the **Attribute Insights** pane is divided into the following section
 
 - A **Details** section that provides reasons for why the values are trending as they are in the graph at that point in time. If there isn't enough data for attributes from related entities, the application won't display the insights.
 
-- The **About** tab provides more information about the attribute insights.<!--note from editor: Can you say more about this?-->
+- The **About** tab provides more information about the attribute insights.
 
 >[!NOTE]
->The insights for the attributes are updated when the model is retrained, either manually or automatically. For models that were created before March 2021, data for attribute insights won't be available. We suggest that you retrain&mdash;or enable the option to automatically retrain&mdash;the model to view the attribute insights.<!--note from editor: Edits okay? These two notes seemed to be related.-->
+>The insights for the attributes are updated when the model is retrained, either manually or automatically. For models that were created before March 2021, data for attribute insights won't be available. We suggest that you retrain&mdash;or enable the option to automatically retrain&mdash;the model to view the attribute insights.
 
 **To view the Attribute Insights pane**
 
 1. Go to the predictive lead scoring configuration page, and select **Edit model**.
 
-2.  On the **Edit fields** page, select the attribute for which you want to view insights, either from **Primary entity** or **Related entities**<!--note from editor: Edit okay? Or can you select multiple attributes at this point?-->. The **Attribute Insights** pane is displayed on the right side of the page. 
+2.  On the **Edit fields** page, select the attribute for which you want to view insights, either from **Primary entity** or **Related entities**. The **Attribute Insights** pane is displayed on the right side of the page. 
 
 ## Delete a model
 
