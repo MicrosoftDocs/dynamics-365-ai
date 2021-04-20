@@ -256,43 +256,52 @@ To retrain a model automatically, go to the predictive opportunity scoring confi
 
 ## View attribute insights
 
-You can view detailed information on attributes such as qualification rate, and most important reasons—both positive and negative in the **Attribute Insights** pane. This information provides insights on the performance of each attribute that is influencing the prediction score. Based on these insights you can analyze and understand:     
+On the **Attribute Insights** pane, you can view detailed information about an attribute, such as its qualification rate and the most important reasons&mdash;both positive and negative&mdash;for that rate. This information provides insights on the performance of each attribute that influences the prediction score. Based on these insights, you can analyze and understand:
 
--	Why certain attributes carry more prediction influence than others
--	How the attribute values compare to the attribute global qualification rate
--	How the model harnesses your data to drive the predictive scores    
+- Why certain attributes carry more prediction influence than others.
+- How the attribute values compare to the attribute global qualification rate.
+- How the model harnesses your data to drive predictive scores.
 
-Additionally, you can connect the attribute values relative impact on the score to the data input behaviors of your sellers and how that may be affecting the accuracy of the predictive score.   
-The insights displayed in the Attribute Insights pane are based on your organizations opportunity data and how they correlate to qualified outcomes. For example, when an opportunity has an attribute value that correlates with a qualification rate above the attribute's global qualification rate, the predictive score of that opportunity increases. The score decreases when qualification rate for an opportunity is below that of the attribute's average.    
+Additionally, you can connect the attribute value's relative impact on the score to the data input behaviors of your sellers and how that might affect the accuracy of the predictive score.<!--note from editor: I don't know what "data input behaviors" means here. Can you explain?-->
+
+The insights displayed on the **Attribute Insights** pane are based on your organization's opportunity data and how it correlates to qualified outcomes. For example, when an opportunity has an attribute value that correlates with a qualification rate above the attribute's global qualification rate, the predictive score of that opportunity increases. When the qualification rate for an opportunity is below that of the attribute's average, the predictive score decreases.
+
+The following image shows an example of an **Attribute Insights** pane for the **Annual Revenue (Base)** attribute.
+
+> [!div class="mx-imgBorder"]
+> ![Attribute Insights pane](media/si-admin-predictive-opportunity-scoring-attribute-insights-pane.png "Attribute Insights pane")    
+
+Typically, the **Attribute Insights** pane is divided into the following sections:<!--note from editor: The following edit is based on the screenshot, which doesn't indicate that "General" and "Graph" are actually strings in the UI. -->
+
+- A summary of the status of the prediction influence, how many times the attribute is populated in open and closed opportunities, and the reason the attribute isn't selected to create the model.<!--note from editor: What does it mean that the attribute isn't "selected to create the model"?-->
+
+- A graph that illustrates how each value of the attribute contributes to the qualification rate. In this example<!--note from editor: Note that these values aren't shown in the screenshot - is it going to be redone?-->, you can see that the opportunity score values **Blank**, **Word of Mouth**, and **Employee referral** perform better than the average, and **Advertisement** and **Web** perform below the average. The average is represented by a blue line and calculated based on the following formula:
+
+  `Global qualification rate` = {`Total number of opportunities qualified in your organization`/(`Total number of qualified + disqualified opportunities through this attribute`)} &times; 100
+
+  Hover over each bar to view the summary of the value, such as the qualification rate and the number of open and closed opportunities. The qualification rate for a value of the attribute is calculated based on the following formula:
+ 
+  `Qualification rate for a value of the attribute` = (`Total number of opportunities qualified with the given value in the attribute`/`Total number of closed opportunities with that value in the attribute`) &times; 100
+ 
+  For example, if opportunities with high budget have a 42 percent qualification rate, the formula is:
+
+  (`Total number of opportunities with high budget that are qualified)/( Total number of opportunities with high budget that are closed`) &times; 100 = 42  
+
+  >[!NOTE]
+   >These calculations are based on the sample data at the time the model is trained, and might not represent the current snapshot of data. The past two years of data is considered and if the model has a filter, the calculations are done after the data is filtered.  
+
+- A **Details** section that provides reasons for why the values are trending as they are in the graph at that point in time. If there isn't enough data for attributes from related entities, the application won't display the insights.
+
+- The **About** tab provides more information about the attribute insights.<!--note from editor: Can you say more about this?-->
+
 >[!NOTE]
->For the models that are created before March 2021, the insights data for attributes will not available. We suggest you retrain or enable the auto-retrain option on the model to view the attribute insights.    
+>The insights for the attributes are updated when the model is retrained, either manually or automatically. For models that were created before March 2021, data for attribute insights won't be available. We suggest that you retrain&mdash;or enable the option to automatically retrain&mdash;these models to view the attribute insights.<!--note from editor: Edits okay? These two notes seemed to be related.-->
 
-To view the attributes insights pane:    
-1.	Go to the predictive opportunity scoring configuration page, and select **Edit model**.
-2.	On the **Edit fields** page, select the attribute for which you want to view the insights from the **Primary** or **Related** entities.     
-    In this example, we are selecting the **Lead Source** attribute and the **Attribute Insights** pane is displayed on the right-side of the page.    
+**To view the Attribute Insights pane**
 
-    > [!div class="mx-imgBorder"]
-    > ![Attribute insights pane](media/si-admin-predictive-opportunity-scoring-attribute-insights-pane.png "Attribute insights pane")    
+1. Go to the predictive opportunity scoring configuration page, and select **Edit model**.
 
-    Typically, the **Attribute Insights** pane is divided into the following section:     
-    >[!NOTE]
-    >The insights for the attributes are updated when the model is retrained either manually or automatically.
-    
-    -	**General**: Contains the prediction influence status, how many times the attribute is populated in open and closed opportunities, and reason on why the attribute is not selected to create the model.    
-    -	**Graph**: Displays how each value of the attribute is contributing towards the qualification rate. In this example, you can see that the opportunity score values Blank, Word of Mouth, and Employee referral performing better than the average, and Advertisement and Web are performing below the average rate. The average is represented in Blue line and calculated based on the following formula:   
-        `Global qualification rate` = {`Total number of opportunities qualified in your organization`/(`Total number of qualified + disqualified opportunities through this attribute`)}*100   
-        Hover over each bar to view the summary of the value such as, qualification rate, number of open and closed opportunities. Qualification rate for a value of the attribute is calculated based on the following formula:    
-        `Qualification rate for a value of attribute` = (`Total number of opportunities qualified with given value in attribute`/`Total number of closed opportunities with that value in attribute`)*100    
-        For example, if opportunities with high budget have 42% qualification rate, then the formula is:
-        (`Total number of opportunities with high budget which are qualified)/( Total number of opportunities with high budget which are closed`)*100 = 42  
-        
-        >[!NOTE]
-        >These calculations are based on the sample data at the time of training model and might not represent the current snapshot of data. The past two years data is considered and if model has filter, the calculations are done after the data is filtered.  
-        
-    -	**Details**: Provides reasons for why the values are trending as they are in the graph at that point in time. If there is not enough data for attributes from related entities, the application will not display the insights.     
->[!NOTE]
->The **About** tab provides more information on the attribute insights.
+2. On the **Edit fields** page, select the attribute for which you want to view insights, either from **Primary entity** or **Related entities**<!--note from editor: Edit okay? Or can you select multiple attributes at this point?-->. The **Attribute Insights** pane is displayed on the right side of the page.
 
 ## Delete a model
 
