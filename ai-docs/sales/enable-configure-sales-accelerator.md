@@ -64,7 +64,6 @@ For the best experience of the sales accelerator, enable and configure [predicti
     1. Select **Add record type** and then select the dropdown list to choose the records that you want to add. The selected record type will display the **Sequence (up next)** widget, and sales managers will use the record types to configure the sequence that will be assigned to records to be displayed in the app. You can select record types such as, **Accounts**, **Contact**, **Leads**, and **Opportunities** and custom.    
         >[!NOTE]
         >- To view the custom records types in the list, enable the options **Activities**, **Connections**, and **Sending email (If an email field does not exist, one will be created)** under **Communication & Collaboration** in **Settings > Customizations > Customize the System > Components > Entities**.
-        >- If you're using custom record types for **Accounts**, **Contact**, **Leads**, and **Opportunities**, the names of your custom record types are displayed.    
         >- To add the **Up next** widget to your custom entity form, see [Add the Up next widget to an entity form](add-upnext-widget-form.md).     
         
         >[!div class="mx-imgBorder"]
