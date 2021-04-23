@@ -1,11 +1,11 @@
 ---
 title: "Connect with customers in Dynamics 365 Sales | MicrosoftDocs"
 description: "Make phone calls or send emails by using a record or the Up next widget in Dynamics 365 Sales."
-ms.date: 01/11/2021
+ms.date: 04/23/2021
 ms.service: crm-online
 ms.topic: article
-author: sbmjais
-ms.author: shjais
+author: udaykirang
+ms.author: udag
 manager: shujoshi
 ---
 
@@ -35,7 +35,7 @@ When you make a phone call, a **Phone Call** activity is created and linked to t
 
 **To make a phone call**
 
-Do either of the following action:
+Do one of the following actions:
 
 - Select the phone icon in the **My work** list record.
 
@@ -55,7 +55,7 @@ While composing an email, if you try to navigate to another record or send an em
 
 **To send an email**
 
-Do either of the following action:
+Do one of the following actions:
 
 - Select the email icon in the **My work** list record.
 
@@ -100,7 +100,7 @@ The activity is skipped, and the next activity in the sequence is displayed.
 
 ## Work with appointments
 
-when an appointment is created for a record through Dynamics 365 or Outlook that is tracked to Dynamics 365, are associated with the record and displayed in work list. If the appointment is associated to Teams meeting, Teams meeting icon appears when the meeting is due in next 15 minutes or the meeting is in progress. Sellers can join the meeting by selecting the icon. If the appointment isn't associated with Teams meeting, sellers can open the appointment and view the details such as, participants, scheduled time, and description.
+When an appointment is created for a record through Dynamics 365 or Outlook that is tracked to Dynamics 365, is associated with the record and displayed in work list. If the appointment is associated to Teams meeting, Teams meeting icon appears when the meeting is due in next 15 minutes or the meeting is in progress. Sellers can join the meeting by selecting the icon. If the appointment isn't associated with Teams meeting, sellers can open the appointment and view the details such as, participants, scheduled time, and description.
 
 >[!NOTE]
 >Verify that Microsoft Teams is configured for your organization. More information: [Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-integration) 
@@ -109,7 +109,7 @@ More information: [Use Outlook category to track appointments and emails](/power
 
 **To join Teams meeting**
 
-Do either of the following action:
+Do one of the following actions:
 
 - Select the **Teams** icon in the work list record.   
 
@@ -123,7 +123,7 @@ Do either of the following action:
 
 **Open an appointment**
 
-Do either of the following action:
+Do one of the following actions:
 
 - Select the **Event** icon in the work list record.
 
