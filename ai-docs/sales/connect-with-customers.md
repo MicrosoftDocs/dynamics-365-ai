@@ -35,7 +35,7 @@ When you make a phone call, a **Phone Call** activity is created and linked to t
 
 **To make a phone call**
 
-Do either of the following:
+Do either of the following action:
 
 - Select the phone icon in the **My work** list record.
 
@@ -55,7 +55,7 @@ While composing an email, if you try to navigate to another record or send an em
 
 **To send an email**
 
-Do either of the following:
+Do either of the following action:
 
 - Select the email icon in the **My work** list record.
 
@@ -100,18 +100,16 @@ The activity is skipped, and the next activity in the sequence is displayed.
 
 ## Work with appointments
 
-When a Teams meeting link is available in an activity, you can join the appointment with customer from record through **My Work** list or from the activity in **Up next** widget. If the meeting link is unavailable, select **Open** to create an appointment activity. The Teams meeting icon appears when there is an appointment scheduled in next 15 minutes or the appointment is in progress. When the meeting is completed, mark the appointment activity as complete.
-
-In the work list, the order of activities is prioritized based on the due time (earliest displaying). The appointment activity is prioritized over other activities related to a record if the appointment activity is due in 15 minutes or is in progress. 
+when an appointment is created for a record through Dynamics 365 or Outlook that is tracked to Dynamics 365, are associated with the record and displayed in work list. If the appointment is associated to Teams meeting, Teams meeting icon appears when the meeting is due in next 15 minutes or the meeting is in progress. Sellers can join the meeting by selecting the icon. If the appointment isn't associated with Teams meeting, sellers can open the appointment and view the details such as, participants, scheduled time, and description.
 
 >[!NOTE]
 >Verify that Microsoft Teams is configured for your organization. More information: [Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-integration) 
 
-When an online meeting is created through Outlook and tracked in Dynamics 365, an appointment activity is created and associated to a record. More information: [Use Outlook category to track appointments and emails](/power-platform/admin/use-outlook-category-track-appointments-emails) and [Track Outlook appointments in Dynamics 365 for Outlook](/dynamics365/outlook-addin/user-guide/track-outlook-appointments).
+More information: [Use Outlook category to track appointments and emails](/power-platform/admin/use-outlook-category-track-appointments-emails) and [Track Outlook appointments in Dynamics 365 for Outlook](/dynamics365/outlook-addin/user-guide/track-outlook-appointments).
 
-**To join meeting**
+**To join Teams meeting**
 
-Do either of the following:
+Do either of the following action:
 
 - Select the **Teams** icon in the work list record.   
 
@@ -123,9 +121,9 @@ Do either of the following:
     > [!div class="mx-imgBorder"]
     > ![Join teams meeting through up next widget](media/sa-join-teams-meeting-upnext-widget.png "Join teams meeting through up next widget") 
 
-**To create an appointment**
+**Open an appointment**
 
-Do either of the following:
+Do either of the following action:
 
 - Select the **Event** icon in the work list record.
 
