@@ -122,9 +122,9 @@ You can configure the assistant by choosing which types of insight cards you'd l
 
 1. Sign in to the **Dynamics 365 Sales Hub** app.
 
-2. At the bottom of the site map, select **Change area**, and then select **Sales Insights settings**.
+2. At the bottom of the site map, select **Change area**, and then select **Personal settings** > **Insights**.
 
-3. Select **Personal settings**, and under **Assistant studio**, select **Insight cards**.
+3. under **Assistant studio**, select **Insight cards**.
 
    The **Manage insight cards** page appears with the list of insight cards ordered by status and priority.
 
