@@ -54,17 +54,15 @@ When an administrator enables premium auto capture, you need to give your consen
 
 1.	Sign in to the Dynamics 365 Sales Hub app.
 
-2.	In the change area, select **Sales Insights settings**.
+2.	At the bottom of the site map, select **Change area**, and then select **Personal settings** > **Insights** > **Productivity** > **Auto capture**.
 
-3.	On the site map, select **Sales Insights** > **Personal settings** > **Productivity intelligence** > **Auto capture**.
-
-4.	Turn on the **Enable preview version** toggle. 
+4.	Turn on the **Allow access** toggle. 
 
     > [!div class="mx-imgBorder"]
     > ![Provide consent through personal settings](media/auto-capture-premium-consent-personal-settings.png "Give consent through personal settings") 
 
     > [!NOTE]
-    > You can turn off the **Enable preview version** toggle if you don't want Dynamics 365 to access your Outlook data to get activity and contact suggestions. 
+    > You can turn off the **Allow access** toggle if you don't want Dynamics 365 to access your Outlook data to get activity and contact suggestions. 
 
 
 ## Manage activity suggestions on the timeline
