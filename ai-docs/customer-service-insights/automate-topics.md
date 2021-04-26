@@ -2,20 +2,23 @@
 title: "Automate the creation of Power Virtual Agents bot topics"
 description: "Use topics discovered by Customer Service Insights as pre-filled bot topics in Power Virtual Agents."
 keywords: ""
-ms.date: 1/3/2020
+ms.date: 4/26/2021
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: iaanw
-ms.author: iawilt
-manager: shellyha
-ms.reviewer: xiaoying
+author: lalexms
+ms.author: laalexan
+manager: shujoshi
+ms.reviewer: ruvora
 search.app: capaedac-csi
 search.audienceType: enduser
 search.appverid: met150
 ---
 
 # Automate topics for a Power Virtual Agents bot
+
+> [!NOTE]
+> As of May 21, 2021, topic automation for the Power Virtual Agents bot feature will no longer be available in the Customer Service Insights standalone web application. The feature will continue to be supported in the embedded analytics experience within the Dynamics 365 Customer Service applications. To learn more, see [Topics Dashboard](https://docs.microsoft.com/dynamics365/customer-service/case-topics-dashboard-cs).
 
 [Power Virtual Agents](/power-virtual-agents/index) empowers teams to easily create powerful bots and automate support conversations using a guided, no-code graphical interface without the need for data scientists or developers. 
 
