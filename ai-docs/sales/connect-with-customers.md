@@ -67,40 +67,9 @@ Do one of the following actions:
     > [!div class="mx-imgBorder"]
     > ![Send email from the Up next widget](media/up-next-widget-email.png "Send email from the Up next widget")
 
-## Skip or snooze an activity
-
-You can skip an activity if it's not required to be completed by the due date. When you skip an activity, it's removed from the sequence and the next activity is displayed for taking action. The skipped activity is moved to the completed list. If you skip a manual task, it's marked as canceled.
-
-If you're unable to connect with a customer by the due date&mdash;but still need to follow up later&mdash;you can snooze the activity, and select a new date and time to connect with the customer. You can't snooze a manual task.
-
-**To skip an activity**
-
-1. In the **Up next** widget, go to the activity you want to skip.
-
-2. Select **More actions** > **Skip item**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Skip an activity](media/skip-activity.png "Skip an activity")
-
-The activity is skipped, and the next activity in the sequence is displayed.
-
-**To snooze an activity**
-
-1. In the **Up next** widget, go to the activity you want to snooze.
-
-2. Select **More actions** > **Snooze**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Snooze an activity](media/postpone-activity.png "Snooze an activity")
-
-3. Select the new date and time by which the activity should be completed.
-
-    > [!div class="mx-imgBorder"]
-    > ![Select snooze date and time](media/snooze-time.png "Select snooze date and time")
-
 ## Work with appointments
 
-When an appointment is created for a record through Dynamics 365 or Outlook that is tracked to Dynamics 365, is associated with the record and displayed in work list. If the appointment is associated to Teams meeting, Teams meeting icon appears when the meeting is due in next 15 minutes or the meeting is in progress. Sellers can join the meeting by selecting the icon. If the appointment isn't associated with Teams meeting, sellers can open the appointment and view the details such as, participants, scheduled time, and description.
+When an appointment is created for a record through Dynamics 365 or from Outlook that is tracked to Dynamics 365, is associated with the record and displayed in work list. If the appointment is associated to Teams meeting, Teams meeting icon appears in associated record in the work list and **Up next** widget. Sellers can join the meeting by selecting the icon. If the appointment isn't associated with Teams meeting, sellers can open the appointment and view the details such as, participants, scheduled time, and description.
 
 >[!NOTE]
 >Verify that Microsoft Teams is configured for your organization. More information: [Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-integration) 
@@ -135,6 +104,37 @@ Do one of the following actions:
     > [!div class="mx-imgBorder"]
     > ![Create an appointment through up next widget](media/sa-create-appointment-upnext-widget.png "Create an appointment through up next widget") 
 
+
+## Skip or snooze an activity
+
+You can skip an activity if it's not required to be completed by the due date. When you skip an activity, it's removed from the sequence and the next activity is displayed for taking action. The skipped activity is moved to the completed list. If you skip a manual task, it's marked as canceled.
+
+If you're unable to connect with a customer by the due date&mdash;but still need to follow up later&mdash;you can snooze the activity, and select a new date and time to connect with the customer. You can't snooze a manual task.
+
+**To skip an activity**
+
+1. In the **Up next** widget, go to the activity you want to skip.
+
+2. Select **More actions** > **Skip item**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Skip an activity](media/skip-activity.png "Skip an activity")
+
+The activity is skipped, and the next activity in the sequence is displayed.
+
+**To snooze an activity**
+
+1. In the **Up next** widget, go to the activity you want to snooze.
+
+2. Select **More actions** > **Snooze**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Snooze an activity](media/postpone-activity.png "Snooze an activity")
+
+3. Select the new date and time by which the activity should be completed.
+
+    > [!div class="mx-imgBorder"]
+    > ![Select snooze date and time](media/snooze-time.png "Select snooze date and time")
 
 ### See also
 
