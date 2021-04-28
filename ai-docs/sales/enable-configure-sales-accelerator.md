@@ -70,9 +70,12 @@ For the best experience of the sales accelerator, enable and configure [predicti
         >![Choose content layout](media/sa-choose-content-layout.png "Choose content layout")   
 
     2. Repeat **step a** to add more record types. In the example, the record types, **Contacts**, **Leads**, **Accounts**, and **Orders** are added.   
-    
+        
         >[!div class="mx-imgBorder"]
         >![Selected record types](media/sa-selected-record-types.png "Selected record types")         
+        
+        >[!NOTE]
+        >You can remove the records types that are no longer required to have automated activities associated with them. Select the **X** icon corresponding to the record type and the record type is removed from the list. However, if the records in the deleted record type is associated with a sequence, these records continue to associate with the sequence.   
      
     3. Select **Next**
 

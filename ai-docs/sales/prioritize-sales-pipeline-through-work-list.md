@@ -72,7 +72,7 @@ let's understand the filter options in detail:
         - **Lowest on top** to view the records in ascending order, with the lowest score on top.   
         For example, you have records with priority scores 95, 92, 89,45, 54, and 73. When you select the **Priority score** option to sort by and **Highest on top** for the sort order, records are sorted by priority in descending order, with the record that has highest score (95) on top.    
     - **Name**: When you select this option, the records in the work list are sorted according to the record name. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.    
-    - **Activity type**: When you select this option, the records in the work list are sorted into **Call**, **Email**, and **Task** activity types. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.   
+    - **Activity type**: When you select this option, the records in the work list are sorted into **Call**, **Email**, **Task**, and **Meetings** activity types. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.   
     - **Record type**: When you select this option, the records in the work list are grouped into record types. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.   
     - **Sequence name**: When you select this option, the records in the work list are sorted according to the name of the sequence that is assigned. If you have added activities manually to a record without sequences, then these records appear under **No sequence** group. You can select the sort order as **A to Z** to view the records in ascending order or **Z to A** to view them in descending order.
 
@@ -105,7 +105,7 @@ The following image shows an example of the **Up next** widget.
 
 ## Add manual activities to records
 
-Using the sequence, your sales manager can define activities for you such as email, phone calls, and tasks. To meet business requirements, you might have to add extra activities to a lead or an opportunity. You can manually add activities for records to appear in the **Up next** widget in addition to activities defined in the sequence for a given day. The manual activities include email, phone calls, and tasks.   
+Using the sequence, your sales manager can define activities for you such as email, phone calls, tasks, and meetings. To meet business requirements, you might have to add extra activities to a lead or an opportunity. You can manually add activities for records to appear in the **Up next** widget in addition to activities defined in the sequence for a given day. The manual activities include email, phone calls, and tasks.   
 The characteristics of manual activities are similar to an activity defined in a sequence. Sellers must perform the activity and mark it as complete. Then the activity will be moved to the list of completed activities in the **Up next** widget. A sales manager or you, as a seller, can add the manual activity to the records that you or your security role owns.    
 
 **To add a manual activity**   
@@ -114,7 +114,7 @@ The characteristics of manual activities are similar to an activity defined in a
 3. Select the record for which you want to add the manual activity from the work list.   
 4. In the **Timeline** section, select the plus (+) icon.   
     >[!NOTE]
-    >Only **Email**, **Phone call**, and **Task** activities will be displayed in the **Up next** widget.    
+    >Only **Email**, **Phone call**, **Task**, and **Meetings** activities will be displayed in the **Up next** widget.    
 5. Select and configure the activity that you want to add to the record.    
 6. Save and close the activity.   
 The activity is added to the record and displayed in the **Up next** widget, based on its due date.
