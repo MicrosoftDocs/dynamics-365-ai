@@ -60,22 +60,22 @@ For the best experience of the sales accelerator, enable and configure [predicti
     | Specific security roles | Select this option to specify security roles to give access to view the Sales Hub app to just a few users. Use the lookup box to add the security roles. |    
     
 5. <a name="choose-content-and-layout"></a>In the **Choose content and layout** section, choose the record types and their corresponding related forms that users use in your organization, as required.      
-    
-    1. Select **Add record type** and then select the dropdown list to choose the records that you want to add. The selected record type will display the **Sequence (up next)** widget, and sales managers will use the record types to configure the sequence that will be assigned to records to be displayed in the app. You can select record types such as, **Accounts**, **Contact**, **Leads**, and **Opportunities** and custom.    
+
+   >[!div class="mx-imgBorder"]
+   >![Choose content layout](media/sa-choose-content-layout.png "Choose content layout")   
+
+    1. Select **Add record type** and then select the drop-down list to choose the records that you want to add. The selected record type will display the **Sequence (up next)** widget. Sales managers use the record types to configure the sequence that will be assigned to records to be displayed in the app. You can select record types such as, **Accounts**, **Contact**, **Leads**, and **Opportunities**, and custom.    
         >[!NOTE]
         >- To view the custom records types in the list, enable the options **Activities**, **Connections**, and **Sending email (If an email field does not exist, one will be created)** under **Communication & Collaboration** in **Settings > Customizations > Customize the System > Components > Entities**.
         >- To add the **Up next** widget to your custom entity form, see [Add the Up next widget to an entity form](add-upnext-widget-form.md).     
         
-        >[!div class="mx-imgBorder"]
-        >![Choose content layout](media/sa-choose-content-layout.png "Choose content layout")   
-
     2. Repeat **step a** to add more record types. In the example, the record types, **Contacts**, **Leads**, **Accounts**, and **Orders** are added.   
         
         >[!div class="mx-imgBorder"]
         >![Selected record types](media/sa-selected-record-types.png "Selected record types")         
         
         >[!NOTE]
-        >You can remove the records types that are no longer required to have automated activities associated with them. Select the **X** icon corresponding to the record type and the record type is removed from the list. However, if the records in the deleted record type is associated with a sequence, these records continue to associate with the sequence.   
+        >You can remove the records types that are no longer required to have automated activities associated with them. Select the **X** icon corresponding to the record type to remove it from the list. However, if the records in the deleted record type is associated with a sequence, these records continue to associate with the sequence.   
      
     3. Select **Next**
 
