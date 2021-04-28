@@ -69,7 +69,7 @@ Do one of the following actions:
 
 ## Work with appointments
 
-When an appointment is created for a record through Dynamics 365 or from Outlook that is tracked to Dynamics 365, is associated with the record and displayed in work list. If the appointment is associated to Teams meeting, Teams meeting icon appears in associated record in the work list and **Up next** widget. Sellers can join the meeting by selecting the icon. If the appointment isn't associated with Teams meeting, sellers can open the appointment and view the details such as, participants, scheduled time, and description.
+When an appointment is created for a record through Dynamics 365 or from Outlook that is tracked to Dynamics 365, the appointment is associated with the record and displayed in work list. If the appointment is associated to Teams meeting, Teams meeting icon appears in associated record in the work list and **Up next** widget. Sellers can join the meeting by selecting the icon. If the appointment isn't associated with Teams meeting, sellers can open the appointment and view the details such as, participants, scheduled time, and description.
 
 >[!NOTE]
 >Verify that Microsoft Teams is configured for your organization. More information: [Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-integration) 
