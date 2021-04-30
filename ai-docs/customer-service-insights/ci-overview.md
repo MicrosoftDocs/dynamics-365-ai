@@ -14,6 +14,7 @@ manager: shujoshi
 
 > [!Note]
 > **Feature removed, effective June 1, 2021**
+> 
 > The Call Insights (preview) will no longer be available in the Customer Service Insights standalone web application as of 06/01/2021. Call Insights capabilities, such as AI-powered call intelligence and conversation style metrics, will be available as part of first-party voice in the 2021 release wave 1, alongside the general availability of [Omnichannel voice](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/service/dynamics365-customer-service/omnichannel-voice). For feature requests related to voice analytics, visit the Insights Communities forum: [Ideas forum (Dynamics 365)](https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad).
 
 ## Improve supervisor coaching and agent experience with call insights
