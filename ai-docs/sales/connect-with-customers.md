@@ -69,40 +69,40 @@ Do one of the following actions:
 
 ## Work with appointments
 
-When an appointment is created for a record through Dynamics 365 or from Outlook that is tracked to Dynamics 365, the appointment is associated with the record and displayed in work list. If the appointment is associated to Teams meeting, Teams meeting icon appears in associated record in the work list and **Up next** widget. Sellers can join the meeting by selecting the icon. If the appointment isn't associated with Teams meeting, sellers can open the appointment and view the details such as, participants, scheduled time, and description.
+When an appointment is created for a record through Dynamics 365, or created through Outlook and tracked in Dynamics 365, the appointment is associated with the record and displayed in the work list. If the appointment is associated with a Teams meeting, the Teams meeting icon appears in the associated record in the work list and **Up next** widget. Sellers can join the meeting by selecting the icon. If the appointment isn't associated with a Teams meeting, sellers can open the appointment and view the details, such as participants, scheduled time, and description.
 
 >[!NOTE]
 >Verify that Microsoft Teams is configured for your organization. More information: [Microsoft Teams integration with customer engagement apps in Dynamics 365](/dynamics365/teams-integration/teams-integration) 
 
-More information: [Use Outlook category to track appointments and emails](/power-platform/admin/use-outlook-category-track-appointments-emails) and [Track Outlook appointments in Dynamics 365 for Outlook](/dynamics365/outlook-addin/user-guide/track-outlook-appointments).
+More information: [Use Outlook category to track appointments and emails](/power-platform/admin/use-outlook-category-track-appointments-emails) and [Track Outlook appointments in Dynamics 365 for Outlook](/dynamics365/outlook-addin/user-guide/track-outlook-appointments)
 
-**To join Teams meeting**
+**To join a Teams meeting**
 
 Do one of the following actions:
 
 - Select the **Teams** icon in the work list record.   
 
     > [!div class="mx-imgBorder"]
-    > ![Join teams meeting through work list record](media/sa-join-teams-meeting-work-list.png "Join teams meeting through work list record") 
+    > ![Join a Teams meeting through a work list record](media/sa-join-teams-meeting-work-list.png "Join a Teams meeting through a work list record") 
  
 - Select **Join** in the activity in the **Up next** widget. 
 
     > [!div class="mx-imgBorder"]
-    > ![Join teams meeting through up next widget](media/sa-join-teams-meeting-upnext-widget.png "Join teams meeting through up next widget") 
+    > ![Join a Teams meeting through the Up next widget](media/sa-join-teams-meeting-upnext-widget.png "Join a Teams meeting through the Up next widget") 
 
-**Open an appointment**
+**To open an appointment**
 
 Do one of the following actions:
 
 - Select the **Event** icon in the work list record.
 
     > [!div class="mx-imgBorder"]
-    > ![Create an appointment through work list record](media/sa-create-appointment-work-list.png "Create an appointment through work list record") 
+    > ![Create an appointment through a work list record](media/sa-create-appointment-work-list.png "Create an appointment through a work list record") 
 
 - Select **Open** in the activity in the **Up next** widget.
 
     > [!div class="mx-imgBorder"]
-    > ![Create an appointment through up next widget](media/sa-create-appointment-upnext-widget.png "Create an appointment through up next widget") 
+    > ![Create an appointment through the Up next widget](media/sa-create-appointment-upnext-widget.png "Create an appointment through the Up next widget") 
 
 
 ## Skip or snooze an activity
