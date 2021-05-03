@@ -14,16 +14,16 @@ manager: shujoshi
 By default, the Up next widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms by following these steps.
 >[!NOTE]
 >- You can add the **Up next** widget only to managed forms.
->- Adding the **Up next** widget is supported only in the Unified Interface apps.
+>- Adding the **Up next** widget is supported only in Unified Interface apps.
 
 1. Sign in to the **Sales Hub** app.   
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
 3. Under **Acceleration**, select **Sales accelerator (preview)**.   
-4. Go to the **Choose content and layout** section. Choose a custom form from the drop-down list     for which you want to add the Up next widget.  
+4. In the **Choose content and layout** section, select the custom form for which you want to add the Up next widget.  
     >[!div class="mx-imgBorder"]
     >![Choose custom entity form](media/sa-choose-custom-entity-form.png "Choose custom entity form")   
     >[!NOTE]
-    >Here we are using custom lead form as an example to add Up next widget for leads. For other record types, you can perform the steps described in the procedure with custom form selector.
+    >Here we're using the custom lead form as an example to add the Up next widget for leads. For other record types, you can perform the steps described in the procedure with the custom form selector.
 5. Select the open in new tab icon (![open in new tab icon](media/sa-open-new-tab.png "open in new tab icon")) and the form designer tab opens.   
     >[!div class="mx-imgBorder"]
     >![Entity form in designer](media/sa-powerapps-form-designer.png "Entity form in designer")   
