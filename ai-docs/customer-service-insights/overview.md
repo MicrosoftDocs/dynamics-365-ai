@@ -37,15 +37,15 @@ Customer Service Insights is now embedded in Customer Service. After it is enabl
 
 For details on the customer service offerings, see the following topics:
 
-- Customer Service historical analytics
+- [Customer Service historical analytics](dynamics365/customer-service/configure-cs-historical-analytics-csh)
 
-- Topic clustering for cases
+- [Topic clustering for cases](dynamics365/customer-service/configure-topics-clustering-cases-cs)
 
-- Customer Service Analytics in Power BI
+- [Customer Service Analytics in Power BI](dynamics365/customer-service/configure-customer-service-analytics-dashboard)
 
-- Knowledge search analytics
+- [Knowledge search analytics](dynamics365/customer-service/enable-knowledge-search-insights)
 
-- AI suggestions for similar cases and knowledge articles
+- [AI suggestions for similar cases and knowledge articles](dynamics365/customer-service/csw-enable-ai-suggested-cases-knowledge-articles)
 
 ## Omnichannel for Customer Service
 
