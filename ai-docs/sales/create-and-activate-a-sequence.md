@@ -1,7 +1,7 @@
 ---
 title: "Sequence creation and activation in the sales accelerator  | MicrosoftDocs"
 description: "Learn how to create and activate sequences in the sales accelerator."
-ms.date: 01/11/2021
+ms.date: 04/09/2021
 ms.service: crm-online
 ms.topic: article
 author: udaykirang
@@ -31,7 +31,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
 6. Select **Next**.   
 7. Choose and configure one of the following activities:   
     > [!div class="mx-imgBorder"]
-    > ![Choose an activity type - email, phone call, or task](media/sequence-choose-activity.png "Choose an activity type - email, phone call, or task")       
+    > ![Choose an activity type](media/sequence-choose-activity.png "Choose an activity type")       
     - **Email**: Creates an email activity for sellers to communicate with customers. When this activity is shown to the seller, an envelope icon is displayed on the record. When a seller selects the icon, an email composer opens with a template, if one was selected. If no template was selected, an empty email composer opens.  
        > [!div class="mx-imgBorder"]
        > ![Add an email activity](media/sequence-activity-add-email.png "Add an email activity")    
@@ -43,7 +43,27 @@ Every organization has its own selling processes for sellers to follow. A sequen
           > [!div class="mx-imgBorder"]
           > ![Example email activity](media/sequence-activity-email-created.png "Example email activity")   
 
-        You can define conditions for email activity to determine the branch that sequence moves to next step. More information: [Define conditions for email activity](adaptive-sequence.md#define-conditions-for-email-activity).      
+        You can define conditions for an email activity to determine the branch that the sequence moves to as the next step. More information: [Define conditions for email activity](adaptive-sequence.md#define-conditions-for-email-activity)      
+
+    - **Automated email**: Creates an automated email activity for sellers to communicate with customers. When this activity is shown to the seller, a send icon ![Send icon](media/send-icon.png "Send icon") is displayed on the record. The email is automatically sent to the customer based on the selected template.    
+        >[!TIP]
+        >Add a **Set wait time** activity before the **Automated email** activity. Adding wait time provides a time gap between the previous step and sending the automated email. If the time gap isn't configured, the automated email will be sent immediately after the previous activity is completed, which won't give sellers the time they might need to take action on the automated email activity.    
+
+        >[!NOTE]
+        >Verify that required email templates are created in your organization. More information: [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email)   
+
+        > [!div class="mx-imgBorder"]
+        > ![Add an automated email activity](media/sequence-activity-add-automated-email.png "Add an automated email activity")   
+
+        Enter the following information to configure the automated email activity, and then select **Save**:    
+        -	A name and description for the activity. The information you enter here will be displayed to sellers.
+        -	An email template that you want to assign for this step in the **Select email template** box.   
+
+        > [!div class="mx-imgBorder"]
+        > ![Example automated email activity](media/sequence-activity-automated-email-created.png "Example automated email activity")   
+
+        You can define conditions for automated email activity to determine the branch that sequence moves to next step. More information: [Define conditions for email activity](adaptive-sequence.md#define-conditions-for-email-activity).   
+
     - **Phone call**: Creates a phone call activity for sellers to communicate with customers. When this activity is shown to the seller, a phone icon is displayed on the record. When sellers select the icon, a softphone appears on the app to dial the customer.    
         > [!div class="mx-imgBorder"]
         > ![Add a phone call activity](media/sequence-activity-add-phone-call.png "Add a phone call activity")    
