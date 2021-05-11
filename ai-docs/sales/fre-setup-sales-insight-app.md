@@ -130,7 +130,7 @@ Conversation intelligence is configured and ready for use in your organization.
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
 
-Using Microsoft Teams together with conversation intelligence in Dynamics 365 Sales helps organizations transform customer interactions into revenue. Calling with Microsoft Teams allows business critical insights to be surfaced both in real-time (during the call), as well as post-call, and are seamlessly tied to the relevant Dynamics 365 records.
+Using Microsoft Teams together with conversation intelligence in Dynamics 365 Sales helps organizations transform customer interactions into revenue. Calling with Microsoft Teams allows business critical insights to be surfaced both in real time (during the call) and post-call, and are seamlessly tied to the relevant Dynamics 365 records.
 
 ### Review the prerequisites
 
@@ -157,7 +157,7 @@ Follow these steps:
 
 #### Download the PowerShell script
 
-1.	Sign into the Dynamics 365 Sales Hub app as an Dynamics 365 system administrator.    
+1.	Sign into the Dynamics 365 Sales Hub app as a Dynamics 365 system administrator.    
 2.	Select the **change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and then select **Sales Insights settings**.  
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")   
@@ -186,7 +186,7 @@ Follow these steps:
     -	`Install-Module MSAL.PS`     
 3.	To run the script, enter the following command:     
     ```.\MediaRecordingTenantProvisioning.ps1```     
-    The package starts installing and a sign-in dialog box opens.     
+    The package starts installing and a sign in dialog opens.     
 4.	Enter your tenant administrator credentials to sign into your organization.
     >[!NOTE]
     >You’ll be asked to provide credentials thrice.       
@@ -237,7 +237,7 @@ You can proceed to configure the Microsoft Teams with conversation intelligence.
     >For Microsoft-provided storage, the available retention periods are 30 days and 90 days. If your organization requires longer retention periods, please consider using your own storage.    
 
 6.	Under **Conversation tracking**, add the keywords and competitors that your organization wishes to track during calls, and add the languages used by sellers during calls with customers. 
-    This is a global setting that will be applied to all sales calls in the organization. You must set at least one global keyword and at least one global competitor to enable conversation intelligence. You can update these keywords and competitors later if required. More information: [Configure keywords and competitors in Conversation content](configure-keywords-competitors.md). 
+    This is a global setting that will be applied to all sales calls in the organization. You must set at least one global keyword and at least one global competitor to enable conversation intelligence. You can update these keywords and competitors later if necessary. More information: [Configure keywords and competitors in Conversation content](configure-keywords-competitors.md). 
         
     > [!div class="mx-imgBorder"]
     > ![Configure conversation tracking](media/ci-admin-conversation-trackers.png "Configure conversation tracking")    
