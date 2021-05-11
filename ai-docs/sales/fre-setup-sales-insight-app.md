@@ -21,7 +21,7 @@ topic-status: Drafting
 You can configure conversation intelligence with Microsoft Teams by completing the following section:      
 - [The conversation intelligence application](#the-conversation-intelligence-application)    
 - [The Sales Hub app](#the-sales-hub-app)    
-- [Microsoft Teams for conversation intelligence](#microsoft-teams-conversation-intelligence)    
+- [Microsoft Teams for conversation intelligence](#microsoft-teams-for-conversation-intelligence)    
 
 After you sign in to conversation intelligence or your sales app, you can set up the conversation intelligence depending on the role that's assigned to you.      
 - As an administrator, you can set up the complete application&mdash;including enable Microsoft Teams call recording for conversation intelligence preview, select storage, grant app permissions, and define organization level tracked keywords and competitors to be used by conversation intelligence.     
