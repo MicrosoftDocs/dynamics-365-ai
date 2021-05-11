@@ -16,6 +16,8 @@ As a sales manager, you can configure conversation intelligence to match your te
 - Available languages
 - Selection of top performers 
 
+More information: [Configure and view your team page](configure-view-your-team-page.md)
+
 Follow these steps:
 1.	Sign into the Dynamics 365 Sales Hub app with sales manager security role.    
 2.	Select the **change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and then select **Personal settings**.  
