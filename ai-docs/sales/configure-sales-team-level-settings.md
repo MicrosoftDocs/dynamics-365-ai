@@ -52,7 +52,7 @@ Conversation intelligence is now configured and ready for use in your sales orga
 ### See also
 
 [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
-[First-run set up experience](fre-setup-sales-insight-app.md#microsoft-teams-conversation-intelligence)
+[First-run set up experience](fre-setup-sales-insight-app.md#microsoft-teams-for-conversation-intelligence)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]    
