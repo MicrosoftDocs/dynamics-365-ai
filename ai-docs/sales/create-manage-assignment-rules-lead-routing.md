@@ -23,7 +23,7 @@ You can use the assignment rules designer to:
 -	[Edit an assignment rule](edit-assignment-rule.md)
 -	[Delete or deactivate an assignment rule](delete-deactivate-assignment-rule.md)  
 -	[Manage sales teams](manage-sales-teams.md)
--	[Manage seller attributes]()
+-	[Manage seller attributes](manage-seller-attributes.md)
 
 ## Review the prerequisites    
 Before you start, be sure you've met the following prerequisites:    

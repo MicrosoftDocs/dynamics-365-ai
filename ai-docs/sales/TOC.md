@@ -58,7 +58,7 @@
 ##### [Edit an assignment rule](edit-assignment-rule.md)
 ##### [Delete or deactivate an assignment rule](delete-deactivate-assignment-rule.md)
 ##### [Manage sales teams](manage-sales-teams.md)
-
+##### [Manage seller attributes](manage-seller-attributes.md)
 #### [Integrate a sample softphone dialer with Dynamics 365 Sales](integrate-sample-softphone.md)
 #### [Add the Up next widget to an entity form](add-upnext-widget-form.md)
 
