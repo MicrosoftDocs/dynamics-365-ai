@@ -59,6 +59,7 @@
 ### Configure conversation intelligence
 #### [Prerequisites to use Conversation Intelligence](../sales/prereq-sales-insights-app.md)
 #### [First-run set up experience](../sales/fre-setup-sales-insight-app.md)
+#### [Configure sales team level settings](../sales/configure-sales-team-level-settings.md)
 #### [Configure conversation intelligence to connect call data](../sales/configure-conversation-intelligence-call-data.md)
 #### [Configure and view your team page](../sales/configure-view-your-team-page.md)
 #### [Configure conversation content](../sales/configure-keywords-competitors.md)
