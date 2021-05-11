@@ -1199,6 +1199,11 @@
       "source_path": "ai-docs/customer-insights/whats-new-customer-insights.md",
       "redirect_url": "https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/whats-new-audience-insights",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/ci-insights-across-org.md",
+      "redirect_url": "overview",
+      "redirect_document_id": false
     }
   ]
 }
