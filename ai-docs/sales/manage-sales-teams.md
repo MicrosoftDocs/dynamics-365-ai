@@ -16,8 +16,7 @@ You can use the sales teams settings page  to:
 -	[Set lead capacity to sellers](#set-lead-capacity-to-sellers)    
 -	[Turn off lead assignment to sellers](#turn-off-lead-assignment-to-sellers)
 
-Before you start using the sales teams designer, verify the following:    
--	Security roles that are assigned for your sellers are selected while configuring the sales accelerator. For more information, see step 4 in [Set up the sales accelerator](enable-configure-sales-accelerator.md).     
+Before you start using the sales teams designer, verify that the security roles that are assigned for your sellers are selected while configuring the sales accelerator. For more information, see step 4 in [Set up the sales accelerator](enable-configure-sales-accelerator.md).     
 
 ## Add attributes to sellers    
 The attribute defines the characteristic of a seller such as skills, location, and language. Before you apply the attributes to sellers, verify that the attributes are defined. More information: [Create an attribute](manage-seller-attributes.md#create-an-attribute).    
@@ -49,7 +48,7 @@ You can select multiple sellers to bulk apply the attributes.
 
 6.	On the Apply attribute pane, select one of the following options to apply attributes:    
     -	**Replace**: This option replaces the existing attributes that are already applied to the seller. If there are any leads that were assigned to the seller based on the previous attributes, they will not be affected.    
-    -	**Apply More**: This option adds additional attributes to the seller apart from the attributes that were already applied.
+    -	**Apply More**: This option adds more attributes to the seller apart from the attributes that were already applied.
 7.	Select **+ Add attribute** and then choose the attribute and its corresponding values.
     >[!div class="mx-imgBorder"]
     >![Select add attribute](media/sa-ar-sales-team-add-attribute.png "Select add attribute")   
@@ -61,7 +60,7 @@ You can select multiple sellers to bulk apply the attributes.
 ## Set lead capacity to sellers   
 The lead capacity allows you to set an upper limit for seller to handle the number of leads that are assigned to them at any given time. When a seller reaches the upper limit, though a lead that is created and ready to be automatically assigned to the seller will not be assigned. You can view the unassigned leads in the Open Leads view.   
 
-For example, Alen is a seller, and his lead capacity limit is set to 5. A new lead is generated, and assignment rule qualifies this lead to be assigned to Alen. However, Alen has reached lead assignment capacity of 5 and the newly generated lead will not be assigned to Alen.   
+For example, Alen is a seller, and his lead capacity limit is set to 5. A new lead is generated, and assignment rule qualifies the lead to be assigned to Alen. However, Alen has reached lead assignment capacity of 5 and the newly generated lead will not be assigned to Alen.   
 
 **To set lead capacity**
 
@@ -89,7 +88,7 @@ For example, Alen is a seller, and his lead capacity limit is set to 5. A new le
     >[!div class="mx-imgBorder"]
     >![Enter maximum amount of leads for seller](media/sa-ar-sales-team-enter-lead-capacity.png "Enter maximum amount of leads for seller")   
 
-6.	Enter the maximum lead capacity value that the seller can handle in Enter the maximum amount of leads for each seller.    
+6.	Enter the maximum lead capacity value that the seller can handle in Enter the maximum number of leads for each seller.    
 7.	Select **Apply**.    
 
     >[!NOTE]
@@ -100,12 +99,26 @@ For example, Alen is a seller, and his lead capacity limit is set to 5. A new le
 
 ## Turn off lead assignment to sellers
 
+When a seller is on vacation or unavailable due to other reasons, you can disable the lead assignment until the seller is available. Follow these steps:
+  
+1.	Sign in to your Dynamics 365 Sales Hub app.   
+2.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   
+3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
+4.	On the **Assignment rules** page, go to the **Sales teams** section and then select **Manage**.    
+    >[!div class="mx-imgBorder"]
+    >![Select manage in sales teams section](media/sa-ar-sales-team-section.png "Select manage in sales teams section")   
 
+   The **Sales teams** page lists the sales teams with sellers whose security roles are configured during the setup of sales accelerator.
+    >[!div class="mx-imgBorder"]
+    >![Sales teams home page](media/sa-ar-sales-team-home-page1.png "Sales teams home page")   
 
+5. Under the **Assign leads** column, toggle to disable the lead assignment.   
+    >[!div class="mx-imgBorder"]
+    >![Toggle to disable lead assignment](media/sa-ar-sales-team-disable-lead-assignment.png "Toggle to disable lead assignment")   
 
-
-
-
+6. On the confirmation message, select **Turn off availability** and the lead assignment is turned off.  
+    >[!div class="mx-imgBorder"]
+    >![Select turn off availability](media/sa-ar-sales-team-turnoff-availability-confirmation-message.png "Select turn off availability")
 
 ### See also
 
