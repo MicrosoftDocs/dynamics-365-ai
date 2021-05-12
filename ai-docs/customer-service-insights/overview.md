@@ -21,7 +21,7 @@ Dynamics 365 Customer Service Insights helps both agents and customer service ma
 
 The premium AI capabilities in Customer Service Insights use advanced AI technology in natural language understanding and natural language generation to help your service team resolve cases efficiently and guide them to success.
 
- Agents can use real-time similar cases and knowledge article suggestions that are customized for their current context. The AI-driven technology empowers agents to help solve customer issues faster, thereby improving resolution rates and customer satisfaction.
+Agents can use real-time similar cases and knowledge article suggestions that are customized for their current context. The AI-driven technology empowers agents to help solve customer issues faster, thereby improving resolution rates and customer satisfaction.
 
 These capabilities are embedded into the core agent and manager experiences in Customer Service and Customer Service Omnichannel applications.
 
@@ -47,17 +47,21 @@ For details on the customer service offerings, see the following topics:
 
 - [AI suggestions for similar cases and knowledge articles](/customer-service/csw-enable-ai-suggested-cases-knowledge-articles)
 
+
 ## Omnichannel for Customer Service
 
 Customer Service Insights for Omnichannel for Customer Service brings many of the key operational metrics and features into your daily contact center operations. Real-time customer sentiment analysis, combined with contextual AI suggestions for similar cases and knowledge articles helps agents reduce customer frustration and case resolution times. With the sentiment analysis dashboard, you can use real-time sentiment data to gain a better understanding of how customer interactions drive KPIs and satisfaction scores.
 
 For details on Customer Service Omnichannel offerings, see the following topics:
 
-- Introduction to Omnichannel Insights dashboard
+- [Omnichannel Conversation topic dashboard](/customer-service/oc-conversation-topics-dashboard)
 
-- View smart assist suggestions for similar cases and knowledge articles using AI
+- [Omnichannel conversation dashboard](/customer-service/oc-conversation-dashboard)
 
-- Analyze real-time customer sentiment
+- [View smart assist suggestions for similar cases and knowledge articles using AI](/customer-service/oc-view-ai-suggested-cases-articles)
+
+- [Monitor and analyze sentiments](/customer-service/supervisor-sentiment-monitoring)
+
 
 > [!Important]
 > If you are a customer who uses the Customer Service Insights standalone web application, your current working environments will be terminated and inaccessible by December 8, 2021. You will no longer be able to use the standalone service after this date. The embedded Customer Service Insights features in the core applications will continue to be available and supported. For users who hold Customer Service Enterprise licenses, you will no longer be able to create new workspaces, but you'll retain access to existing ones. In the interim, the [standalone app guide](quickstart.md) contains documentation for the web application.
