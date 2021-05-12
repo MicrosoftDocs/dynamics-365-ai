@@ -16,112 +16,15 @@ caps.latest.revision: 01
 topic-status: Drafting
 ---
 
-# First-run setup experience for conversation intelligence with Microsoft Teams in Dynamics 365
+# First-run setup experience for conversation intelligence in Dynamics 365
 
 You can configure conversation intelligence with Microsoft Teams by completing the following section:      
-- [The conversation intelligence application](#the-conversation-intelligence-application)    
-- [The Sales Hub app](#the-sales-hub-app)    
 - [Microsoft Teams for conversation intelligence](#microsoft-teams-for-conversation-intelligence)    
+- [The conversation intelligence application](#the-conversation-intelligence-application)    
 
 After you sign in to conversation intelligence or your sales app, you can set up the conversation intelligence depending on the role that's assigned to you.      
 - As an administrator, you can set up the complete application&mdash;including enable Microsoft Teams call recording for conversation intelligence preview, select storage, grant app permissions, and define organization level tracked keywords and competitors to be used by conversation intelligence.     
 - As a sales manager or a seller, you will need an administrator to configure the application so you can view the data and settings that are relevant to you. More information: [Configure sales team level settings](configure-sales-team-level-settings.md)
-
-## The conversation intelligence application
-
-1.	Review the prerequisites. More information: [Prerequisites to setup conversation intelligence](prereq-sales-insights-app.md)  
-2.	Sign in to the conversation intelligence application as an administrator.  
-    > [!div class="mx-imgBorder"]
-    > ![Administrator conversation intelligence home page](media/si-app-admin-home-page-admin-signin.png "Administrator conversation intelligence home page")   
-3.	Select **Set up Conversation intelligence**.   
-4.	In the **Connect your data** dialog box, select your Dynamics 365 Sales environment to connect with the application.  
-    > [!div class="mx-imgBorder"]
-    > ![Select Dynamics 365 Sales environment](media/si-app-admin-connect-d365-organization.png "Select Dynamics 365 Sales environment")    
-    The application detects your environment.  
-5.	In the **Terms and conditions** dialog box, carefully read the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement), and read and select the check box for the [terms and conditions](https://www.microsoft.com/licensing/product-licensing/products). Select **Agree and continue**.  
-    > [!div class="mx-imgBorder"]
-    > ![Accept terms and conditions](media/si-app-admin-accept-tandc.png "Accept terms and conditions")  
-    >[!NOTE]
-    >Selecting the first check box allows Microsoft to collect your organization's data to improve the quality of insights. This is optional. 
-    The application takes a few minutes to connect to your data, during which a progress dialog box is displayed.
-    > [!div class="mx-imgBorder"]
-    > ![Environment connection progress](media/si-app-admin-connection-progress-d365-org.png "Environment connection progress")    
-6.	In the **Connect your call data** dialog box, enter the **Storage connection string** and **Container name**, and then select **Connect**. More information: [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)  
-    > [!div class="mx-imgBorder"]
-    > ![Enter values to connect call data](media/si-app-admin-connect-call-data.png "Enter values to connect call data")   
-7.	If you want to turn on access to preview features, in the **Coming soon** dialog box, select the check box and then select **Agree and continue**.  
-    > [!div class="mx-imgBorder"]
-    > ![Turn on preview features](media/si-app-admin-enable-preview-feature.png "Turn on preview features")   
-
-    > [!NOTE]
-    > If you don't want to enable the preview feature for your organization, skip this step. You can always enable preview features later. More information: [Enable coming soon features](enable-preview-features-sales-insights-app.md)  
-8.	In the **Keyword and competitor tracking** dialog box, add the keywords and competitors that you want to track on the call. You can update these keywords and trackers later if your organization's requirements change. More information: [Configure conversation content](../sales/configure-keywords-competitors.md)      
-    > [!NOTE]
-    > You can also skip adding the keywords and competitors at this point. You can always add them later.  
-    
-    > [!div class="mx-imgBorder"]
-    > ![Add tracked keywords and competitors](media/si-app-admin-keywords-and-competitor-tracking.png "Add tracked keywords and competitors")   
-9.	Select **Finish** to complete the setup of conversation intelligence for your organization.
-    The status message will be displayed at the top of the page.  
-    > [!div class="mx-imgBorder"]
-    > ![Setup progress message](media/si-app-admin-status-message-set-up.png "Setup progress message")
-
-Now your conversation intelligence application is ready, and managers and sellers can use it to view this data.
-
-## The Sales Hub app
-
-Perform the following steps to configure conversation intelligence through the Sales Hub app.
-
-1.	You must have the Dynamics 365 system administrator or equivalent security role. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)  
-2.	Sign in to Dynamics 365, and go to your sales app.  
-3.	Select the **change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and then select **Sales Insights settings**.  
-    > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")  
-4.	On the configuration page, under **Productivity**, select **Conversation intelligence**.  
-    > [!div class="mx-imgBorder"]
-    > ![Conversation intelligence configuration page](media/ci-admin-config-page.png "Conversation intelligence configuration page")  
-5.	In the **Call recording storage** section, configure the storage-related options as follows:  
-    - **Storage location**: Enter the **Storage connection string** and **Container name** to upload the call recordings for analysis. More information: [Configure conversation intelligence to connect call data](../sales/configure-conversation-intelligence-call-data.md).    
-
-        >[!NOTE]
-        >By default, the Microsoft provided storage is selected, and we recommend that you use this storage.   
-
-    - **Retention policy**: Choose a time limit for data retention. The application retains call recording data for the specified time limit and deletes it when the time limit is reached. More information: [Retention Policy](data-retention-deletion-policy.md#retention-policy)  
-    > [!div class="mx-imgBorder"]
-    > ![Configuration call recording storage](media/ci-admin-connection-storage.png "Configuration call recording storage")  
-6.	In the **Conversation tracking** section, add the keywords and competitors that you want to track on the call. You can update these keywords and trackers later when your organization's requirements change. Also, you can add languages that the sellers might use during their calls with customers. More information: [Configure conversation content](../sales/configure-keywords-competitors.md)    
-    > [!div class="mx-imgBorder"]
-    > ![Configuration conversation trackers](media/ci-admin-conversation-trackers.png "Configuration conversation trackers")  
-    >[!NOTE]
-    >- Storage and conversation tracking are the only required fields for first-time onboarding to conversation intelligence. Steps 7 to 10, including, are optional. You can choose to configure now or later when required. If you choose to configure these settings later, you can skip to step 11. 
-    >- Sales managers can configure the conversation trackers specific to their team.  
-
-7.	In the **Sales team management** section, configure the top sellers and hierarchy options as follows:  
-    - **Call data visibility**: Select the levels of hierarchy for which sales managers can view conversation intelligence data. 
-    - **Team members and top performers**: You can view the names of their team members whose calls are being analyzed in conversation intelligence, select their top performers. You can choose the top performers manually, or let the application choose them automatically. Select one of the following options:  
-        - **Manually select top performers**: Choose top performers from the list of sellers. In the **Top performer** column, select the star icon corresponding to a seller. The seller is added to the top performers list, where the seller's data is compared against other sellers.
-        - **Enable automatic identification of top performers**: The application automatically selects the top performers based on the number of leads they qualified or opportunities they won. When you select this option, you choose whether to rank performers **by won opportunities** or **by lead qualification**.   
-    You can skip configuring this section and add your sales team later, when required. More information: [Configure and view your team page](../sales/configure-view-your-team-page.md).
-
-    > [!div class="mx-imgBorder"]
-    > ![Choose and configure your sales team](media/ci-admin-choose-sales-team.png "Choose and configure your sales team")  
-
-8.	In the **License usage** section, you can view the information about the total call recording processing hours left and used. This information view-only and can't be changed.  
-    > [!div class="mx-imgBorder"]
-    > ![View license usage information](media/ci-admin-license-usage.png "View license usage information")   
-9.	In the **Privacy** section, you can select the check box to allow Microsoft to improve the quality of insights through read-only access to your organization's data in conversation intelligence. This is optional.  
-    > [!div class="mx-imgBorder"]
-    > ![Enable privacy](media/ci-admin-enable-privacy.png "Enable privacy")   
-10.	In the **Coming soon** section, select the **Access new features before they're released to all our customers** check box to
-    enable preview features for your organization. If you prefer not to enable preview features at this time, skip this step. You can always enable them later. More information: [Enable coming soon features](../sales/enable-preview-features-sales-insights-app.md)  
-    > [!div class="mx-imgBorder"]
-    > ![Enable coming soon features](media/ci-admin-coming-soon-features.png "Enable coming soon features")  
-11.	Select **Save + publish**.      
-    A message is displayed to accept the terms and conditions. Read the terms and conditions, and the privacy statement, carefully. Select **Agree and continue**.      
-    > [!div class="mx-imgBorder"]
-    > ![Agree to terms and conditions to publish the configurations](media/ci-admin-agree-terms-conditions-to-publish.png "Agree to terms and conditions to publish the configurations")  
-
-Conversation intelligence is configured and ready for use in your organization.
 
 ## Microsoft Teams for conversation intelligence
 
@@ -184,7 +87,7 @@ Follow these steps:
     -	`Install-Module -Name MicrosoftTeams -RequiredVersion 1.1.6 -Force -AllowClobber`
     -	`Install-Module AzureAD`
     -	`Install-Module MSAL.PS`     
-3.	To run the script, enter the following command:     
+3.	Go to the downloaded script location and run the following command:     
     ```.\MediaRecordingTenantProvisioning.ps1```     
     The package starts installing and a sign in dialog opens.     
 4.	Enter your tenant administrator credentials to sign into your organization.
@@ -258,6 +161,48 @@ You can proceed to configure the Microsoft Teams with conversation intelligence.
     > ![Agree to terms and conditions to publish the configurations](media/ci-admin-agree-terms-conditions-to-publish.png "Agree to terms and conditions to publish the configurations")    
 
 Microsoft Teams call recording with conversation intelligence is now configured and ready for use in your organization.
+
+## The conversation intelligence application
+
+1.	Review the prerequisites. More information: [Prerequisites to setup conversation intelligence](prereq-sales-insights-app.md)  
+2.	Sign in to the conversation intelligence application as an administrator.  
+    > [!div class="mx-imgBorder"]
+    > ![Administrator conversation intelligence home page](media/si-app-admin-home-page-admin-signin.png "Administrator conversation intelligence home page")   
+3.	Select **Set up Conversation intelligence**.   
+4.	In the **Connect your data** dialog box, select your Dynamics 365 Sales environment to connect with the application.  
+    > [!div class="mx-imgBorder"]
+    > ![Select Dynamics 365 Sales environment](media/si-app-admin-connect-d365-organization.png "Select Dynamics 365 Sales environment")    
+    The application detects your environment.  
+5.	In the **Terms and conditions** dialog box, carefully read the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement), and read and select the check box for the [terms and conditions](https://www.microsoft.com/licensing/product-licensing/products). Select **Agree and continue**.  
+    > [!div class="mx-imgBorder"]
+    > ![Accept terms and conditions](media/si-app-admin-accept-tandc.png "Accept terms and conditions")  
+    >[!NOTE]
+    >Selecting the first check box allows Microsoft to collect your organization's data to improve the quality of insights. This is optional. 
+    The application takes a few minutes to connect to your data, during which a progress dialog box is displayed.
+    > [!div class="mx-imgBorder"]
+    > ![Environment connection progress](media/si-app-admin-connection-progress-d365-org.png "Environment connection progress")    
+6.	In the **Connect your call data** dialog box, enter the **Storage connection string** and **Container name**, and then select **Connect**. More information: [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md)  
+    > [!div class="mx-imgBorder"]
+    > ![Enter values to connect call data](media/si-app-admin-connect-call-data.png "Enter values to connect call data")   
+7.	If you want to turn on access to preview features, in the **Coming soon** dialog box, select the check box and then select **Agree and continue**.  
+    > [!div class="mx-imgBorder"]
+    > ![Turn on preview features](media/si-app-admin-enable-preview-feature.png "Turn on preview features")   
+
+    > [!NOTE]
+    > If you don't want to enable the preview feature for your organization, skip this step. You can always enable preview features later. More information: [Enable coming soon features](enable-preview-features-sales-insights-app.md)  
+8.	In the **Keyword and competitor tracking** dialog box, add the keywords and competitors that you want to track on the call. You can update these keywords and trackers later if your organization's requirements change. More information: [Configure conversation content](../sales/configure-keywords-competitors.md)      
+    > [!NOTE]
+    > You can also skip adding the keywords and competitors at this point. You can always add them later.  
+    
+    > [!div class="mx-imgBorder"]
+    > ![Add tracked keywords and competitors](media/si-app-admin-keywords-and-competitor-tracking.png "Add tracked keywords and competitors")   
+9.	Select **Finish** to complete the setup of conversation intelligence for your organization.
+    The status message will be displayed at the top of the page.  
+    > [!div class="mx-imgBorder"]
+    > ![Setup progress message](media/si-app-admin-status-message-set-up.png "Setup progress message")
+
+Now your conversation intelligence application is ready, and managers and sellers can use it to view this data.
+
 
 ### See also
 
