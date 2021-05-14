@@ -9,80 +9,102 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Manage seller attributes    
+# Manage seller attributes in assignment rules
 
-Seller attributes help you define skills of sellers such as languages, location, country, and skills. After you define the attributes, you can use these attributes while configuring the rules to automatically assign leads to sellers.    
+Seller attributes help you define skills of sellers such as languages, location, country, and skills. After you define attributes, you can use these attributes while configuring the rules to automatically assign leads to sellers.
 
-As an administrator or a sequence manager, you can create attributes and add values. For example, you want to group sellers according to the languages they know. Create an attribute with name languages and add languages as values such as English, French, and Spanish. Assign the language attribute to sellers and then can be used to configure the rule to assign leads automatically to seller who match the languages.   
+As an administrator or a sequence manager, you can create attributes and add values. For example, you want to group sellers according to the languages they know. Create an attribute with the name **Languages**, and add values for the attribute such as English, French, and Spanish. Assign the language attribute to sellers, and then an assignment rule can be configured to assign leads automatically to sellers who know the required language.<!--note from editor: Suggested. -->
 
 You can use the attribute designer to:
--	[Create an attribute](#create-an-attribute)
--	[Edit an attribute](#edit-an-attribute)
--	[Delete an attribute](#delete-an-attribute)
+
+- [Create an attribute](#create-an-attribute).
+- [Edit an attribute](#edit-an-attribute).
+- [Delete an attribute](#delete-an-attribute).
 
 ## Create an attribute
 
-1.	Sign in to your Dynamics 365 Sales Hub app.   
-2.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   
-3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
-4.	On the **Assignment rules** page, go to the **Seller attributes** section and then select **Manage**.   
-    >[!div class="mx-imgBorder"]
-    >![Select manage in seller attribute section](media/sa-ar-seller-attributes-section-select-manage.png "Select manage in seller attribute section")   
+1. Sign in to your Dynamics 365 Sales Hub app.   
 
-5.	On the **Seller attribute** page, select **+ New seller attribute**.
+2. Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
+
+3. Under **Sales accelerator**, select **Assignment rules (preview)**.
+
+4. On the **Assignment rules** page in the **Seller attributes** section, select **Manage**.
+
+   >[!div class="mx-imgBorder"]
+   >![Select Manage in the Seller attributes section](media/sa-ar-seller-attributes-section-select-manage.png "Select Manage in the Seller attributes section")
+
+5. On the **Seller attributes** page, select **+ New seller attribute**.
+
     >[!div class="mx-imgBorder"]
-    >![Select new seller attribute](media/sa-ar-seller-attributes-select-new-seller-attribute.png "Select new seller attribute")   
+    >![Select New seller attribute](media/sa-ar-seller-attributes-select-new-seller-attribute.png "Select New seller attribute")
+
+6. In the **Create new seller attribute** dialog, enter the information as follows:
+
+   >[!div class="mx-imgBorder"]
+   >![Create new seller attribute](media/sa-ar-create-new-seller-attribute.png "Create new seller attribute")   
+
+    - **Seller attribute name**: Enter a name for the attribute. For example, **Language**.
+
+    - **Data field linked to attribute**: Select a data field, and add values in the **Attribute values** field.
  
-6.	On the **Create new seller** attribute dialog, enter the information as required.
+       - If you select a field that's related to the Lead form, the values that are related to the field are automatically added to the attribute values. For example, when you select the field as Budget, the values that are defined for the field in the lead form are added to the attribute values. You can remove the values and also add values.
 
-    >[!div class="mx-imgBorder"]
-    >![Create new seller attribute dialog](media/sa-ar-create-new-seller-attribute.png "Create new seller attribute dialog")   
+        >[!div class="mx-imgBorder"]
+        >![Select an attribute from the Lead form](media/sa-ar-new-attribute-lead-related.png "Select an attribute from the Lead form")      
 
-    -	**Seller attribute name**: Enter a name for the attribute. For example, Language.   
-    -	**Data field linked to attribute**: Select a data field and add values in the **Attribute values** field.   
-        -	If you select a field that is related to the **Lead** form, the values that are related to the field are automatically added to the attribute values. For example, when you select the field as Budget, the values that are defined for the field in the lead form are added to the attribute values. You can remove the values and also add values.   
-            >[!div class="mx-imgBorder"]
-            >![Select attribute from lead form](media/sa-ar-new-attribute-lead-related.png "Select attribute from lead form")      
-        -	If you select the value **Do not link with fields**, you must enter the attribute values manually.
-            >[!div class="mx-imgBorder"]
-            >![Enter attribute value manually](media/sa-ar-new-attribute-manual-value.png "Enter attribute value manually")              
+       - If you select **Do not link with fields**, you must enter the attribute values manually.
+
+        >[!div class="mx-imgBorder"]
+        >![Enter attribute value manually](media/sa-ar-new-attribute-manual-value.png "Enter attribute value manually")
  
-7.	Select **Create seller attribute**.   
-    The attribute is created and added to the list.
+7.	Select **Create seller attribute**.
+
+The attribute is created and added to the list.
 
 ## Edit an attribute
 
-1.	Sign in to your Dynamics 365 Sales Hub app.   
-2.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   
-3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
-4.	On the **Assignment rules** page, go to the **Seller attributes** section and then select **Manage**.   
-    >[!div class="mx-imgBorder"]
-    >![Select manage in seller attribute section](media/sa-ar-seller-attributes-section-select-manage.png "Select manage in seller attribute section")   
-5.	On the **Seller attribute** page, select the pencil icon corresponding to the attribute for which you want to edit.
-    >[!div class="mx-imgBorder"]
-    >![Select pencil icon to edit an attribute](media/sa-ar-attribute-select-edit.png "Select pencil icon to edit an attribute")   
+1. Sign in to your Dynamics 365 Sales Hub app.   
 
-6.	On the edit attribute dialog, edit the values as required and then select **Update seller attribute**.
-    >[!div class="mx-imgBorder"]
-    >![Edit attribute dialog](media/sa-ar-attribute-edit-attribute.png "Edit attribute dialog")   
+2. Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
+
+3. Under **Sales accelerator**, select **Assignment rules (preview)**.
+
+4. On the **Assignment rules** page in the **Seller attributes** section, select **Manage**.
+
+5. On the **Seller attributes** page, select the pencil icon corresponding to the attribute that you want to edit.
+
+   >[!div class="mx-imgBorder"]
+   >![Select the pencil icon to edit an attribute](media/sa-ar-attribute-select-edit.png "Select the pencil icon to edit an attribute")
+
+6. In the edit dialog, edit the values you want, and then select **Update seller attribute**.
+
+   >[!div class="mx-imgBorder"]
+   >![Edit attribute dialog](media/sa-ar-attribute-edit-attribute.png "Edit attribute dialog")
  
-    The attribute is updated.
+The attribute is updated.
 
 ## Delete an attribute
 
-1.	Sign in to your Dynamics 365 Sales Hub app.   
-2.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   
-3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
-4.	On the **Assignment rules** page, go to the **Seller attributes** section and then select **Manage**.   
+1.	Sign in to your Dynamics 365 Sales Hub app.
+
+2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
+
+3.	Under **Sales accelerator**, select **Assignment rules (preview)**.
+
+4.	On the **Assignment rules** page in the **Seller attributes** section, select **Manage**.
+
+5.	On the **Seller attributes** page, select the delete icon corresponding to the attribute.
+
     >[!div class="mx-imgBorder"]
-    >![Select manage in seller attribute section](media/sa-ar-seller-attributes-section-select-manage.png "Select manage in seller attribute section")   
-5.	On the **Seller attribute** page, select the delete icon corresponding to the attribute.
-    >[!div class="mx-imgBorder"]
-    >![Select delete attribute](media/sa-ar-delete-seller-attribute.png "Select delete attribute")  
-6.	On the confirmation message, select **Delete permanently**.
+    >![Delete an attribute](media/sa-ar-delete-seller-attribute.png "Delete an attribute")  
+
+6.	In the confirmation message, select **Delete permanently**.
+
     >[!div class="mx-imgBorder"]
     >![Delete attribute confirmation message](media/sa-ar-delete-attribute-confirmation.png "Delete attribute confirmation message")  
-    The attribute is deleted from the application.
+
+The attribute is deleted from the application.<!--note from editor: Can you say what might happen to assignment rules that use this attribute, or maybe add a caution that this might have unintended consequences?-->
 
 ### See also
 

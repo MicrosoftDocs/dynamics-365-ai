@@ -16,22 +16,30 @@ manager: shujoshi
 > - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
 > - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)] 
 
-Assignment rules enable new leads to be automatically assigned to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign leads, prevent the loss of unassigned leads, and balance lead assignment amongst sellers.    
-As an administrator or sequence manager, you can create rules that match lead attributes (such as location and language) with seller or team attributes (such as location and language). When a lead is created and satisfies a specific rule’s conditions, the lead is automatically assigned to a seller.    
-You can use the assignment rules designer to:   
--	[Create and activate an assignment rule](create-and-activate-assignment-rule.md)
--	[Edit an assignment rule](edit-assignment-rule.md)
--	[Delete or deactivate an assignment rule](delete-deactivate-assignment-rule.md)  
--	[Manage sales teams](manage-sales-teams.md)
--	[Manage seller attributes](manage-seller-attributes.md)
+Assignment rules enable new leads to be automatically assigned to sellers or sales teams. This helps reduce the amount of time and effort required to manually assign leads, prevent the loss of unassigned leads, and balance lead assignments among sellers.
 
-## Review the prerequisites    
-Before you start, be sure you've met the following prerequisites:    
--	You have the sequence manager, sales manager, or administrator role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).   
--	The sales accelerator has been configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md).   
--	Enable the **Assignment rules for lead routing** feature preview.   
+As an administrator or sequence manager, you can create rules that match lead attributes (such as location and language) with seller or team attributes (such as location and language). When a lead is created and satisfies the conditions of a specific rule, the lead is automatically assigned to a seller.
+
+You can use the assignment rules designer to:
+
+- [Create and activate an assignment rule](create-and-activate-assignment-rule.md).
+- [Edit an assignment rule](edit-assignment-rule.md).
+- [Delete or deactivate an assignment rule](delete-deactivate-assignment-rule.md). 
+- [Manage sales teams](manage-sales-teams.md).
+- [Manage seller attributes](manage-seller-attributes.md).
+
+## Review the prerequisites
+
+Before you start, be sure you've met the following prerequisites:
+
+-	You have the sequence manager, sales manager, or administrator role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)
+
+-	The sales accelerator has been configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md)
+
+-	You've enabled the **Assignment rules for lead routing** feature preview:
+
     1.	Sign in to your Dynamics 365 Sales Hub app.  
-    2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.   
+    2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.   
     3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
     4.	Read and accept the preview terms and conditions.   
     5.	Select **Get started**.  
@@ -43,7 +51,6 @@ Before you start, be sure you've met the following prerequisites:
 > [Next step: Create and activate an assignment rule](create-and-activate-assignment-rule.md)
 </td></tr>
 </table>   
-
 
 ### See also
 
