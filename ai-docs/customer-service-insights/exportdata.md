@@ -42,7 +42,7 @@ The web API endpoint includes the following if they're available in your workspa
 
 Fields that aren't applicable or are mapped incorrectly may not be listed in some workspaces.
 
-More information: [Map your data to custom entities and fields](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/map-data)
+More information: [Map your data to custom entities and fields](./map-data.md)
 
 **Case data**
  - Case title
@@ -68,7 +68,7 @@ More information: [Map your data to custom entities and fields](https://docs.mic
 - Topic ID
 - Relevance score
 
-More information: [Dynamics 365 Customer Service entities used by Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/customer-service-entities)
+More information: [Dynamics 365 Customer Service entities used by Customer Service Insights](./customer-service-entities.md)
 
 
 ## Considerations

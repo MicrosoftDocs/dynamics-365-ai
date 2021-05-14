@@ -54,7 +54,7 @@ The next sections describe:
 
 ## Recommendations to use conversation intelligence   
 Before you start using the application, we suggest you review the following requirements for effective use of conversation intelligence:   
--	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [About licensing and license management](https://docs.microsoft.com/power-platform/admin/wp-license-management).   
+-	Verify that you have a subscription to Microsoft Dynamics 365 Sales. To learn more, see [About licensing and license management](/power-platform/admin/wp-license-management).   
 -	As a sales manager, verify that the proper manager hierarchy is defined for you, and that sellers or individuals are added to it. To learn more, see [Set up manager and position hierarchies](/dynamics365/customer-engagement/admin/hierarchy-security#set-up-manager-and-position-hierarchies).
 
 ## How to get conversation intelligence   

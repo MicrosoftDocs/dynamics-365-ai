@@ -21,7 +21,7 @@ caps.latest.revision: 01
 > [!IMPORTANT]
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](/dynamics365/legal/supp-dynamics365-preview).
 
 Premium auto capture helps salespeople focus on generating revenue instead of spending their time updating Dynamics 365 Sales data and logging every customer-related activity. In addition to activity suggestions based on capturing emails and meetings, premium auto capture also provides suggestions for creating new contacts.
 

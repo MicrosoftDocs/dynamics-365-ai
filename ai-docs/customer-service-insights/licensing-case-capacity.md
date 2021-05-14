@@ -45,7 +45,7 @@ The required case capacity for an organization can be determined based on multip
 |600,000	|600,000	|2	|1,200,000|
 
 
-*Whether a case was created in the last 60 days is determined by the [mapping of the "Created On" source field in Customer Service Insights](map-data.md). If no custom mapping is in place, it is determined by the [createdOn field in the case entity](https://docs.microsoft.com/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/case#createdOn).
+*Whether a case was created in the last 60 days is determined by the [mapping of the "Created On" source field in Customer Service Insights](map-data.md). If no custom mapping is in place, it is determined by the [createdOn field in the case entity](/common-data-model/schema/core/applicationcommon/foundationcommon/crmcommon/service/case#createdOn).
 
 
 

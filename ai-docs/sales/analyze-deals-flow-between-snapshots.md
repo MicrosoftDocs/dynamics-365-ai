@@ -82,7 +82,7 @@ You can identify whether the selected flow is for a team or an individual by loo
 
 -	If the heading name contains only **Username**, you're looking at the deals flow of an individual user.	
 
-Seeing the deals flow of other users depends on the sales hierarchy defined for you. To learn more, see [Forecasts and sales hierarchy](https://docs.microsoft.com/dynamics365/sales-enterprise/view-forecasts#forecasts-and-sales-hierarchy).	
+Seeing the deals flow of other users depends on the sales hierarchy defined for you. To learn more, see [Forecasts and sales hierarchy](/dynamics365/sales-enterprise/view-forecasts#forecasts-and-sales-hierarchy).	
 
 
 ### See also	

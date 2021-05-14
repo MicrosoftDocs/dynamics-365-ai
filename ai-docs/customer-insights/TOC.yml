@@ -1,11 +1,11 @@
 - name: Dynamics 365 Customer Insights
-  href: index.yml
+  href: /dynamics365/customer-insights/
 
 - name: Product overview
-  href: overview.md
+  href: /dynamics365/customer-insights/audience-insights/overview
 
 - name: New and updated features
-  href: whats-new-customer-insights.md
+  href: /dynamics365/customer-insights/audience-insights/whats-new-audience-insights
 
 - name: Free trial
   href: https://dynamics.microsoft.com/en-us/get-started/?appname=customerinsights
@@ -16,130 +16,129 @@
 - name: Get started
   items:
     - name: Create a new environment
-      href: home.md
+      href: /dynamics365/customer-insights/audience-insights/home
     - name: Create a unified customer profile
-      href: https://docs.microsoft.com/learn/modules/unified-customer-profile/
+      href: /learn/modules/unified-customer-profile/
     - name: Work with the app
-      href: https://docs.microsoft.com/learn/modules/working-with-customer-insights/
+      href: /learn/modules/working-with-customer-insights/
 
 - name: Data sources
   items:
     - name: Data sources overview
-      href: data-sources.md
+      href: /dynamics365/customer-insights/audience-insights/data-sources
     - name: Add data sources via Power Query connectors
-      href: connect-power-query.md
+      href: /dynamics365/customer-insights/audience-insights/connect-power-query
     - name: Add a Common Data Model folder as a data source
-      href: connect-common-data-model.md
+      href: /dynamics365/customer-insights/audience-insights/connect-common-data-model
     - name: Add Common Data Service managed data lake
-      href: connect-common-data-service-lake.md
+      href: /dynamics365/customer-insights/audience-insights/connect-common-data-service-lake
     - name: Incremental refresh for data sources
-      href: incremental-refresh-data-sources.md
+      href: /dynamics365/customer-insights/audience-insights/incremental-refresh-data-sources
     - name: Real-time data ingestion
-      href: real-time-data-ingestion.md
+      href: /dynamics365/customer-insights/audience-insights/real-time-data-ingestion
     - name: Understand entities and datasets
-      href: entities.md
+      href: /dynamics365/customer-insights/audience-insights/entities
 
 - name: Data unification
   items: 
     - name: Unification overview
-      href: data-unification.md
+      href: /dynamics365/customer-insights/audience-insights/data-unification
     - name: Map entities and attributes
-      href: map-entities.md
+      href: /dynamics365/customer-insights/audience-insights/map-entities
     - name: Match entities
-      href: match-entities.md
+      href: /dynamics365/customer-insights/audience-insights/match-entities
     - name: Merge entities
-      href: merge-entities.md
+      href: /dynamics365/customer-insights/audience-insights/merge-entities
     - name: Review unified customer profiles
-      href: customer-profiles.md
+      href: /dynamics365/customer-insights/audience-insights/customer-profiles
     - name: Filter unified customer profiles
-      href: search-filter-index.md
+      href: /dynamics365/customer-insights/audience-insights/search-filter-index
     - name: Build relationships and connected entities
-      href: relationships.md
+      href: /dynamics365/customer-insights/audience-insights/relationships
     - name: List customer activities
-      href: activities.md
+      href: /dynamics365/customer-insights/audience-insights/activities
 
 - name: Data enrichment
   items: 
   - name: Enrich customer profiles
-    href: enrichment-hub.md
+    href: /dynamics365/customer-insights/audience-insights/enrichment-hub
   - name: Brand and interest affinities
-    href: enrichment-microsoft-graph.md
+    href: /dynamics365/customer-insights/audience-insights/enrichment-microsoft-graph
   - name: Enrich with Leadspace
-    href: enrichment-leadspace.md
+    href: /dynamics365/customer-insights/audience-insights/enrichment-leadspace
   - name: Enrich with Experian
-    href: enrichment-experian.md
+    href: /dynamics365/customer-insights/audience-insights/enrichment-experian
 
 - name: Segments and measures
   items: 
   - name: Create segments and customer groups
-    href: segments.md
+    href: /dynamics365/customer-insights/audience-insights/segments
   - name: Get insights on segments
-    href: segment-insights.md
+    href: /dynamics365/customer-insights/audience-insights/segment-insights
   - name: Find similar customers
-    href: find-similar-customer-segments.md
+    href: /dynamics365/customer-insights/audience-insights/find-similar-customer-segments
   - name: Define measures and KPIs
-    href: measures.md
+    href: /dynamics365/customer-insights/audience-insights/measures
 
 - name: Predictions
   items: 
   - name: Complete data using value predictions
-    href: predictions.md
+    href: /dynamics365/customer-insights/audience-insights/predictions
   - name: Predict subscription churn
-    href: predict-subscription-churn.md
+    href: /dynamics365/customer-insights/audience-insights/predict-subscription-churn
   - name: Implement custom machine learning models
-    href: custom-models.md
+    href: /dynamics365/customer-insights/audience-insights/custom-models
   - name: Experiments with Azure Machine learning
-    href: azure-machine-learning-experiments.md
+    href: /dynamics365/customer-insights/audience-insights/azure-machine-learning-experiments
 
 
 - name: Export options
   items: 
     - name: Discover export destinations
-      href: export-destinations.md
+      href: /dynamics365/customer-insights/audience-insights/export-destinations
     - name: Azure Blob Storage
-      href: export-azure-blob-storage.md
+      href: /dynamics365/customer-insights/audience-insights/export-azure-blob-storage
     - name: Dynamics 365 Customer Service (Add-in)
-      href: customer-card-add-in.md
+      href: /dynamics365/customer-insights/audience-insights/customer-card-add-in
     - name: Dynamics 365 Marketing
-      href: export-dynamics365-marketing.md
+      href: /dynamics365/customer-insights/audience-insights/export-dynamics365-marketing
     - name: Dynamics 365 Sales
-      href: export-dynamics365-sales.md
+      href: /dynamics365/customer-insights/audience-insights/export-dynamics365-sales
     - name: Dynamics 365 Sales Hub (Add-in)
-      href: customer-card-add-in.md
+      href: /dynamics365/customer-insights/audience-insights/customer-card-add-in
     - name: Facebook Ads Manager
-      href: export-facebook.md
+      href: /dynamics365/customer-insights/audience-insights/export-facebook
     - name: LiveRamp
-      href: export-liveramp.md
+      href: /dynamics365/customer-insights/audience-insights/export-liveramp
     - name: Microsoft Teams (bot) 
-      href: export-teams-bot.md
+      href: /dynamics365/customer-insights/audience-insights/export-teams-bot
     - name: Power BI
-      href: export-power-bi.md
+      href: /dynamics365/customer-insights/audience-insights/export-power-bi
     - name: Power Apps
-      href: export-power-apps.md
+      href: /dynamics365/customer-insights/audience-insights/export-power-apps
     - name: Power Automate
-      href: power-automate-connector.md
+      href: /dynamics365/customer-insights/audience-insights/export-power-automate
     - name: SFTP
-      href: export-sftp.md
+      href: /dynamics365/customer-insights/audience-insights/export-sftp
 
 - name: Administration
   items:
     - name: Set up the system configuration
-      href: system.md
+      href: /dynamics365/customer-insights/audience-insights/system
     - name: Assign user permissions
-      href: permissions.md
+      href: /dynamics365/customer-insights/audience-insights/permissions
     - name: Manage multiple environments
-      href: manage-environments.md
+      href: /dynamics365/customer-insights/audience-insights/manage-environments
     - name: Supported languages
-      href: supported-languages.md
+      href: /dynamics365/customer-insights/audience-insights/supported-languages
 
 - name: Extensibility
   items:
     - name: Review the entity schemas in Common Data Model
-      href: entity-schemas.md
+      href: /dynamics365/customer-insights/audience-insights/entity-schemas
     - name: Work with APIs
-      href: apis.md
+      href: /dynamics365/customer-insights/audience-insights/apis
 
 - name: DSR requests under GDPR
-  href: gdpr.md
+  href: /dynamics365/customer-insights/audience-insights/gdpr
 
- 
