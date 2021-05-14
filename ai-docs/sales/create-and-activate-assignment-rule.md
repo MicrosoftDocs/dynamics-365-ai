@@ -46,6 +46,7 @@ When a lead is created in an organization, assignment rules are applied from the
             2.	Select an operator from the dropdown list in the second column.
             3.	Enter a value to filter by in the third column.
 
+
                 >[!div class="mx-imgBorder"]
                 >![Add a condition row](media/sa-segment-condition-add-row.png "Add a condition row")          
         
@@ -99,6 +100,7 @@ When a lead is created in an organization, assignment rules are applied from the
 6.	Select **Create rule**.
 
 The rule is created and activated. The rule will be listed in the **Rules** section, which is organized in ascending order by date; the most recently created rule is always listed at the bottom of the list unless you move it.<!--note from editor: Edit okay?-->
+
 
 ### See also
 
