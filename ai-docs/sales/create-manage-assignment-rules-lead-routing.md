@@ -26,7 +26,7 @@ You can use the assignment rules designer to:
 -	[Manage seller attributes](manage-seller-attributes.md)
 
 ## Review the prerequisites    
-Before you start, be sure you've met the following prerequisites:    
+Before you start, ensure that the following prerequisites are met:    
 -	You have the sequence manager, sales manager, or administrator role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).   
 -	The sales accelerator has been configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md).   
 -	Enable the **Assignment rules for lead routing** feature preview.   

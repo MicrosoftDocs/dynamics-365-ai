@@ -30,8 +30,7 @@ The created rules are listed in ascending order. The application always consider
         >If no segment is selected for a rule, or no segment is defined in the application, you can select the default segment that is applied on all leads.     
 
         Also, you can configure more settings on how the leads in the segment must be assigned to sellers. Select **Additional condition** and then select **+ Add**. Configure the conditions as required.    
-        -	**Add row**: Add conditions for when the segment should be applied. For example, you can add rows to specify that this segment be applied to leads created by the user **John Thomas**.   
-        -	**Add row**: Add conditions for when the segment should be applied. For example, you can add rows to specify that this segment be applied to leads created by the user John Thomas.    
+        -	**Add row**: Add conditions for when the segment should be applied. For example, you can add rows to specify that this segment be applied to leads created by the user **John Thomas**.    
             1.	Select an attribute from the dropdown list in the first column.    
             2.	Select an operator from the dropdown list in the second column.    
             3.	Enter a value to filter by in the third column.   
@@ -54,6 +53,7 @@ The created rules are listed in ascending order. The application always consider
             >[!div class="mx-imgBorder"]
             >![Add related entity condition](media/sa-segment-condition-add-related-entity.png "Add related entity condition")        
     -	**Assign these leads to**: Choose an option to assign the leads to sellers or teams.   
+
         | Option | Description |
         |--------|-------------|
         | Any seller | Select this option to assign the leads to any seller according to their availability, capacity, or distribution pattern. |
@@ -63,6 +63,7 @@ The created rules are listed in ascending order. The application always consider
     -	**Distribute leads by**: This option is available only when you select the seller option in the **Assign these leads to** section.    
         >[!NOTE]
         >The **Distribute leads by** option is not available for teams.    
+
         Select the options as required:   
         -	**Round robin**: The leads are distributed on a cyclical basis to sellers who qualify to receive the lead based on the assignment rules' conditions.    
         -	**Load balancing**: When the leads match to sellers, the leads are distributed among the sellers depending on their current work load  so that sellers are equally occupied.   
@@ -72,7 +73,7 @@ The created rules are listed in ascending order. The application always consider
             >![Distribute leads by option](media/sa-ar-distribute-leads-by.png "Distribute leads by option")      
 
 6.	Select **Create rule**.     
-    The rule is created and activated. Also, the rule is listed in the Rules section in ascending order. Newly created rule always lists at the bottom of the list.
+    The rule is created and activated. Also, the rule is listed in the Rules section in ascending order. The newly created rule is always listed at the bottom of the list.
 
 ### See also
 

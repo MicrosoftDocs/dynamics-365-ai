@@ -25,7 +25,7 @@ You can use the attribute designer to:
 1.	Sign in to your Dynamics 365 Sales Hub app.   
 2.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   
 3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
-4.	On the **Assignment rules** page, go to the **Seller attributes** section and then select **Manage**.   
+4.	On the **Assignment rules** page, go to the **Seller attributes** section, and then select **Manage**.   
     >[!div class="mx-imgBorder"]
     >![Select manage in seller attribute section](media/sa-ar-seller-attributes-section-select-manage.png "Select manage in seller attribute section")   
 
@@ -33,7 +33,7 @@ You can use the attribute designer to:
     >[!div class="mx-imgBorder"]
     >![Select new seller attribute](media/sa-ar-seller-attributes-select-new-seller-attribute.png "Select new seller attribute")   
  
-6.	On the **Create new seller** attribute dialog, enter the information as required.
+6.	On the **Create new seller attribute** dialog, enter the information as required.
 
     >[!div class="mx-imgBorder"]
     >![Create new seller attribute dialog](media/sa-ar-create-new-seller-attribute.png "Create new seller attribute dialog")   
@@ -55,10 +55,10 @@ You can use the attribute designer to:
 1.	Sign in to your Dynamics 365 Sales Hub app.   
 2.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   
 3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
-4.	On the **Assignment rules** page, go to the **Seller attributes** section and then select **Manage**.   
+4.	On the **Assignment rules** page, go to the **Seller attributes** section, and then select **Manage**.   
     >[!div class="mx-imgBorder"]
     >![Select manage in seller attribute section](media/sa-ar-seller-attributes-section-select-manage.png "Select manage in seller attribute section")   
-5.	On the **Seller attribute** page, select the pencil icon corresponding to the attribute for which you want to edit.
+5.	On the **Seller attributes** page, select the pencil icon corresponding to the attribute for which you want to edit.
     >[!div class="mx-imgBorder"]
     >![Select pencil icon to edit an attribute](media/sa-ar-attribute-select-edit.png "Select pencil icon to edit an attribute")   
 
@@ -73,10 +73,10 @@ You can use the attribute designer to:
 1.	Sign in to your Dynamics 365 Sales Hub app.   
 2.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   
 3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
-4.	On the **Assignment rules** page, go to the **Seller attributes** section and then select **Manage**.   
+4.	On the **Assignment rules** page, go to the **Seller attributes** section, and then select **Manage**.   
     >[!div class="mx-imgBorder"]
     >![Select manage in seller attribute section](media/sa-ar-seller-attributes-section-select-manage.png "Select manage in seller attribute section")   
-5.	On the **Seller attribute** page, select the delete icon corresponding to the attribute.
+5.	On the **Seller attributes** page, select the delete icon corresponding to the attribute.
     >[!div class="mx-imgBorder"]
     >![Select delete attribute](media/sa-ar-delete-seller-attribute.png "Select delete attribute")  
 6.	On the confirmation message, select **Delete permanently**.

@@ -16,10 +16,10 @@ You can deactivate or delete an assignment rule that's no longer required in you
 2.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   
 3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
 4.	On the **Assignment rules** page, select the rule that you want to delete or deactivate from the **Rules** section.   
-    -	To deactivate, under the **Active** column, select the toggle and the rule is deactivated.   
+    -	To deactivate a rule, under the **Active** column, turn off its toggle.   
         >[!div class="mx-imgBorder"]
         >![Deactivate a rule](media/sa-ar-deactivate-rule.png "Deactivate a rule")    
-    -	To delete, select the **More options** icon and then select **Delete**.    
+    -	To delete a rule, select the **More options** icon, and then select **Delete**.    
         >[!div class="mx-imgBorder"]
         >![Delete a rule](media/sa-ar-delete-rule.png "Delete a rule")    
 
