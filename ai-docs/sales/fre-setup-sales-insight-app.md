@@ -70,7 +70,7 @@ Follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")   
 
-3.	On the site map, under **Productivity**, select **Conversation intelligence**.<!--note from editor: Edit assumes that "under **Productivity**" is just meant to give the location where the reader selects **Conversation intelligence**. If the reader actually selects **Productivity** and then selects **Conversation intelligence**, it should be "On the site map, select **Productivity** > **Conversation intelligence**. -->
+3.	On the site map, under **Productivity**, select **Conversation intelligence**.   
     The conversation intelligence home page opens.   
 
     > [!div class="mx-imgBorder"]
@@ -79,7 +79,7 @@ Follow these steps:
 4.	On the home page, select **Get started**.
     The conversation intelligence configuration page opens.
 
-5.	In the **Microsoft Teams Call Recording** section, verify that the application has validated the successful configuration of the Teams dialer.<!--note from editor: Edit suggested so this step can have an action item in it.-->
+5.	In the **Microsoft Teams Call Recording** section, verify that the application has validated the successful configuration of the Teams dialer.    
     > [!div class="mx-imgBorder"]
     > ![Download the PowerShell script](media/ci-admin-download-powershell-script.png "Download the PowerShell script")    
 
@@ -119,13 +119,13 @@ You can proceed to configure Teams with conversation intelligence.
 
 ### Configure Microsoft Teams call recording
 
-1.	Sign in to Dynamics 365 Sales Hub.<!--note from editor: You want to use either "the .... app" or simply the name of the app.-->
+1.	Sign in to Dynamics 365 Sales Hub.
 
 2.	Select the **change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and then select **Sales Insights settings**.  
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")     
 
-3.	On the site map, under **Global settings** > **Productivity** > **Conversation intelligence**.<!--note from editor: As above, please use "select" to indicate whatever the reader is supposed to interact with (angle brackets should be used to string together things that the user actively selects). Also - should "Global settings" be included in step 71 also?-->
+3.	On the site map, under **Productivity**, select **Conversation intelligence**.     
     The conversation intelligence home page opens.    
 
 4.	In the **Microsoft Teams call recordings (preview)** section, enable the preview and then configure the other settings as described in the following table.
@@ -179,7 +179,7 @@ You can proceed to configure Teams with conversation intelligence.
     > [!div class="mx-imgBorder"]
     > ![Enable coming soon features](media/ci-admin-coming-soon-features.png "Enable coming soon features")  
 
-10.	Select **Publish**.<!--note from editor: Edit okay?--> In the message that appears, read the terms and conditions and the privacy statement. Select **Agree and continue**.      
+10.	Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement. Select **Agree and continue**.      
 
     > [!div class="mx-imgBorder"]
     > ![Agree to terms and conditions to publish the configurations](media/ci-admin-agree-terms-conditions-to-publish.png "Agree to terms and conditions to publish the configurations")    

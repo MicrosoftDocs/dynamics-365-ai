@@ -10,7 +10,7 @@ manager: shujoshi
 ---
 
 # Configure sales team&ndash;level settings
-<!--note from editor: This en dash is necessary because the whole "sales team" phrase is being modified here. I think a more straightforward title would be "Configure settings for your sales team."-->
+
 As a sales manager, you can configure conversation intelligence to match your team's specific requirements. The following settings are available:
 
 - Conversation trackers (keywords and competitors)
@@ -38,7 +38,7 @@ Follow these steps:
     > [!div class="mx-imgBorder"]
     > ![Conversation intelligence home page for sales managers](media/ci-sm-home-page.png "Conversation intelligence home page for sales managers")   
 
-5. Under the **Conversation tracking** section, add the keywords and competitors that you want to track during your sales team's calls. Also, you can reduce the language list provided by the organizational admin to the languages that the sellers on your team use during their calls with customers.<!--note from editor: Suggest using the note format for the following paragraph.-->
+5. Under the **Conversation tracking** section, add the keywords and competitors that you want to track during your sales team's calls. Also, you can reduce the language list provided by the organizational admin to the languages that the sellers on your team use during their calls with customers.    
 
     > [!NOTE]
     > This is a local setting that will be applied only to your sales team. You can update these keywords, competitors, and languages later if you need. More information: [Configure conversation content](configure-keywords-competitors.md)
@@ -69,5 +69,3 @@ Conversation intelligence is now configured and ready for use in your sales orga
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]    
-    
- 
