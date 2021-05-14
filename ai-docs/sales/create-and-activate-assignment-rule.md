@@ -68,7 +68,7 @@ The created rules are listed in ascending order. The application always consider
         -	**Round robin**: The leads are distributed on a cyclical basis to sellers who qualify to receive the lead based on the assignment rules' conditions.    
         -	**Load balancing**: When the leads match to sellers, the leads are distributed among the sellers depending on their current work load  so that sellers are equally occupied.   
         -	Select the **Consider seller availability** option to consider the assignment of leads according to the availability of the seller. More information: [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability).    
-        -	Select the **Consider sellers capacity** option to take into consideration the seller's capacity of max numbers of leads that can be handled by them in parallel. More information: [Set lead capacity to a seller](manage-sales-teams.md#set-lead-capacity-to-sellers).    
+        -	Select the **Consider sellers capacity** option to take into consideration the seller's capacity of maximum numbers of leads that can be handled by them in parallel. More information: [Set lead capacity to a seller](manage-sales-teams.md#set-lead-capacity-to-sellers).    
             >[!div class="mx-imgBorder"]
             >![Distribute leads by option](media/sa-ar-distribute-leads-by.png "Distribute leads by option")      
 
