@@ -32,8 +32,8 @@ Verify the following requirements before setting up conversation intelligence fo
 -	You must get access to conversation intelligence. If you don't have access, follow these steps:       
     1.	To access the app, go to [Conversation intelligence](https://sales.ai.dynamics.com/).       
     2.	Enter your work email address.       
-    3.	When the application recognizes the email, you must sign in using Azure Active Directory. To learn more, see [Azure AD Connect user sign-in options](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-user-signin).   
--	You must create a v2 storage account with an Azure subscription to create blob container to configure call data. To learn more, see [Create a storage account](https://docs.microsoft.com/azure/storage/common/storage-quickstart-create-account?tabs=portal#create-a-storage-account-1).
+    3.	When the application recognizes the email, you must sign in using Azure Active Directory. To learn more, see [Azure AD Connect user sign-in options](/azure/active-directory/hybrid/plan-connect-user-signin).   
+-	You must create a v2 storage account with an Azure subscription to create blob container to configure call data. To learn more, see [Create a storage account](/azure/storage/common/storage-quickstart-create-account?tabs=portal#create-a-storage-account-1).
 
 ### See also
 

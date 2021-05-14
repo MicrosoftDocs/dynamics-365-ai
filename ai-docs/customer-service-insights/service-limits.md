@@ -34,7 +34,7 @@ This following table lists the built-in limits for the embedded version of insig
 | Dashboard interactions | No limit | No limits on the number of interactions or drill-throughs within reports. |
 | Topics | At least three related cases | Topics require at least three semantically related cases for the model to generate topics. |
 | Topics refresh | 100k per run | Refresh of topics uses up to 100,000 cases or conversations per run. |
-| Data refresh | Once every 24 hours | Data refresh occurs automatically each day, starting at midnight UTC. The time when the refresh completes is not guaranteed. For more information, see [Information you need to know about Customer Service analytics reports](https://docs.microsoft.com/dynamics365/customer-service/customer-service-analytics-insights-csh#information-you-need-to-know-about-customer-service-analytics-reports). |
+| Data refresh | Once every 24 hours | Data refresh occurs automatically each day, starting at midnight UTC. The time when the refresh completes is not guaranteed. For more information, see [Information you need to know about Customer Service analytics reports](/dynamics365/customer-service/customer-service-analytics-insights-csh#information-you-need-to-know-about-customer-service-analytics-reports). |
 | AI suggestions for active cases | Each user license adds 30 active cases where agents can get AI suggested knowledge articles and similar cases in real-time. |
 |AI suggestions for conversations | 150 conversations/month per user license | Each user license adds 150 Omnichannel conversations where agents can get AI suggested knowledge articles and similar cases in real-time. |
 
@@ -43,7 +43,7 @@ This following table lists the built-in limits for the embedded version of insig
 
 AI suggestions for Case and Knowledge are available starting Oct, 2020. We're introducing service protection limits on these capabilities to maintain a consistent quality of service for all our customers, but there is no penalty if customers exceed pre-defined limits. Over time, Microsoft may adjust these limits in keeping with customer usage patterns and provide options for customers with high usage scenarios and patterns to purchase additional capacity in a manner minimally disruptive to those customers.
 
-The service protection limits for AI suggestions are defined below. The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses available in the tenant. For more information about AI suggestions, see [Enable AI suggestions for similar cases and knowledge articles](https://docs.microsoft.com/dynamics365/customer-service/csw-enable-ai-suggested-cases-knowledge-articles).
+The service protection limits for AI suggestions are defined below. The total limits are pooled at the tenant level based on the number of Customer Service Enterprise user licenses available in the tenant. For more information about AI suggestions, see [Enable AI suggestions for similar cases and knowledge articles](/dynamics365/customer-service/csw-enable-ai-suggested-cases-knowledge-articles).
 
 ## Impact on Power Platform Capacity
 

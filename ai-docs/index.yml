@@ -19,20 +19,20 @@ productDirectory:
     - title: Dynamics 365 Customer Service Insights
       imageSrc: https://docs.microsoft.com/dynamics365/images/CustomerServiceInsights_color.svg
       links:
-        - url: /dynamics365/ai/customer-service-insights/overview
+        - url: ./customer-service-insights/overview.md
           text: Overview
-        - url: /dynamics365/ai/customer-service-insights/quickstart
+        - url: ./customer-service-insights/quickstart.md
           text: Quickstart
-        - url: /dynamics365/ai/customer-service-insights/dashboard-overview
+        - url: ./customer-service-insights/dashboard-overview.md
           text: Dashboard overview
     # Card
     - title: Dynamics 365 Customer Insights
       # imageSrc should be square in ratio with no whitespace
       imageSrc: https://docs.microsoft.com/dynamics365/images/CustomerInsights_color.svg
       links:
-        - url: https://docs.microsoft.com/dynamics365/customer-insights/overview
+        - url: /dynamics365/customer-insights/overview
           text: Product overview
-        - url: https://docs.microsoft.com/dynamics365/customer-insights/audience-insights/overview
+        - url: /dynamics365/customer-insights/audience-insights/overview
           text: Audience insights capability overview
-        - url: https://docs.microsoft.com/dynamics365/customer-insights/engagement-insights/overview
+        - url: /dynamics365/customer-insights/engagement-insights/overview
           text: Engagement insights (preview) capability overview

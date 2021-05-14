@@ -73,7 +73,7 @@ For example, retention time limit is set 30 days. At any given time, application
 2.	Select **Save**.  
     Retention policy configuration is saved, and the analyzed call recording data will be retained until the selected option.
 
-To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index).
+To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 and GDPR](/dynamics365/get-started/gdpr/index).
 
 ### See also
 

@@ -328,7 +328,7 @@ To display the list of business process flows that are defined for leads in your
 
 **To define entities for analytics**
 
-1. Verify that **Change Tracking** is enabled for the business process flow entity for Azure Data Lake Storage. More information: [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization)
+1. Verify that **Change Tracking** is enabled for the business process flow entity for Azure Data Lake Storage. More information: [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization)
 
 2. Create an entry in `EntityAnalyticsConfig` to enable an entity for Data Lake Storage. Update the following columns:
 
@@ -364,7 +364,7 @@ Create, read, update, and delete (CRUD) operations can be performed either throu
         isenabledforadls: false
     }   
     ```    
-    To learn more about how to use OData requests for update and delete, go to [Update and delete entities using the Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api).
+    To learn more about how to use OData requests for update and delete, go to [Update and delete entities using the Web API](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api).
      
 - Sample to manage a solution to enable Account and Contact entities for Data Lake Storage. Create the following three XML files, and zip them into **ADLSConfigDataSampleTest.zip**.
     - **[Content_Types].xml**
