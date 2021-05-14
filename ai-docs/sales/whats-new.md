@@ -22,9 +22,9 @@ topic-status: Drafting
 This topic provides resources where you can learn about the new features that have recently released or new features that will be releasing over the next few months.
 
 For information about new features releasing over the next few months that you can use for planning, see:
-- [2020 release wave 1 plan](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/artificial-intelligence/dynamics365-sales-insights/planned-features)  
-- [2019 release wave 2 plan](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/artificial-intelligence/dynamics365-sales-insights/planned-features)
-- [April 2019 release notes](https://docs.microsoft.com/business-applications-release-notes/April19/artificial-intelligence/dynamics365-ai-sales/planned-features)
+- [2020 release wave 1 plan](/dynamics365-release-plan/2020wave1/artificial-intelligence/dynamics365-sales-insights/planned-features)  
+- [2019 release wave 2 plan](/dynamics365-release-plan/2019wave2/artificial-intelligence/dynamics365-sales-insights/planned-features)
+- [April 2019 release notes](/business-applications-release-notes/April19/artificial-intelligence/dynamics365-ai-sales/planned-features)
 
 
 > [!NOTE]

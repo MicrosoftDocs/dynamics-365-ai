@@ -11,7 +11,7 @@ manager: shujoshi
 
 # View prediction model status 
 
-You can view the details of the prediction model, such as last predicted date and errors in a forecast. After a model is generated, an icon is displayed corresponding to the **Prediction** column in the [layout configuration step](https://docs.microsoft.com/dynamics365/sales-enterprise/choose-layout-and-columns-forecast) of a forecast. Based on the icon, you can determine whether the model was successful.
+You can view the details of the prediction model, such as last predicted date and errors in a forecast. After a model is generated, an icon is displayed corresponding to the **Prediction** column in the [layout configuration step](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast) of a forecast. Based on the icon, you can determine whether the model was successful.
 
 >[!NOTE]
 >After you configure and publish a forecast with a prediction column for the first time, the column takes about two hours to display the data. 
