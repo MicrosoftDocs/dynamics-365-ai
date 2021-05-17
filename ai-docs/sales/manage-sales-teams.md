@@ -10,7 +10,7 @@ manager: shujoshi
 ---
 
 # Manage sales teams in assignment rules
-<!--note from editor: Edit to the H1 is suggested, just in case people come to this page (perhaps from search) and expect it to be about sales team management in general.-->
+
 Using sales team management in assignment rules, you can assign attributes to sellers and configure the maximum number of leads that a seller can handle at once. When the rule is applied to a lead, the attributes and lead capacity you've defined here will determine how the lead is assigned.
 
 You can use the **Sales teams** page to:
@@ -73,7 +73,7 @@ The attributes are applied to the sellers.
 
 When you set lead capacity, you set an upper limit for the number of leads a seller can be assigned at any given time. When a seller reaches this limit, even though a lead is created and ready to be automatically assigned to the seller, the lead won't be assigned. You can view unassigned leads in the **Open Leads** view.
 
-For example, Kenny<!--note from editor: Suggested, because Kenny is in one of the screenshots. If you don't like, please use "Alan".--> is a seller, and his lead capacity limit is set to 5. A new lead is generated, and the assignment rule qualifies the lead to be assigned to Kenny. However, Kenny is currently handling his maximum of five leads, so the newly generated lead won't be assigned to him.
+For example, Kenny is a seller, and his lead capacity limit is set to 5. A new lead is generated, and the assignment rule qualifies the lead to be assigned to Kenny. However, Kenny is currently handling his maximum of five leads, so the newly generated lead won't be assigned to him.
 
 **To set lead capacity**
 
@@ -83,7 +83,7 @@ For example, Kenny<!--note from editor: Suggested, because Kenny is in one of th
 
 3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
 
-4.	On the **Assignment rules** page in the **Sales teams** section, select **Manage**.<!--note from editor: You don't need to supply these images again, and in fact, doing so will generate build errors. I think these procedures could have been structured so there was no need to repeat the images (perhaps by having the first four steps be one procedure, then forking to the other three), but I think the sequence is simple enough that not repeating images will be just fine. --> 
+4.	On the **Assignment rules** page in the **Sales teams** section, select **Manage**.      
    The **Sales teams** page lists the sales teams with sellers whose security roles are configured during the setup of sales accelerator.
 
 5.	On the **Sales teams** page, select the seller, and then select **Set lead capacity**.  

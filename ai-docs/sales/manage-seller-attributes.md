@@ -13,7 +13,7 @@ manager: shujoshi
 
 Seller attributes help you define skills of sellers such as languages, location, country, and skills. After you define attributes, you can use these attributes while configuring the rules to automatically assign leads to sellers.
 
-As an administrator or a sequence manager, you can create attributes and add values. For example, you want to group sellers according to the languages they know. Create an attribute with the name **Languages**, and add values for the attribute such as English, French, and Spanish. Assign the language attribute to sellers, and then an assignment rule can be configured to assign leads automatically to sellers who know the required language.<!--note from editor: Suggested. -->
+As an administrator or a sequence manager, you can create attributes and add values. For example, you want to group sellers according to the languages they know. Create an attribute with the name **Languages**, and add values for the attribute such as English, French, and Spanish. Assign the language attribute to sellers, and then an assignment rule can be configured to assign leads automatically to sellers who know the required language.
 
 You can use the attribute designer to:
 
@@ -104,7 +104,7 @@ The attribute is updated.
     >[!div class="mx-imgBorder"]
     >![Delete attribute confirmation message](media/sa-ar-delete-attribute-confirmation.png "Delete attribute confirmation message")  
 
-The attribute is deleted from the application.<!--note from editor: Can you say what might happen to assignment rules that use this attribute, or maybe add a caution that this might have unintended consequences?-->
+The attribute is deleted from the application.
 
 ### See also
 

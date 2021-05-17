@@ -13,7 +13,7 @@ manager: shujoshi
 
 As a sequence manager, you create an assignment rule by defining different conditions such as segment, sellers, and lead distribution. After a rule is activated and a lead satisfies the conditions that are defined in the rule, the lead is automatically assigned to a seller. You don't have to manually assign leads to sellers when they're created in Dynamics 365 Sales.
 
-When a lead is created in an organization, assignment rules are applied from the top of the order in which they're listed. When the lead satisfies the conditions defined for a rule, that rule is applied to the lead. By default, rules are listed in the order in which they were created, with the most recent at the bottom. You can select and drag the rules into any order you want.<!--note from editor: Edit okay? I assume it's this easy to override the default order? This same idea is behind the edit to the last sentence of this topic (which please verify).-->
+When a lead is created in an organization, assignment rules are applied from the top of the order in which they're listed. When the lead satisfies the conditions defined for a rule, that rule is applied to the lead. By default, rules are listed in the order in which they were created, with the most recent at the bottom. You can select and drag the rules into any order you want.
 
 **To create and activate an assignment rule**
 
@@ -54,7 +54,7 @@ When a lead is created in an organization, assignment rules are applied from the
 
         -	**Add group**: Add multiple conditions as a group to your segment if you want to filter leads by using more than one field.
 
-            1.	Select **AND** or **Or** to group the conditions.<!--note from editor: Does the UI really have all caps "AND" and initial caps "Or"? The screenshot seems to show that they're both initial cap.-->
+            1.	Select **AND** or **Or** to group the conditions.
 
                 >[!div class="mx-imgBorder"]
                 >![Add a condition group](media/sa-segment-condition-add-group.png "Add a condition group")        
@@ -81,7 +81,7 @@ When a lead is created in an organization, assignment rules are applied from the
         | Specific sellers | Assign leads to specific sellers. Select the sellers from the **Choose sellers** lookup.<br>**Note**: The security roles for sellers displayed in the list were added when the sales accelerator was configured. More information: step 4 in [Configure the sales accelerator](enable-configure-sales-accelerator.md)<br>![Select specific sellers](media/sa-ar-select-specific-sellers.png "Select specific sellers") |
         | Specific teams | Assign leads to a specific team. The lead will be available for all members of the selected team. The teams must be defined in your organization. More information: [Manage teams](/power-platform/admin/manage-teams#ownergroup-team-or-access-team) |
 
-    -	**Distribute leads by**: This option is available only when you select a seller option in the **Assign these leads to** section.<!--note from editor: Edits in this section are suggested, to make the wording a bit more parallel. -->
+    -	**Distribute leads by**: This option is available only when you select a seller option in the **Assign these leads to** section.
 
         >[!NOTE]
         >The **Distribute leads by** option isn't available for teams.
@@ -99,7 +99,7 @@ When a lead is created in an organization, assignment rules are applied from the
 
 6.	Select **Create rule**.
 
-The rule is created and activated. The rule will be listed in the **Rules** section, which is organized in ascending order by date; the most recently created rule is always listed at the bottom of the list unless you move it.<!--note from editor: Edit okay?-->
+The rule is created and activated. The rule will be listed in the **Rules** section, which is organized in ascending order by date; the most recently created rule is always listed at the bottom of the list unless you move it.
 
 
 ### See also

@@ -11,7 +11,7 @@ manager: shujoshi
 
 # Delete or deactivate an assignment rule
 
-You can deactivate or delete an assignment rule that's no longer required in your organization. Deactivation keeps the rule, but it won't be used to assign leads to any sellers in the future. Deleting the rule removes it from the application, but leads that were already assigned to sellers through the rule won't be affected.<!--note from editor: Suggested.-->
+You can deactivate or delete an assignment rule that's no longer required in your organization. Deactivation keeps the rule, but it won't be used to assign leads to any sellers in the future. Deleting the rule removes it from the application, but leads that were already assigned to sellers through the rule won't be affected.
 
 1.	Sign in to your Dynamics 365 Sales Hub app.
 
