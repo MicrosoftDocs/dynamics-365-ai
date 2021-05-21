@@ -75,21 +75,6 @@ The relationship pipeline view provides a bubble chart that gives you a quick ov
     -   Opportunities without an estimated revenue value show a value of zero. They are plotted as very small bubbles.  
 
 <a name="AnalyzeHealth"></a>     
-## Analyze the health and activity history of a customer or opportunity   
-You can view complete relationship analytics for an individual record, including graphs, KPIs, email interaction history, full activity history, and relationship health. These details are available in two expandable sections when you view an individual record, such as a specific opportunity.   
-
-![Activity analysis details](media/activity-analysis-details.png "Activity analysis details")     
-
-- **Relationship health and trend**: Shows your overall relationship health with the customer and includes the recent trend.   
-- **Next interaction**: Shows the date and time for the next activity that is scheduled for the record. If you have access to that activity, then you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.   
-- **Last interaction**: Shows the date and time for the last activity that you completed for the record. If you have access to that activity, then you'll also see its name or subject. The next and last interactions are only shown for opportunity and lead entities.   
-- **All interactions**:  Shows the total number of activities initiated by members of your team and by the customer. The activities are broken down by general type such as email, meetings, and phone calls.    
-- **Time spent**: Shows the relative amount of time spent on activities related to the record, including your team and the customer. For each activity where more than one team member was involved, the time spent on that activity is multiplied by the number of your team members who were present. But time spent by your customer is counted just once, even if more than one member of the customer's team was present.    
-- **Email engagement**: Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use email engagement to view message interactions](email-engagement.md)   
-- **Most contacted**: Provides statistics about the customers that your team contacts the most. These contacts might include [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)] users who are heavily involved with the customers even if they are not part of the record’s users.   
-- **Most contacted by**: Provides statistics about your team that contacted customers the most. These contacts might include customers who are heavily involved with your team even if they are not part of the record’s users.    
-- **Relationship activities**: Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, emails received, meetings sent, meetings received, phone calls made, and phone calls received. 
-
 ## Relationship analytics with similar opportunities   
 The current relationship analytics provides information such as graphs, KPIs, email interaction history, full activity history, and relationship health. This information doesn't offer a comparison with similar deals that were won, what's working, or what isn't working in the deal's engagement practices.    
 
@@ -119,8 +104,16 @@ The following screenshot shows an example of enhanced relationship analytics:
 6. **Email engagement**: Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use email engagement to view message interactions](email-engagement.md).
 7. **Your response time**: Shows the average amount of time taken by your sellers to respond to customer emails on the opportunity, to the average amount of time taken for a response from the customer for all similar won deals.
 8. **Customer's response time**: Shows the average amount of time taken by your customers to respond to emails on this opportunity, to the average amount of time taken for a response by customers on all similar won deals.   
-9. **Your email send/receive ratio**: Shows the ratio of the number of emails sent by you and received by the customer in this opportunity, to the average sent and received ratio in all similar won deals.
-10. **Customer's email send/receive ratio**: Shows the ratio of the number of emails sent by the customer and received by you in this opportunity, to the average sent and received ratio by customers on all similar won deals.
+9. **Your email send/receive ratio**: Shows the ratio of the number of emails sent by you and received by the customer in this opportunity, to the average sent and received ratio in all similar won deals.    
+
+    >[!NOTE]
+    >[Connect to Exchange Online](/power-platform/admin/connect-exchange-online) to view data in the **Your email send/receive ratio** section.  
+   
+10. **Customer's email send/receive ratio**: Shows the ratio of the number of emails sent by the customer and received by you in this opportunity, to the average sent and received ratio by customers on all similar won deals.    
+
+    >[!NOTE]
+    >[Connect to Exchange Online](/power-platform/admin/connect-exchange-online) to view data in the **Customer's email send/receive ratio** section.   
+ 
 11. **Similar won deals**: Shows the list of similar opportunities that have been closed as won. The columns display activities count, time spent, response time, and the response ratio for each opportunity. You can select and open an opportunity to view what has worked better in a deal that was closed as won, and implement these observations in the current deal to help close it as well. The list is refreshed every seven days.
 12. **Relationship activities**: Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, emails received, meetings sent, meetings received, phone calls made, and phone calls received.       
 
