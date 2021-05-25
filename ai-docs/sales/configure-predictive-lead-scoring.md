@@ -21,7 +21,7 @@ topic-status: Drafting
 Predictive lead scoring uses a predictive machine learning model to calculate a score for all open leads. The score helps salespeople prioritize leads, achieve higher lead qualification rates, and reduce the time that it takes to qualify a lead.
 
 >[!NOTE]
->Your historical data will be deleted after 30 days from your subscription expiration date. 
+>Your historical data will be deleted after 30 days from the date of your subscription expiration. 
 
 Using this score, you can:
 
