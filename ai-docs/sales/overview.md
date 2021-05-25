@@ -3,7 +3,7 @@ title: "Overview of Sales Insights Add-in for Dynamics 365 Sales | MicrosoftDocs
 description: "Overview of the AI features that are offered with Sales"
 ms.date: 08/10/2020
 ms.service: crm-online
-ms.custom: 
+ms.custom: intro-internal 
 ms.topic: article
 ms.assetid: 556c6c5b-d6a7-4017-b6f8-1f413237946f
 author: udaykirang
