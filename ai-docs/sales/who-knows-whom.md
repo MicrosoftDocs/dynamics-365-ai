@@ -2,7 +2,6 @@
 title: "Who Knows Whom in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "how to get introduced to a lead in Dynamics 365 Sales Insights."
 ms.date: 10/31/2018
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 905fac5d-c36d-4d64-bc9d-be59c535ac56

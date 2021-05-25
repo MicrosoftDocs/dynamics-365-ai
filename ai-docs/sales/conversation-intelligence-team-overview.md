@@ -2,7 +2,6 @@
 title: "Work with conversation intelligence to understand team overview feature for conversation intelligence | MicrosoftDocs"
 description: "Analyze overall team performance  to improve sales and generate revenue"
 ms.date: 04/09/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: c631cfc1-ed6b-41e1-a1aa-3437a344ef22
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

@@ -2,7 +2,6 @@
 title: "Talking points in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Know conversation starters of customers in Dynamics 365 Sales Insights."
 ms.date: 10/31/2018
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 765ca303-8a4b-4520-999f-9f70c32aaa74

@@ -1,9 +1,8 @@
 ---
-title: "View and export KPI data (GDPR) (Dynamics 365 Sales Insights) | Microsoft Docs  "
+title: "View and export KPI data (GDPR) (Dynamics 365 Sales Insights) | Microsoft Docs"
 description: "View KPI data for contact, lead, and opportunity using system views, and export the data to an Excel file."
 keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.date: 10/31/2018
-ms.service: crm-online
 ms.topic: article
 ms.assetid: ada3bf5d-f083-4e2b-947e-b402e4068392
 author: KumarVivek

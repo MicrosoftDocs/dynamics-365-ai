@@ -2,7 +2,6 @@
 title: "Manage segments in sales accelerator | MicrosoftDocs"
 description: "Learn how to manage segments in sales accelerator."
 ms.date: 04/09/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag

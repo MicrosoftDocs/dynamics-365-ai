@@ -2,7 +2,6 @@
 title: "Segment creation and activation in the sales accelerator  | MicrosoftDocs"
 description: "Learn how to create and activate segments in the sales accelerator."
 ms.date: 04/09/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag

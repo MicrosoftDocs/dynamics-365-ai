@@ -2,7 +2,6 @@
 title: "Auto capture for Dynamics 365 Sales Insights | MicrosoftDocs"
 keywords: 
 ms.date: 10/31/2018
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 1d005ded-099e-4d66-a435-f1024e1316b6

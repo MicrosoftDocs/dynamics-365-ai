@@ -1,9 +1,8 @@
 ---
 title: "Configure Sales Insights Assistant | MicrosoftDocs"
 description: "Describes how to configure Assistant, both free and advanced features."
-keywords: " "
+keywords: ""
 ms.date: 08/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 7170bd24-0252-4158-9e31-42004847ecbb
@@ -13,7 +12,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

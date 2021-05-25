@@ -1,9 +1,8 @@
 ---
 title: "Create insight cards using Microsoft Power Automate in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Create custom insight cards using Microsoft Power Automate in Assistant"
-keywords: " "
+keywords: ""
 ms.date: 10/07/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: e59e67ad-3646-4929-a6f8-c97ab2c5f6e2

@@ -2,7 +2,6 @@
 title: "Configure call data for conversation intelligence | MicrosoftDocs"
 description: "Configure call data in conversation intelligence"
 ms.date: 11/18/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 5fbbe749-6b23-49a6-91a1-0499f9a4fb92
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

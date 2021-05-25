@@ -1,14 +1,10 @@
 ---
 title: "Frequently asked questions for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales Insights"
-keywords: " "
+keywords: ""
 ms.date: 09/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 848a488e-27ce-41e1-892b-bb8613b5da1c
 author: udaykirang
 ms.author: udag
@@ -16,8 +12,11 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ---
 
 # Frequently asked questions

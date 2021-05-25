@@ -2,7 +2,6 @@
 title: "First-run setup experience for conversation intelligence | MicrosoftDocs"
 description: "First-run setup experience for conversation intelligence"
 ms.date: 02/04/2021
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

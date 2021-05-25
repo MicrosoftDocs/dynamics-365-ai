@@ -1,9 +1,8 @@
 ---
 title: "Introduction on how to administer Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Introduction on how to administer Dynamics 365 Sales Insights"
-keywords: " "
+keywords: ""
 ms.date: 08/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: be0a1a73-f667-4ade-be83-55cd9b4eebe4
@@ -13,7 +12,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

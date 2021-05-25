@@ -2,7 +2,6 @@
 title: "Understand forecast projection through trend charts in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Understand forecast projection through trend charts in Dynamics 365 Sales Insights."
 ms.date: 02/03/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 author: udaykirang

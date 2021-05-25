@@ -2,7 +2,6 @@
 title: "Relationship analytics for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to analyze customer interaction data with Dynamics 365 Sales Insights."
 ms.date: 10/28/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 9cf9f43a-2156-418c-be33-6f34027f3d79

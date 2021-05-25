@@ -2,7 +2,6 @@
 title: "Connect a sequence to records in the sales accelerator | MicrosoftDocs"
 description: "Learn how to create a sequence in sales accelerator."
 ms.date: 01/11/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag

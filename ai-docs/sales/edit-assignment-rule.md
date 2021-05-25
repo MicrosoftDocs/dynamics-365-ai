@@ -2,7 +2,6 @@
 title: "Edit an assignment rule in sales accelerator | MicrosoftDocs"
 description: "Learn how to edit an assignment rule in sales accelerator."
 ms.date: 05/14/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag

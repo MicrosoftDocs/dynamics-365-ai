@@ -2,7 +2,6 @@
 title: "Configure predictive lead scoring for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to configure predictive lead scoring for Sales Insights"
 ms.date: 09/27/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 8660ca75-c63c-495d-a1a6-d3a0cd36f7cb
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

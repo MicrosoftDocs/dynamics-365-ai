@@ -59,6 +59,9 @@
         "**.*": "/dynamics365/ai/breadcrumb/toc.json",
         "customer-service-virtual-agent/**.*": "/dynamics365/ai/customer-service-virtual-agent/bc/toc.json"
       },
+      "ms.service": {
+        "sales/**.*": "dynamics-365-sales"
+      }
       "searchScope": {
         "**.*": [
           "Dynamics 365",

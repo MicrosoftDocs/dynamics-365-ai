@@ -2,7 +2,6 @@
 title: "Create and activate assignment rules for lead routing in sales accelerator | MicrosoftDocs"
 description: "Learn how to create and activate assignment rules for lead routing in sales accelerator."
 ms.date: 05/14/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag

@@ -2,7 +2,6 @@
 title: "Personalize sales accelerator settings in Dynamics 365 Sales | MicrosoftDocs"
 description: "Learn how to use personal settings to customize sales accelerator in Dynamics 365 Sales."
 ms.date: 03/08/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag

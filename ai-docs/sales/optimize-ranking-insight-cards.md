@@ -1,9 +1,8 @@
 ---
 title: "Optimize insight cards ranking in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Optimize ranking for cards in assistant"
-keywords: " "
+keywords: ""
 ms.date: 10/01/2019
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 73b590f5-883a-46c5-9d2e-a9b9157a9614

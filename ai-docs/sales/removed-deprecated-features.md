@@ -3,7 +3,6 @@ title: "Removed or deprecated features in Sales Insights | MicrosoftDocs"
 description: "Removed or deprecated features in Sales Insights"
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: crm-online
 author: udaykirang
 ms.author: udag
 manager: shujoshi

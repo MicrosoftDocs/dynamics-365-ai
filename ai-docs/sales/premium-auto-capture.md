@@ -2,7 +2,6 @@
 title: "Premium auto capture for Dynamics 365 Sales Insights | MicrosoftDocs"
 keywords: 
 ms.date: 01/31/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -11,7 +10,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 ---
 
 # Premium auto capture
