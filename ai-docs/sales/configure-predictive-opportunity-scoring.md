@@ -18,7 +18,10 @@ topic-status: Drafting
 
 # Configure predictive opportunity scoring
 
-Predictive opportunity scoring uses a predictive machine learning model to calculate a score for all open opportunities. The score helps salespeople prioritize opportunities, achieve higher opportunity qualification rates, and reduce the time that it takes to qualify an opportunity.
+Predictive opportunity scoring uses a predictive machine learning model to calculate a score for all open opportunities. The score helps salespeople prioritize opportunities, achieve higher opportunity qualification rates, and reduce the time that it takes to qualify an opportunity.   
+
+>[!NOTE]
+>Your historical data will be deleted after 30 days from the date of your subscription expiration. 
 
 Using this score, you can:
 
