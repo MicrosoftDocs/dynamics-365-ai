@@ -61,7 +61,7 @@
       },
       "ms.service": {
         "sales/**.*": "dynamics-365-sales"
-      }
+      },
       "searchScope": {
         "**.*": [
           "Dynamics 365",
