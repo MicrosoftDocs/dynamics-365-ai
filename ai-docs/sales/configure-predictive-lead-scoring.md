@@ -20,6 +20,9 @@ topic-status: Drafting
 
 Predictive lead scoring uses a predictive machine learning model to calculate a score for all open leads. The score helps salespeople prioritize leads, achieve higher lead qualification rates, and reduce the time that it takes to qualify a lead.
 
+>[!NOTE]
+>Your historical data will be deleted after 30 days from the date of your subscription expiration. 
+
 Using this score, you can:
 
 - Identify quality leads and convert them into opportunities.
@@ -241,10 +244,16 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 
 1. Go to the predictive lead scoring configuration page, and select **Edit model**.
 
-2. On the **Edit fields** page, select your custom attributes from **Main Entity** and **Related Entities**.
+2. On the **Edit fields** page, select attributes from opportunity entity, and its related entities (contact and account) including custom attributes to train the model.
 
     > [!div class="mx-imgBorder"]
     > ![Edit model page](media/si-admin-predictive-lead-scoring-edit-model-page.png "Edit model page")
+
+    >[!NOTE]
+    >The scoring model don't support the following types of attributes: 
+    >- Attributes on custom entities
+    >- Date and time related attributes
+    >- System generated attributes (such as, leadscore, leadgrade, version number, entity image, exchange rate, and predictive score ID)
 
 3. Select **Retrain model**. 
 
