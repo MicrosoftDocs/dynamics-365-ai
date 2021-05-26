@@ -244,7 +244,7 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 
 1. Go to the predictive lead scoring configuration page, and select **Edit model**.
 
-2. On the **Edit fields** page, select attributes from opportunity entity, and its related entity (contact and account) including custom attributes to train the model.
+2. On the **Edit fields** page, select attributes from opportunity entity, and its related entities (contact and account) including custom attributes to train the model.
 
     > [!div class="mx-imgBorder"]
     > ![Edit model page](media/si-admin-predictive-lead-scoring-edit-model-page.png "Edit model page")
