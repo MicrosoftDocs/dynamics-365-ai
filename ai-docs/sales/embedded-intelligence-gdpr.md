@@ -1,9 +1,8 @@
 ---
-title: "Dynamics365 Sales Insights and GDPR (Dynamics 365 Sales Insights) | Microsoft Docs  "
+title: "Dynamics365 Sales Insights and GDPR (Dynamics 365 Sales Insights) | Microsoft Docs"
 description: "Protect customer privacy and remain compliant with GDPR regulations when using Dynamics 365 Sales Insights"
 keywords: "GDPR; data protection; privacy;"
 ms.date: 10/31/2018
-ms.service: crm-online
 ms.topic: article
 ms.assetid: d12b1dbe-b02e-4f61-92b7-3cf06516fe6e
 author: KumarVivek

@@ -1,14 +1,10 @@
 ---
 title: "Frequently asked questions for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales Insights"
-keywords: " "
+keywords: ""
 ms.date: 09/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 848a488e-27ce-41e1-892b-bb8613b5da1c
 author: udaykirang
 ms.author: udag
@@ -16,8 +12,11 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ---
 
 # Frequently asked questions
@@ -114,7 +113,7 @@ The Sales Insights features support the following versions of Exchange:
 >   - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
 >   - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
 >   - Global Geography 3 – Americas (Brazil, Chile, United States).<br>
->   To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations).
+>   To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
 **What languages are supported now?**<br>
 Sales insights supports the following languages:
@@ -145,7 +144,7 @@ Depending on the region where your organization is hosted, data is stored in the
 | Oceania (OCE) | Australia East (New South Wales) | Australia Southeast (Victoria) |
 | Switzerland (CHE) | Switzerland North | Switzerland West |
 
-More information: [Azure Regional Pairs](https://docs.microsoft.com/azure/best-practices-availability-paired-regions#azure-regional-pairs)
+More information: [Azure Regional Pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs)
 
 **Will Sales Insights affect my storage quota?**    
 Yes. After the install of sales insights, the last two years of key sales data required to deliver the advanced analytics and AI results including contacts, opportunities, leads, accounts, and activities are copied into your Sales Insights managed data lake and will be counted against your total file storage quota.
@@ -338,7 +337,7 @@ To build a connection graph in who knows whom, Microsoft 365 Exchange is require
 - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
 - Global Geography 3 – Americas (Brazil, Chile, United States).
 
-More information: [Data center locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations)
+More information: [Data center locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true)
 
 Also, server-side sync is required for email introduction requests. ​
 

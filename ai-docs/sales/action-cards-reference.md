@@ -3,7 +3,6 @@ title: "Insight cards reference for Dynamics 365 Sales | MicrosoftDocs"
 description: "List of each available insight card and how you can use it to stay updated with your work"
 keywords: 
 ms.date: 10/07/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 7808da18-7d62-4a04-911d-f429ad87248e

@@ -2,7 +2,6 @@
 title: "Configure email engagement for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to configure email engagement for Sales Insights"
 ms.date: 08/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 04db6801-020a-4a99-9ad3-907422524b6f
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

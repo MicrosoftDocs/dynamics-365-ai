@@ -2,7 +2,6 @@
 title: "Use sample data to explore the sales accelerator | MicrosoftDocs"
 description: "Learn how to explore the sales accelerator with sample data."
 ms.date: 01/11/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag

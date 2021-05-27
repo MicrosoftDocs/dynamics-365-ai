@@ -2,7 +2,6 @@
 title: "Integrate a sample softphone dialer with Dynamics 365 Sales | MicrosoftDocs"
 description: "Learn how to integrate a sample softphone dialer with Dynamics 365 Sales  ."
 ms.date: 04/01/2020
-ms.service: crm-online
 ms.topic: article
 author: sbmjais
 ms.author: shjais

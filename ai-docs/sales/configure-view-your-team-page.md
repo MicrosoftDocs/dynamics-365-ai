@@ -1,17 +1,16 @@
 ---
 title: "Configure and view your team page in conversation intelligence | MicrosoftDocs"
-description: "Configure and view your team page in conversation intelligence "
+description: "Configure and view your team page in conversation intelligence"
 ms.date: 11/17/2020
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Configure and view your team page
+# Configure and view team page
 
 As an administrator, you can:
 

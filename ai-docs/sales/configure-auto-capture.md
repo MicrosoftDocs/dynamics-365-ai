@@ -2,12 +2,8 @@
 title: "Configure auto capture for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to configure auto capture for Sales Insights"
 ms.date: 10/01/2019
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: d4d130c5-3494-4677-9093-0a0e0124d953
 author: udaykirang
 ms.author: udag
@@ -15,8 +11,11 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ---
 
 # Enable and configure auto capture

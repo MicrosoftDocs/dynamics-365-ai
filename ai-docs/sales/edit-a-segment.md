@@ -2,7 +2,6 @@
 title: "Edit a segment in the sales accelerator | MicrosoftDocs"
 description: "Learn how to edit a segment in the sales accelerator."
 ms.date: 04/09/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag

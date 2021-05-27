@@ -2,7 +2,6 @@
 title: "Edit a sequence to records in sales accelerator | MicrosoftDocs"
 description: "Learn how to edit a sequence in sales accelerator."
 ms.date: 01/11/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
