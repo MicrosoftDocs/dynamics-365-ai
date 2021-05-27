@@ -31,7 +31,7 @@ The **msdyn_RetrieveKPIValuesForGDPR** action expects the following input parame
 </tr>
 <tr>
 <td valign="top"><code>CRMRecord</code></td>
-<td valign="top"><a href="/dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9" data-raw-source="[mscrm.crmbaseentity](dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9)">mscrm.crmbaseentity</a></td>
+<td valign="top"><a href="/dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9&preserve-view=true" data-raw-source="[mscrm.crmbaseentity](dynamics365/customer-engagement/web-api/crmbaseentity?view=dynamics-ce-odata-9&preserve-view=true)">mscrm.crmbaseentity</a></td>
 <td valign="top">Entity type for which you want to retrieve the data. Required.
 <p>You can specify one of the following values:</p>
 <ul>
