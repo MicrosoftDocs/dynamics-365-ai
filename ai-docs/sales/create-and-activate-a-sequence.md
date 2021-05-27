@@ -1,7 +1,7 @@
 ---
 title: "Sequence creation and activation in the sales accelerator  | MicrosoftDocs"
 description: "Learn how to create and activate sequences in the sales accelerator."
-ms.date: 04/09/2021
+ms.date: 05/28/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -98,15 +98,28 @@ Every organization has its own selling processes for sellers to follow. A sequen
     The sequence is activated and listed in the sequence designer home page.   
     > [!div class="mx-imgBorder"]
     > ![Sequence designer home page](media/sequence-home-page.png "Sequence designer home page")    
-Next, you connect the active sequence to lead or opportunity records.
+Next, you connect the active sequence to lead or opportunity records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md).
 
-<table>
-<tr><td>
+## Exit a sequence during the flow
 
-> [!div class="nextstepaction"] 
-> [Next step: Connect a sequence to records](connect-a-sequence-to-records.md)
-</td></tr>
-</table> 
+By enabling the Exit a sequence option, you can remove the flow of the sequence from records that are associated with this sequence. The option verifies for an email reply from the customer in the sequence and disconnects the sequence from the record.
+
+**Prerequisites**   
+Review the following requirements before you enable the **Exit the sequence** option:
+
+-	At least one Email activity step is created in the sequence. 
+-	The sequence must be in inactive or revision state.
+- [Configure the email engagement feature](configure-email-engagement.md) in your organization before you start using conditions for the email activity. The interactions that customers have with emails are displayed in the condition list.
+
+**To configure the exit sequence criteria**
+
+1.	Open the sequence in edit mode and select **Options**.    
+    > [!div class="mx-imgBorder"]
+    > ![Sequence designer with Options](media/sequence-designer-select-options.png "Sequence designer with Options")     
+2.	On the **Sequence Options** side pane, turn on the **Exit a sequence** toggle to exit a sequence when a customer replies to any email in the sequence.  
+    > [!div class="mx-imgBorder"]
+    > ![Enable exit a sequence option on sequence options pane](media/sequence-sequence-options-pane.png "Enable exit a sequence option on sequence options pane")       
+3.	Select **Save**.
 
 ### See also
 

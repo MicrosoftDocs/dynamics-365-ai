@@ -1,7 +1,7 @@
 ---
 title: "Use adaptive sequences to define conditions in sales accelerator in Dynamics 365 Sales | MicrosoftDocs"
 description: "Learn how to use adaptive sequences in sales accelerator in Dynamics 365 Sales."
-ms.date: 03/08/2021
+ms.date: 05/28/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -14,6 +14,8 @@ Use *adaptive sequences* to define conditions for the steps in a sequence. These
 
 - [Email](#define-conditions-for-email-activity)
 - [Phone call](#define-conditions-for-phone-call-activity)
+- [Field value](#define-conditions-for-field-values)
+- [Business process stage](#define-conditions-for-business-process-stage)
 
 <a name="define-conditions-for-email-activity"></a>
 ## Define conditions for an email activity
@@ -109,7 +111,63 @@ Let's define a flow so that when a seller makes a call to discuss product detail
     2.	Create the email activity with all necessary details, and then save the step.     
         >[!div class="mx-imgBorder"]
         >![Save the email activity in the No path](media/sa-condition-phone-no-save-email-activity.png "Save the email activity in the No path")     
+
+<a name="define-conditions-for-field-values"></a>
+## Define conditions for a field value
+
+You can determine the path of the sequence based on the field value. The field values are listed based on the type of record you've selected for the sequence, including the related entities.    
+On the activity selection step, go to the **Conditions** tab, and choose a field and create a condition. The sequence follows the **Yes** path when the condition is true and the **No** path when the condition is false.    
+For example, you want the sequence to follow the **Yes** path when a lead’s company name is **Contoso**.
+
+1.	On the activity selection step, go to the **Conditions** tab.   
+    >[!div class="mx-imgBorder"]
+    >![Condition tab on activity selection step](media/sa-condition-tab.png "Condition tab on activity selection step")     
  
+2.	Select **Field value**.   
+    The **Field value** condition step opens.    
+    >[!div class="mx-imgBorder"]
+    >![Field value condition step](media/sa-condition-field-value-step.png "Field value condition step")    
+  
+3.	Choose the field as **Company Name** and then match the condition as **Equals** to **Contoso**.    
+    >[!div class="mx-imgBorder"]
+    >![Add the values to field value condition step](media/sa-condition-field-value-add-condition.png "Add the values to field value condition step")    
+        
+    >[!NOTE]
+    >When you select **Advanced**, the **Field values** pane opens on the right to define more conditions for the step. You can define conditions based on row, group, and related entities.    
+
+4.	Select **Save**.    
+    The field value condition step is created.    
+    >[!div class="mx-imgBorder"]
+    >![Field value step condition added](media/sa-condition-field-value-step-added.png "Field value step condition added")    
+ 
+<a name="#define-conditions-for-business-process-stage"></a>
+## Define conditions for a business process stage
+
+You can determine the path of the sequence that is based on the current stage of the business process flow. The business process flows are listed based on the type of record you've selected for the sequence.    
+On the activity selection step, go to the **Conditions** tab, and choose the business process flow and its stage to create a condition. The sequence follows the **Yes** path when the condition is true and when false, the **No** path is selected.   
+
+>[!NOTE]
+>Verify that the business process flows are defined for the selected record type of the sequence.   
+
+For example, you want the sequence to the **Yes** path when the **Lead to Opportunity Sales Process** flow is in **Propose** stage.
+
+1.	On the activity selection step, go to the **Conditions** tab.   
+    >[!div class="mx-imgBorder"]
+    >![Condition tab on step selection dialog](media/sa-condition-tab.png "Condition tab on step selection dialog")     
+ 
+2.	Select **Business process stage**.    
+    The **Business process stage** condition step opens.    
+    >[!div class="mx-imgBorder"]
+    >![Business process stage condition step](media/sa-condition-business-process-stage-step.png "Business process stage condition step")    
+ 
+3.	Choose the business process flow as **Lead to Opportunity Sales Process** and the stage as **Propose**.   
+    >[!div class="mx-imgBorder"]
+    >![Add the values to Business process stage condition step](media/sa-condition-business-process-stage-add-condition.png "Add the values to Business process stage condition step")    
+
+4.	Select **Save**.    
+    The business process flow condition step is created.   
+    >[!div class="mx-imgBorder"]
+    >![Business process stage step condition added](media/sa-condition-business-process-stage-step-added.png "Business process stage step condition added") 
 
 ### See also
 
