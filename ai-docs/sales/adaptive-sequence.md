@@ -140,7 +140,7 @@ For example, you want the sequence to follow the **Yes** path when a lead’s co
     >[!div class="mx-imgBorder"]
     >![Field value step condition added](media/sa-condition-field-value-step-added.png "Field value step condition added")    
  
-<a name="#define-conditions-for-business-process-stage"></a>
+<a name="define-conditions-for-business-process-stage"></a>
 ## Define conditions for a business process stage
 
 You can determine the path of the sequence that is based on the current stage of the business process flow. The business process flows are listed based on the type of record you've selected for the sequence.    
