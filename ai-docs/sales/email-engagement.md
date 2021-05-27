@@ -35,7 +35,7 @@ The administrator must enable email engagement before you can try it out. Email 
     -   The **Email Template** grid always shows **Reply Rate**, **Open Rate**, **Recommended**, and **Email Count** columns.  
     -   The out-of-the-box versions of the account, contact, and lead forms all include the **Follow Email** field.  
     While the email engagement feature is disabled, these features will still appear but will usually be empty. Read the rest of this topic for details about what these columns mean and how to use them when the feature is enabled.  
-- When email client automatically scans the email for security reason, the count for email open and link click can be higher than expected.
+- When email client automatically scans the email for security reasons, the count for email open and link clicks can be higher than expected.
 
 ## Get interaction history for email  
  Usually when you send an email, you'll never know if it was opened or read unless the recipient chooses to write back to you. That's because the email system was created to simulate traditional mail, and was  not designed with response tracking in mind. [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] uses special techniques to work around this limitation and provide the following message-following features:  
