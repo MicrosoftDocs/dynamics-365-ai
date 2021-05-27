@@ -82,7 +82,7 @@ When the seller skips a phone call activity that includes a condition, the flow 
 >[!NOTE]
 >To learn about adding custom status for your organization, see [Define status reason transitions for the Case or custom tables](/powerapps/maker/data-platform/define-status-reason-transitions).
 
-Let's define a flow so that when a seller makes a call to discuss product details with a customer and changes the status of the phone call to **Made**4, an email must be sent with more details about the product for the customer to proceed further with the deal. If the call status is other than **Made**, an email must be sent to request for an appointment.    
+Let's define a flow so that when a seller makes a call to discuss product details with a customer and changes the status of the phone call to **Made**, an email must be sent with more details about the product for the customer to proceed further with the deal. If the call status is other than **Made**, an email must be sent to request for an appointment.    
  
 1.	Select **Add** (**+**) after the phone call activity.    
     >[!div class="mx-imgBorder"]
