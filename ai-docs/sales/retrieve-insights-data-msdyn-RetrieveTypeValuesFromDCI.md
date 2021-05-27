@@ -16,7 +16,7 @@ topic-status: Drafting
 Use the **msdyn_RetrieveKPIValuesForGDPR** action to programmatically retrieve profiles, interactions, and KPIs stored in Azure service that is used to compute and store data for an contact, lead, opportunity, or systemuser. This action is useful for responding to data requests in order to fulfill the GDPR compliance in Dynamics 365 Sales Insights.
 
 > [!NOTE]
-> - You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](/dynamics365/customer-engagement/developer/create-own-actions#generate-early-bound-types-for-an-action)
+> - You can also generate request and response classes for this action to include in your application code. More information: [Generate early-bound types for an action](/dynamics365/customer-engagement/developer/create-own-actions#generate-early-bound-types-for-an-action&preserve-view=true)
 > - This topic is applicable only for the [Relationship Analytics](relationship-analytics.md) and [Introduction to Sales Insights application](dynamics365-sales-insights-app.md) features.
 
 ## Action parameters

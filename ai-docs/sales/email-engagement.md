@@ -1,6 +1,6 @@
 ---
-title: "Email engagement for Dynamics 365 Sales Insights | MicrosoftDocs"
-keywords: 
+title: "Email engagement for Sales Insights add-in for Dynamics 365 Sales | MicrosoftDocs"
+description: Email engagement for Sales Insights add-in for Dynamics 365 Sales 
 ms.date: 10/31/2018
 ms.custom: 
 ms.topic: article

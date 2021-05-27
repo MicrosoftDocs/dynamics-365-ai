@@ -73,21 +73,21 @@ Upload the call recording or transcript to the created call recording repository
     | `conversationType`|--| Specifies the type of conversation. The following types of conversation are supported: audio and transcript. |
     | `startTime` |--|Specifies the start time of the conversation and calculated based on the ISO 8601 format. For example, 2020-11-17T13:33:59.909Z. | 
     | `participants` | | Specifies the details of the participants. |
-    || `id`| Enter the unique identification number of each participant. The numbers must be positive numbers. For example, 1, 2, and 3. |
-    || `role`| Specifies the role of the participant. The value must be agent, customer, or other. |
-    || `email` | Specifies the email ID of the participant. |
-    || `crmId` | Specifies the CRM ID of the participant. |
-    || `aadId` | Specifies the Azure Directory ID of the participant. |
-    |||**Note**: To uniquely identify the participant, one of the following objects is required in the file: `email`, `crmId`, or `aadId`  |
-    || `displayName` | (Optional) Specifies the display name of the participant. |
-    || `phoneNumber` | (Optional) Specifies the phone number of the participant. |
+    | | `id`| Enter the unique identification number of each participant. The numbers must be positive numbers. For example, 1, 2, and 3. |
+    | | `role`| Specifies the role of the participant. The value must be agent, customer, or other. |
+    | | `email` | Specifies the email ID of the participant. |
+    | | `crmId` | Specifies the CRM ID of the participant. |
+    | | `aadId` | Specifies the Azure Directory ID of the participant. |
+    | | |**Note**: To uniquely identify the participant, one of the following objects is required in the file: `email`, `crmId`, or `aadId`  |
+    | | `displayName` | (Optional) Specifies the display name of the participant. |
+    | | `phoneNumber` | (Optional) Specifies the phone number of the participant. |
     | `crm` || Specifies the details of CRM. |
-    || `accounts`| (Optional) Specifies an array of the CRM accounts that are related to the conversation. Each account is an object that contains `id`. |
-    || `contacts`| (Optional) Specifies an array of the CRM contacts that are related to the conversation. Each contact is an object that contains `id`.|
-    || `lead` | (Optional) Specifics the CRM lead details that are related to the conversation. The lead is an object that contains `id`.|
-    || `opportunity` | (Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id`.|
-    || `activity` | (Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id`.|
-    || `mediaReferenceId` | (Optional) Specifics the CRM media reference ID (Guid) |.
+    | | `accounts`| (Optional) Specifies an array of the CRM accounts that are related to the conversation. Each account is an object that contains `id`. |
+    | | `contacts`| (Optional) Specifies an array of the CRM contacts that are related to the conversation. Each contact is an object that contains `id`.|
+    | | `lead` | (Optional) Specifics the CRM lead details that are related to the conversation. The lead is an object that contains `id`.|
+    | | `opportunity` | (Optional) Specifics the CRM opportunity details that are related to the conversation. The opportunity is an object that contains `id`.|
+    | | `activity` | (Optional) Specifics the CRM activity details that are related to the conversation. The activity is an object that contains `id`.|
+    | | `mediaReferenceId` | (Optional) Specifics the CRM media reference ID (Guid) |.
     | `locale` |--| Specifies the locale used in the conversation. Currently, we support en-US, en-GB, de-DE, fr-FR, it-IT, es-ES, es-MX, ja-JP, pt-BR, zh-CN, nl-NL, fr-CA, pt-PT, and ar-BH. |
     | `version` |--| Specifies the version of metadata file. The value is 3.0.0.|
     | `title` |--| (Optional) Specifies the title of the conversation. |

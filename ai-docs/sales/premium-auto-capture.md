@@ -1,5 +1,6 @@
 ---
-title: "Premium auto capture for Dynamics 365 Sales Insights | MicrosoftDocs"
+title: "Premium auto capture for Sales Insights add-in for Dynamics 365 Sales | MicrosoftDocs"
+description: Premium auto capture for Sales Insights add-in for Dynamics 365 Sales.
 keywords: 
 ms.date: 01/31/2020
 ms.custom: 

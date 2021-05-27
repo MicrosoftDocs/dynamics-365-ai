@@ -26,7 +26,7 @@ A new field or attribute called **msdyn_gdproptout** (display name: **GDPR Optou
 
 By default, the **GDPR Optout** field is not available on the Contact, Lead and SystemUser forms. You can customize the form to display the **GDPR Optout** field for these entities so that one can easily set an appropriate value in this field for a record. By default, the value is set to **No** (false) for this field when you create a new record.
 
-![](media/gdpr-optout-field.png)
+![GDPR Optout field](media/gdpr-optout-field.png "GDPR Optout field")
 
 For information about adding field to a form, see [Add a field to a form](/dynamics365/customer-engagement/customize/add-field-form)
 

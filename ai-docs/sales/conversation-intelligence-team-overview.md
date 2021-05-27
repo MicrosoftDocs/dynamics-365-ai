@@ -15,7 +15,7 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Analyze overall team's behavior on customer calls
+# Analyze team's behavior on customer calls
 
 Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The **Teams overview** page in conversation intelligence helps sales managers analyze the overall behavior of their team during customer calls. This helps in identifying coaching scenarios for the team to increase sales wins and productivity gains for the business.
 

@@ -101,7 +101,7 @@ The premium assistant that's part of the Sales Insights add-on offers advanced c
     > [!div class="mx-imgBorder"]
     > ![Assistant studio home page](media/si-admin-assistant-full-studio-home-page.png "Assistant studio home page")
 
-    |  |  | 
+    | Number | Description | 
     |--------|---------|
     | **1** | Create cards with that are custom-made for your organization by using Power Automate. More information: [Creating custom insight cards](create-insight-cards-flow.md) |
     | **2** | Quickly view cards by using tabs to view cards that are most popular, recently used, high in priority, and created by your organization. |

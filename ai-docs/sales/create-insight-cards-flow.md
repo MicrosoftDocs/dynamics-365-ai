@@ -299,7 +299,7 @@ Use the **REST** option to invoke REST API.
     | Body| Enter request parameters for the REST API. This option appears only for the **REST** button type.| 
 
     > [!div class="mx-imgBorder"]
-    > ![Create card for playbook](media/insight-card-rest-api.png "Create card for playbook")
+    > ![Create a card for playbook](media/insight-card-rest-api.png "Create a card for playbook")
     
 
 ### See also

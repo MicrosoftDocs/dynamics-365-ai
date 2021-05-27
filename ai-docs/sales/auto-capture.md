@@ -1,5 +1,6 @@
 ---
-title: "Auto capture for Dynamics 365 Sales Insights | MicrosoftDocs"
+title: "Auto capture for sales insights add-in for Dynamics 365 Sales | MicrosoftDocs"
+description: Auto capture for Sales Insights add-in for Dynamics 365 Sales.
 keywords: 
 ms.date: 10/31/2018
 ms.custom: 

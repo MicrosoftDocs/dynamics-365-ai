@@ -10,7 +10,7 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Configure and view your team page
+# Configure and view team page
 
 As an administrator, you can:
 

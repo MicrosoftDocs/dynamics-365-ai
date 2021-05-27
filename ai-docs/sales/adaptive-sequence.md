@@ -80,9 +80,9 @@ When you add phone call activity to the sequence and select **Add** (**+**), the
 When the seller skips a phone call activity that includes a condition, the flow follows the **No** path.
 
 >[!NOTE]
->To learn about adding custom status for your organization, see [Define status reason transitions for the Case or custom tables](https://docs.microsoft.com/powerapps/maker/data-platform/define-status-reason-transitions).
+>To learn about adding custom status for your organization, see [Define status reason transitions for the Case or custom tables](/powerapps/maker/data-platform/define-status-reason-transitions).
 
-Let's define a flow so that when a seller makes a call to discuss product details with a customer and changes the status of the phone call to **Made**<!--note from editor: Edit okay? I assume te -->, an email must be sent with more details about the product for the customer to proceed further with the deal. If the call status is other than **Made**, an email must be sent to request for an appointment.    
+Let's define a flow so that when a seller makes a call to discuss product details with a customer and changes the status of the phone call to **Made**4, an email must be sent with more details about the product for the customer to proceed further with the deal. If the call status is other than **Made**, an email must be sent to request for an appointment.    
  
 1.	Select **Add** (**+**) after the phone call activity.    
     >[!div class="mx-imgBorder"]
@@ -105,10 +105,10 @@ Let's define a flow so that when a seller makes a call to discuss product detail
 5.	To create an email activity in the **No** path to request an appointment with the customer, do the following:     
     1.	Select **Add** (**+**), and then under **Steps**, select **Email**.     
         >[!div class="mx-imgBorder"]
-        >![Add an email activity in the No path](media/sa-condition-phone-no-add-email-activity.png "Add an email activity in the No path")     
+        >![Add an email activity to the No path](media/sa-condition-phone-no-add-email-activity.png "Add an email activity to the No path")     
     2.	Create the email activity with all necessary details, and then save the step.     
         >[!div class="mx-imgBorder"]
-        >![Save an email activity in the No path](media/sa-condition-phone-no-save-email-activity.png "Save an email activity in the No path")     
+        >![Save the email activity in the No path](media/sa-condition-phone-no-save-email-activity.png "Save the email activity in the No path")     
  
 
 ### See also

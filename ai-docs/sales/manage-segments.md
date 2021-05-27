@@ -23,7 +23,7 @@ As a sequence manager, you can use the segment builder to:
 
 Before you start, be sure you've met the following prerequisites:
 
--	You have the sequence manager, sales manager, or administrator role. More information: [Assign a security role to a user](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)
+-	You have the sequence manager, sales manager, or administrator role. More information: [Assign a security role to a user](/power-platform/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user)
 -	The sales accelerator has been configured in your organization. More information: [Configure the sales accelerator](enable-configure-sales-accelerator.md)
 
 <table>
