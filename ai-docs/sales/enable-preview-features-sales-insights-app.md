@@ -2,7 +2,6 @@
 title: "Enable coming soon features in conversation intelligence | MicrosoftDocs"
 description: "Enable preview features in conversation intelligence."
 ms.date: 11/08/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 0b710872-5351-4b42-b87c-c35af5568e12
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

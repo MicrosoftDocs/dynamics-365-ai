@@ -2,7 +2,6 @@
 title: "Prerequisites to administer conversation intelligence | MicrosoftDocs"
 description: "Prerequisites on how to administer conversation intelligence"
 ms.date: 06/01/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 6ee1a5cf-bb4a-46d5-b835-c0ac6644dec5
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

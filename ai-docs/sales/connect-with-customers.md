@@ -2,7 +2,6 @@
 title: "Connect with customers in Dynamics 365 Sales | MicrosoftDocs"
 description: "Make phone calls or send emails by using a record or the Up next widget in Dynamics 365 Sales."
 ms.date: 04/23/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag

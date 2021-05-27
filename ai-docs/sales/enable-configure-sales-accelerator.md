@@ -2,7 +2,6 @@
 title: "Enable and configure the sales accelerator in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to enable and configure the sales accelerator in Dynamics 365 Sales Insights."
 ms.date: 01/11/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag

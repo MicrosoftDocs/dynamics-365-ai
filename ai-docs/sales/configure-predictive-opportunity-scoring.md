@@ -2,7 +2,6 @@
 title: "Configure predictive opportunity scoring for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to configure predictive opportunity scoring for Sales Insights"
 ms.date: 10/01/2019
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: a1d02708-0e40-4967-ae1a-40e9c67186c8
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -202,7 +201,7 @@ In organizations that have different lines of business, you might need different
     >If you already have 10 models (both published and unpublished), the **Add model** option is disabled. Delete the models that are no longer required in your organization.  More information: [Delete a model](#delete-a-model)
 
     > [!div class="mx-imgBorder"]
-    > ![Predictive opportunity scoring add model page](media/si-admin-predictive-opportunity-scoring-model-add-model-page.png "Predictive opportunity scoring add model page")
+    > ![Add model page for predictive opportunity scoring](media/si-admin-predictive-opportunity-scoring-model-add-model-page.png "Add model page for predictive opportunity scoring")
 
 3. Perform steps 4 through 8 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
 

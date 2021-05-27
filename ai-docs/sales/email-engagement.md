@@ -1,8 +1,7 @@
 ---
-title: "Email engagement for Dynamics 365 Sales Insights | MicrosoftDocs"
-keywords: 
+title: "Email engagement for Sales Insights add-in for Dynamics 365 Sales | MicrosoftDocs"
+description: Email engagement for Sales Insights add-in for Dynamics 365 Sales 
 ms.date: 10/31/2018
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: c44831bb-c4cb-4a2b-863e-eb94c4256921

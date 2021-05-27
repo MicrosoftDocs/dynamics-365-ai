@@ -2,7 +2,6 @@
 title: "View details of a sequence and its connected records in sales accelerator | MicrosoftDocs"
 description: "Learn how to view details of a sequence and its connected records in sales accelerator."
 ms.date: 01/11/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag

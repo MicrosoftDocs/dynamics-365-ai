@@ -1,14 +1,13 @@
----	
-title: "Analyze deals flows between snapshots in Dynamics 365 Sales Insights | MicrosoftDocs"	
-description: "Analyze deals flows between snapshots in Dynamics 365 Sales Insights."	
-ms.date: 10/26/2020	
-ms.service: crm-online
-ms.custom: 	
-ms.topic: article	
-author: udaykirang	
-ms.author: udag	
-manager: shujoshi	
----	
+---
+title: "Analyze deals flows between snapshots in Dynamics 365 Sales Insights | MicrosoftDocs"
+description: "Analyze deals flows between snapshots in Dynamics 365 Sales Insights."
+ms.date: 10/26/2020
+ms.custom: 
+ms.topic: article
+author: udaykirang
+ms.author: udag
+manager: shujoshi
+---
 
 # Analyze deals flows between snapshots	
 

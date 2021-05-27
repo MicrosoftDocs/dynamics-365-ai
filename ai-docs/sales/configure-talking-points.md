@@ -2,7 +2,6 @@
 title: "Configure talking points for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to configure talking points for Sales Insights"
 ms.date: 08/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: cc6353f5-f044-4872-a486-9954550caa1b
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

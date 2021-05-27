@@ -2,7 +2,6 @@
 title: "Sequence creation and activation in the sales accelerator  | MicrosoftDocs"
 description: "Learn how to create and activate sequences in the sales accelerator."
 ms.date: 04/09/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -50,7 +49,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
         >Add a **Set wait time** activity before the **Automated email** activity. Adding wait time provides a time gap between the previous step and sending the automated email. If the time gap isn't configured, the automated email will be sent immediately after the previous activity is completed, which won't give sellers the time they might need to take action on the automated email activity.    
 
         >[!NOTE]
-        >Verify that required email templates are created in your organization. More information: [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email)   
+        >Verify that required email templates are created in your organization. More information: [Create templates for email](/power-platform/admin/create-templates-email)   
 
         > [!div class="mx-imgBorder"]
         > ![Add an automated email activity](media/sequence-activity-add-automated-email.png "Add an automated email activity")   

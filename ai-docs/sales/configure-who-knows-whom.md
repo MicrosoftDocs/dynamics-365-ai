@@ -2,7 +2,6 @@
 title: "Configure who knows whom for Sales Insights Add-in for Dynamics 365 | MicrosoftDocs"
 description: "Learn how to configure who knows whom for Sales Insights"
 ms.date: 08/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: c5e131e2-c4ba-4442-9580-dfc9badbc9ad
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -82,7 +81,7 @@ To configure the Sales Insights connection graph, follow these steps:
 As a user, you can always choose to opt out of the connection graph if you don't want Sales Insights to analyze your communication and collaboration data. 
 
 >[!NOTE]
->You can only opt out of the connection graph if your Office 365 organization is in the EMEA or Asia Pacific global geography. More information: [Datacenter locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations)
+>You can only opt out of the connection graph if your Office 365 organization is in the EMEA or Asia Pacific global geography. More information: [Datacenter locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide&preserve-view=true)
 
 1. Sign in to your [Office 365 account](https://myprofile.microsoft.com/).
 
