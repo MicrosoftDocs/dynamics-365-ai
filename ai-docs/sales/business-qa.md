@@ -3,7 +3,6 @@ title: "Use natural language Q&A to get insights into your sales and call data i
 description: "Use natural language Q&A to get insights into your sales and call data in Dynamics 365 Sales Insights"
 keywords: ""
 ms.date: 08/01/2019
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 2fb98f4f-7e15-4eb3-918d-cc76067ca74f
@@ -12,7 +11,7 @@ ms.author: udag
 manager: shujoshi
 ms.reviewer: 
 ms.suite: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

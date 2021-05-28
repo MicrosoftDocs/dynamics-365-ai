@@ -2,7 +2,6 @@
 title: "Data retention and deletion policy for conversation intelligence | MicrosoftDocs"
 description: "Data retention and deletion policy for conversation intelligence"
 ms.date: 11/06/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: c85b26ab-0150-454f-8767-6aed448529bc
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -73,7 +72,7 @@ For example, retention time limit is set 30 days. At any given time, application
 2.	Select **Save**.  
     Retention policy configuration is saved, and the analyzed call recording data will be retained until the selected option.
 
-To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index).
+To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 and GDPR](/dynamics365/get-started/gdpr/index).
 
 ### See also
 

@@ -2,7 +2,6 @@
 title: "View and understand call summary in conversation intelligence | MicrosoftDocs"
 description: "View and understand call summary in conversation intelligence."
 ms.date: 11/18/2020
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -152,7 +151,7 @@ On the timeline, you can see how the conversation was segmented. The topics (if 
 ### See also
 
 [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)      
-[Track and manage activities](https://docs.microsoft.com/dynamics365/sales-enterprise/manage-activities)
+[Track and manage activities](/dynamics365/sales-enterprise/manage-activities)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

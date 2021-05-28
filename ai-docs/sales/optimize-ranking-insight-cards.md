@@ -1,9 +1,8 @@
 ---
 title: "Optimize insight cards ranking in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Optimize ranking for cards in assistant"
-keywords: " "
+keywords: ""
 ms.date: 10/01/2019
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 73b590f5-883a-46c5-9d2e-a9b9157a9614
@@ -23,7 +22,7 @@ caps.latest.revision: 1
 > [!IMPORTANT]
 > - [!INCLUDE[cc_preview_features_definition](../includes/cc-preview-features-definition.md)]  
 > - [!INCLUDE[cc_preview_features_expect_changes](../includes/cc-preview-features-expect-changes.md)]
-> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](https://go.microsoft.com/fwlink/p/?linkid=870960).
+> - Microsoft doesn't provide support for this preview feature. Microsoft Technical Support won’t be able to help you with issues or questions. Preview features aren't meant for production use and are subject to a separate [supplemental terms of use](/dynamics365/legal/supp-dynamics365-preview).
 
 Several cards are defined for your organization and all will be displayed to the users through an externally prioritized list. In this list of cards, users might miss those that are important and need follow-up. The **Optimize ranking** option in Assistant allows you to optimize the ranking of cards that are important and promotes those cards to display at the top.
 

@@ -46,7 +46,7 @@ What you’ll need:
 
 ### Create a custom entity in Power Apps
 Entities are used to model and manage business data. CDS has two types of entities:
--	[Standard entities](/dynamics365/ai/customer-service-insights/customer-service-entities) (CSI uses the standard incident entity by default)
+-	[Standard entities](./customer-service-entities.md) (CSI uses the standard incident entity by default)
 -	[Custom entities](/powerapps/maker/common-data-service/create-edit-entities-portal) that you can make (given incident is a restricted entity available only for those with a Dynamics 365 Customer Service license, you’ll need to create one of these to use external data sources)
 
 This section will show you how to create a custom entity that you can use to import data from an external source.
@@ -152,7 +152,7 @@ Now that you have created the associated entity within CDS, you will need to set
 ### Map your data for AI insights in Customer Service Insights
 Now you can map your data in Customer Service Insights. 
 
-Go to [Customer Service Insights](https://csi.ai.dynamics.com/) to create a workspace connected to your CDS data, as described in the [Map data topic](/dynamics365/ai/customer-service-insights/map-data) 
+Go to [Customer Service Insights](https://csi.ai.dynamics.com/) to create a workspace connected to your CDS data, as described in the [Map data topic](./map-data.md) 
 
 As an example, your entity and fields mapping should look like the following screenshots.
 

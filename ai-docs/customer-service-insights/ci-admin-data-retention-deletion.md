@@ -95,7 +95,7 @@ To delete an agent’s data that you don’t want to see in your insights:
     > [!div class="mx-imgBorder"]
     > ![Agent data deleted](media/ci-app-admin-agent-delete-deleted.png "Agent data deleted")
 
-To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 and GDPR](https://docs.microsoft.com/dynamics365/get-started/gdpr/index).
+To learn more on Microsoft Dynamics 365 and GDPR, see [Microsoft Dynamics 365 and GDPR](/dynamics365/get-started/gdpr/index).
 
 ### See also
 

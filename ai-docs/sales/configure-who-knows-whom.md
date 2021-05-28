@@ -2,7 +2,6 @@
 title: "Configure who knows whom for Sales Insights Add-in for Dynamics 365 | MicrosoftDocs"
 description: "Learn how to configure who knows whom for Sales Insights"
 ms.date: 08/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: c5e131e2-c4ba-4442-9580-dfc9badbc9ad
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -22,7 +21,7 @@ The who knows whom feature helps users to quickly identify colleagues within the
 
 >[!NOTE]
 ><ul><li>Who knows whom is currently available in Europe, Middle East, and Africa (EMEA) and North American (NAM) regions.</li><li>For Office 365 data, you organization's data location must be in one of the following locations and not in your region-specific datacenter location:
-> <ul><li>Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands)</li><li>Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).</li><li>Global Geography 3 – Americas (Brazil, Chile, United States).</li></ul>More information: [Datacenter locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations)</ul>
+> <ul><li>Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands)</li><li>Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).</li><li>Global Geography 3 – Americas (Brazil, Chile, United States).</li></ul>More information: [Datacenter locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations)</ul>
 
 To configure who knows whom, follow these steps:
 
@@ -82,7 +81,7 @@ To configure the Sales Insights connection graph, follow these steps:
 As a user, you can always choose to opt out of the connection graph if you don't want Sales Insights to analyze your communication and collaboration data. 
 
 >[!NOTE]
->You can only opt out of the connection graph if your Office 365 organization is in the EMEA or Asia Pacific global geography. More information: [Datacenter locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations)
+>You can only opt out of the connection graph if your Office 365 organization is in the EMEA or Asia Pacific global geography. More information: [Datacenter locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide&preserve-view=true)
 
 1. Sign in to your [Office 365 account](https://myprofile.microsoft.com/).
 

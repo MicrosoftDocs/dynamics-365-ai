@@ -2,7 +2,6 @@
 title: "Configure azure repository and upload call recordings in conversation intelligence | MicrosoftDocs"
 description: "Configure azure repository and upload call recordings in conversation intelligence"
 ms.date: 08/01/2018
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 64fc7327-265d-4d85-bc58-5f2bcadf4ae1
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

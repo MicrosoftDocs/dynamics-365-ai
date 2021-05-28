@@ -2,7 +2,6 @@
 title: "Understand how to uninstall Sales Insights | MicrosoftDocs"
 description: "Uninstall Sales Insights"
 ms.date: 11/24/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 author: udaykirang

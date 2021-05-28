@@ -2,7 +2,6 @@
 title: "Understand how to manage snapshots for a forecast in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Understand how to manage snapshots for a forecast in Dynamics 365 Sales Insights"
 ms.date: 10/26/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -24,7 +23,7 @@ To enable the snapshots, follow these steps:
 
 1.	While configuring a forecast, the **Snapshots** step is displayed. 
 
-    More information: [Configure forecasts by using a custom rollup entity](https://docs.microsoft.com/dynamics365/sales-enterprise/configure-forecast-using-custom-rollup-entity)
+    More information: [Configure forecasts by using a custom rollup entity](/dynamics365/sales-enterprise/configure-forecast-using-custom-rollup-entity)
  
     > [!div class="mx-imgBorder"]
     > ![Snapshot configuration step](media/predictive-forecasting-snapshot-configuration-step.png "Snapshot configuration step") 

@@ -2,7 +2,6 @@
 title: "Prerequisites to administer conversation intelligence | MicrosoftDocs"
 description: "Prerequisites on how to administer conversation intelligence"
 ms.date: 06/01/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 6ee1a5cf-bb4a-46d5-b835-c0ac6644dec5
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -32,8 +31,8 @@ Verify the following requirements before setting up conversation intelligence fo
 -	You must get access to conversation intelligence. If you don't have access, follow these steps:       
     1.	To access the app, go to [Conversation intelligence](https://sales.ai.dynamics.com/).       
     2.	Enter your work email address.       
-    3.	When the application recognizes the email, you must sign in using Azure Active Directory. To learn more, see [Azure AD Connect user sign-in options](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-user-signin).   
--	You must create a v2 storage account with an Azure subscription to create blob container to configure call data. To learn more, see [Create a storage account](https://docs.microsoft.com/azure/storage/common/storage-quickstart-create-account?tabs=portal#create-a-storage-account-1).
+    3.	When the application recognizes the email, you must sign in using Azure Active Directory. To learn more, see [Azure AD Connect user sign-in options](/azure/active-directory/hybrid/plan-connect-user-signin).   
+-	You must create a v2 storage account with an Azure subscription to create blob container to configure call data. To learn more, see [Create a storage account](/azure/storage/common/storage-quickstart-create-account?tabs=portal#create-a-storage-account-1).
 
 ### See also
 

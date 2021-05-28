@@ -1,14 +1,10 @@
 ---
 title: "Frequently asked questions for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Frequently asked questions for Dynamics 365 Sales Insights"
-keywords: " "
+keywords: ""
 ms.date: 09/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
-applies_to:
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.assetid: 848a488e-27ce-41e1-892b-bb8613b5da1c
 author: udaykirang
 ms.author: udag
@@ -16,8 +12,11 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
+applies_to: 
+  - "Dynamics 365 (online)"
+  - "Dynamics 365 Version 9.x"
 ---
 
 # Frequently asked questions
@@ -114,7 +113,7 @@ The Sales Insights features support the following versions of Exchange:
 >   - Global Geography 1 – EMEA (Austria, Finland, France, Ireland, Netherlands).
 >   - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
 >   - Global Geography 3 – Americas (Brazil, Chile, United States).<br>
->   To learn more on data center locations, see [Data Center Locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations).
+>   To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
 **What languages are supported now?**<br>
 Sales insights supports the following languages:
@@ -145,7 +144,7 @@ Depending on the region where your organization is hosted, data is stored in the
 | Oceania (OCE) | Australia East (New South Wales) | Australia Southeast (Victoria) |
 | Switzerland (CHE) | Switzerland North | Switzerland West |
 
-More information: [Azure Regional Pairs](https://docs.microsoft.com/azure/best-practices-availability-paired-regions#azure-regional-pairs)
+More information: [Azure Regional Pairs](/azure/best-practices-availability-paired-regions#azure-regional-pairs)
 
 **Will Sales Insights affect my storage quota?**    
 Yes. After the install of sales insights, the last two years of key sales data required to deliver the advanced analytics and AI results including contacts, opportunities, leads, accounts, and activities are copied into your Sales Insights managed data lake and will be counted against your total file storage quota.
@@ -169,7 +168,7 @@ If you see an alert about having insufficient permissions to use an Insight card
    ![Insight card security role privilege](media/action-card-permissions600.png "Insight card security role privilege")
 
 **Why am I getting contact administrator error while authenticating credentials in assistant studio?**     
-The error is occurring due to your organization’s policies to restrict third-party tools to access user information. To resolve the issue, you can provide consent for yourself through the [Azure portal](https://portal.azure.com) for third-party tools to access your data. To provide consent for the entire organization, contact your tenant administrator. Select the enterprise application as **Dynamics 365 Sales Insights** in Azure portal while providing the consent. To learn more, see [Grant admin consent in Enterprise apps](https://docs.microsoft.com/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-in-enterprise-apps).
+The error is occurring due to your organization’s policies to restrict third-party tools to access user information. To resolve the issue, you can provide consent for yourself through the [Azure portal](https://portal.azure.com) for third-party tools to access your data. To provide consent for the entire organization, contact your tenant administrator. Select the enterprise application as **Dynamics 365 Sales Insights** in Azure portal while providing the consent. To learn more, see [Grant admin consent in Enterprise apps](/azure/active-directory/manage-apps/grant-admin-consent#grant-admin-consent-in-enterprise-apps).
 
 ## Sales accelerator     
 **How do I add the Up next widget to an entity form?**    
@@ -338,7 +337,7 @@ To build a connection graph in who knows whom, Microsoft 365 Exchange is require
 - Global Geography 2 – Asia Pacific	(Hong Kong, Japan, Malaysia, Singapore, South Korea).
 - Global Geography 3 – Americas (Brazil, Chile, United States).
 
-More information: [Data center locations](https://docs.microsoft.com/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations)
+More information: [Data center locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true)
 
 Also, server-side sync is required for email introduction requests. ​
 
@@ -361,7 +360,7 @@ Who knows whom has the following data sources:
 -	**Exchange Online**: The feature evaluates the collaboration, communication, and business relationships of sellers within the Office 365 organization to determine connection strength. This includes recent email interactions, sellers' contacts, and the organization directory.
 
 **Where is the data stored?**<br>
-The insights are generated within the Exchange Online system, so we follow the same data security principles as Exchange Online. More information: [Security and compliance for Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/security-and-compliance)
+The insights are generated within the Exchange Online system, so we follow the same data security principles as Exchange Online. More information: [Security and compliance for Exchange Online](/exchange/security-and-compliance/security-and-compliance)
 
 **What is the data retention policy, and where is it set?**<br>
 The service is fully GDPR-compliant. Dynamics 365 won't cache any data on its side, and the data is queried every time a page is loaded with who knows whom.

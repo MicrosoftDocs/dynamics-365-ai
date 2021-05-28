@@ -2,7 +2,6 @@
 title: "Use sample data to explore the sales accelerator | MicrosoftDocs"
 description: "Learn how to explore the sales accelerator with sample data."
 ms.date: 01/11/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -48,10 +47,6 @@ After the sample data is added to your organization, a confirmation message is d
 ## Sample data availability
 
 By default, sample data is available for the administrator who adds it. The administrator can assign the records that are associated with sample data for other users to explore.
-
-## Distinguish between sample and actual data
-
-After you add sample data, you can distinguish between the sample and your organization's actual data: sample data is always followed by **(sample)**. For example, sample contacts are added as **Michelle Harris (sample)** and **Alex Baker (sample)**.
 
 ## Remove sample data
 

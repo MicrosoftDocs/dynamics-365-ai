@@ -2,7 +2,6 @@
 title: "Enable and configure the sales accelerator in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to enable and configure the sales accelerator in Dynamics 365 Sales Insights."
 ms.date: 01/11/2021
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -43,6 +42,10 @@ For the best experience of the sales accelerator, enable and configure [predicti
     >![Sales accelerator first-run setup](media/sa-fre-setup.png "Sales accelerator first-run setup")    
 
     A dialog box appears with the option to install sample data to explore the feature. Installing the sample data is relevant only for your sandbox or trial environments. Adding the sample data might take a few minutes. However, you can choose to ignore the sample data installation and add it later when required. More information: [Manage sample data](manage-sample-data.md)    
+    
+    >[!IMPORTANT]
+    >To prevent unwanted results, sample data is available only for non-production environments.
+    
     >[!div class="mx-imgBorder"]
     >![Sample data installation](media/sa-sample-data-popup-message.png "Sample data installation")        
 
