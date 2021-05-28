@@ -2,7 +2,7 @@
 title: "Customer Service Insights overview"
 description: "Learn the basics of Dynamics 365 Customer Service Insights."
 keywords: ""
-ms.date: 04/05/2021
+ms.date: 05/12/2021
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 
@@ -17,11 +17,11 @@ search.appverid: met150
 
 # Customer Service Insights overview
 
-Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and proactively improve customer satisfaction by using artificial intelligence (AI) and analytics capabilities for Customer Service and Omnichannel. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers.
+Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and proactively improve customer satisfaction by using artificial intelligence (AI) and analytics capabilities for Customer Service and Omnichannel for Customer Service. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers.
 
 The premium AI capabilities in Customer Service Insights use advanced AI technology in natural language understanding and natural language generation to help your service team resolve cases efficiently and guide them to success.
 
- Agents can use real-time similar cases and knowledge article suggestions that are customized for their current context. The AI-driven technology empowers agents to help solve customer issues faster, thereby improving resolution rates and customer satisfaction.
+Agents can use real-time similar cases and knowledge article suggestions that are customized for their current context. The AI-driven technology empowers agents to help solve customer issues faster, thereby improving resolution rates and customer satisfaction.
 
 These capabilities are embedded into the core agent and manager experiences in Customer Service and Customer Service Omnichannel applications.
 
@@ -37,15 +37,16 @@ Customer Service Insights is now embedded in Customer Service. After it is enabl
 
 For details on the customer service offerings, see the following topics:
 
-- Customer Service historical analytics
+- [Customer Service historical analytics](/customer-service/configure-cs-historical-analytics-csh)
 
-- Topic clustering for cases
+- [Topic clustering for cases](/customer-service/configure-topics-clustering-cases-cs)
 
-- Customer Service Analytics in Power BI
+- [Customer Service Analytics in Power BI](/customer-service/configure-customer-service-analytics-dashboard)
 
-- Knowledge search analytics
+- [Knowledge search analytics](/customer-service/enable-knowledge-search-insights)
 
-- AI suggestions for similar cases and knowledge articles
+- [AI suggestions for similar cases and knowledge articles](/customer-service/csw-enable-ai-suggested-cases-knowledge-articles)
+
 
 ## Omnichannel for Customer Service
 
@@ -53,11 +54,14 @@ Customer Service Insights for Omnichannel for Customer Service brings many of th
 
 For details on Customer Service Omnichannel offerings, see the following topics:
 
-- Introduction to Omnichannel Insights dashboard
+- [Omnichannel Conversation topic dashboard](/customer-service/oc-conversation-topics-dashboard)
 
-- View smart assist suggestions for similar cases and knowledge articles using AI
+- [Omnichannel conversation dashboard](/customer-service/oc-conversation-dashboard)
 
-- Analyze real-time customer sentiment
+- [View smart assist suggestions for similar cases and knowledge articles using AI](/customer-service/oc-view-ai-suggested-cases-articles)
+
+- [Monitor and analyze sentiments](/customer-service/supervisor-sentiment-monitoring)
+
 
 > [!Important]
 > If you are a customer who uses the Customer Service Insights standalone web application, your current working environments will be terminated and inaccessible by December 8, 2021. You will no longer be able to use the standalone service after this date. The embedded Customer Service Insights features in the core applications will continue to be available and supported. For users who hold Customer Service Enterprise licenses, you will no longer be able to create new workspaces, but you'll retain access to existing ones. In the interim, the [standalone app guide](quickstart.md) contains documentation for the web application.
