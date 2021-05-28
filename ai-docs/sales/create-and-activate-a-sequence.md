@@ -102,18 +102,18 @@ Next, you connect the active sequence to lead or opportunity records. More infor
 
 ## Exit a sequence during the flow
 
-By enabling the Exit a sequence option, you can remove the flow of the sequence from records that are associated with this sequence. The option verifies for an email reply from the customer in the sequence and disconnects the sequence from the record.
+By enabling the **Exit a sequence** option, you can remove the flow of the sequence from records that are associated with this sequence. The option verifies for an email reply from the customer in the sequence and disconnects the sequence from the record.
 
 **Prerequisites**   
 Review the following requirements before you enable the **Exit the sequence** option:
 
 -	At least one Email activity step is created in the sequence. 
 -	The sequence must be in inactive or revision state.
-- [Configure the email engagement feature](configure-email-engagement.md) in your organization before you start using conditions for the email activity. The interactions that customers have with emails are displayed in the condition list.
+- [Configure the email engagement feature](configure-email-engagement.md) in your organization before you start using this option for the email activity.
 
 **To configure the exit sequence criteria**
 
-1.	Open the sequence in edit mode and select **Options**.    
+1.	Open the sequence and select **Options**.    
     > [!div class="mx-imgBorder"]
     > ![Sequence designer with Options](media/sequence-designer-select-options.png "Sequence designer with Options")     
 2.	On the **Sequence Options** side pane, turn on the **Exit a sequence** toggle to exit a sequence when a customer replies to any email in the sequence.  
