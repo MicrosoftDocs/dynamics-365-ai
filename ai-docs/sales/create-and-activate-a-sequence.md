@@ -107,7 +107,7 @@ By enabling the **Exit a sequence** option, you can remove the flow of the seque
 **Prerequisites**   
 Review the following requirements before you enable the **Exit the sequence** option:
 
--	At least one Email activity step is created in the sequence. 
+-	At least one email activity step is created in the sequence. 
 -	The sequence must be in inactive or revision state.
 - [Configure the email engagement feature](configure-email-engagement.md) in your organization before you start using this option for the email activity.
 
