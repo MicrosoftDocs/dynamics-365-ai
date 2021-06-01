@@ -20,6 +20,9 @@ As a seller, you can personalize sales accelerator by determining how activities
 
 Configure your working days, hours, and days off to adjust scheduled tasks and lead assignment according to your availability. For example, you're taking a day off on April 1, 2021, and you have a few activities to complete that day. When you configure the calendar with your day off, any activities that were scheduled for that day will be moved to your next available date or time.
 
+>[!NOTE]
+>Ensure that you've read and write privileges to **Calendar** entity. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+
 ### Enable the availability option in sequence settings
 
 Before you start using this feature, contact your Dynamics 365 administrator or sequence manager to enable the **Timing and availability** settings. 

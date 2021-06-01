@@ -15,12 +15,12 @@ You can uninstall the Sales Insights Add-in for Dynamics 365 Sales if you don't 
   
 1.	As an administrator, sign in to your Dynamics 365 organization.
 2.	Go to **Advanced settings**, and then select **Settings** > **Customization** > **Solutions**.  
-3.	On the **Solutions** page, select each of the following solutions in the order they're specified one at a time, and then select **Delete**.  
+3.	On the **Solutions** page, select each of the following solutions one at a time in the order they're specified, and then select **Delete**.  
     - SalesInsightsAddOn
     - SalesInsightsMDLConfig
     - msdyn_Conversationlntelligence
-    - msdyn_SalesRouting_managed
-    -  msdynce_segment_managed
+    - msdyn_SalesRouting
+    - msdyn_segment
     - msdyn_acceleratedsalessitemap
     - msdyn_acceleratedsales
     - msdyn_sequence
