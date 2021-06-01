@@ -36,8 +36,8 @@ Some aspects of the email engagement feature might be visible in [!INCLUDE[pn_sa
 -   The **Email Template** grid always shows **Reply Rate**, **Open Rate**, **Recommended**, and **Email Count** columns.  
 -   The out-of-the-box versions of the account, contact, and lead forms all include the **Follow Email** field.  
 
-While the email engagement feature is disabled, these features will still appear but will usually be empty. Read the rest of this topic for details about what these columns mean and how to use them when the feature is enabled.  
-<!--note from editor: I suggest formatting the following as a note so that it doesn't intervene as abruptly between the previous sentence ("Read the rest of this topic...") and the rest of the topic. An alternative would be to move the sentence to the beginning of this section. -->
+While the email engagement feature is disabled, these features will still appear but will usually be empty. Read the rest of this topic for details about what these columns mean and how to use them when the feature is enabled.     
+
 > [!NOTE]
 > When the email client automatically scans email for security reasons, the count for email open and link clicks can be higher than expected.
 
