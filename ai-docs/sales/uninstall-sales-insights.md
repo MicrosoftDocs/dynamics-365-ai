@@ -19,8 +19,8 @@ You can uninstall the Sales Insights Add-in for Dynamics 365 Sales if you don't 
     - SalesInsightsAddOn
     - SalesInsightsMDLConfig
     - msdyn_Conversationlntelligence
-    - msdyn_SalesRouting_managed
-    -  msdynce_segment_managed
+    - msdyn_SalesRouting
+    - msdyn_segment
     - msdyn_acceleratedsalessitemap
     - msdyn_acceleratedsales
     - msdyn_sequence

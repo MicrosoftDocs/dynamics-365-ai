@@ -102,7 +102,7 @@ Next, you connect the active sequence to lead or opportunity records. More infor
 
 ## Exit a sequence during the flow
 
-By enabling the **Exit a sequence** option, you can remove the flow of the sequence from records that are associated with this sequence. The option verifies for an email reply from the customer in the sequence and disconnects the sequence from the record.
+By enabling the option to exit a sequence, you disconnect the sequence from its records when the criteria is met. For example, if the flow includes an email reply from the customer, the email will be disconnected from the sequence
 
 **Prerequisites**   
 Review the following requirements before you enable the **Exit the sequence** option:

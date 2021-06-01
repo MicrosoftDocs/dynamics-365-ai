@@ -114,18 +114,17 @@ Let's define a flow so that when a seller makes a call to discuss product detail
         >![Save the email activity in the No path](media/sa-condition-phone-no-save-email-activity.png "Save the email activity in the No path")     
 
 <a name="define-conditions-for-field-values"></a>
-## Define conditions for a field value
+## Define conditions based on a field value
 
-Add a field value condition step to a sequence to determine the path of a record based on the configured fields. The field values are listed based on the type of record you've selected for the sequence, including its related entities.    
+Add a condition based on a field value to determine the next course of action for the sequence depending on the value given in the field. The field values are listed based on the type of record you've selected for the sequence, including its related entities.    
 On the activity selection step, go to the **Conditions** tab, and choose a field and create a condition. The sequence follows the **Yes** path when the condition is true and the **No** path when the condition is false.    
-For example, you want the sequence to follow the **Yes** path when a lead’s company name is **Contoso**.   
-
+In the following example, let’s set the sequence to follow the **Yes** path when a lead’s company name is **Contoso**.   
 1.	On the activity selection step, go to the **Conditions** tab.   
     >[!div class="mx-imgBorder"]
     >![Condition tab on activity selection step](media/sa-condition-tab.png "Condition tab on activity selection step")     
  
-2.	Select **Field value**.   
-    The **Field value** condition step opens.    
+2.	Select **Field value**.           
+    The Field value condition step opens.    
     >[!div class="mx-imgBorder"]
     >![Field value condition step](media/sa-condition-field-value-step.png "Field value condition step")    
   
@@ -145,15 +144,15 @@ For example, you want the sequence to follow the **Yes** path when a lead’s co
     >![Field value step condition added](media/sa-condition-field-value-step-added.png "Field value step condition added")    
  
 <a name="define-conditions-for-business-process-stage"></a>
-## Define conditions for a business process stage
+## Define conditions based on a business process stage
 
 Add a business process flow condition step to determine the path of a sequence based on stages in a business process flow. The business process flows are listed based on the type of record you've selected for the sequence.     
-On the activity selection step, go to the **Conditions** tab, and choose the business process flow and its stage to create a condition. The sequence follows the **Yes** path when the condition is true and when false, the **No** path is selected.   
+On the activity selection step, go to the **Conditions** tab, and choose **Business process stage** and the corresponding stage to create a condition.  The sequence follows the **Yes** path when the condition is true and when false, the **No** path is selected.   
 
 >[!NOTE]
 >Verify that the business process flows are defined for the selected record type of the sequence.   
 
-For example, you want the sequence to the **Yes** path when the **Lead to Opportunity Sales Process** flow is in **Propose** or **Develop** stage.
+In the following example, let’s set the sequence to the **Yes** path when the **Lead to Opportunity Sales Process** flow is in **Propose** or **Develop** stage.
 
 1.	On the activity selection step, go to the **Conditions** tab.   
     >[!div class="mx-imgBorder"]
