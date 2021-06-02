@@ -19,8 +19,8 @@ Every organization has its own selling processes for sellers to follow. A sequen
 3. Under **Sales accelerator**, select **Sequence**.  
 4. On the **Sequences** page, select **+ New sequence**.   
     > [!div class="mx-imgBorder"]
-    > ![Create a sequence dialog box](media/sequence-create-sequence.png "Create a sequence dialog box")   
-5. In the **Create a sequence** dialog box, enter the following information:   
+    > ![Create a sequence dialog](media/sequence-create-sequence.png "Create a sequence dialog")   
+5. In the **Create a sequence** dialog, enter the following information:   
 
     | Parameter | Description |
     |-----------|-------------|
@@ -98,27 +98,33 @@ Every organization has its own selling processes for sellers to follow. A sequen
     The sequence is activated and listed in the sequence designer home page.   
     > [!div class="mx-imgBorder"]
     > ![Sequence designer home page](media/sequence-home-page.png "Sequence designer home page")    
-Next, you connect the active sequence to lead or opportunity records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md).
+
+Next, you connect the active sequence to lead or opportunity records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
 
 ## Exit a sequence during the flow
 
-By enabling the option to exit a sequence, you disconnect the sequence from its records when the criteria is met. For example, if the flow includes an email reply from the customer, the email will be disconnected from the sequence
+By enabling the option to exit a sequence, you disconnect the sequence from its records when the criteria is met. For example, if the flow includes an email reply from the customer, the email will be disconnected from the sequence.
 
-**Prerequisites**   
+**Prerequisites**
+
 Review the following requirements before you enable the **Exit the sequence** option:
 
--	At least one email activity step is created in the sequence. 
--	The sequence must be in inactive or revision state.
+- At least one email activity step is created in the sequence. 
+- The sequence must be in inactive or revision state.
 - [Configure the email engagement feature](configure-email-engagement.md) in your organization before you start using this option for the email activity.
 
 **To configure the exit sequence criteria**
 
-1.	Open the sequence and select **Options**.    
+1.	Open the sequence, and then select **Options**.
+
     > [!div class="mx-imgBorder"]
-    > ![Sequence designer with Options](media/sequence-designer-select-options.png "Sequence designer with Options")     
-2.	On the **Sequence Options** side pane, turn on the **Exit a sequence** toggle to exit a sequence when a customer replies to any email in the sequence.  
+    > ![Sequence designer with Options](media/sequence-designer-select-options.png "Sequence designer with Options")
+
+2.	On the **Sequence Options** pane, turn on the **Exit a sequence** toggle to exit a sequence when a customer replies to any email in the sequence.  
+
     > [!div class="mx-imgBorder"]
-    > ![Enable exit a sequence option on sequence options pane](media/sequence-sequence-options-pane.png "Enable exit a sequence option on sequence options pane")       
+    > ![Enable exiting a sequence on the Sequence Options pane](media/sequence-sequence-options-pane.png "Enable exiting a sequence on the Sequence Options pane")
+
 3.	Select **Save**.
 
 ### See also
