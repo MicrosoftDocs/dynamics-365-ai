@@ -116,13 +116,13 @@ Let's define a flow so that when a seller makes a call to discuss product detail
 <a name="define-conditions-for-field-values"></a>
 ## Define conditions based on a field value
 
-When you add a condition based on a field value, you determine the next course of action for the sequence according to the value given in the field. The available field values&mdash;including related entities&mdash;are based on the type of record you've selected for the sequence.<!--note from editor: Edit okay? Otherwise, this implies that the sequence has related entities.-->
+When you add a condition based on a field value, you determine the next course of action for the sequence according to the value given in the field. The available field values&mdash;including related entities&mdash;are based on the type of record you've selected for the sequence.
 
 In the activity selection box, go to the **Conditions** tab, choose a field, and create a condition. The sequence follows the **Yes** path when the condition is true and the **No** path when the condition is false.
 
 In the following example, let's set the sequence to follow the **Yes** path when a lead's company name is **Contoso**.
 
-1.	In the activity selection box, select the **Conditions** tab.<!--note from editor: We need a new image with **Field value** selected. If you have the same image (and the same alt text) more than once in an article, we'll get a build warning.-->
+1.	In the activity selection box, select the **Conditions** tab.
 
     >[!div class="mx-imgBorder"]
     >![Conditions tab in the activity selection step for field values](media/sa-condition-tab.png "Conditions tab in the activity selection step for field values")
@@ -140,7 +140,7 @@ In the following example, let's set the sequence to follow the **Yes** path when
     >[!NOTE]
     >- When you select **Advanced**, the **Field values** pane opens on the right to define more conditions for the step. You can define conditions based on row, group, and related entities.    
     >- Lookup type fields such as **Created by** and **Owner** are only displayed when you select **Advanced**.
-    >- If the connected record doesn't include the configured field, an error is displayed in the **Up next** widget. The following image shows an example of the error:<br><!--note from editor: Recommend quoting the actual error string here.-->
+    >- If the connected record doesn't include the configured field, an error is displayed in the **Up next** widget. The following image shows an example of the error:<br>
     >![Unable to evaluate attributes and move to the next step](media/sa-condition-field-value-step-error.png "Unable to evaluate attributes and move to the next step")    
 
 4.	Select **Save**.
@@ -153,7 +153,7 @@ The field value condition step is created.
 <a name="define-conditions-for-business-process-stage"></a>
 ## Define conditions based on a business process stage
 
-When you add a condition based on the stage of a business process, you determine the path of a sequence based on which stage the business process is in. The business process flows are listed based on the type of record you've selected for the sequence.<!--note from editor: Edits suggested, to match the wording of the previous section.-->
+When you add a condition based on the stage of a business process, you determine the path of a sequence based on which stage the business process is in. The business process flows are listed based on the type of record you've selected for the sequence.
 
 In the activity selection box, go to the **Conditions** tab, choose a **Business process stage**, and create a condition.  The sequence follows the **Yes** path when the condition is true and the **No** path when the condition is false.
 
