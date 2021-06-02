@@ -1,9 +1,8 @@
 ---
 title: "Configure Sales Insights Assistant | MicrosoftDocs"
 description: "Describes how to configure Assistant, both free and advanced features."
-keywords: " "
+keywords: ""
 ms.date: 08/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 7170bd24-0252-4158-9e31-42004847ecbb
@@ -13,7 +12,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -102,7 +101,7 @@ The premium assistant that's part of the Sales Insights add-on offers advanced c
     > [!div class="mx-imgBorder"]
     > ![Assistant studio home page](media/si-admin-assistant-full-studio-home-page.png "Assistant studio home page")
 
-    |  |  | 
+    | Number | Description | 
     |--------|---------|
     | **1** | Create cards with that are custom-made for your organization by using Power Automate. More information: [Creating custom insight cards](create-insight-cards-flow.md) |
     | **2** | Quickly view cards by using tabs to view cards that are most popular, recently used, high in priority, and created by your organization. |

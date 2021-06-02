@@ -1,13 +1,12 @@
 ---
 title: "Monitor call and insight processing in conversation intelligence | MicrosoftDocs"
-description: "Monitor call and insight processing in conversation intelligence "
+description: "Monitor call and insight processing in conversation intelligence"
 ms.date: 04/09/2020
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

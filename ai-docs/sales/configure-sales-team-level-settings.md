@@ -2,7 +2,6 @@
 title: "Configure settings for your sales team in conversation intelligence (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how to configure the sales team level settings in conversation intelligence in Dynamics 365 Sales."
 ms.date: 04/14/2021
-ms.service: dynamics-365-sales
 ms.topic: article
 author: udaykirang
 ms.author: udag

@@ -3,7 +3,6 @@ title: "What's new in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn what's new in the latest release of Dynamics 365 Sales Insights."
 keywords: 
 ms.date: 04/06/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 6b697179-a0f0-4aee-b636-6cb7426212ec
@@ -13,7 +12,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

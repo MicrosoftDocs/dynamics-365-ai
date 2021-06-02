@@ -2,7 +2,6 @@
 title: "Entity reference for Sales Insights | MicrosoftDocs"
 description: "Reference documentation for the Sales Insights entities"
 ms.date: 11/10/2020
-ms.service: crm-online
 ms.topic: article
 author: udaykirang
 ms.author: udag

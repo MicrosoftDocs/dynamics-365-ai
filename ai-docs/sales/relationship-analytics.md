@@ -2,7 +2,6 @@
 title: "Relationship analytics for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to analyze customer interaction data with Dynamics 365 Sales Insights."
 ms.date: 10/28/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 9cf9f43a-2156-418c-be33-6f34027f3d79
@@ -103,17 +102,19 @@ The following screenshot shows an example of enhanced relationship analytics:
 5. **Customer's hourly investment**: Shows the average amount of time your customers spent on activities related to the record compared with similar deals. For each activity, time spent by your customer is counted just once, even if more than one member of the customer's team was present.
 6. **Email engagement**: Summarizes how your customer has interacted with the followed emails your team has sent to them. Unfollowed emails are not included, so you must enable and use the email-engagement feature to see any information here. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use email engagement to view message interactions](email-engagement.md).
 7. **Your response time**: Shows the average amount of time taken by your sellers to respond to customer emails on the opportunity, to the average amount of time taken for a response from the customer for all similar won deals.
+
+    >[!NOTE]
+    >[Connect to Exchange Online](/power-platform/admin/connect-exchange-online) to view data in the **Your response time** section.  
+   
 8. **Customer's response time**: Shows the average amount of time taken by your customers to respond to emails on this opportunity, to the average amount of time taken for a response by customers on all similar won deals.   
+
+    >[!NOTE]
+    >[Connect to Exchange Online](/power-platform/admin/connect-exchange-online) to view data in the **Customer's response time** section.   
+
 9. **Your email send/receive ratio**: Shows the ratio of the number of emails sent by you and received by the customer in this opportunity, to the average sent and received ratio in all similar won deals.    
 
-    >[!NOTE]
-    >[Connect to Exchange Online](/power-platform/admin/connect-exchange-online) to view data in the **Your email send/receive ratio** section.  
-   
 10. **Customer's email send/receive ratio**: Shows the ratio of the number of emails sent by the customer and received by you in this opportunity, to the average sent and received ratio by customers on all similar won deals.    
 
-    >[!NOTE]
-    >[Connect to Exchange Online](/power-platform/admin/connect-exchange-online) to view data in the **Customer's email send/receive ratio** section.   
- 
 11. **Similar won deals**: Shows the list of similar opportunities that have been closed as won. The columns display activities count, time spent, response time, and the response ratio for each opportunity. You can select and open an opportunity to view what has worked better in a deal that was closed as won, and implement these observations in the current deal to help close it as well. The list is refreshed every seven days.
 12. **Relationship activities**: Provides a detailed look at activities over 90 days, broken down by date and activity type, such as emails sent, emails received, meetings sent, meetings received, phone calls made, and phone calls received.       
 

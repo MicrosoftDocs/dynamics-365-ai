@@ -2,7 +2,6 @@
 title: "Configure notes analysis for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to configure notes analysis for Sales Insights"
 ms.date: 08/10/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 08662c5d-1809-44fd-81d9-dc12774eb5e8
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

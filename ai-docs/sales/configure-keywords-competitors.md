@@ -2,7 +2,6 @@
 title: "Configure keywords and competitors to track in conversation intelligence | MicrosoftDocs"
 description: "Configure keywords and competitors to track in conversation intelligence"
 ms.date: 11/06/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 2d1fb7e4-f059-4e9b-b52e-f6023bc57ab2
@@ -12,7 +11,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

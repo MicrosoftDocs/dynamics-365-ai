@@ -1,8 +1,7 @@
 ---
 title: "Sequence creation and activation in the sales accelerator  | MicrosoftDocs"
 description: "Learn how to create and activate sequences in the sales accelerator."
-ms.date: 04/09/2021
-ms.service: crm-online
+ms.date: 05/28/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -20,8 +19,8 @@ Every organization has its own selling processes for sellers to follow. A sequen
 3. Under **Sales accelerator**, select **Sequence**.  
 4. On the **Sequences** page, select **+ New sequence**.   
     > [!div class="mx-imgBorder"]
-    > ![Create a sequence dialog box](media/sequence-create-sequence.png "Create a sequence dialog box")   
-5. In the **Create a sequence** dialog box, enter the following information:   
+    > ![Create a sequence dialog](media/sequence-create-sequence.png "Create a sequence dialog")   
+5. In the **Create a sequence** dialog, enter the following information:   
 
     | Parameter | Description |
     |-----------|-------------|
@@ -50,7 +49,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
         >Add a **Set wait time** activity before the **Automated email** activity. Adding wait time provides a time gap between the previous step and sending the automated email. If the time gap isn't configured, the automated email will be sent immediately after the previous activity is completed, which won't give sellers the time they might need to take action on the automated email activity.    
 
         >[!NOTE]
-        >Verify that required email templates are created in your organization. More information: [Create templates for email](https://docs.microsoft.com/power-platform/admin/create-templates-email)   
+        >Verify that required email templates are created in your organization. More information: [Create templates for email](/power-platform/admin/create-templates-email)   
 
         > [!div class="mx-imgBorder"]
         > ![Add an automated email activity](media/sequence-activity-add-automated-email.png "Add an automated email activity")   
@@ -99,15 +98,34 @@ Every organization has its own selling processes for sellers to follow. A sequen
     The sequence is activated and listed in the sequence designer home page.   
     > [!div class="mx-imgBorder"]
     > ![Sequence designer home page](media/sequence-home-page.png "Sequence designer home page")    
-Next, you connect the active sequence to lead or opportunity records.
 
-<table>
-<tr><td>
+Next, you connect the active sequence to lead or opportunity records. More information: [Connect a sequence to records](connect-a-sequence-to-records.md)
 
-> [!div class="nextstepaction"] 
-> [Next step: Connect a sequence to records](connect-a-sequence-to-records.md)
-</td></tr>
-</table> 
+## Exit a sequence during the flow
+
+By enabling the option to exit a sequence, you disconnect the sequence from its records when the criteria is met. For example, if the flow includes an email reply from the customer, the record will be disconnected from the sequence.
+
+**Prerequisites**
+
+Review the following requirements before you enable the **Exit the sequence** option:
+
+- At least one email activity step is created in the sequence. 
+- The sequence must be in inactive or revision state.
+- [Configure the email engagement feature](configure-email-engagement.md) in your organization before you start using this option for the email activity.
+
+**To configure the exit sequence criteria**
+
+1.	Open the sequence, and then select **Options**.
+
+    > [!div class="mx-imgBorder"]
+    > ![Sequence designer with Options](media/sequence-designer-select-options.png "Sequence designer with Options")
+
+2.	On the **Sequence Options** pane, turn on the **Exit a sequence** toggle to exit a sequence when a customer replies to any email in the sequence.  
+
+    > [!div class="mx-imgBorder"]
+    > ![Enable exiting a sequence on the Sequence Options pane](media/sequence-sequence-options-pane.png "Enable exiting a sequence on the Sequence Options pane")
+
+3.	Select **Save**.
 
 ### See also
 

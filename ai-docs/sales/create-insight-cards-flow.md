@@ -1,9 +1,8 @@
 ---
 title: "Create insight cards using Microsoft Power Automate in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Create custom insight cards using Microsoft Power Automate in Assistant"
-keywords: " "
+keywords: ""
 ms.date: 10/07/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: e59e67ad-3646-4929-a6f8-c97ab2c5f6e2
@@ -300,7 +299,7 @@ Use the **REST** option to invoke REST API.
     | Body| Enter request parameters for the REST API. This option appears only for the **REST** button type.| 
 
     > [!div class="mx-imgBorder"]
-    > ![Create card for playbook](media/insight-card-rest-api.png "Create card for playbook")
+    > ![Create a card for playbook](media/insight-card-rest-api.png "Create a card for playbook")
     
 
 ### See also

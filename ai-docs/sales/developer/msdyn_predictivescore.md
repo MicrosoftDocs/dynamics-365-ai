@@ -2,14 +2,13 @@
 title: "msdyn_predictivescore Entity Reference | MicrosoftDocs"
 description: "Includes schema information and supported messages for the msdyn_predictivescore entity."
 ms.date: 11/10/2020
-ms.service: "crm-online"
 ms.topic: "reference"
-applies_to: 
-  - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+applies_to: 
+  - "Dynamics 365 (online)"
 ---
 # msdyn_predictivescore Entity Reference
 

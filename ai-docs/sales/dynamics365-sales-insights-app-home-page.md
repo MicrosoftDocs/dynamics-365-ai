@@ -1,9 +1,8 @@
 ---
-title: View overall insights of your sales and sellers in conversation intelligence | MicrosoftDocs"
-description: "View high-level information on sales and sellers with AI-driven insights readily available for conversation intelligence "
+title: View overall insights of your sales and sellers in conversation intelligence | MicrosoftDocs
+description: "View high-level information on sales and sellers with AI-driven insights readily available for conversation intelligence"
 keywords: ""
 ms.date: 06/18/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 9affa7f1-5fed-4ca1-9bb5-5090aaab359e
@@ -13,7 +12,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 

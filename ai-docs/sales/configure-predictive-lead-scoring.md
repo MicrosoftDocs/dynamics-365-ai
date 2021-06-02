@@ -2,7 +2,6 @@
 title: "Configure predictive lead scoring for Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Learn how to configure predictive lead scoring for Sales Insights"
 ms.date: 09/27/2020
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 8660ca75-c63c-495d-a1a6-d3a0cd36f7cb
@@ -12,13 +11,16 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
 # Configure predictive lead scoring
 
 Predictive lead scoring uses a predictive machine learning model to calculate a score for all open leads. The score helps salespeople prioritize leads, achieve higher lead qualification rates, and reduce the time that it takes to qualify a lead.
+
+>[!NOTE]
+>Your historical data will be deleted after 30 days from the date of your subscription expiration. 
 
 Using this score, you can:
 
@@ -200,7 +202,7 @@ In organizations that have different lines of business, you might need different
     >If you already have 10 models (both published and unpublished), the **Add model** option is disabled. Delete the models that are no longer required in your organization. More information: [Delete a model](#delete-a-model)
 
     > [!div class="mx-imgBorder"]
-    > ![Predictive lead scoring add model page](media/si-admin-predictive-lead-scoring-model-add-model-page.png "Predictive lead scoring add model page") 
+    > ![Add model page for predictive lead scoring](media/si-admin-predictive-lead-scoring-model-add-model-page.png "Add model page for predictive lead scoring") 
 
 3. Perform steps 4 through 8 in [First-run setup experience](#first-run-setup-experience), earlier in this topic, to add the model. 
 
@@ -241,10 +243,16 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 
 1. Go to the predictive lead scoring configuration page, and select **Edit model**.
 
-2. On the **Edit fields** page, select your custom attributes from **Main Entity** and **Related Entities**.
+2. On the **Edit fields** page, select attributes from opportunity entity, and its related entities (contact and account) including custom attributes to train the model.
 
     > [!div class="mx-imgBorder"]
     > ![Edit model page](media/si-admin-predictive-lead-scoring-edit-model-page.png "Edit model page")
+
+    >[!NOTE]
+    >The scoring model don't support the following types of attributes: 
+    >- Attributes on custom entities
+    >- Date and time related attributes
+    >- System generated attributes (such as, leadscore, leadgrade, version number, entity image, exchange rate, and predictive score ID)
 
 3. Select **Retrain model**. 
 

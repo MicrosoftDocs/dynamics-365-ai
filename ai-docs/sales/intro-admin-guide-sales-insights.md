@@ -1,7 +1,7 @@
 ---
 title: "Introduction on how to administer Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Introduction on how to administer Dynamics 365 Sales Insights"
-keywords: " "
+keywords: ""
 ms.date: 08/10/2020
 ms.service: crm-online
 ms.custom: intro-internal
@@ -13,7 +13,7 @@ manager: shujoshi
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
-caps.latest.revision: 01
+caps.latest.revision: 1
 topic-status: Drafting
 ---
 
@@ -131,7 +131,7 @@ Review the following requirements before you install and configure the premium S
     >[!NOTE]
     >You can also start a free trial to use the sales premium features.
 
-- Assign licenses to each individual user to utilize the features. This is executed within the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home?#/homepage). More information: [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).    
+- Assign licenses to each individual user to utilize the features. This is executed within the [Microsoft 365 admin center](https://admin.microsoft.com/Adminportal/Home?#/homepage). More information: [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide&preserve-view=true).    
 
 - Exchange email server is configured, and a mailbox is enabled using **Email Configurations** in **Settings**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [System Settings dialog box - Email tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-email-tab).
 

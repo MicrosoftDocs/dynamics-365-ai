@@ -1,8 +1,7 @@
 ---
-title: "Email engagement for Dynamics 365 Sales Insights | MicrosoftDocs"
-keywords: 
+title: "Email engagement for Sales Insights add-in for Dynamics 365 Sales | MicrosoftDocs"
+description: Email engagement for Sales Insights add-in for Dynamics 365 Sales 
 ms.date: 10/31/2018
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: c44831bb-c4cb-4a2b-863e-eb94c4256921
@@ -19,30 +18,29 @@ caps.latest.revision: 25
 
  Email engagement helps you to:  
   
--   See when recipients opened your message, clicked a link, opened an attachment, or sent a reply.  
-  
--   Receive an alert right away, the first time a recipient opens your message.  
-  
--   Schedule the most effective delivery time, and receive advice for the best time based on the recipient's time zone.  
-  
--   Choose the most effective message template, with recommendations based on your organization's previous email interaction history.  
-  
--   Set an alert to remind you when it's time to follow up on an email message.  
-  
+-   See when recipients opened your message, clicked a link, opened an attachment, or sent a reply.      
+-   Receive an alert right away, the first time a recipient opens your message.      
+-   Schedule the most effective delivery time, and receive advice for the best time based on the recipient's time zone.      
+-   Choose the most effective message template, with recommendations based on your organization's previous email interaction history.      
+-   Set an alert to remind you when it's time to follow up on an email message.       
 -   Review the full interaction history of a single message, or review  KPIs.  
   
 The administrator must enable email engagement before you can try it out. Email engagement uses the relationship assistant to deliver alerts and other messages, so we strongly recommend that you also enable the assistant if you are using email engagement. For complete details about prerequisites, how to enable the feature, see [Enable email engagement](configure-email-engagement.md).
 
+## Considerations for email tracking
+
+Some aspects of the email engagement feature might be visible in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)] even when the feature is turned off. These include:
+
+-   The **Attachments** grid, which is shown when you author an email message or email template, always includes the **Followed** column.  
+-   The **Followed Email** grid always shows **Opens**, **Last Opened Time**, **Attachment Views**, **Link Clicks**, and **Replies** columns.  
+-   The **Email Template** grid always shows **Reply Rate**, **Open Rate**, **Recommended**, and **Email Count** columns.  
+-   The out-of-the-box versions of the account, contact, and lead forms all include the **Follow Email** field.  
+
+While the email engagement feature is disabled, these features will still appear but will usually be empty. Read the rest of this topic for details about what these columns mean and how to use them when the feature is enabled.     
+
 > [!NOTE]
->  Some aspects of the email engagement feature may be visible in [!INCLUDE[pn_sales_business_doc_name_shortest](../includes/pn-sales-business-doc-name-shortest.md)] even when the feature is turned off. These include:  
-> 
-> -   The **Attachments** grid, which is shown when you author an email message or email template, always includes the **Followed** column.  
-> -   The **Followed Email** grid always shows **Opens**, **Last Opened Time**, **Attachment Views**, **Link Clicks**, and **Replies** columns.  
-> -   The **Email Template** grid always shows **Reply Rate**, **Open Rate**, **Recommended**, and **Email Count** columns.  
-> -   The out-of-the-box versions of the account, contact, and lead forms all include the **Follow Email** field.  
-> 
-> While the email engagement feature is disabled, these features will still appear but will usually be empty. Read the rest of this topic for details about what these columns mean and how to use them when the feature is enabled.  
-  
+> When the email client automatically scans email for security reasons, the count for email open and link clicks can be higher than expected.
+
 ## Get interaction history for email  
  Usually when you send an email, you'll never know if it was opened or read unless the recipient chooses to write back to you. That's because the email system was created to simulate traditional mail, and was  not designed with response tracking in mind. [!INCLUDE[pn_sales_business_doc_name](../includes/pn-sales-business-doc-name.md)] uses special techniques to work around this limitation and provide the following message-following features:  
   

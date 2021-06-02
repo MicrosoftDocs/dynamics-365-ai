@@ -1,9 +1,8 @@
 ---
 title: "Optimize insight cards ranking in Dynamics 365 Sales Insights | MicrosoftDocs"
 description: "Optimize ranking for cards in assistant"
-keywords: " "
+keywords: ""
 ms.date: 10/01/2019
-ms.service: crm-online
 ms.custom: 
 ms.topic: article
 ms.assetid: 73b590f5-883a-46c5-9d2e-a9b9157a9614
@@ -50,7 +49,7 @@ Follow these steps to rank the cards:
 4. There are four properties you can edit for a rule. The rules are set using these four properties. The basic structure of rules displays as: **Cards related to** *'Name of the entity'* **with** *'Attribute type' 'Condition' 'Value'*. 
 
     The four properties are:
-    - **Name of the entity**: The entities such as account, leads, and opportunities are used to model and manage business data in Dynamics 365 Sales model-driven apps.
+    - **Name of the entity**: The entities such as account, leads, and opportunities are used to model and manage business data in Dynamics 365 Sales.
         After you select the entity, the values in the Attribute type, Condition, and Value drop-down lists change accordingly.
     - **Attribute type**: An entity has a set of attributes. For example, the account entity contains attributes such as Name, Address, and OwnerId. 
         The attribute types displayed in the drop-down list vary depending on the entity selection and are related to the fields defined within CRM.
