@@ -23,30 +23,29 @@ Before you start using the Dynamics 365 Sales app, be sure you've met the follow
 **To add the Dynamics 365 Sales app tab**
 
 1.	On Microsoft Teams, go to **Calendar**.     
-2.	Open the meeting and select **+ Add Tab**.   
-   > [!div class="mx-imgBorder"]	
-   > ![Select add tab on the meeting page](media/ci-tab-teams-meeting-select-add-tab.png "Select add tab on the meeting page") 
+2.	Open the meeting and select **+ Add Tab**.  
+    > [!div class="mx-imgBorder"]	
+    > ![Select add tab on the meeting page](media/ci-tab-teams-meeting-select-add-tab.png "Select add tab on the meeting page") 
 
 3.	On the **Add a tab** dialog, search, and open the **Dynamics 365 Sales (preview)** extension.   
-   > [!div class="mx-imgBorder"]	
-   > ![Search and open the Dynamics 365 Sales extension](media/ci-tab-teams-meeting-search-d365-sales-app.png "Search and open the Dynamics 365 Sales extension") 
+    > [!div class="mx-imgBorder"]	
+    > ![Search and open the Dynamics 365 Sales extension](media/ci-tab-teams-meeting-search-d365-sales-app.png "Search and open the Dynamics 365 Sales extension") 
  
 4.	On the **Dynamics 365 Sales (preview)** extension, select **Add**.   
-   > [!div class="mx-imgBorder"]	
-   > ![Add the Dynamics 365 Sales extension](media/ci-tab-teams-meeting-add-d365-sales-app.png "Add the Dynamics 365 Sales extension") 
+    > [!div class="mx-imgBorder"]	
+    > ![Add the Dynamics 365 Sales extension](media/ci-tab-teams-meeting-add-d365-sales-app.png "Add the Dynamics 365 Sales extension") 
  
 5.	On the confirmation dialog, select **Save**.   
-   > [!div class="mx-imgBorder"]	
-   > ![Confirmation message to add the Dynamics 365 Sales extension](media/ci-tab-teams-meeting-add-d365-sales-app-confirmation-message.png "Confirmation message to add the Dynamics 365 Sales extension")  
- 
+    > [!div class="mx-imgBorder"]	
+    > ![Confirmation message to add the Dynamics 365 Sales extension](media/ci-tab-teams-meeting-add-d365-sales-app-confirmation-message.png "Confirmation message to add the Dynamics 365 Sales extension")  
+    
     The **Dynamics 365 Sales** tab is added to the meeting page.    
-
-   > [!div class="mx-imgBorder"]	
-   > ![The Dynamics 365 Sales extension is added to the meeting](media/ci-tab-teams-meeting-d365-sales-app-added.png "The Dynamics 365 Sales extension is added to the meeting") 
+    
+    > [!div class="mx-imgBorder"]	
+    > ![The Dynamics 365 Sales extension is added to the meeting](media/ci-tab-teams-meeting-d365-sales-app-added.png "The Dynamics 365 Sales extension is added to the meeting") 
 
 ### See also
 
 [First-run set up experience](../sales/fre-setup-sales-insight-app.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
