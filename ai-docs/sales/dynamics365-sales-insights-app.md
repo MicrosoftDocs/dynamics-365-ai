@@ -2,7 +2,6 @@
 title: "Improve seller coaching and sales potential with conversation intelligence | MicrosoftDocs"
 description: "Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence"
 ms.date: 04/09/2020
-ms.service: crm-online
 ms.custom: intro-internal
 ms.topic: article
 ms.assetid: 17cac16d-2a37-4a19-9cfe-2d4355a6f044
