@@ -121,6 +121,7 @@
 #### [View seller information](../sales/conversation-intelligence-seller-details.md)
 #### [View and understand call summary](../sales/view-and-understand-call-summary.md)
 #### [Monitor call and insight processing](../sales/monitor-call-insight-processing.md)
+#### [Add the tab to Microsoft Teams meeting](../sales/add-conversation-intelligence-tab-teams-meeting.md)
 
 ## Developer Guide
 ### Action Reference
