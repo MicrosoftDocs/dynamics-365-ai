@@ -19,7 +19,7 @@ Use *adaptive sequences* to define conditions for the steps in a sequence. These
 
 ## Prerequisite
 
-Conditions in the adaptive sequences work as define only when **Adaptive Sequence Timeout Flow** process is enabled. To enable the process, follow these steps:     
+Conditions in the adaptive sequences work as defined only when **Adaptive Sequence Timeout Flow** process is enabled. To enable the process, follow these steps:     
 1. Go to [Power Automate](https://flow.microsoft.com) and change the environment to your organization.   
 2. Select **Solutions** and then select the view as **All** and search for **Sequence**.   
     >[!div class="mx-imgBorder"]
