@@ -3,7 +3,7 @@ title: "Introduction on how to administer Dynamics 365 Sales Insights | Microsof
 description: "Introduction on how to administer Dynamics 365 Sales Insights"
 keywords: ""
 ms.date: 08/10/2020
-ms.custom: 
+ms.custom: intro-internal
 ms.topic: article
 ms.assetid: be0a1a73-f667-4ade-be83-55cd9b4eebe4
 author: udaykirang
