@@ -8,7 +8,12 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Add conversation intelligence tab to Microsoft Teams meeting   
+# Add conversation intelligence tab to Microsoft Teams meeting 
+
+> [!IMPORTANT]
+> - The enhanced experience of adding conversation intelligence tab to  Microsoft Teams is a preview feature. [!INCLUDE[cc-preview-features-definition](../includes/cc-preview-features-definition.md)]
+> - [!INCLUDE[cc-preview-features-expect-changes](../includes/cc-preview-features-expect-changes.md)]
+> - [!INCLUDE[cc-preview-features-no-ms-support](../includes/cc-preview-features-no-ms-support.md)]   
 
 The Dynamics 365 Sales app on Microsoft Teams allows you to enrich your remote selling experience by conducting valuable and meaningful customer conversations&mdash;which translate into revenue, by adding conversation intelligence as an integral part of any Teams meeting.    
 
