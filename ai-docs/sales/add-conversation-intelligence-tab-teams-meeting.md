@@ -1,6 +1,6 @@
 ---
-title: "Add conversation intelligence to Microsoft Teams meeting | MicrosoftDocs"
-description: "The Dynamics 365 Sales app on Microsoft Teams allows sellers to enrich their selling experience through conversation intelligence."
+title: "Add conversation intelligence tab to Microsoft Teams meeting | MicrosoftDocs"
+description: "Use the tab during a sales meeting in Teams to get a real-time transcript with highlighted points of interest and captured action items."
 ms.date: 06/11/2021
 ms.topic: article
 author: udaykirang
