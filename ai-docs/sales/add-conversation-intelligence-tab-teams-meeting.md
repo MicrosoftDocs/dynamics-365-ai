@@ -44,7 +44,7 @@ Before you start using the Dynamics 365 Sales app, be sure you've met the follow
     > [!div class="mx-imgBorder"]	
     > ![Confirmation message to add the Dynamics 365 Sales extension](media/ci-tab-teams-meeting-add-d365-sales-app-confirmation-message.png "Confirmation message to add the Dynamics 365 Sales extension")  
     
-    The **Dynamics 365 Sales** tab is added to the meeting page which captures real-time transcript with highlights.    
+    The **Dynamics 365 Sales** tab is added to the meeting page which displays real-time transcript with highlights.    
     
     > [!div class="mx-imgBorder"]	
     > ![The Dynamics 365 Sales extension is added to the meeting](media/ci-tab-teams-meeting-d365-sales-app-added.png "The Dynamics 365 Sales extension is added to the meeting") 
