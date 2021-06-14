@@ -3,92 +3,97 @@
     {
       "source_path": "ai-docs/sales/dynamics-365-assistant-app-teams.md",
       "redirect_url": "removed-deprecated-features",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/overview-dynamics-365-assistant-app-teams.md",
       "redirect_url": "removed-deprecated-features",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/install-assistant-application-microsoft-teams.md",
       "redirect_url": "removed-deprecated-features",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/access-assistant-application-teams.md",
       "redirect_url": "removed-deprecated-features",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/learn-basics-dynamics-365-application-teams.md",
       "redirect_url": "removed-deprecated-features",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/working-with-meetings-teams.md",
       "redirect_url": "removed-deprecated-features",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/scan-business-cards-notes.md",
       "redirect_url": "removed-deprecated-features",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/change-sales-organization.md",
       "redirect_url": "removed-deprecated-features",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/customer-insights/intelligence.md",
       "redirect_url": "overview",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/customer-insights/advanced-mode.md",
       "redirect_url": "overview",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/customer-insights/pm-data-manager.md",
       "redirect_url": "overview",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/intro-admin-guide-sales-insights-app.md",
       "redirect_url": "intro-admin-guide-sales-insights",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/faqs-sales-insights-app.md",
       "redirect_url": "faqs-sales-insights",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/faqs-seller-app.md",
       "redirect_url": "faqs-sales-insights",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/privacy-notice-seller.md",
       "redirect_url": "privacy-notice",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/privacy-notice-manager.md",
       "redirect_url": "privacy-notice",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/call-intelligence.md",
       "redirect_url": "conversation-intelligence-seller-details",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/configure-call-intelligence.md",
       "redirect_url": "configure-conversation-intelligence-call-data",
-      "redirect_document_id": "false"
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/sales/business-qa.md",
+      "redirect_url": "intro-admin-guide-sales-insights",
+      "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/market-insights/activity-maps.md",

@@ -1,6 +1,6 @@
 ---
-title: "Analyze revenue outcome using predictive forecasting in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Analyze revenue outcome using predictive forecasting in Dynamics 365 Sales Insights."
+title: "Analyze revenue outcome using predictive forecasting | MicrosoftDocs"
+description: "Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data."
 ms.date: 02/03/2020
 ms.custom: 
 ms.topic: article

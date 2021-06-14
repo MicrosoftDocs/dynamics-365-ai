@@ -1,6 +1,6 @@
 ---
 title: "Assistant for Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Stay on top of your day with insight cards from the sales assistant"
+description: "Use the sales assistant to stay on top of your day through insight cards that provide tailored and actionable insights."
 ms.date: 04/09/2020
 ms.custom: 
 ms.topic: article

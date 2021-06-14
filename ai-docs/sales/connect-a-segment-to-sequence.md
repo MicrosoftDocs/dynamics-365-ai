@@ -1,6 +1,6 @@
 ---
-title: "Connect a segment to a sequence in the sales accelerator | MicrosoftDocs"
-description: "Learn how to connect a segment to sequence in the sales accelerator."
+title: "Connect segment to sequence in the sales accelerator | MicrosoftDocs"
+description: "Connect a segment to a sequence based on the entity that the sequence is created in the sales accelerator."
 ms.date: 04/09/2021
 ms.topic: article
 author: udaykirang

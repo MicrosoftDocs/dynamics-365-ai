@@ -1,6 +1,6 @@
 ---
-title: "Analyze deals flows between snapshots in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Analyze deals flows between snapshots in Dynamics 365 Sales Insights."
+title: "Analyze deals flows between two snapshots | MicrosoftDocs"
+description: "Use snapshots to visualize and analyze how deals are trending between two moments in time in a deal flow chart."
 ms.date: 10/26/2020
 ms.custom: 
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: "Configure call data for conversation intelligence | MicrosoftDocs"
-description: "Configure call data in conversation intelligence"
+description: "Configure call data to assist sales managers to get an overview of the call center and drill down to get call statistics for individual sellers."
 ms.date: 11/18/2020
 ms.custom: 
 ms.topic: article

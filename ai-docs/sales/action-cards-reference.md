@@ -1,6 +1,6 @@
 ---
 title: "Insight cards reference for Dynamics 365 Sales | MicrosoftDocs"
-description: "List of each available insight card and how you can use it to stay updated with your work"
+description: "List of upcoming meetings, reminders, and insights cards, and how you can use them to stay updated with your work."
 keywords: 
 ms.date: 10/07/2020
 ms.custom: 

@@ -1,6 +1,6 @@
 ---
-title: "Configure keywords and competitors to track in conversation intelligence | MicrosoftDocs"
-description: "Configure keywords and competitors to track in conversation intelligence"
+title: "Configure keywords and competitors in conversation intelligence | MicrosoftDocs"
+description: "Configure conversation content such as, keywords and competitors to track in conversation intelligence."
 ms.date: 11/06/2020
 ms.custom: 
 ms.topic: article

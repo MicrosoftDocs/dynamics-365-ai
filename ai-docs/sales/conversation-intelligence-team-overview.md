@@ -1,6 +1,6 @@
 ---
-title: "Work with conversation intelligence to understand team overview feature for conversation intelligence | MicrosoftDocs"
-description: "Analyze overall team performance  to improve sales and generate revenue"
+title: "Understand team overview feature in conversation intelligence | MicrosoftDocs"
+description: "Analyze sales calls and overall behavior of your team during customer calls to improve sales and generate revenue."
 ms.date: 04/09/2020
 ms.custom: 
 ms.topic: article
@@ -15,7 +15,7 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# Analyze team's behavior on customer calls
+# Analyze behavior of your team on customer calls
 
 Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The **Teams overview** page in conversation intelligence helps sales managers analyze the overall behavior of their team during customer calls. This helps in identifying coaching scenarios for the team to increase sales wins and productivity gains for the business.
 

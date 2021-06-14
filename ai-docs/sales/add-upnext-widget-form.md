@@ -1,6 +1,6 @@
 ---
-title: "Add the up next widget to an entity form | MicrosoftDocs"
-description: "Learn how to add the up next widget to an entity form."
+title: "Add the up next widget to a custom form | MicrosoftDocs"
+description: "Display the up next widget on your customized forms through sales accelerator configuration in Sales Insights."
 ms.date: 11/16/2020
 ms.topic: article
 author: udaykirang
@@ -8,7 +8,7 @@ ms.author: udag
 manager: shujoshi
 ---
 
-# Add the Up next widget to an entity form
+# Add the Up next widget to a custom form
 
 By default, the Up next widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms by following these steps.
 >[!NOTE]

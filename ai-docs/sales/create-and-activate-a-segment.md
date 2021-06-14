@@ -1,6 +1,6 @@
 ---
-title: "Segment creation and activation in the sales accelerator  | MicrosoftDocs"
-description: "Learn how to create and activate segments in the sales accelerator."
+title: "Segment creation and activation in sales accelerator | MicrosoftDocs"
+description: "Create and activate segments by defining conditions to automatically add records that satisfy the conditions."
 ms.date: 04/09/2021
 ms.topic: article
 author: udaykirang

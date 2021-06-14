@@ -1,6 +1,6 @@
 ---
-title: "Configure talking points for Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Learn how to configure talking points for Sales Insights"
+title: "Configure talking points | MicrosoftDocs"
+description: "Configure talking points to provide suggestions on conversation starters that help sellers to quickly establish communications with customers."
 ms.date: 08/10/2020
 ms.custom: 
 ms.topic: article

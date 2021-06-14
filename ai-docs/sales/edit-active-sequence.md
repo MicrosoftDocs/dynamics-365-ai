@@ -1,6 +1,6 @@
 ---
-title: "Edit an active sequence in the sales accelerator | MicrosoftDocs"
-description: "Learn how to edit an active sequence in the sales accelerator."
+title: "Edit an active sequence | MicrosoftDocs"
+description: "Edit an active sequence by creating new versions of the sequence without deactivating it in sales accelerator."
 ms.date: 04/09/2021
 ms.topic: article
 author: udaykirang
@@ -9,8 +9,8 @@ manager: shujoshi
 ---
 
 # Edit an active sequence and view version history
-<!--note from editor: Title okay? If you don't like it, can you move the introduction to the "View edit history" H2 up to the beginning of the article and then just have procedure headings (**To edit an active sequence**, **To view version history and associated records**) for the two procedures? Otherwise we'll have just one H2, which we want to avoid.-->
-When you've changed the process of an active sequence, you can create a new version of the sequence without deactivating it. You can update a sequence multiple times<!--note from editor: Edit okay? "Create multiple versions" to me means that several versions all exist at the same time, not that you update one single version over and over. If I've misunderstood, please excuse.-->, and when you connect a record to the sequence, the record will be connected to the latest version.
+
+When you've changed the process of an active sequence, you can create a new version of the sequence without deactivating it. You can update a sequence multiple times, and when you connect a record to the sequence, the record will be connected to the latest version.
 
 >[!IMPORTANT]
 >The records that were connected to a previous version of the sequence remain connected to that previous version.

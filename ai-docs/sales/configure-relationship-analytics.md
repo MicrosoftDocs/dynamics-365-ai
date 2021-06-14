@@ -1,6 +1,6 @@
 ---
-title: "Configure Relationship analytics and health for Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Learn how to configure Relationship analytics and health for Sales Insights"
+title: "Configure Relationship analytics and health | MicrosoftDocs"
+description: "Configure relationship analytics and health to provide graphical representation of KPIs and activity histories to the sellers."
 ms.date: 10/28/2020
 ms.custom: 
 ms.topic: article

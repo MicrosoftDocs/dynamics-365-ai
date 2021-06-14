@@ -1,6 +1,6 @@
 ---
 title: "Manage sequences in sales accelerator | MicrosoftDocs"
-description: "Learn how to manage sequences in sales accelerator."
+description: "Manage sequences in sales accelerator by creating, activating, connecting, viewing details, cloning, editing, and deleting."
 ms.date: 01/11/2021
 ms.topic: article
 author: udaykirang
