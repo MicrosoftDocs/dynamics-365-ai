@@ -1,6 +1,6 @@
 ---
-title: "Monitor call and insight processing in conversation intelligence | MicrosoftDocs"
-description: "Monitor call and insight processing in conversation intelligence"
+title: "Monitor the call and insight processing | MicrosoftDocs"
+description: "Monitor the processing status of call to verify the call is processed successfully or an error is occurred."
 ms.date: 04/09/2020
 ms.topic: article
 author: udaykirang

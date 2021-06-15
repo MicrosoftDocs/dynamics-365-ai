@@ -1,6 +1,6 @@
 ---
-title: "Understand how to manage snapshots for a forecast in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Understand how to manage snapshots for a forecast in Dynamics 365 Sales Insights"
+title: "Understand how to manage snapshots for a forecast | MicrosoftDocs"
+description: "Use snapshots to automatically take a snippet of forecast data at a moment in time and compare how data is changed over time."
 ms.date: 10/26/2020
 ms.custom: 
 ms.topic: article

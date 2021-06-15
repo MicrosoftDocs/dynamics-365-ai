@@ -1,6 +1,6 @@
 ---
 title: "Manage segments in sales accelerator | MicrosoftDocs"
-description: "Learn how to manage segments in sales accelerator."
+description: "Manage the segments in sales accelerator by creating, connecting, editing, deleting, and deactivating."
 ms.date: 04/09/2021
 ms.topic: article
 author: udaykirang

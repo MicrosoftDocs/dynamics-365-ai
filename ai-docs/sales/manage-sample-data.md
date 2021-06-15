@@ -1,6 +1,6 @@
 ---
 title: "Use sample data to explore the sales accelerator | MicrosoftDocs"
-description: "Learn how to explore the sales accelerator with sample data."
+description: "Use sample data to visualize and explore the end-to-end business scenarios, and get started with the sales accelerator."
 ms.date: 01/11/2021
 ms.topic: article
 author: udaykirang
@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Explore the sales accelerator with sample data
 
-Sample data helps you visualize a product and its features, by enabling you to understand end-to-end business scenarios and get started with the sales insights for Dynamics 365 Sales. You can add the sample data during or after the configuration of the sales accelerator. Also, you can remove the sample data from your organization when you don't need it. 
+Sample data helps you visualize a product and its features, by enabling you to understand end-to-end business scenarios and get started with Sales Insights. You can add the sample data during or after the configuration of the sales accelerator. Also, you can remove the sample data from your organization when you don't need it. 
 
 >[!NOTE]
 >To prevent unwanted results, sample data is available only for non-production environments. 
