@@ -1,6 +1,6 @@
 ---
-title: "What's new in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Learn what's new in the latest release of Dynamics 365 Sales Insights."
+title: "What's new in Sales Insights | MicrosoftDocs"
+description: "Get the resources on what's new in the latest release of Sales Insights Add-in for Dynamics 365 Sales."
 keywords: 
 ms.date: 04/06/2020
 ms.custom: 
@@ -16,7 +16,7 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# What's new in Dynamics 365 Sales Insights
+# What's new in Sales Insights
 
 This topic provides resources where you can learn about the new features that have recently released or new features that will be releasing over the next few months.
 

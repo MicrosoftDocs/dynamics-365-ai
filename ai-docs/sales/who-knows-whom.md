@@ -1,6 +1,6 @@
 ---
-title: "Who Knows Whom in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "how to get introduced to a lead in Dynamics 365 Sales Insights."
+title: "Who Knows Whom in Sales Insights | MicrosoftDocs"
+description: "Use who knows whom to quickly identify colleagues within your organization who can introduce you to a lead or contact."
 ms.date: 10/31/2018
 ms.custom: 
 ms.topic: article
