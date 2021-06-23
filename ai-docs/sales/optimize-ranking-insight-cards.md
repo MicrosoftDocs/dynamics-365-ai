@@ -1,5 +1,5 @@
 ---
-title: "Optimize insight cards ranking in assistant | MicrosoftDocs"
+title: "Optimize insight cards ranking in assistant (Sales Insights) | MicrosoftDocs"
 description: "Use optimize ranking in assistant to modify the ranking of cards that are important and promotes those cards to display at the top."
 keywords: ""
 ms.date: 10/01/2019

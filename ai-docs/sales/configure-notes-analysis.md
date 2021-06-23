@@ -1,5 +1,5 @@
 ---
-title: "Configure notes analysis for Sales Insights | MicrosoftDocs"
+title: "Configure notes analysis (Sales Insights) | MicrosoftDocs"
 description: "Configure and enable notes analysis to display intelligent suggestions when your users enter an activity on the timeline."
 ms.date: 08/10/2020
 ms.custom: 

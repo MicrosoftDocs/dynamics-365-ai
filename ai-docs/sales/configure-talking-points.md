@@ -1,5 +1,5 @@
 ---
-title: "Configure talking points | MicrosoftDocs"
+title: "Configure talking points (Sales Insights) | MicrosoftDocs"
 description: "Configure talking points to provide suggestions on conversation starters that help sellers to quickly establish communications with customers."
 ms.date: 08/10/2020
 ms.custom: 

@@ -1,5 +1,5 @@
 ---
-title: "View overall insights of your sales and sellers | MicrosoftDocs"
+title: "View overall insights of your sales and sellers (Sales Insights) | MicrosoftDocs"
 description: "View high-level information on sales and sellers with AI-driven insights readily available for conversation intelligence."
 keywords: ""
 ms.date: 06/18/2020

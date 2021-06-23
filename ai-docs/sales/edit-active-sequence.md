@@ -1,5 +1,5 @@
 ---
-title: "Edit an active sequence | MicrosoftDocs"
+title: "Edit an active sequence (Sales Insights) | MicrosoftDocs"
 description: "Edit an active sequence by creating new versions of the sequence without deactivating it in sales accelerator."
 ms.date: 04/09/2021
 ms.topic: article

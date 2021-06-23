@@ -1,5 +1,5 @@
 ---
-title: "Configure Relationship analytics and health | MicrosoftDocs"
+title: "Configure Relationship analytics and health (Sales Insights) | MicrosoftDocs"
 description: "Configure relationship analytics and health to provide graphical representation of KPIs and activity histories to the sellers."
 ms.date: 10/28/2020
 ms.custom: 

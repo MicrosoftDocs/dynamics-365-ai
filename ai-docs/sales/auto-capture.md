@@ -1,5 +1,5 @@
 ---
-title: "Auto capture customer-related activities | MicrosoftDocs"
+title: "Auto capture customer-related activities (Sales Insights) | MicrosoftDocs"
 description: "Use auto capture to collect customer-related activities from your Outlook data and display suggestions on emails and meetings." 
 keywords: 
 ms.date: 10/31/2018

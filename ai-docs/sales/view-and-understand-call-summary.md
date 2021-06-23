@@ -1,5 +1,5 @@
 ---
-title: "View and understand call summary page | MicrosoftDocs"
+title: "View and understand call summary page (Sales Insights) | MicrosoftDocs"
 description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript."
 ms.date: 11/18/2020
 ms.topic: article

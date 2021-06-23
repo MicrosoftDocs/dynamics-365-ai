@@ -1,6 +1,6 @@
 ---
 title: "Sequence creation and activation in the sales accelerator | MicrosoftDocs"
-description: "Create and activate a sequence by defining a set of activities as steps that sellers should follow while handling records."
+description: "Create and activate a sequence by defining a set of activities as steps that sellers should follow while handling records in Dynamics 365 Sales."
 ms.date: 05/28/2021
 ms.topic: article
 author: udaykirang

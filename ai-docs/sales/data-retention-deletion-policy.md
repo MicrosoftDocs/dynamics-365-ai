@@ -1,5 +1,5 @@
 ---
-title: "Data retention and deletion policy | MicrosoftDocs"
+title: "Data retention and deletion policy (Sales Insights) | MicrosoftDocs"
 description: "Provide read-only access to your call data and determine how long you want to keep the analyzed call recording data in conversation intelligence."
 ms.date: 11/06/2020
 ms.custom: 

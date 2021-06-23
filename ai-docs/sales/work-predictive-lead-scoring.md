@@ -1,5 +1,5 @@
 ---
-title: "Work with Predictive lead scoring | MicrosoftDocs"
+title: "Work with Predictive lead scoring (Sales Insights) | MicrosoftDocs"
 description: "Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates."
 ms.date: 11/16/2020
 ms.custom: 

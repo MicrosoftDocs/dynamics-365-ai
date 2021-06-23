@@ -1,5 +1,5 @@
 ---
-title: "Enable and configure sales accelerator | MicrosoftDocs"
+title: "Enable and configure sales accelerator (Sales Insights) | MicrosoftDocs"
 description: "Enable and configure the sales accelerator to create sequences and connect records, and view daily work list items."
 ms.date: 01/11/2021
 ms.topic: article

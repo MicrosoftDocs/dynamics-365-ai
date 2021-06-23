@@ -1,5 +1,5 @@
 ---
-title: "Configure and view your team page | MicrosoftDocs"
+title: "Configure and view your team page (Sales Insights) | MicrosoftDocs"
 description: "Configure and view your team page with information on levels of hierarchy, top performers, and delete sellers data."
 ms.date: 11/17/2020
 ms.topic: article

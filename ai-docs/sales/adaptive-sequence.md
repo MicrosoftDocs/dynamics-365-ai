@@ -1,5 +1,5 @@
 ---
-title: "Use adaptive sequences to define conditions | MicrosoftDocs"
+title: "Use adaptive sequences to define conditions (Sales Insights) | MicrosoftDocs"
 description: "Use adaptive sequences in sales accelerator to define conditions steps that determines the path of a sequence."
 ms.date: 05/28/2021
 ms.topic: article

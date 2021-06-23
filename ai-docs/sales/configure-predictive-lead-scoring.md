@@ -1,5 +1,5 @@
 ---
-title: "Configure predictive lead scoring | MicrosoftDocs"
+title: "Configure predictive lead scoring (Sales Insights) | MicrosoftDocs"
 description: "Configure predictive lead scoring to help sellers prioritize leads based on scores and achieve higher lead qualification rates."
 ms.date: 09/27/2020
 ms.custom: 

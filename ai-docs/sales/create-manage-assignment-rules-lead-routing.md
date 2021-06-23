@@ -1,5 +1,5 @@
 ---
-title: "Manage assignment rules for lead routing | MicrosoftDocs"
+title: "Manage assignment rules for lead routing (Sales Insights) | MicrosoftDocs"
 description: "Create, activate, edit, delete assignment rules, manage sales teams, and seller attributes for lead routing."
 ms.date: 05/14/2021
 ms.topic: article

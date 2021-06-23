@@ -1,5 +1,5 @@
 ---
-title: "Edit a sequence to records in sales accelerator | MicrosoftDocs"
+title: "Edit a sequence to records in sales accelerator (Sales Insights) | MicrosoftDocs"
 description: "You can edit an inactive sequence when there is a change in the process of selling in your organization."
 ms.date: 01/11/2021
 ms.topic: article

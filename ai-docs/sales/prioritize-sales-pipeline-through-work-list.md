@@ -1,5 +1,5 @@
 ---
-title: "Prioritize your sales pipeline through the work list | MicrosoftDocs"
+title: "Prioritize your sales pipeline through the work list (Sales Insights) | MicrosoftDocs"
 description: "Use work list in sales accelerator to prioritize your sales pipeline to ensure important records are not left behind."
 ms.date: 01/11/2021
 ms.topic: article

@@ -1,6 +1,6 @@
 ---
 title: "View and export KPI data (GDPR) | Microsoft Docs"
-description: "View KPI data for contact, lead, and opportunity using system views, and export the data to an Excel file."
+description: "View KPI data for contact, lead, and opportunity using system views, and export the data to an Excel file in Sales Insights."
 keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.date: 10/31/2018
 ms.topic: article

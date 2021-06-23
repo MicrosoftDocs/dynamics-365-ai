@@ -1,5 +1,5 @@
 ---
-title: "Configure predictive opportunity scoring | MicrosoftDocs"
+title: "Configure predictive opportunity scoring (Sales Insights) | MicrosoftDocs"
 description: "Configure predictive opportunity scoring to help sellers prioritize opportunities based on scores and achieve higher opportunity qualification rates."
 ms.date: 10/01/2019
 ms.custom: 

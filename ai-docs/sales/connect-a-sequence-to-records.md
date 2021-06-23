@@ -1,6 +1,6 @@
 ---
 title: "Connect sequence to records in the sales accelerator | MicrosoftDocs"
-description: "Connect a sequence to a record based on the entity that the sequence is created in the sales accelerator."
+description: "Connect a sequence to a record based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales."
 ms.date: 01/11/2021
 ms.topic: article
 author: udaykirang

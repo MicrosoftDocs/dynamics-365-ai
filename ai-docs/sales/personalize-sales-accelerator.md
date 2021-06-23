@@ -1,5 +1,5 @@
 ---
-title: "Personalize sales accelerator settings | MicrosoftDocs"
+title: "Personalize sales accelerator settings (Sales Insights) | MicrosoftDocs"
 description: "Use personal settings to determine how activities are scheduled based on work availability and deciding what happens when an activity is complete."
 ms.date: 03/08/2021
 ms.topic: article

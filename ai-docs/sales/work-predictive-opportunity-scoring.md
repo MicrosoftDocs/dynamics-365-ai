@@ -1,5 +1,5 @@
 ---
-title: "Work with Predictive opportunity scoring | MicrosoftDocs"
+title: "Work with Predictive opportunity scoring (Sales Insights) | MicrosoftDocs"
 description: "Use the predictive opportunity scoring feature to prioritize your opportunities based on scores and achieve higher opportunity qualification rates."
 keywords: ""
 ms.date: 11/16/2020

@@ -1,5 +1,5 @@
 ---
-title: "Talking points in Dynamics 365 Sales Insights | MicrosoftDocs"
+title: "Talking points in Sales Insights | MicrosoftDocs"
 description: "Use talking points to automatically identify conversation starters of your customers before you interact with them."
 ms.date: 10/31/2018
 ms.custom: 

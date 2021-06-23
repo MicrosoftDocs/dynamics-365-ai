@@ -1,5 +1,5 @@
 ---
-title: "Analyze revenue outcome using predictive forecasting | MicrosoftDocs"
+title: "Analyze revenue outcome using predictive forecasting (Sales Insights) | MicrosoftDocs"
 description: "Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data."
 ms.date: 02/03/2020
 ms.custom: 

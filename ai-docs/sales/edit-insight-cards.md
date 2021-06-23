@@ -1,5 +1,5 @@
 ---
-title: "Edit insight cards | MicrosoftDocs"
+title: "Edit insight cards (Sales Insights) | MicrosoftDocs"
 description: "Edit insight cards in assistant by turning off or on, assigning or removing roles, setting priority, editing flow, and viewing usage metrics."
 keywords: ""
 ms.date: 06/01/2020

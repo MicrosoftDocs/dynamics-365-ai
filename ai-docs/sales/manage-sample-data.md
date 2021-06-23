@@ -1,5 +1,5 @@
 ---
-title: "Use sample data to explore the sales accelerator | MicrosoftDocs"
+title: "Use sample data for sales accelerator (Sales Insights) | MicrosoftDocs"
 description: "Use sample data to visualize and explore the end-to-end business scenarios, and get started with the sales accelerator."
 ms.date: 01/11/2021
 ms.topic: article

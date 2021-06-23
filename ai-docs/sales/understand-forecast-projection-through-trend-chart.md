@@ -1,5 +1,5 @@
 ---
-title: "View forecast projection through trend charts | MicrosoftDocs"
+title: "View forecast projection through trend charts (Sales Insights) | MicrosoftDocs"
 description: "Use the trend charts to understand how each forecast amount is trending over time, comparing it against the period end prediction and quota."
 ms.date: 02/03/2020
 ms.custom: 

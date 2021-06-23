@@ -1,6 +1,6 @@
 ---
 title: "Prerequisites to administer conversation intelligence | MicrosoftDocs"
-description: "Verify the prerequisites that are necessary to administer conversation intelligence in your organization."
+description: "Verify the prerequisites that are necessary to administer conversation intelligence in your Dynamics 365 Sales organization."
 ms.date: 06/01/2020
 ms.custom: 
 ms.topic: article

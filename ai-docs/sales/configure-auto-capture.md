@@ -1,5 +1,5 @@
 ---
-title: "Enable and configure auto capture | MicrosoftDocs"
+title: "Enable and configure auto capture (Sales Insights) | MicrosoftDocs"
 description: "Configure auto capture to helps your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook."
 ms.date: 10/01/2019
 ms.custom: 

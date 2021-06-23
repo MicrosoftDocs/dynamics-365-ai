@@ -1,5 +1,5 @@
 ---
-title: "Delete a sequence in sales accelerator | MicrosoftDocs"
+title: "Delete a sequence in sales accelerator (Sales Insights) | MicrosoftDocs"
 description: "Permanently delete a sequence that is no longer required in your organization and disconnect records from it."
 ms.date: 01/11/2021
 ms.topic: article

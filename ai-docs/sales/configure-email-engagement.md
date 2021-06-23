@@ -1,5 +1,5 @@
 ---
-title: "Configure email engagement for Sales Insights | MicrosoftDocs"
+title: "Configure email engagement (Sales Insights) | MicrosoftDocs"
 description: "Configure email engagement to show alerts and reminders for sellers and sales managers to help build customer relationships."
 ms.date: 08/10/2020
 ms.custom: 

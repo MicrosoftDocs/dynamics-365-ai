@@ -1,5 +1,5 @@
 ---
-title: "Work with call intelligence feature | MicrosoftDocs"
+title: "Work with call intelligence feature (Sales Insights) | MicrosoftDocs"
 description: "View insights and analyze the performers of sellers during calls with customer to improve sales and generate revenue."
 ms.date: 04/09/2020
 ms.custom: 

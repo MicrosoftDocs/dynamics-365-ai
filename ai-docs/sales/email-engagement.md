@@ -1,5 +1,5 @@
 ---
-title: "Use email engagement to view message interactions | MicrosoftDocs"
+title: "Use email engagement to view message interactions (Sales Insights) | MicrosoftDocs"
 description: "Use email engagement to view the message interactions such as, alerts, clicked a link, opened an attachment, or sent a reply on your emails." 
 ms.date: 10/31/2018
 ms.custom: 
