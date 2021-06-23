@@ -89,11 +89,11 @@ Follow these steps:
 >[!IMPORTANT]
 >You must have tenant administrator privileges to run the PowerShell script. 
   
-1.	Open a PowerShell command window as administrator and verify that you have the latest PowerShell version. Run the following commands:
+1.	Open a PowerShell command window as administrator and verify that you have the latest PowerShell version. Run the following commands and close the PowerShell window:
     -	`Install-PackageProvider -Name NuGet -Force`
     -	`Install-Module -Name PowerShellGet -Force -AllowClobber`
-
-2.	Install the dependencies by running the following commands:    
+  
+2. Open a new PowerShell command window and install the dependencies by running the following commands:    
     -	`Install-Module -Name MicrosoftTeams -RequiredVersion 1.1.6 -Force -AllowClobber`
     -	`Install-Module AzureAD`
     -	`Install-Module MSAL.PS`     
