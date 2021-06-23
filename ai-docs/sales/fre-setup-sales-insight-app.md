@@ -1,6 +1,6 @@
 ---
 title: "First-run setup experience for conversation intelligence | MicrosoftDocs"
-description: "First-run setup experience for conversation intelligence"
+description: "First-run configuration of conversation intelligence for Microsoft Teams and conversation intelligence application for your Dynamics 365 Sales environment."
 ms.date: 02/04/2021
 ms.custom: 
 ms.topic: article
@@ -15,7 +15,7 @@ caps.latest.revision: 1
 topic-status: Drafting
 ---
 
-# First-run setup experience for conversation intelligence in Dynamics 365
+# First-run setup experience for conversation intelligence
 
 You can configure conversation intelligence with Microsoft Teams by completing the following section:
 

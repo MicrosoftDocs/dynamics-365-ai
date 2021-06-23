@@ -1,6 +1,6 @@
 ---
 title: "Understand how to uninstall Sales Insights | MicrosoftDocs"
-description: "Uninstall Sales Insights"
+description: "Uninstall the Sales Insights Add-in for Dynamics 365 Sales if you don't want to use it in your organization."
 ms.date: 11/24/2020
 ms.custom: 
 ms.topic: article

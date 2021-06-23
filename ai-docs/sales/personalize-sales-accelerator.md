@@ -1,6 +1,6 @@
 ---
-title: "Personalize sales accelerator settings in Dynamics 365 Sales | MicrosoftDocs"
-description: "Learn how to use personal settings to customize sales accelerator in Dynamics 365 Sales."
+title: "Personalize sales accelerator settings (Sales Insights) | MicrosoftDocs"
+description: "Use personal settings to determine how activities are scheduled based on work availability and deciding what happens when an activity is complete."
 ms.date: 03/08/2021
 ms.topic: article
 author: udaykirang

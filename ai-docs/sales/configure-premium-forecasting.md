@@ -1,6 +1,6 @@
 ---
-title: "Understand the configuration of premium forecasting in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Understand the configuration of premium forecasting in Dynamics 365 Sales Insights."
+title: "Configuration of premium forecasting (Sales Insights) | MicrosoftDocs"
+description: "Configure premium forecasting to help sellers and managers improve their forecast accuracy by providing forecast projections based on data."
 ms.date: 06/01/2020
 ms.custom: 
 ms.topic: article

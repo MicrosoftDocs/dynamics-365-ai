@@ -1,6 +1,6 @@
 ---
-title: "Delete or deactivate a segment in sales accelerator | MicrosoftDocs"
-description: "Learn how to delete or deactivate a segment in sales accelerator."
+title: "Delete or deactivate a segment (Sales Insights) | MicrosoftDocs"
+description: "Permanently delete a segment that is no longer required in your organization, or deactivate to retain the segment in the application in inactive mode."
 ms.date: 04/09/2021
 ms.topic: article
 author: udaykirang

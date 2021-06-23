@@ -1,6 +1,6 @@
 ---
-title: "Troubleshooting the Sales Insights features (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Learn how to troubleshoot issues related to Sales Insights in Dynamics 365 Sales."
+title: "Troubleshooting the Sales Insights features | MicrosoftDocs"
+description: "Know about the issues that are related to the Sales Insights features, and how to troubleshoot them."
 ms.date: 03/22/2021
 ms.topic: article
 author: udaykirang

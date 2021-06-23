@@ -1,16 +1,12 @@
 ---
-title: "Configure azure repository and upload call recordings in conversation intelligence | MicrosoftDocs"
-description: "Configure azure repository and upload call recordings in conversation intelligence"
+title: "Connect or disconnect to your Dynamics 365 Sales environment | MicrosoftDocs"
+description: "Use data source to connect or disconnect multiple Dynamics 365 Sales environment with your conversation intelligence."
 ms.date: 08/01/2018
 ms.custom: 
 ms.topic: article
-ms.assetid: 64fc7327-265d-4d85-bc58-5f2bcadf4ae1
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 1
 topic-status: Drafting
 ---

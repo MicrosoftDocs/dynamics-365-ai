@@ -1,17 +1,13 @@
 ---
-title: "Work with Predictive opportunity scoring feature for Dynamics 365 Sales  | MicrosoftDocs"
-description: "Work with Predictive opportunity scoring feature in Sales Insights for Dynamics 365 Sales"
+title: "Work with Predictive opportunity scoring (Sales Insights) | MicrosoftDocs"
+description: "Use the predictive opportunity scoring feature to prioritize your opportunities based on scores and achieve higher opportunity qualification rates."
 keywords: ""
 ms.date: 11/16/2020
 ms.custom: 
 ms.topic: article
-ms.assetid: dc27cdd2-0c47-4d90-b01b-d7d37e275809
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 1
 topic-status: Drafting
 ---

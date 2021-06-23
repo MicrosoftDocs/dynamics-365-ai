@@ -1,6 +1,6 @@
 ---
-title: "Removed or deprecated features in Sales Insights add-in for Dynamics 365 Sales | MicrosoftDocs"
-description: "Removed or deprecated features in Sales Insights add-in for Dynamics 365 Sales"
+title: "Removed or deprecated features of Sales Insights | MicrosoftDocs"
+description: "The features that have been removed, or that are planned for removal from Sales Insights add-in for Dynamics 365 Sales."
 ms.date: 10/13/2020
 ms.topic: article
 author: udaykirang

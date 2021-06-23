@@ -1,6 +1,6 @@
 ---
-title: "Sequence creation and activation in the sales accelerator  | MicrosoftDocs"
-description: "Learn how to create and activate sequences in the sales accelerator."
+title: "Sequence creation and activation in the sales accelerator | MicrosoftDocs"
+description: "Create and activate a sequence by defining a set of activities as steps that sellers should follow while handling records in Dynamics 365 Sales."
 ms.date: 05/28/2021
 ms.topic: article
 author: udaykirang
@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Create and activate a sequence
 
-Every organization has its own selling processes for sellers to follow. A sequence helps sellers overcome any inconsistencies in training or lack of documentation as they progress through the sales journey. When you create a sequence, you define the activities you want your sellers to perform&mdash;and the order to perform them in&mdash;as they handle leads and opportunities. This lets sellers concentrate on selling and gives them a better understanding of what to do next.
+Every organization has its own selling processes for sellers to follow. A sequence helps sellers overcome any inconsistencies in training or lack of documentation as they progress through the sales journey. When you create a sequence, you define the activities you want your sellers to perform&mdash;and the order to perform them in&mdash;as they handle records. This lets sellers concentrate on selling and gives them a better understanding of what to do next.
 
 **To create and activate a sequence**
 

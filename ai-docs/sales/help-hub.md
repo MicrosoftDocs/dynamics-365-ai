@@ -1,6 +1,6 @@
 ---
-title: "Documentation resources for Sales Insights Add-in for Dynamics 365 Sales | Microsoft Docs"
-description: "A starting point for browsing help content for Sales Insights Add-in for Microsoft Dynamics 365 Sales."
+title: "Documentation resources for Sales Insights | Microsoft Docs"
+description: "Browse help content and explore documentation depending on your role in the organization and what you need to accomplish in Sales Insights."
 ms.date: 10/31/2018
 ms.custom: 
 ms.topic: article

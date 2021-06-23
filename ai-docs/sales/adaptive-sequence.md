@@ -1,6 +1,6 @@
 ---
-title: "Use adaptive sequences to define conditions in sales accelerator in Dynamics 365 Sales | MicrosoftDocs"
-description: "Learn how to use adaptive sequences in sales accelerator in Dynamics 365 Sales."
+title: "Use adaptive sequences to define conditions (Sales Insights) | MicrosoftDocs"
+description: "Use adaptive sequences in sales accelerator to define conditions steps that determines the path of a sequence."
 ms.date: 05/28/2021
 ms.topic: article
 author: udaykirang

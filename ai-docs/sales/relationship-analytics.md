@@ -1,16 +1,12 @@
 ---
-title: "Relationship analytics for Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Learn how to analyze customer interaction data with Dynamics 365 Sales Insights."
+title: "Relationship analytics for Sales Insights | MicrosoftDocs"
+description: "Use relationship analytics to view customer activity history of contact, opportunity, lead, or account in a graphical display through KPIs and activity histories."
 ms.date: 10/28/2020
 ms.custom: 
 ms.topic: article
-ms.assetid: 9cf9f43a-2156-418c-be33-6f34027f3d79
 author: udaykirang
 ms.author: udag
 manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 20
 topic-status: Drafting
 ---

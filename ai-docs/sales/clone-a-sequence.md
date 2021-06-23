@@ -1,6 +1,6 @@
 ---
-title: "Clone a sequence in sales accelerator | MicrosoftDocs"
-description: "Learn how to clone a sequence in sales accelerator."
+title: "Clone a sequence in sales accelerator (Sales Insights) | MicrosoftDocs"
+description: "Clone a sequence to make it easier to add or remove steps, and save the changes to create new sequence."
 ms.date: 01/11/2021
 ms.topic: article
 author: udaykirang

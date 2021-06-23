@@ -1,5 +1,5 @@
 ---
-title: "Download custom card sample for Dynamics 365 Sales Insights | MicrosoftDocs"
+title: "Download custom card sample in Sales Insights | MicrosoftDocs"
 description: "Learn how to download and what resources are present to create a custom actions or learn about extending the assistant action card."
 ms.date: 10/31/2018
 ms.custom: 

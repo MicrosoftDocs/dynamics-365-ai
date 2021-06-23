@@ -1,6 +1,6 @@
 ---
-title: "Manage seller attributes in assignment rules for lead routing in sales accelerator | MicrosoftDocs"
-description: "Learn how to manage seller attributes in assignment rules for lead routing in sales accelerator."
+title: "Manage seller attributes in assignment rules for lead routing | MicrosoftDocs"
+description: "Manage seller attributes in assignment rules for lead routing by creating, editing, and deleting in sales accelerator (Dynamics 365 Sales)."
 ms.date: 05/14/2021
 ms.topic: article
 author: udaykirang

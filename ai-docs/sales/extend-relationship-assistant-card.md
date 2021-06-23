@@ -1,6 +1,6 @@
 ---
 title: "Create custom cards in Dynamics 365 Sales | MicrosoftDocs"
-description: "Create custom cards in Dynamics 365 Sales using Assistant"
+description: "Use the assistant to create custom cards that help in displaying insight cards that are specific to your organization."
 ms.date: 10/31/2018
 ms.custom: 
 ms.topic: article

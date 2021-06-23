@@ -1,6 +1,6 @@
 ---
-title: "Improve seller coaching and sales potential with conversation intelligence | MicrosoftDocs"
-description: "Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence"
+title: "Improve seller coaching and sales potential (Sales Insights) | MicrosoftDocs"
+description: "Improve seller coaching and sales potential with AI-driven insights readily available for conversation intelligence."
 ms.date: 04/09/2020
 ms.custom: intro-internal
 ms.topic: article

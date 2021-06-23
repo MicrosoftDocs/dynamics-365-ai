@@ -1,6 +1,6 @@
 ---
 title: "msdyn_ConnectSequence Action | MicrosoftDocs"
-description: "How to assigns a lead and opportunity entity record to a sequence."
+description: "Assign the lead and opportunity entity records to a sequence through the msdyn_ConnectSequence action."
 ms.date: 05/11/2020
 ms.custom: 
 ms.topic: article

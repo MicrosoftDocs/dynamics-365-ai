@@ -1,16 +1,12 @@
 ---
-title: "Email engagement for Sales Insights add-in for Dynamics 365 Sales | MicrosoftDocs"
-description: Email engagement for Sales Insights add-in for Dynamics 365 Sales 
+title: "Use email engagement to view message interactions (Sales Insights) | MicrosoftDocs"
+description: "Use email engagement to view the message interactions such as, alerts, clicked a link, opened an attachment, or sent a reply on your emails." 
 ms.date: 10/31/2018
 ms.custom: 
 ms.topic: article
-ms.assetid: c44831bb-c4cb-4a2b-863e-eb94c4256921
 author: udaykirang
 ms.author: udag
-manager: sakudes
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+manager: shujoshi
 caps.latest.revision: 25
 ---
 
