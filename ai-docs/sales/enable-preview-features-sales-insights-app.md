@@ -1,6 +1,6 @@
 ---
-title: "Enable coming soon features in conversation intelligence | MicrosoftDocs"
-description: "Enable preview features in conversation intelligence."
+title: "Enable coming soon features (Sales Insights) | MicrosoftDocs"
+description: "Enable preview features to experience the conversation intelligence features that change the look, feel, or functionality before the formal release."
 ms.date: 11/08/2020
 ms.custom: 
 ms.topic: article

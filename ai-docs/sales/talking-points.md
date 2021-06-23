@@ -1,17 +1,12 @@
 ---
-title: "Talking points in Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Know conversation starters of customers in Dynamics 365 Sales Insights."
+title: "Talking points in Sales Insights | MicrosoftDocs"
+description: "Use talking points to automatically identify conversation starters of your customers before you interact with them."
 ms.date: 10/31/2018
 ms.custom: 
 ms.topic: article
-ms.assetid: 765ca303-8a4b-4520-999f-9f70c32aaa74
 author: udag
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 
 topic-status: Drafting
 ---
 

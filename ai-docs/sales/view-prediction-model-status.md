@@ -1,6 +1,6 @@
 ---
-title: "View and understand the status of prediction column in a forecast | MicrosoftDocs"
-description: "View and understand the status of prediction column in a forecast."
+title: "View the status of prediction column (Sales Insights) | MicrosoftDocs"
+description: "Use the status of prediction column in a forecast to view the details such as, last predicted date and errors."
 ms.date: 10/26/2020
 ms.topic: article
 author: udaykirang

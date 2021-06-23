@@ -1,6 +1,6 @@
 ---
-title: "Configure Sales Insights Assistant | MicrosoftDocs"
-description: "Describes how to configure Assistant, both free and advanced features."
+title: "Configure the Assistant (Sales Insights) | MicrosoftDocs"
+description: "Configure Assistant to help sellers track their daily actions and communications through a collection of actionable insight cards."
 keywords: ""
 ms.date: 08/10/2020
 ms.custom: 

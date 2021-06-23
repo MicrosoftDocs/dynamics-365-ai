@@ -1,6 +1,6 @@
 ---
 title: "Entity reference for Sales Insights | MicrosoftDocs"
-description: "Reference documentation for the Sales Insights entities"
+description: "Use the entity reference to understand the available operations that can be performed for specific entities in predictive scoring."
 ms.date: 11/10/2020
 ms.topic: article
 author: udaykirang

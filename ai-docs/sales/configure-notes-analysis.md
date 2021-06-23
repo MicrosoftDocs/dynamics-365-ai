@@ -1,6 +1,6 @@
 ---
-title: "Configure notes analysis for Dynamics 365 Sales Insights | MicrosoftDocs"
-description: "Learn how to configure notes analysis for Sales Insights"
+title: "Configure notes analysis (Sales Insights) | MicrosoftDocs"
+description: "Configure and enable notes analysis to display intelligent suggestions when your users enter an activity on the timeline."
 ms.date: 08/10/2020
 ms.custom: 
 ms.topic: article

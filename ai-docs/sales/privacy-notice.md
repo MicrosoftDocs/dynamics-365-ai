@@ -1,12 +1,10 @@
 ---
-title: "Dynamics 365 Sales Insights capabilities Privacy Notices | Microsoft Docs"
-description: "Privacy notices Sales Insights capabilities."
+title: "Privacy notices for Sales Insights | Microsoft Docs"
+description: "Privacy notices for Sales Insights capabilities such as, standard features, premium features, conversation intelligence, and data protection."
 keywords: "privacy notice, privacy statement addition"
 ms.date: 10/26/2020
-ms.custom: 
-  - dyn365-ai-sales
+ms.custom: "dyn365-ai-sales"
 ms.topic: article
-ms.assetid: 40143ca0-2e09-4fb0-9c80-406671024000
 author: udaykirang
 ms.author: udag
 manager: shujoshi

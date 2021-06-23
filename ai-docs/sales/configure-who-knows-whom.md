@@ -1,6 +1,6 @@
 ---
-title: "Configure who knows whom for Sales Insights Add-in for Dynamics 365 | MicrosoftDocs"
-description: "Learn how to configure who knows whom for Sales Insights"
+title: "Configure who knows whom (Sales Insights) | MicrosoftDocs"
+description: "Configure who knows whom to help sellers quickly identify colleagues within their organization who can introduce them to leads or contacts."
 ms.date: 08/10/2020
 ms.custom: 
 ms.topic: article

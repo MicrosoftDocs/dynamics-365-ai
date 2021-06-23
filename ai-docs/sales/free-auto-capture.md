@@ -1,6 +1,6 @@
 ---
-title: "Basic auto capture for Sales Insights add-in for Dynamics 365 Sales | MicrosoftDocs"
-description: Basic auto capture for Sales Insights add-in for Dynamics 365 Sales.
+title: "Basic auto capture for Sales Insights | MicrosoftDocs"
+description: "Use the basic auto capture to capture activities related to your emails and contacts, and display on timeline."
 keywords: 
 ms.date: 01/31/2020
 ms.custom: 
@@ -8,9 +8,6 @@ ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
 caps.latest.revision: 1
 ---
 
