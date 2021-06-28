@@ -146,7 +146,7 @@ You can proceed to configure Teams with conversation intelligence.
     | Option | Description |
     |--------|-------------|
     | Storage for call recordings | Select an option to store your call recordings for analysis:<br><ul><li>**Microsoft provided storage**: Select this option if you want to use the storage provided by Microsoft. By default, this option is selected, and we recommend that you use this storage.</li><li>**Your own Azure storage**: Select this option if you want to use your custom Azure storage. After you select this option, enter the **Storage connection string** and **Container name**.</li></ul>More information: [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md) |
-    | Retention policy | Choose a retention time limit. The application retains call recording data for the specified time limit, and deletes it when the time limit is reached. More information: [Retention policy](data-retention-deletion-policy.md#retention-policy) |   
+    | Retention policy | Choose a retention time limit. The application retains call recording data for the specified time limit, and deletes it when the time limit is reached. More information: [Call recording storage](data-retention-deletion-policy.md#call-recording-storage). |   
 
     > [!div class="mx-imgBorder"]
     > ![Select a storage option and retention policy](media/ci-admin-teams-choose-storage-retention-policy.png "Select a storage option and retention policy")
