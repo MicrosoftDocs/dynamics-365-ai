@@ -53,21 +53,21 @@ When you configure conversation intelligence, sales call recordings of sellers a
     
 ## Call recording storage
 
-The **Call recording storage** section allows you to configure the data retention policy to determine how long you want to keep the analyzed call recording data in conversation intelligence by specifying a time limit. When you specify a retention time limit, the application retains the call recording data for the specified time limit. The application deletes the data when the time limit is reached.   
-For example, retention time limit is set 30 days. At any given time, application retains the call data from the time it is analyzed to 30 days. On the 31st day, the application deletes the analyzed call data.   
+The **Call recording storage** section allows you to configure the data retention policy to determine how long you want to keep the analyzed call recording data in conversation intelligence by specifying a time limit. When you specify a retention time limit, the application keeps the call recording data for the specified time limit. The application deletes the data when the time limit is reached.   
+For example, retention time limit is set 30 days. At any given time, application keeps the call data from the time it's analyzed to 30 days. On the 31st day, the application deletes the analyzed call data.   
 Choose the storage option as described in the following table:     
 | Option | Description |
 |--------|-------------|
 | Storage for call recordings | Select an option to store your call recordings for analysis:<br><ul><li>**Microsoft provided storage**: Select this option if you want to use the storage provided by Microsoft. By default, this option is selected, and we recommend that you use this storage.</li><li>**Your own Azure storage**: Select this option if you want to use your custom Azure storage. After you select this option, enter the **Storage connection string** and **Container name**.</li></ul>More information: [Configure conversation intelligence to connect call data](configure-conversation-intelligence-call-data.md). |
-| Retention policy | Choose a retention time limit. The application retains call recording data for the specified time limit, and deletes it when the time limit is reached. <li> For **Microsoft provided storage**, the available retention periods are 30 days and 90 days. </li> <li> For **Your own Azure storage**, the retention period is available from 30 days until 10 years. Use this storage type if your organization requires longer retention periods. | 
+| Retention policy | Choose a retention time limit. The application keeps call recording data for the specified time limit, and deletes it when the time limit is reached. <li> For **Microsoft provided storage**, the available retention periods are 30 days and 90 days. </li> <li> For **Your own Azure storage**, the retention period is available from 30 days until 10 years. Use this storage type if your organization requires longer retention periods. | 
 
 > [!div class="mx-imgBorder"]
 > ![Select a storage option and its corresponding retention policy](media/ci-admin-teams-choose-storage-retention-policy.png "Select a storage option and its corresponding retention policy")
 
 ## Data consent and privacy
 
-- **Waive individual user consent**: Select this option to automatically provide your organization’s users with access to conversation intelligence. You provide consent on behalf of your organization’s users of Microsoft Dynamics 365 online services to activate, configure, and enable functionality which transmits your data to external systems.    
-- **Allow read-only access to data**: Select this option to allow Microsoft to improve the quality of insights through manual (human) read-only access to your organization’s data in conversation intelligence. This is optional. More information: [Terms and Conditions](https://go.microsoft.com/fwlink/?linkid=521839). 
+- **Waive individual user consent**: Select this option to automatically provide your organization’s users with access to conversation intelligence. You provide consent on behalf of your organization’s users of Microsoft Dynamics 365 online services to activate, configure, and enable functionality that transmits your data to external systems.    
+- **Allow read-only access to data**: Select this option to allow Microsoft to improve the quality of insights through manual (human) read-only access to your organization’s data in conversation intelligence. More information: [Terms and Conditions](https://go.microsoft.com/fwlink/?linkid=521839). 
 
     > [!div class="mx-imgBorder"]
     > ![Conversation intelligence configuration page](media/ci-admin-data-consent-privacy.png "Conversation intelligence configuration page")
