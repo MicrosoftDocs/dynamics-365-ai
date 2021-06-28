@@ -24,7 +24,7 @@ When you configure conversation intelligence, sales call recordings of sellers a
 -	[Call recording storage](#call-recording-storage)
 -	[Data consent and privacy](#data-consent-and-privacy)  
 
-## Open privacy settings page
+## Open data retention and privacy settings page
 
 > [!NOTE]
 > Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
