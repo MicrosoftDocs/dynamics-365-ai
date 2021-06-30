@@ -17,7 +17,7 @@ manager: shujoshi
 
 You can use the Dynamics 365 Sales app on Microsoft Teams to enrich your remote selling experience by conducting valuable and meaningful customer conversations&mdash;which translate into revenue&mdash;by adding conversation intelligence as an integral part of any Teams meeting.
 
-As a seller, you don't want to move between apps to take notes and identify action items; this takes your attention off the business. Use the Sales app during a Teams meeting to get a real-time transcript, with highlighted points of interest and captured action items. You can also take notes yourself, when necessary.<!--note from editor: Suggested. -->
+As a seller, you don't want to move between apps to take notes and identify action items; this takes your attention off the business. Use the Sales app during a Teams meeting to get a real-time transcript, with highlighted points of interest and captured action items. You can also take notes yourself, when necessary.
 
 **Prerequisites**
 
