@@ -35,9 +35,11 @@ When you configure conversation intelligence, sales call recordings of sellers a
 2.	Select the **Settings** icon on the top-right of the page and then select **Settings**.  
     > [!div class="mx-imgBorder"]
     > ![Select settings option](media/si-app-admin-select-settings.png "Select settings option")  
-3.	On the **Settings** page, select the sections as required:   
-    - Select the **Call recording storage** section to configure [data retention policy](#call-recording-storage) for your organization.
-    - Select the **Data consent and privacy** section to configure [data consent and privacy](#data-consent-and-privacy) for your organization.  
+3.	On the **Settings** page, select **Privacy**.  
+4.	In the Privacy page, configure the following options as required:  
+    - **Read-only access to data**: Select this option to allow Microsoft to improve the quality of insights through manual (human) read-only access to your organization’s data in conversation intelligence.
+    - **Delete contact's data**: Use this option to delete a contact's data by using Dynmaics 365 contact ID. Enter the contact ID in the text box and then select **Delete data**. 
+    - **Retention policy**: Choose a retention time limit. The application keeps call recording data for the specified time limit, and deletes it when the time limit is reached. The retention period is available from 30 days until 10 years.
 
 ### In Sales Hub app  
 
