@@ -36,7 +36,7 @@ When you configure conversation intelligence, sales call recordings of sellers a
 3.	On the **Settings** page, select **Privacy**.  
 4.	In the Privacy page, configure the following options as required:  
     - **Read-only access to data**: Select this option to allow Microsoft to improve the quality of insights through manual (human) read-only access to your organization’s data in conversation intelligence.
-    - **Delete contact's data**: Use this option to delete a contact's data by using Dynmaics 365 contact ID. Enter the contact ID in the text box and then select **Delete data**. 
+    - **Delete contact's data**: Use this option to delete a contact's data by using the contact ID provided in Dynamics 365. Enter the contact ID in the text box and then select **Delete data**. 
     - **Retention policy**: Choose a retention time limit. The application keeps call recording data for the specified time limit, and deletes it when the time limit is reached. The retention period is available from 30 days until 10 years.
     
     > [!div class="mx-imgBorder"]
