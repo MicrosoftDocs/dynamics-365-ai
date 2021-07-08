@@ -6,6 +6,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ai-docs/sales/optout-relationship-analytics-gdpr.md",
+      "redirect_url": "embedded-intelligence-gdpr",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ai-docs/sales/overview-dynamics-365-assistant-app-teams.md",
       "redirect_url": "removed-deprecated-features",
       "redirect_document_id": false
