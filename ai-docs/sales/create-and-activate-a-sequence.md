@@ -28,7 +28,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
     | Description | A description of the sequence. (Optional) |
     | Entity | The entity type for which you want to apply this sequence. By default, the Lead entity type is selected. |   
 6. Select **Next**.   
-7. Choose and configure one of the following activities:   
+7. Choose and configure one of the following steps:   
     > [!div class="mx-imgBorder"]
     > ![Choose an activity type](media/sequence-choose-activity.png "Choose an activity type")       
     - **Email**: Creates an email activity for sellers to communicate with customers. When this activity is shown to the seller, an envelope icon is displayed on the record. When a seller selects the icon, an email composer opens with a template, if one was selected. If no template was selected, an empty email composer opens.  
