@@ -28,7 +28,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
     | Description | A description of the sequence. (Optional) |
     | Entity | The entity type for which you want to apply this sequence. By default, the Lead entity type is selected. |   
 6. Select **Next**.   
-7. Choose and configure one of the following activities:   
+7. Choose and configure one of the following steps:   
     > [!div class="mx-imgBorder"]
     > ![Choose an activity type](media/sequence-choose-activity.png "Choose an activity type")       
     - **Email**: Creates an email activity for sellers to communicate with customers. When this activity is shown to the seller, an envelope icon is displayed on the record. When a seller selects the icon, an email composer opens with a template, if one was selected. If no template was selected, an empty email composer opens.  
@@ -87,6 +87,18 @@ Every organization has its own selling processes for sellers to follow. A sequen
         Choose the duration in days and hours that you want sellers to wait before they perform the next activity, and then select **Save**. The maximum wait time is 30 days.   
         > [!div class="mx-imgBorder"]
         > ![Example wait time](media/sequence-activity-set-wait-time-created.png "Example wait time")   
+
+    - **Advance to another sequence**: Transfers the sequence control from the current sequence to the selected sequence. For example, you defined a sequence **S1** and attached a sequence **S2** after an initial activity of sending an introduction email. when **S1** is attached to a record and seller completes the initial task of sending an introduction email, the record starts displaying the activities defined in **S2**. The following are the considerations to use this activity:   
+        - A sequence can't start with this activity
+        - Other steps can't be added after this activity
+
+        > [!div class="mx-imgBorder"]
+        > ![Advance to another sequence activity](media/sequence-activity-advance-to-another-sequence.png "Advance to another sequence activity")        
+
+        From the **Connect to** list, choose a sequence to attach. The list consists of the sequences that are active and related to the record type. Select **Save** and the activity is created.
+        > [!div class="mx-imgBorder"]
+        > ![Example for advance to another sequence activity](media/sequence-activity-advance-to-another-sequence-created.png "Example for advance to another sequence activity")       
+
 8. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.    
 9. Select **More options** in the upper-right corner of the page, and then select **Save**.    
 10. Select **More options** again, and then select **Activate** to activate the sequence.   
