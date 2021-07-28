@@ -74,7 +74,6 @@
 #### [Enable coming soon features](../sales/enable-preview-features-sales-insights-app.md)
 
 ### [GDPR for Dynamics 365 Sales Insights](../sales/embedded-intelligence-gdpr.md)
-#### [Opt out of relationship analytics (GDPR)](../sales/optout-relationship-analytics-gdpr.md)
 #### [View and export KPI data (GDPR)](../sales/view-export-KPI-data-gdpr.md)
 #### [Retrieve insights data using msdyn_RetrieveKPIValuesForGDPR action](../sales/retrieve-insights-data-msdyn-RetrieveTypeValuesFromDCI.md)
 
