@@ -34,9 +34,9 @@ To enable the snapshots, follow these steps:
     > ![Enable daily snapshots](media/predictive-forecasting-snapshot-enable-daily.png "Enable daily snapshots") 
 
     >[!NOTE]
-    >-	For a forecast that is in progress, the snapshots are taken from the date the option is enabled. 
-    >-	For a forecast that is scheduled for future, the snapshots are taken from the start date of the forecast. 
-    >-	The final snapshot of a forecast will be taken on the final day of the forecast.
+    >-	For a forecast that's in progress, the snapshots are taken from the date the option is enabled. 
+    >-	For a forecast that's scheduled for future, the snapshots are taken from the start date of the forecast. 
+    >-	The final snapshot of a forecast is taken on the final day of the forecast.
     >-	Snapshots aren’t taken when a forecast is in inactive state or for the past dates. 
 
 >[!IMPORTANT]
