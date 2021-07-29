@@ -37,7 +37,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
 
        Enter the following information to configure the email activity, and then select **Save**:   
        1. A name and description for the activity. The information you enter here will be displayed to sellers.   
-       2. If templates are available for your organization, in the **Assign email template** box, select the template you want to assign for this step.   
+       2. (Optional) If templates are available for your organization, in the **Assign email template** box, select the template you want to assign for this step. To know more about email templates, see the step to [add email template](#automated-email) in the **Automated email** section.  
 
           > [!div class="mx-imgBorder"]
           > ![Example email activity](media/sequence-activity-email-created.png "Example email activity")   
@@ -56,7 +56,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
 
         Enter the following information to configure the automated email activity, and then select **Save**:    
         -	A name and description for the activity. The information you enter here will be displayed to sellers.
-        -	An email template that you want to assign for this step. 
+        -	<a name=automated-email></a>An email template that you want to assign for this step. 
             1. Select **Add email template**. 
             2. In the **Email templates** dialog, select the language and then choose a template. When a template is chosen, you can see the preview.     
                 > [!div class="mx-imgBorder"]
