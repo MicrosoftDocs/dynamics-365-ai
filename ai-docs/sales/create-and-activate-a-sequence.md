@@ -56,10 +56,15 @@ Every organization has its own selling processes for sellers to follow. A sequen
 
         Enter the following information to configure the automated email activity, and then select **Save**:    
         -	A name and description for the activity. The information you enter here will be displayed to sellers.
-        -	An email template that you want to assign for this step in the **Select email template** box.   
-
-        > [!div class="mx-imgBorder"]
-        > ![Example automated email activity](media/sequence-activity-automated-email-created.png "Example automated email activity")   
+        -	An email template that you want to assign for this step. 
+            1. Select **Add email template**. 
+            2. In the **Email templates** dialog, select the language and then choose a template. When a template is chosen, you can see the preview.     
+                > [!div class="mx-imgBorder"]
+                > ![Choose an email template](media/sequence-activity-automated-email-choose-template.png "Choose an email template")     
+            3. Select **Apply template**.   
+                The template is selected step is created as displayed in the following example image.   
+                > [!div class="mx-imgBorder"]
+                > ![Example automated email activity](media/sequence-activity-automated-email-created.png "Example automated email activity")   
 
         You can define conditions for automated email activity to determine the branch that sequence moves to next step. More information: [Define conditions for email activity](adaptive-sequence.md#define-conditions-for-email-activity).   
 
