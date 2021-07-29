@@ -131,7 +131,7 @@ You can proceed to configure Teams with conversation intelligence.
 
     | Option | Description |
     |--------|-------------|
-    | Microsoft Teams security roles | Specifies the security roles in your organization who have permission to use the Teams dialer. By default, permission is granted to all security roles in your organization. If you want to add or remove security roles, go to [Configure the dialer](/dynamics365/sales-enterprise/configure-microsoft-teams-dialer#configure-the-dialer). |
+    | Teams security roles | Specifies the security roles in your organization who have permission to use the Teams dialer. By default, permission is granted to all security roles in your organization. If you want to add or remove security roles, go to [Configure the dialer](/dynamics365/sales-enterprise/configure-microsoft-teams-dialer#configure-the-dialer). |
     | Call recording options | Select an option to initiate call recordings:<br><ul><li>**Manual recording**: Select this option to allow sellers to manually start or stop the recording when a call is initiated. Also, you can select the checkbox to automatically record only the seller when the call is initiated. However, sellers can start or stop the recording of customer anytime during the call. </li><li>**Automatic recording**: Select this option if you want the calls to be automatically recorded when a call is initiated. Also, you can select the checkbox to allow sellers to manually stop recording anytime during the call.</li>|
     | Recording notification for customers | Turn on this toggle to notify customers when the call recording is initiated. This lets customers know that the call is being recorded.|
 
