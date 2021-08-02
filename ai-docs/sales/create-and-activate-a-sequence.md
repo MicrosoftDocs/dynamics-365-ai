@@ -49,7 +49,8 @@ Every organization has its own selling processes for sellers to follow. A sequen
         >Add a **Set wait time** activity before the **Automated email** activity. Adding wait time provides a time gap between the previous step and sending the automated email. If the time gap isn't configured, the automated email will be sent immediately after the previous activity is completed, which won't give sellers the time they might need to take action on the automated email activity.    
 
         >[!NOTE]
-        >Verify that required email templates are created in your organization. More information: [Create templates for email](/power-platform/admin/create-templates-email)   
+        >- Verify that required email templates are created in your organization. More information: [Create templates for email](/power-platform/admin/create-templates-email)   
+        >- Configure [the email engagement feature](configure-email-engagement.md) in your organization before you start using the automated email step.
 
         > [!div class="mx-imgBorder"]
         > ![Add an automated email activity](media/sequence-activity-add-automated-email.png "Add an automated email activity")   
@@ -65,6 +66,9 @@ Every organization has its own selling processes for sellers to follow. A sequen
                 The template is selected step is created as displayed in the following example image.   
                 > [!div class="mx-imgBorder"]
                 > ![Example automated email activity](media/sequence-activity-automated-email-created.png "Example automated email activity")   
+                
+                >[!NOTE]
+                >You can also view the preview of selected email template on the created step. Select the preview icon ![Automated email template preview icon](media/sequence-activity-automated-email-preview-icon.png "Automated email template preview icon").
 
         You can define conditions for automated email activity to determine the branch that sequence moves to next step. More information: [Define conditions for email activity](adaptive-sequence.md#define-conditions-for-email-activity).   
 
