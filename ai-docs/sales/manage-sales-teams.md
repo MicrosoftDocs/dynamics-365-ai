@@ -12,7 +12,7 @@ manager: shujoshi
 
 Using sales team management in assignment rules, you can assign attributes to sellers and configure the maximum number of leads that a seller can handle at once. When the rule is applied to a lead, the attributes and lead capacity you've defined here will determine how the lead is assigned.
 
-You can use the **Sales teams** page to:
+You can use the **Team settings** page to:
 
 -	[Add attributes to sellers](#add-attributes-to-sellers).
 -	[Set lead capacity for sellers](#set-lead-capacity-for-sellers).
