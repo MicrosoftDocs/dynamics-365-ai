@@ -26,7 +26,7 @@ You can deactivate or delete an assignment rule that's no longer required in you
         >[!div class="mx-imgBorder"]
         >![Deactivate a rule](media/sa-ar-deactivate-rule.png "Deactivate a rule")
 
-    -	To delete the rule, select **More options** **&vellip;**,  and then select **Delete**.    
+    -	To delete the rule, select the rule and then select the delete icon.    
 
         >[!div class="mx-imgBorder"]
         >![Delete a rule](media/sa-ar-delete-rule.png "Delete a rule")    

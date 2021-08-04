@@ -22,7 +22,7 @@ When a lead is created in an organization, assignment rules are applied from the
 
 3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
 
-4.	On the **Assignment rules** page, select **+ New assignment rule**.
+4.	On the **Assignment rules** page, select **+ New rule**.
     The **Create assignment rule** pane opens.
 
     >[!div class="mx-imgBorder"]
@@ -32,7 +32,7 @@ When a lead is created in an organization, assignment rules are applied from the
 
     -	**Rule name**: Enter a name for the rule.   
 
-    -	**Set lead segment**: Select a [segment](create-and-activate-a-segment.md) to apply for this assignment rule. When the rule is activated, all leads in the segment will be assigned to sellers in accordance with the conditions defined in the rule.
+    -	**Set segment**: Select a [segment](create-and-activate-a-segment.md) to apply for this assignment rule. When the rule is activated, all leads in the segment will be assigned to sellers in accordance with the conditions defined in the rule.
 
         >[!NOTE]
         >If no segment is selected for a rule, or no segment is defined in the application, you can select the default segment that's applied on all leads.

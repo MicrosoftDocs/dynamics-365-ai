@@ -32,22 +32,13 @@ You can apply attributes in bulk by selecting multiple sellers at a time.
 
 2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
 
-3.	Under **Sales accelerator**, select **Assignment rules (preview)**.
+3.	Under **Sales accelerator**, select **Team settings (preview)**.
 
-4.	On the **Assignment rules** page in the **Sales teams** section, select **Manage**.
+4.	On the **Team settings** page, select a team or sellers that you want to apply attributes for and then select **Apply attribute**.
 
-    >[!div class="mx-imgBorder"]
-    >![Select Manage in the Sales teams section](media/sa-ar-sales-team-section.png "Select Manage in the Sales teams section")   
-
-    The **Sales teams** page lists the teams that include sellers whose security roles were configured when the sales accelerator was originally set up.
-
-    >[!div class="mx-imgBorder"]
-    >![Sales teams home page](media/sa-ar-sales-team-home-page.png "Sales teams home page")   
-
-5.	On the **Sales teams** page, select the seller, and then select **Apply attribute**.  
-
-    >[!TIP]
-    >To bulk-apply the attributes, select multiple sellers.
+    >[!NOTE]
+    >- The **Team settings** page lists the teams that include sellers whose security roles were configured when the sales accelerator was originally set up.
+    >- To bulk-apply the attributes, select multiple sellers.
 
     >[!div class="mx-imgBorder"]
     >![Select Apply attribute](media/sa-ar-sales-team-apply-attribute.png "Select Apply attribute")  
@@ -80,15 +71,13 @@ For example, Kenny is a seller, and his lead capacity limit is set to 5. A new l
 
 2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.   
 
-3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
+3.	Under **Sales accelerator**, select **Team settings (preview)**.
 
-4.	On the **Assignment rules** page in the **Sales teams** section, select **Manage**.      
-   The **Sales teams** page lists the sales teams with sellers whose security roles are configured during the setup of sales accelerator.
-
-5.	On the **Sales teams** page, select the seller, and then select **Set lead capacity**.  
+4.	On the **Team settings** page, select a team or sellers that you want to apply attributes for and then select **Set lead capacity**.
 
     >[!NOTE]
-    >To bulk-apply attributes, select multiple sellers.
+    >- The **Team settings** page lists the teams that include sellers whose security roles were configured when the sales accelerator was originally set up.
+    >- To bulk-apply the attributes, select multiple sellers.
 
     >[!div class="mx-imgBorder"]
     >![Select Set lead capacity](media/sa-ar-sales-team-set-lead-capacity.png "Select Set lead capacity")   
@@ -118,11 +107,9 @@ When a seller is on vacation or otherwise unavailable, you can disable lead assi
 
 2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
 
-3.	Under **Sales accelerator**, select **Assignment rules (preview)**.
+3.	Under **Sales accelerator**, select **Team settings (preview)**.
 
-4.	On the **Assignment rules** page in the **Sales teams** section, select **Manage**. 
-
-5. In the **Assign leads** column, turn off the toggle.
+4.	On the **Team settings** page, under the **Assign leads** column, turn off the toggle.
 
     >[!div class="mx-imgBorder"]
     >![Turn off the Assign leads toggle](media/sa-ar-sales-team-disable-lead-assignment.png "Turn off the Assign leads toggle")   
