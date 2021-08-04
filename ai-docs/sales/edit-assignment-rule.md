@@ -1,7 +1,7 @@
 ---
 title: "Edit an assignment rule (Sales Insights) | MicrosoftDocs"
 description: "Update the conditions that you've defined in the rule to modify your process for automatically assigning leads to sellers."
-ms.date: 05/14/2021
+ms.date: 08/06/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag

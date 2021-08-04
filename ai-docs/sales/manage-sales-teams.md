@@ -1,7 +1,7 @@
 ---
 title: "Manage sales teams in assignment rules for lead routing | MicrosoftDocs"
 description: "Manage sales teams in assignment rules by assigning attributes and configuring the maximum number of leads that a seller can handle at once."
-ms.date: 05/14/2021
+ms.date: 08/06/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag

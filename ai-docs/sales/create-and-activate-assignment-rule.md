@@ -1,7 +1,7 @@
 ---
 title: "Create and activate assignment rules for lead routing | MicrosoftDocs"
 description: "Create and activate assignment rules for leads by defining conditions to automatically assign leads to sellers when the defined conditions are met in Dynamics 365 Sales."
-ms.date: 05/14/2021
+ms.date: 08/06/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
