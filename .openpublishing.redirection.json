@@ -46,6 +46,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ai-docs/sales/add-conversation-intelligence-tab-teams-meeting.md",
+      "redirect_url": "dynamics365-sales-insights-app",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ai-docs/customer-insights/intelligence.md",
       "redirect_url": "overview",
       "redirect_document_id": false

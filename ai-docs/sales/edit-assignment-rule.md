@@ -1,7 +1,7 @@
 ---
 title: "Edit an assignment rule (Sales Insights) | MicrosoftDocs"
 description: "Update the conditions that you've defined in the rule to modify your process for automatically assigning leads to sellers."
-ms.date: 05/14/2021
+ms.date: 08/06/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -18,12 +18,7 @@ To modify your process for automatically assigning leads to sellers, you can upd
 
 3.	Under **Sales accelerator**, select **Assignment rules (preview)**.
 
-4.	On the **Assignment rules** page, select the rule that you want to edit from the **Rules** section.   
-
-    >[!div class="mx-imgBorder"]
-    >![Rules section](media/sa-ar-rule-section.png "Rules section")   
-
-5.	Select **More options** **&vellip;**, and then select **Edit rule**.   
+4.	On the **Assignment rules** page, select the rule and then select the pencil icon to edit.   
 
     >[!div class="mx-imgBorder"]
     >![Select the edit rule option](media/sa-ar-select-edit-rule.png "Select the edit rule option")    
@@ -33,7 +28,7 @@ To modify your process for automatically assigning leads to sellers, you can upd
     >[!div class="mx-imgBorder"]
     >![Edit assignment rule pane](media/sa-ar-edit-rule-pane.png "Edit assignment rule pane")    
 
-6.	Edit the information according to your needs, and then select **Update Rule**.
+5.	Edit the information according to your needs, and then select **Update rule**.
 
 The changes will be applied to new leads that are created in the future in the application. The leads that were already assigned through the rule won't change.
 
