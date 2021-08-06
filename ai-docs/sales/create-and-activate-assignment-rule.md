@@ -32,7 +32,7 @@ When a lead is created in an organization, assignment rules are applied from the
 
     -	**Rule name**: Enter a name for the rule.   
 
-    -	**Set segment**: Select a [segment](create-and-activate-a-segment.md) to apply for this assignment rule. When the rule is activated, all leads in the segment will be assigned to sellers in accordance with the conditions defined in the rule.
+    -	<a name="setSegment"></a>**Set segment**: Select a [segment](create-and-activate-a-segment.md) to apply for this assignment rule. When the rule is activated, all leads in the segment will be assigned to sellers in accordance with the conditions defined in the rule.
 
         >[!NOTE]
         >If no segment is selected for a rule, or no segment is defined in the application, you can select the default segment that's applied on all leads.
