@@ -2,7 +2,7 @@
 title: "Introduction on how to administer Sales Insights | MicrosoftDocs"
 description: "Index page showing administration, system, user, and application configurations for Sales Insights Add-in for Dynamics 365 Sales."
 keywords: ""
-ms.date: 08/10/2020
+ms.date: 08/10/2021
 ms.custom: intro-internal
 ms.topic: article
 author: udaykirang
