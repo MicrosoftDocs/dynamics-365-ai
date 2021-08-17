@@ -1,7 +1,7 @@
 ---
 title: "Manage seller attributes in assignment rules for lead routing | MicrosoftDocs"
 description: "Manage seller attributes in assignment rules for lead routing by creating, editing, and deleting in sales accelerator (Dynamics 365 Sales)."
-ms.date: 05/14/2021
+ms.date: 08/06/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -26,14 +26,14 @@ You can use the attribute designer to:
 
 2. Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
 
-3. Under **Sales accelerator**, select **Assignment rules (preview)**.
+3. Under **Sales accelerator**, select **Team settings (preview)**.    
 
-4. On the **Assignment rules** page in the **Seller attributes** section, select **Manage**.
+4. On the **Team settings** page, select **Manage attributes**.
 
    >[!div class="mx-imgBorder"]
    >![Select Manage in the Seller attributes section](media/sa-ar-seller-attributes-section-select-manage.png "Select Manage in the Seller attributes section")
 
-5. On the **Seller attributes** page, select **+ New seller attribute**.
+5. On the **Manage attributes** page, select **+ New seller attribute**.
 
     >[!div class="mx-imgBorder"]
     >![Select New seller attribute](media/sa-ar-seller-attributes-select-new-seller-attribute.png "Select New seller attribute")
@@ -67,11 +67,11 @@ The attribute is created and added to the list.
 
 2. Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
 
-3. Under **Sales accelerator**, select **Assignment rules (preview)**.
+3. Under **Sales accelerator**, select **Team settings (preview)**.
 
-4. On the **Assignment rules** page in the **Seller attributes** section, select **Manage**.
+4. On the **Team settings** page, select **Manage attributes**.
 
-5. On the **Seller attributes** page, select the pencil icon corresponding to the attribute that you want to edit.
+5.On the **Manage attributes** page, select the pencil icon corresponding to the attribute that you want to edit.
 
    >[!div class="mx-imgBorder"]
    >![Select the pencil icon to edit an attribute](media/sa-ar-attribute-select-edit.png "Select the pencil icon to edit an attribute")
@@ -89,11 +89,11 @@ The attribute is updated.
 
 2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
 
-3.	Under **Sales accelerator**, select **Assignment rules (preview)**.
+3. Under **Sales accelerator**, select **Team settings (preview)**.
 
-4.	On the **Assignment rules** page in the **Seller attributes** section, select **Manage**.
+4. On the **Team settings** page, select **Manage attributes**.
 
-5.	On the **Seller attributes** page, select the delete icon corresponding to the attribute.
+5.	On the **Manage attributes** page, select the delete icon corresponding to the attribute.
 
     >[!div class="mx-imgBorder"]
     >![Delete an attribute](media/sa-ar-delete-seller-attribute.png "Delete an attribute")  
