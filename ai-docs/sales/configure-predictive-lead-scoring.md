@@ -225,7 +225,7 @@ It's time to retrain a model when its prediction accuracy score doesn't meet you
 >[!NOTE]
 >For better prediction accuracy scoring, retrain a model after the data in your organization is refreshed.
 
-You can retrain the model [automatically](#automatic-retraining) or [manually](#manually-retraining). Both methods are described in the following sections.
+You can retrain the model [automatically](#automatic-retraining) or [manually](#manual-retraining). Both methods are described in the following sections.
 
 ### Automatic retraining
 
@@ -239,11 +239,14 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
     >[!NOTE]
     >A retrained model might not be published if the accuracy of the model isn't maintained at the application's standard. If this occurs, the existing user-published model will be retained.
 
-### Manually retraining
+### Manual retraining
 
 1. Go to the predictive lead scoring configuration page, and select **Edit model**.
 
-2. On the **Edit fields** page, select attributes from opportunity entity, and its related entities (contact and account) including custom attributes to train the model.
+2. On the **Edit fields** page, select attributes from lead entity, and its related entities (contact and account) including custom attributes to train the model.   
+
+    > [!NOTE]
+    > To use the intelligent fields, see [Select intelligent fields](#select-intelligent-fields)
 
     > [!div class="mx-imgBorder"]
     > ![Edit model page](media/si-admin-predictive-lead-scoring-edit-model-page.png "Edit model page")
@@ -262,6 +265,27 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 
     >[!NOTE]
     >If the parameters of the retrained model aren't satisfactory, edit the attributes and retrain the model.  
+
+#### Select intelligent fields
+
+Intelligent fields  help the model to better understand the records and distinguish between score gainers and harmers.    
+
+For example, the email field can now distinguish between a business email and a personal email. The model has the knowledge to identify and group email types through the data that is available in the application and intelligence that is added to model. Some groups may include business domain email (such as abc@microsoft.com) or personal domain email. Enabling this identification allows the model to generate detailed insights on how the field groups impact predictive scores. Select the link in the Prediction influence column to view insights about the field, such as its qualification rate and the most influential reasons—both positive and negative—for that rate. More information: [View attribute insights](#view-attribute-insights).   
+
+The following fields are supported—Email domain validation (Email), First name validation (First name), and Last name validation (Last name). The model always gives preference to:   
+-	Emails that are part of a business domain.   
+-	First and last names that contain alphanumeric and not special characters.
+
+By default, the intelligent fields are considered while training a model with out-of-the-box values. If the outcome of the intelligent fields is satisfactory, the model includes the fields to train, otherwise, the fields are ignored. However, even if the outcome is unsatisfactory, you can still choose to include the intelligent fields to train model if necessary.  
+
+> [!NOTE]
+> The fields that are displayed in the intelligent fields will not be available in **Lead** table or its corresponding related tables **Contact** and **Account**.   
+
+[Edit the model](#manual-retraining) to choose the intelligent fields that you want your model to use. The following screen illustrates how you can select intelligent fields: 
+
+> [!div class="mx-imgBorder"]
+> ![Edit model page with intelligent fields](media/si-admin-predictive-lead-scoring-edit-model-intelligent-fields.png "Edit model page with intelligent fields")
+
 
 ## View attribute insights
 
