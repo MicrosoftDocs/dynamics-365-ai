@@ -90,7 +90,6 @@ Follow these steps:
 >You must have tenant administrator privileges to run the PowerShell script. 
   
 1.	Open a PowerShell command window as administrator and verify that you have the latest PowerShell version. Run the following commands and close the PowerShell window:
-    -	`Set-ExecutionPolicy Unrestricted`
     -	`Install-PackageProvider -Name NuGet -Force`
     -	`Install-Module -Name PowerShellGet -Force -AllowClobber`
   
