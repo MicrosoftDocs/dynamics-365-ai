@@ -36,7 +36,7 @@ To verify that the predictive forecasting feature is enabled in your organizatio
 
 >[!NOTE]
 > - **Predictive** column is now available for all hierarchies with rollup entity as **Opportunity**.
-> -  The underlying opportunities must be owned by the users who are defined in the application for predictive forecasting to consider while generating the values. 
+> -  All underlying opportunities must have system users as owners for predictive forecasting to consider while generating the values. 
 
 After you activate the forecast for the first time, predictive forecasting will take about two hours to display data in the column.
 
