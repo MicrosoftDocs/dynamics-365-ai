@@ -237,15 +237,15 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 - When the current model is more than three months old.
 
 >[!NOTE]
->A retrained model might not be published if the accuracy of the model isn't maintained to the standards of the application<!--note from editor: Suggested.-->. If this occurs, the existing user-published model will be retained.
+>A retrained model might not be published if the accuracy of the model isn't maintained to the standards of the application. If this occurs, the existing user-published model will be retained.
 
 ### Manual retraining
 
-#### Edit the model<!--note from editor: We need to have another H4, so I suggest adding this one. Ideally we'd have an introduction above it, but I'm not sure what to suggest to put these two H4s in context.-->
+#### Edit the model
 
 1. On the predictive lead scoring configuration page, select **Edit model**.
 
-2. On the **Edit fields**<!--note from editor: The image shows "Edit model", which doesn't match the new image in the next section.--> page, select attributes—including custom attributes—from the lead entity and its related entities (contact and account) to train the model.
+2. On the **Edit model** page, select attributes—including custom attributes—from the lead entity and its related entities (contact and account) to train the model.
 
     > [!NOTE]
     > To use intelligent fields, go to the following section, [Select intelligent fields](#select-intelligent-fields).
@@ -269,7 +269,7 @@ To retrain a model automatically, go to the predictive lead scoring configuratio
 
 #### Select intelligent fields
 
-Intelligent fields help the model to better understand records and distinguish between score improvers<!--note from editor: This is what it's called elsewhere.--> and harmers. For example, the model can now distinguish between business email and personal email by identifying and grouping email types through data that's available in the application and intelligence that has been added to the model. Some groups might include business domain email (such as abc@microsoft.com) or personal domain email. Through this identification, the model can generate detailed insights about how the groups of fields affect predictive scores.
+Intelligent fields help the model to better understand records and distinguish between score improvers and harmers. For example, the model can now distinguish between business email and personal email by identifying and grouping email types through data that's available in the application and intelligence that has been added to the model. Some groups might include business domain email (such as abc@microsoft.com) or personal domain email. Through this identification, the model can generate detailed insights about how the groups of fields affect predictive scores.
 
 Select the link in the **Prediction influence** column to view insights about the field, such as its qualification rate and the most influential reasons—both positive and negative—for that rate. More information: [View attribute insights](#view-attribute-insights)
 
@@ -278,12 +278,12 @@ The following fields are supported: **Email domain validation (Email)**, **First
 - Emails that are part of a business domain.
 - First and last names that contain alphanumeric characters and not special characters.
 
-By default, intelligent fields are considered while training a model by using out-of-the-box values. If the outcome of the intelligent fields is satisfactory, the model includes the fields to train; otherwise, the fields are ignored. However, even if the outcome is unsatisfactory, you can still choose to include the intelligent fields to train the model if necessary.<!--note from editor: When might this be a good idea? Will the reader understand, or can you give an example?-->
+By default, intelligent fields are considered while training a model by using out-of-the-box values. If the outcome of the intelligent fields is satisfactory, the model includes the fields to train; otherwise, the fields are ignored. However, even if the outcome is unsatisfactory, you can still choose to include the intelligent fields to train the model if necessary.
 
 > [!NOTE]
-> The fields that are displayed in intelligent fields won't be available in the lead entity or its related entities, contact and account.<!--note from editor: I know you're using the updated terminology here, but you used the outdated terminology about 30 lines ago - I don't think it makes sense to suddenly use different terms. Maybe we can redo the whole article? -->
+> The fields that are displayed in intelligent fields won't be available in the lead entity or its related entities, contact and account.
 
-[Edit the model](#manual-retraining) as described in the previous section to choose the intelligent fields that you want your model to use. The following image illustrates how you can select intelligent fields.<!--note from editor: Since the image is conveying the information here, the alt text should really describe what the user needs to see. Please double-check my edit (and make it better!).-->
+[Edit the model](#manual-retraining) as described in the previous section to choose the intelligent fields that you want your model to use. The following image illustrates how you can select intelligent fields.
 
 > [!div class="mx-imgBorder"]
 > ![Edit fields page showing the Model concepts section with a list of intelligent fields that have been selected.](media/si-admin-predictive-lead-scoring-edit-model-intelligent-fields.png "Edit model page with intelligent fields")
