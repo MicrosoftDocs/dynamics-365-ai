@@ -72,7 +72,7 @@ The configuration page is organized into the following sections:
 In the upper-left corner of the page, you can use the **Select model** dropdown list to choose the model you want to view, edit, or delete. The list consists of both published and unpublished models.
 
 > [!div class="mx-imgBorder"]
-> ![Select model dropdown list.](media/si-admin-predictive-lead-scoring-select-model-dropdown.png "Select model dropdown list")
+> ![Select model dropdown list.](media/si-admin-predictive-lead-scoring-select-model-drop-down.png "Select model dropdown list")
 
 ### Actions you can perform on the model
 
