@@ -131,7 +131,7 @@ You can proceed to configure Teams with conversation intelligence.
 
     | Option | Description |
     |--------|-------------|
-    | Enable recording for | Specifies the security roles in your organization who have permission to record calls by using the teams dialer. By default, permission is granted to all security roles in your organization. To only allow<!--note from editor: Suggested.--> specific roles to access the feature, select **Specific security roles** and then use the lookup to select the roles. <br> **Tips:**<br><ul><li>To implement the feature in your entire organization, select all security roles.</li><li>For a phased implementation in your organization, create different security roles for each group of users and then assign the security role accordingly.</li></ul>|
+    | Enable recording for | Specifies the security roles in your organization who have permission to record calls by using the teams dialer. By default, permission is granted to all security roles in your organization. To only allow specific roles to access the feature, select **Specific security roles** and then use the lookup to select the roles. <br> **Tips:**<br><ul><li>To implement the feature in your entire organization, select all security roles.</li><li>For a phased implementation in your organization, create different security roles for each group of users and then assign the security role accordingly.</li></ul>|
     | Call recording options | Select an option for initiating call recordings:<br><ul><li>**Manual recording**: Select this option to allow sellers to manually start or stop the recording when a call is initiated. Also, you can select the checkbox to record only the seller automatically when the call is initiated. However, sellers can start or stop the recording of the customer anytime during the call. </li><li>**Automatic recording**: Select this option if you want the calls to be automatically recorded when a call is initiated. Also, you can select the checkbox to allow sellers to manually stop the recording anytime during the call.</li></ul>|
     | Recording notification for customers | Turn on this toggle to notify customers when the call recording is initiated. This lets customers know that the call is being recorded.|   
     
@@ -156,7 +156,7 @@ You can proceed to configure Teams with conversation intelligence.
 
 6.	Under **Conversation tracking**, add the keywords and competitors that your organization wishes to track during calls, and add the languages used by sellers during calls with customers.
 
-    This is a required<!--note from editor: Suggested.--> global setting that will be applied to all sales calls in the organization. To enable conversation intelligence, you must set at least one global keyword and at least one global competitor. You can update these keywords and competitors later if necessary. More information: [Configure keywords and competitors in conversation content](configure-keywords-competitors.md)
+    This is a required global setting that will be applied to all sales calls in the organization. To enable conversation intelligence, you must set at least one global keyword and at least one global competitor. You can update these keywords and competitors later if necessary. More information: [Configure keywords and competitors in conversation content](configure-keywords-competitors.md)
         
     > [!div class="mx-imgBorder"]
     > ![Configure conversation tracking.](media/ci-admin-conversation-trackers.png "Configure conversation tracking")
