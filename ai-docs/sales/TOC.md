@@ -53,7 +53,7 @@
 ##### [Connect a segment to sequence](connect-a-segment-to-sequence.md)
 ##### [Edit a segment](edit-a-segment.md)
 ##### [Delete or deactivate a segment](delete-deactivate-a-segment.md)
-#### [Manage assignment rules for lead routing](create-manage-assignment-rules-lead-routing.md)
+#### [Manage assignment rules](create-manage-assignment-rules.md)
 ##### [Create and activate an assignment rule](create-and-activate-assignment-rule.md)
 ##### [Edit an assignment rule](edit-assignment-rule.md)
 ##### [Delete or deactivate an assignment rule](delete-deactivate-assignment-rule.md)
