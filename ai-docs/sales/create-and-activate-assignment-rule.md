@@ -1,6 +1,6 @@
 ---
 title: "Create and activate assignment rules for routing | MicrosoftDocs"
-description: "Create and activate assignment rules for leads by defining conditions to automatically assign leads to sellers when the defined conditions are met in Dynamics 365 Sales."
+description: "Create and activate assignment rules for leads and opportunities by defining conditions to automatically assign records to sellers when the defined conditions are met in Dynamics 365 Sales."
 ms.date: 08/06/2021
 ms.topic: article
 author: udaykirang
@@ -10,42 +10,44 @@ manager: shujoshi
 
 # Create and activate an assignment rule
 
-As a sequence manager, you create an assignment rule by defining different conditions such as segment, sellers, and lead distribution. After a rule is activated and a lead satisfies the conditions that are defined in the rule, the lead is automatically assigned to a seller. You don't have to manually assign leads to sellers when they're created in Dynamics 365 Sales.
+As a sequence manager, you create an assignment rule for lead and opportunity records by defining different conditions such as segment, sellers, and lead or opportunity distribution. After a rule is activated and a record satisfies the conditions that are defined in the rule, the record is automatically assigned to a seller. You don't have to manually assign records to sellers when they're created in Dynamics 365 Sales. 
 
-When a lead is created in an organization, assignment rules are applied from the top of the order in which they're listed. When the lead satisfies the conditions defined for a rule, that rule is applied to the lead. By default, rules are listed in the order in which they were created, with the most recent at the bottom. You can select and drag the rules into any order you want.
+When a lead or opportunity record is created in an organization, assignment rules are applied from the top of the order in which they're listed. When the record satisfies the conditions defined for a rule, that rule is applied to the record. By default, rules are listed in the order in which they were created, with the most recent at the bottom. You can select and drag the rules into any order you want.
+
+>[!NOTE]
+>In this procedure, we are using lead as an example to create an assignment rule. Similarly, you can use this procedure to create opportunity assignment rule.  
 
 **To create and activate an assignment rule**
 
-1.	Sign in to your Dynamics 365 Sales Hub app.   
-
-2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.   
-
+1.	Sign in to your Dynamics 365 Sales Hub app.    
+2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.    
 3.	Under **Sales accelerator**, select **Assignment rules (preview)**.   
+4.	On the **Assignment rules** page, select **+ New rule** and then select **Lead assignment rule**.    
+    >[!div class="mx-imgBorder"]
+    >![Select lead assignment rule option from new rule](media/sa-ar-create-assignment-rule-select-lead.png "Select lead assignment rule option from new rule")   
 
-4.	On the **Assignment rules** page, select **+ New rule**.
-    The **Create assignment rule** pane opens.
-
+    The **Create assignment rule** pane opens.       
     >[!div class="mx-imgBorder"]
     >![Create assignment rule pane](media/sa-ar-create-assignment-rule-right-pane.png "Create assignment rule pane")   
 
 5.	On the **Create assignment rule** pane, configure the rules as follows:
 
     -	**Rule name**: Enter a name for the rule.   
-
-    -	<a name="setSegment"></a>**Set segment**: Select a [segment](create-and-activate-a-segment.md) to apply for this assignment rule. When the rule is activated, all leads in the segment will be assigned to sellers in accordance with the conditions defined in the rule.
-
+    -	<a name="setSegment"></a>**Select eligible Leads for this rule**: Select an option to apply this assignment rule.   
+        - **All incoming leads**: All the new leads that are created will be assigned to sellers in accordance with the conditions defined in the rule.    
+        - **Specific lead**: Select a segment from the **Choose segment** dropdown to connect leads that are available in the segment to sellers in accordance with the conditions defined in this rule. All the active segments that are related to leads that are displayed in the list. However, if you want to create a segment that is not in the list and is specific to this rule, select **+ New segment** from the **Choose segment** dropdown. More information: [Create and activate a segment](create-and-activate-a-segment.md).      
+            >[!div class="mx-imgBorder"]
+            >![Select new segment from choose segment dropdown.](media/sa-segment-assignment-rule-specific-lead.png "Select new segment from choose segment dropdown")          
+        
         >[!NOTE]
         >If no segment is selected for a rule, or no segment is defined in the application, you can select the default segment that's applied on all leads.
 
         Also, you can configure more settings on how the leads in the segment must be assigned to sellers. Select **Additional condition** and then select **+ Add**. Configure the conditions as follows:
 
-        -	**Add row**: Add conditions for when the segment should be applied. For example, you can add rows to specify that this segment be applied to leads created by the user **John Thomas**.
-
+        -	**Add row**: Add conditions for when the segment should be applied. For example, you can add rows to specify that this segment be applied to leads created by the user **John Thomas**.   
             1.	Select an attribute from the dropdown list in the first column.
             2.	Select an operator from the dropdown list in the second column.
-            3.	Enter a value to filter by in the third column.
-
-
+            3.	Enter a value to filter by in the third column.   
                 >[!div class="mx-imgBorder"]
                 >![Add a condition row](media/sa-segment-condition-add-row.png "Add a condition row")          
         
@@ -53,13 +55,11 @@ When a lead is created in an organization, assignment rules are applied from the
 
         -	**Add group**: Add multiple conditions as a group to your segment if you want to filter leads by using more than one field.
 
-            1.	Select **AND** or **Or** to group the conditions.
-
+            1.	Select **AND** or **Or** to group the conditions.   
                 >[!div class="mx-imgBorder"]
                 >![Add a condition group](media/sa-segment-condition-add-group.png "Add a condition group")        
 
-            2.	Select the conditions that you want to add to the group.
-
+            2.	Select the conditions that you want to add to the group.   
                 >[!div class="mx-imgBorder"]
                 >![Add conditions to the group](media/sa-segment-condition-add-group-select-condition.png "Add conditions to the group")        
 
@@ -71,7 +71,7 @@ When a lead is created in an organization, assignment rules are applied from the
             >[!div class="mx-imgBorder"]
             >![Add related entity condition](media/sa-segment-condition-add-related-entity.png "Add related entity condition")        
 
-    -	**Assign these leads to**: Choose an option to assign leads to sellers or teams.
+    -	**Assign these leads to sellers or a team**: Choose an option to assign leads to sellers or teams.
 
         | Option | Description |
         |--------|-------------|
@@ -85,10 +85,8 @@ When a lead is created in an organization, assignment rules are applied from the
         >[!NOTE]
         >The **Distribute leads by** option isn't available for teams.
 
-        -	**Round robin**: Leads are distributed on a cyclical basis to sellers who are qualified to receive the lead, based on the assignment rule's conditions.
-
-        -	**Load balancing**: Leads are distributed among sellers depending on their current workload. This helps ensure that sellers are equally busy.
-
+        -	**Round robin**: Leads are distributed on a cyclical basis to sellers who are qualified to receive the lead, based on the assignment rule's conditions.   
+        -	**Load balancing**: Leads are distributed among sellers depending on their current workload. This helps ensure that sellers are equally busy.   
         -	**Consider seller availability** (optional): Select this checkbox to take the availability of the seller into account when assigning leads. More information: [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability)
 
             >[!NOTE]
