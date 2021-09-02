@@ -58,15 +58,11 @@ The attribute is created and added to the list.
 
 ## Edit an attribute
 
-1. Sign in to your Dynamics 365 Sales Hub app.   
-
-2. Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
-
-3. Under **Sales accelerator**, select **Team settings (preview)**.
-
-4. On the **Team settings** page, select **Manage attributes**.
-
-5.On the **Manage attributes** page, select the pencil icon corresponding to the attribute that you want to edit.
+1. Sign in to your Dynamics 365 Sales Hub app.    
+2. Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.   
+3. Under **Sales accelerator**, select **Team settings (preview)**.   
+4. On the **Team settings** page, select **Manage attributes**.   
+5. On the **Manage attributes** page, select the pencil icon corresponding to the attribute that you want to edit.   
 
    >[!div class="mx-imgBorder"]
    >![Select the pencil icon to edit an attribute](media/sa-ar-attribute-select-edit.png "Select the pencil icon to edit an attribute")
@@ -74,20 +70,16 @@ The attribute is created and added to the list.
 6. In the edit dialog, edit the values you want, and then select **Update seller attribute**.
 
    >[!div class="mx-imgBorder"]
-   >![Edit attribute dialog](media/sa-ar-attribute-edit-attribute.png "Edit attribute dialog")
+   >![Edit attribute dialog](media/sa-ar-attribute-edit-attribute.png "Edit attribute dialog")   
  
 The attribute is updated.
 
 ## Delete an attribute
 
-1.	Sign in to your Dynamics 365 Sales Hub app.
-
-2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.
-
-3. Under **Sales accelerator**, select **Team settings (preview)**.
-
-4. On the **Team settings** page, select **Manage attributes**.
-
+1.	Sign in to your Dynamics 365 Sales Hub app.   
+2.	Go to the **Change area** ![change area](media/change-area-icon.png) in the lower-left corner of the page, and select **Sales Insights settings**.    
+3. Under **Sales accelerator**, select **Team settings (preview)**.   
+4. On the **Team settings** page, select **Manage attributes**.   
 5.	On the **Manage attributes** page, select the delete icon corresponding to the attribute.
 
     >[!div class="mx-imgBorder"]
@@ -102,7 +94,7 @@ The attribute is deleted from the application.
 
 ### See also
 
-[Manage assignment rules for lead routing](create-manage-assignment-rules-lead-routing.md)    
+[Manage assignment rules](create-manage-assignment-rules.md)    
 [Create and activate an assignment rule](create-and-activate-assignment-rule.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
