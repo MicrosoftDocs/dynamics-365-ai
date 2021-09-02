@@ -93,7 +93,7 @@ When a lead or opportunity record is created in an organization, assignment rule
             >- If sellers don't update their [work availability](personalize-sales-accelerator.md#configure-your-work-availability), the application always considers them as available and assigns them leads.   
             >- To assign leads, the application first considers those sellers who are currently available. If no seller is currently available, the application considers the sellers who will be available within 24 hours. If no seller is available within this timeframe, the application considers sellers who will be available within 48 hours. In this manner, the application verifies the sellers' availability up to 120 hours. If no seller will be available within the 120-hour limit, the lead isn't assigned.
 
-        -	**Consider seller capacity** (optional): Select this checkbox to take into account the maximum number of leads a seller can handle at once. More information: [Set lead capacity for sellers](manage-sales-teams.md#set-lead-capacity-for-sellers)
+        -	**Consider seller capacity** (optional): Select this checkbox to take into account the maximum number of leads a seller can handle at once. More information: [Set lead capacity for sellers](manage-sales-teams.md#set-capacity-for-sellers)
 
         >[!div class="mx-imgBorder"]
         >![Distribute leads by option](media/sa-ar-distribute-leads-by.png "Distribute leads by option")      
