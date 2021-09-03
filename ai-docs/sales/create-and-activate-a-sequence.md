@@ -1,7 +1,7 @@
 ---
 title: "Sequence creation and activation in the sales accelerator | MicrosoftDocs"
 description: "Create and activate a sequence by defining a set of activities as steps that sellers should follow while handling records in Dynamics 365 Sales."
-ms.date: 05/28/2021
+ms.date: 09/03/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -141,14 +141,14 @@ From the **Connect to** list, choose a sequence to attach. The list consists of 
 
 ## Update field
 
-Creates a step that automatically updates a record by using a configured value for a field. When the activity is displayed to the seller in the record, the field automatically gets updated with the value you configured. You can configure fields (including custom fields) of the following types:<!--note from editor: Suggested, if this is what "including custom fields" means.-->
-
-- Two options (for example, a **Do Not Email** field that contains the values **Allow** and **Do Not Allow**)<!--note from editor: Because you've said it's an example, you don't need to say "such as".-->
+Creates a step that automatically updates a record by using a configured value for a field. When the activity is displayed to the seller in the record, the field automatically gets updated with the value you configured. The following types of fields are supported (including custom fields):
+ 
+- Two options (for example, a **Do Not Email** field that contains the values **Allow** and **Do Not Allow**)    
 - Option set (for example, a **Budget** field that contains the values **No Committed Budget**, **May Buy**, **Can Buy**, and **Will Buy**)
 
 You can add this activity anywhere in the sequence. As soon as the previous activity is completed, the **Update field** activity is executed automatically and the sequence moves on to the next activity. To avoid executing the **Update field** step immediately after the previous activity is completed, add the [Set wait time](#set-wait-time) activity (described earlier in this topic) before the **Update field** activity. 
 
-Sellers can see the activity on the timeline of the record.<!--note from editor: I'm not sure what the significance of this statement is. Is this true of all these activities? If not, should there be an image that shows the timeline?-->
+Sellers can see the activity on the timeline of the record.
 
 > [!div class="mx-imgBorder"]
 > ![Update field activity.](media/sequence-activity-update-field.png "Update field activity")  
