@@ -25,7 +25,7 @@ You can add sample data any time you need, during or after the configuration of 
 1. Sign in to your sales app.   
 2. Go to **Change area** in the lower-left corner of the page, and select **Sales Insight settings**.    
 3. Under **Sales accelerator**, select **Setup**.    
-4. Select **Add sample data**.    
+4. Select **Get started**.    
 5. In the **Explore with sample data?** dialog box, select **Add sample data**.    
     > [!div class="mx-imgBorder"]
     > ![Select Add sample data](media/sample-data-popup.png "Select Add sample data")   
