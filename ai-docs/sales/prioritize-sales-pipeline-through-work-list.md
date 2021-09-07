@@ -113,7 +113,7 @@ For example, there are 10 leads who have the sequence step to send an introducti
     > ![Email composer opened](media/sa-worklist-bulk-email-email-composer-open.png "Email composer opened")      
 
     >[!NOTE]
-    >Each user in the recipient list must satisfy the following conditions:  
+    >Each user in the recipient list must satisfy the following conditions in the lead form:  
     >- Allow emails under the **CONTACT METHOD** section in the **Details** tab. 
     >- Valid email address in **Email** under the **CONTACT** section, in the **Summary** tab.
 
