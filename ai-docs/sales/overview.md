@@ -13,6 +13,8 @@ ms.suite:
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
 topic-status: Drafting
+products: 
+    - Sales Premium
 ---
 # Overview of Sales Insights Add-in for Dynamics 365 Sales
 
