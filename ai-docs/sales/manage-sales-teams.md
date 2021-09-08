@@ -6,6 +6,8 @@ ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+products: 
+    - Sales premium
 ---
 
 # Manage sales teams in assignment rules
