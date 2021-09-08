@@ -7,8 +7,8 @@ author: udaykirang
 ms.author: udag
 manager: shujoshi
 products:
-    - Sales premium 
-    - Sales enterprise
+- Sales premium 
+- Sales enterprise
 
 ---
 
