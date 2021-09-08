@@ -58,7 +58,7 @@ The premium Sales Insights features require a Sales Insights or a Sales Premium 
 
 ### [Productivity intelligence](#tab/prim2)
 
--	**Sales accelerator and sequence (preview)**: Helps sales teams in organizations to focus on high-velocity selling by offering a tailored experience for sellers that minimizes the time spent identifying who is the next best customer to reach, gathering information across multiple sources, and focusing on how to approach customers. More information: [What is sales accelerator](sales-accelerator-intro.md)    
+-	**Sales accelerator and sequence**: Helps sales teams in organizations to focus on high-velocity selling by offering a tailored experience for sellers that minimizes the time spent identifying who is the next best customer to reach, gathering information across multiple sources, and focusing on how to approach customers. More information: [What is sales accelerator](sales-accelerator-intro.md)    
 -	**Notes analysis**: Monitors notes that you enter about a recent meeting or discussion with your customer to provide intelligent suggestions for new activities. More information: [How notes analysis assists you with suggestion](notes-analysis.md)
 
 ### [Connection insights](#tab/prim3)
