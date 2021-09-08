@@ -6,6 +6,10 @@ ms.topic: article
 author: udaykirang
 ms.author: udag
 manager: shujoshi
+products:
+    -  Sales premium 
+    - Sales enterprise
+
 ---
 
 # Prioritize your sales pipeline by using the work list 
@@ -86,8 +90,8 @@ let's understand the filter options in detail:
     > ![Work list settings](media/sa-worklist-filter-settings.png "Work list settings")  
 
 ## Send bulk emails    
-The bulk email feature allows you to send an email simultaneously to a list of leads or contacts that are assigned to same sequence and have same step to complete. Sending the bulk email helps you to save time and accelerate the sales process.    
-For example, there are 10 leads who have the sequence step to send an introduction email, which is pending for today. Using the bulk email feature, you can select all the 10 leads or select preferred leads to send the introduction email at once.
+The bulk email feature helps you to optimize your work by sending the same email to a list of leads simultaneously. The leads should have the same email step from the same sequence attached to all these records.    
+For example, there are 10 leads who have the sequence step to send an introduction email, which is pending for today. Using the bulk email feature, you can select all the 10 leads (or some of these 10 leads) and send the introduction email at once.
 
 **To send bulk emails:**
 
@@ -95,30 +99,30 @@ For example, there are 10 leads who have the sequence step to send an introducti
     > [!div class="mx-imgBorder"]
     > ![Select bulk email from more options](media/sa-worklist-select-bulk-email.png "Select bulk email from more options")    
 
-    The work list records in the queue are grouped according to sequence and then the action.    
-    For example, the **Lead nurturing** sequence has 10 leads, with nine to send a **Follow up mail** task and one with one to send an **Introduction email** task. When you select the **Bulk email** option, the records are first grouped by Lead nurturing sequence and then grouped again by **Follow up mail** and **Introduction mail** tasks.     
+    The work list records in the queue are automatically grouped according to sequence and then the action.    
+    For example, the **Lead nurturing** sequence has 10 leads, with nine on step to send a **Follow up mail** and one on the step to send an **Introduction email**. When you select the **Bulk email** option, the records are first grouped by Lead nurturing sequence and then subgrouped by **Follow up mail** and **Introduction mail** steps.     
     Also, you can see that the **Bulk email** option is inactive and displayed on the top-right corner of the worklist records section.    
     > [!div class="mx-imgBorder"]
     > ![Records grouped according to task after selecting bulk email](media/sa-worklist-bulk-email-selected.png "Records grouped according to task after selecting bulk email")      
  
 2.	Choose the leads for which you want to send the bulk email.    
-    You can select the task name to choose all leads at once or expand the task and choose the leads for which you want to send the bulk email.    
+    You can select the step name to choose all leads at once or expand the step and choose the leads for which you want to send the bulk email.    
     In this example, we're sending a bulk email to leads, Ivan Komashinsky, Lidman Anna, Counts Vong, and Nancy Anderson.     
     > [!div class="mx-imgBorder"]
     > ![Lead records selected to send bulk email](media/sa-worklist-bulk-email-records-selected.png "Lead records selected to send bulk email")     
  
-3.	Select **Bulk email**.    
+3.	Select **Bulk email** on the top.    
     The email composer opens. If you've selected an email template for the step, the template opens in the composer.    
     > [!div class="mx-imgBorder"]
     > ![Email composer opened](media/sa-worklist-bulk-email-email-composer-open.png "Email composer opened")      
 
     >[!NOTE]
-    >Each user in the recipient list must satisfy the following conditions in the lead form:  
+    >Each user in the recipient list must satisfy the following conditions in the entity form:  
     >- Allow emails under the **CONTACT METHOD** section in the **Details** tab. 
     >- Valid email address in **Email** under the **CONTACT** section, in the **Summary** tab.
 
 4.	(Optional) To preview the email, select **Preview**.    
-    The preview opens with information about the first recipient. However, the content for other recipients remains the same as in the preview. In this example, the first recipient is Ivan Komashinsky.    
+    The preview opens with tags filled with information about the first recipient as an example email. However, when the actual email is sent, each email will have relevant information from that entity. In this example, the first recipient is Ivan Komashinsky.    
     > [!div class="mx-imgBorder"]
     > ![Preview of the email](media/sa-worklist-bulk-email-preview-email.png "Preview of the email")      
 
@@ -127,7 +131,7 @@ For example, there are 10 leads who have the sequence step to send an introducti
     > ![Choose date and time for the email to be sent](media/sa-worklist-bulk-email-schedule-email.png "Choose date and time for the email to be sent")      
  
 6.	Select **Send to all**.    
-    The email is sent to all the recipients, and you can verify that the lead’s timeline is updated with the sent email. You can refresh the work list and records are moved to the next step.    
+    The email is sent to all the recipients, and you can verify that the entity’s timeline is updated with the email, which is just being sent. You can refresh the work list and records will move to the next step.    
 
 ## Understand the Up next widget
 
