@@ -40,11 +40,13 @@ The standard Sales Insights features are available as part of the Dynamics 365 S
 
 **Assistant (standard)**: The assistant (formerly known as relationship assistant) analyzes information from Dynamics 365, Exchange, and other sources and suggests personalized and actionable insights to guide sellers on their best course of action, to build stronger relationships with their customers and to close more deals. More information: [Use assistant to guide customer communications](assistant.md)
 
-### [Productivity intelligence]((#tab/std2))
+### [Productivity intelligence](#tab/std2)
 
 -	**Auto capture (standard + premium)**: Auto capture helps keep track of customer engagements by surfacing suggestions to track emails and meetings from Exchange right in Sales. This way, nothing falls through the cracks and you have full control over what's being shared. In addition to activity capture, auto capture also surfaces suggestions for new contacts based on these activities. More information: [Capture customer-related activities with Auto capture](auto-capture.md)
 
 -	**Email engagement (standard)**: Email engagement helps you create more effective email messages&mdash;and learn how your contacts are interacting with them. Stay on top of your email and prioritize those prospects or customers that are most engaged. More information: [Use email engagement to view message interactions](email-engagement.md) 
+
+---
 
 ## Premium Sales Insights features
 
