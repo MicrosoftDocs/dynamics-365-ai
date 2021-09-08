@@ -50,17 +50,17 @@ The standard Sales Insights features are available as part of the Dynamics 365 S
 
 The premium Sales Insights features require a Sales Insights or a Sales Premium license that consists of the [standard features](#standard-sales-insights-features) along with the following features.
 
-### Guided selling <tab/vscode>
+### [Guided selling](#tab)
 
 -	**Assistant (premium)**: Consists of base assistant capabilities along with enhanced features that allow you to create and display custom insight cards using the assistant studio. The assistant studio helps you to create custom insight cards through Power Automate, configure prioritization, and identify who can see the cards. More information: [Manage insight cards](manage-custom-cards-flow.md)
 
-### Productivity intelligence <tab/vscode>
+### [Productivity intelligence](#tab)
 
 -	**Sales accelerator and sequence (preview)**: Helps sales teams in organizations to focus on high-velocity selling by offering a tailored experience for sellers that minimizes the time spent identifying who is the next best customer to reach, gathering information across multiple sources, and focusing on how to approach customers. More information: [What is sales accelerator](sales-accelerator-intro.md)
 
 -	**Notes analysis**: Monitors notes that you enter about a recent meeting or discussion with your customer to provide intelligent suggestions for new activities. More information: [How notes analysis assists you with suggestion](notes-analysis.md)
 
-### Connection insights <tab/vscode>
+### [Connection insights](#tab)
 
 -	**Conversation intelligence**: Conversation intelligence provides you with information and insights on top of your customer calls that help you easily follow up on business-critical items, allow sellers to quickly transform their engagements into revenue, and enable managers to intelligently manage the sales team and proactively coach sellers. To achieve this, conversation intelligence provides you with information through key performance indicators (KPIs) for pipeline and deals, and intelligent call data KPIs through conversation intelligence, such as sentiment analysis, keyword detection, action-item extraction and tracking, in addition to the option to play back the call and sift through the transcript&mdash;all of which provide an easy way to go through thousands and millions of calls to get to those that matter most, in seconds. More information: [Improve seller coaching and sales potential with Conversation Intelligence](dynamics365-sales-insights-app.md)
 
@@ -70,7 +70,7 @@ The premium Sales Insights features require a Sales Insights or a Sales Premium 
 
 -	**Who knows whom**: Provides details such as names and email addresses of your colleagues who know a lead who you're going to interact with. More information: [How to get introduced to a lead](who-knows-whom.md)
 
-### Predictive scoring <tab/vscode>
+### [Predictive scoring](#tab)
 
 -	**Predictive lead scoring**: Helps you to focus on revenue generation efforts by providing a score to prioritize efforts on quality leads. More information: [Prioritize leads through scores](work-predictive-lead-scoring.md)
 
