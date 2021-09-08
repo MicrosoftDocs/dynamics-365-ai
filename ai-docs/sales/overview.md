@@ -72,6 +72,8 @@ The premium Sales Insights features require a Sales Insights or a Sales Premium 
 -	**Predictive opportunity scoring**: Helps you to focus on revenue generation efforts by providing a score to prioritize efforts on win opportunities. More information: [Prioritize opportunities through scores](work-predictive-opportunity-scoring.md)  
 -	**Premium forecasting**: Helps you to focus on revenue generation efforts by providing forecast projections based on sales pipeline and historical data. More information: [Analyze revenue outcome using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)
 
+---
+
 > [!NOTE]
 > The premium Sales Insights features that are in preview don't require a Sales Insights or a Sales Premium license during the preview period.
 
