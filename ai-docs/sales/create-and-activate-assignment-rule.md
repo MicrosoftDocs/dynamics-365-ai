@@ -10,7 +10,7 @@ manager: shujoshi
 
 # Create and activate an assignment rule
 
-As a sequence manager, you create an assignment rule for lead and opportunity records by defining different conditions such as segment, sellers, and lead or opportunity distribution. After a rule is activated and a record satisfies the conditions that are defined in the rule, the record is automatically assigned to a seller. When records are created in Dynamics 365 Sales, you don't have to manually assign them to sellers.<!--note from editor: Suggested.-->
+As a sequence manager, you create an assignment rule for lead and opportunity records by defining different conditions such as segment, sellers, and lead or opportunity distribution. After a rule is activated and a record satisfies the conditions that are defined in the rule, the record is automatically assigned to a seller. When records are created in Dynamics 365 Sales, you don't have to manually assign them to sellers.
 
 When a lead or opportunity record is created in an organization, assignment rules are applied from the top of the order in which they're listed. When the record satisfies the conditions defined for a rule, that rule is applied to the record. By default, rules are listed in the order in which they were created, with the most recent at the bottom. You can select and drag the rules into any order you want.
 
@@ -30,7 +30,7 @@ When a lead or opportunity record is created in an organization, assignment rule
    >[!div class="mx-imgBorder"]
    >![Select the lead assignment rule option from a new rule.](media/sa-ar-create-assignment-rule-select-lead.png "Select the ead assignment rule option from a new rule")   
 
-    The **Create assignment rule** pane opens.<!--note from editor: Because you've oriented the reader here with this sentence and this image, I suggest jumping right into describing how to configure settings. You don't have to combine all the settings into one step just because they're on one screen. I was getting a bit lost among the bulleted list levels.-->
+    The **Create assignment rule** pane opens.    
     >[!div class="mx-imgBorder"]
     >![Create assignment rule pane.](media/sa-ar-create-assignment-rule-right-pane.png "Create assignment rule pane")   
 
@@ -62,12 +62,12 @@ When a lead or opportunity record is created in an organization, assignment rule
 
         - **Add group**: Add multiple conditions as a group to your segment if you want to filter leads by using more than one field:
 
-          1. Select **And**<!--note from editor: The screenshots show two versions, all caps "ADD" and initial caps "Add" - but only initial caps for "Or." It looks wrong to have both in text.--> or **Or** to group the conditions.   
+          1. Select **And** or **Or** to group the conditions.   
 
              >[!div class="mx-imgBorder"]
              >![Add a condition group.](media/sa-segment-condition-add-group.png "Add a condition group")
 
-          2. Select the conditions that you want to add to the group.<!--note from editor: Can you updated this image to say "And"?-->
+          2. Select the conditions that you want to add to the group.
 
              >[!div class="mx-imgBorder"]
              >![Add conditions to the group.](media/sa-segment-condition-add-group-select-condition.png "Add conditions to the group")
