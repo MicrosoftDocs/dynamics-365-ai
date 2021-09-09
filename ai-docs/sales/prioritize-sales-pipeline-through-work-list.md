@@ -43,12 +43,11 @@ The work list displays a list of records that are assigned to you or to the secu
 
     | Number | Feature | Description |
     |--------|---------|-------------|
-    | 1 | **Search, filter, sort, and group records** | You can search, filter, sort, and group the records that you want to view in the list to quickly identify the customers to contact. More information: [Filter, sort, and more options](#filter-records-in-work-list)<br><br>By using the lookup icon, you can search for a specific record by using the record name. Select the **More options** icon to [send bulk emails](#send-bulk-emails), [configure personal settings](#configure-personal-settings), and refresh the list. |
+    | 1 | **Search, filter, sort, and group records** | You can search, filter, sort, and group the records that you want to view in the list to quickly identify the customers to contact. More information: [Filter, sort, and more options](#filter-records-in-work-list)<br><br>By using the lookup icon, you can search for a specific record by using the record name. Select the **More options** icon to [send bulk emails](#send-bulk-emails), [configure work list settings](#configure-personal-settings), and refresh the list. |
     | 2 | **Records list** | Displays a list of records that are assigned to you or to a security role that you're part of. The unread records appear in bold with a blue vertical bar on the left. You must perform and complete the activities on these records from the current date and from previous dates.<br><br>Each record displays the name of the record, primary contact name, next best action, priority scoring, and entity name. Hover over the record to view more options and the activity to perform.<br><br> Select **More options** to perform the following actions on the record:<ul><li>Mark as complete</li><li>Skip the current activity</li><li>Snooze the activity</li><li>Change the state of the record to unread or read</li><li>Follow or unfollow the record</li><li>Skip wait time (this option is available for items that are in the wait state)</li></ul><br>Also, you can select the activity icon to perform the specified activity for the record.<br>![Options for records](media/sa-record-hover-view.png "Options for records")<br>More information: [Connect with customers by using a record or the Up next widget](connect-with-customers.md) <br><br>When you complete an activity on the record, select the refresh icon. The list will be refreshed, and the record will be removed from the list.<br><br>**Note**<br>The list displays records for a month from the current date. The records that are older than 30 days are automatically removed and won't be displayed.|
     | 3 | **Up next widget** | Displays the next best action that you can perform on a record for the given date. More information: [Understand the Up next widget](#understand-the-up-next-widget)|
     
 ## Filter, sort, and more options<a name="filter-records-in-work-list"></a>     
-
 #### Filter       
 Use filters to prioritize the records in the work list so you can reach customers at the right time. The following screen provides the list of options that are available to filter work list:    
 > [!div class="mx-imgBorder"]    
@@ -67,10 +66,8 @@ let's understand the filter options in detail:
 - **Activity type**: The **Activity type** filter options are **Phone calls**, **Email messages**, **Tasks**, and **Meetings**. You can select all or any specific option to filter the records to display in the work list.    
     Select at least one option to display relevant records in the work list. If no records match your selected activity type, an empty list is displayed. By default, all filter options are selected.  
     For example, when you select the entity type as **Lead** and the activity type as **Call**, the work list displays only the lead records that include call activities.   
-
 #### Sort    
-Use the sort option to organize records into groups selecting the sort icon and display the records in the order of sort (ascending or descending).    
-
+Use the sort option to organize records into groups selecting the sort icon and display the records in the order of sort (ascending or descending).     
 #### More options     
 Use more options to do the following actions:   
 - Refresh the list.
