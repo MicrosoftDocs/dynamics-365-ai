@@ -72,7 +72,7 @@ Use the sort option to organize records into groups selecting the sort icon and 
 Use more options to do the following actions:   
 - Refresh the list.
 - Send an email to multiple recipients at once. More information: [Send bulk emails](#send-bulk-emails)
-- Configure work list settings: <a name="configure-personal-settings"></a>: Using the work list settings, you can choose what must happen to a record when a step is completed or skipped. Select **Settings** and on the **Work list settings** dialog box choose the following options:     
+- Configure work list settings<a name="configure-personal-settings"></a>: Using the work list settings, you can choose what must happen to a record when a step is completed or skipped. Select **Settings** and on the **Work list settings** dialog box choose the following options:     
 
 | Option | Description |
 |--------|-------------|
