@@ -87,7 +87,7 @@ Use more options to do the following actions:
 <a name="send-bulk-emails"></a>
 
 ## Send bulk email
-<!--note from editor: Via Microsoft Writing Style Guide, you use "email" when referring collectively to email messages.-->
+
 The bulk email feature helps you to optimize your work by sending the same email to a list of leads simultaneously. The leads need to have the same email step from the same sequence attached to all their records.
 
 For example, let's say 10 leads have a sequence step to send an introduction email, and this step is pending for today. By using the bulk email feature, you can select all (or some) of the 10 leads and send them the introduction email all at once.
@@ -102,32 +102,33 @@ For example, let's say 10 leads have a sequence step to send an introduction ema
     The work list records in the queue are automatically grouped according to the sequence and then the action.
     For example, the **Lead nurturing** sequence has 10 leads, with nine on the **Follow up mail** step and one on the **Introduction mail** step. When you select the **Bulk email** option, the records are first grouped by the lead nurturing sequence and then subgrouped by the **Follow up mail** and **Introduction mail** steps.     
 
-    As shown in the following image, the **Bulk email** option in the upper-right corner is unavailable until you select the leads, as described in the following step.<!--note from editor: Edit okay? I couldn't understand the significance of having this image here. Also, I'm not sure what the alt text is saying.-->
+    As shown in the following image, the **Bulk email** option in the upper-right corner is unavailable until you select the leads, as described in the following step.
 
     > [!div class="mx-imgBorder"]
     > ![Records grouped according to task after selecting bulk email.](media/sa-worklist-bulk-email-selected.png "Records grouped according to task after selecting bulk email")
  
 2.	Choose the leads to whom you want to send the bulk email.
     You can select all the leads at once by selecting the step name, or you can expand the step and then select the leads individually.
-    In this example, we're sending a bulk email to the leads Ivan Komashinsky, Lidman Anna, Counts Vong<!--note from editor: I don't find Counts Vong in my list of approved fictitious names, but I assume it's there?-->, and Nancy Anderson.
+    In this example, we're sending a bulk email to the leads Ivan Komashinsky, Lidman Anna, Counts Vongple, and Nancy Anderson.
 
     > [!div class="mx-imgBorder"]
     > ![Lead records selected to send bulk email to.](media/sa-worklist-bulk-email-records-selected.png "Lead records selected to send bulk email")
  
 3.	On the command bar, select **Bulk email**.
 
-    The email composer opens. If you've selected an email template for the step, the template opens in the composer.<!--note from editor: There's something wrong with one of the names ("Counts Vongple)" - can you fix it?-->
+    The email composer opens. If you've selected an email template for the step, the template opens in the composer.  
+
     > [!div class="mx-imgBorder"]
     > ![Email composer opened.](media/sa-worklist-bulk-email-email-composer-open.png "Email composer opened")
 
     >[!NOTE]
     >Each user in the recipient list must satisfy the following conditions on the entity form:  
-    >- On the **Details** tab under **CONTACT METHOD**, **Email** is set to **Allow**.<!--note from editor: Edit okay? I think it's good to be specific here. (I based this on a screenshot in the email-engagement.md article.)--> 
+    >- On the **Details** tab under **CONTACT METHOD**, **Email** is set to **Allow**. 
     >- On the **Summary** tab under **CONTACT**, the user has a valid email address.
 
 4.	(Optional) To preview the email, select **Preview**.
 
-    The preview opens and shows tags that contain information about the first recipient (in this example, Ivan Komashinsky). However, when the actual email is sent, each email will include relevant information from each lead in your recipient list.<!--note from editor: Edit okay?-->
+    The preview opens and shows tags that contain information about the first recipient (in this example, Ivan Komashinsky). However, when the actual email is sent, each email will include relevant information from each lead in your recipient list.
 
     > [!div class="mx-imgBorder"]
     > ![Preview of the email.](media/sa-worklist-bulk-email-preview-email.png "Preview of the email")
@@ -139,7 +140,7 @@ For example, let's say 10 leads have a sequence step to send an introduction ema
  
 6.	Select **Send to all**.
 
-The email will be sent to all the recipients you specify. You can verify that the timelines for those entities are updated with the email. After you refresh the work list, all the records you just sent email to will move to the next step.<!--note from editor: Edit okay? I wasn't sure what "which is just being sent" meant. Also, I assume it's only those records you included in the bulk email that move to the next step, or am I wrong here?-->
+The email will be sent to all the recipients you specify. You can verify that the timelines for those entities are updated with the email. After you refresh the work list, all the records you just sent email to will move to the next step.
 
 ## Understand the Up next widget
 
