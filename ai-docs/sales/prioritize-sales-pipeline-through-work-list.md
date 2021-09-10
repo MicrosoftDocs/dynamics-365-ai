@@ -84,6 +84,7 @@ Use more options to do the following actions:
 > [!div class="mx-imgBorder"]
 > ![Work list settings](media/sa-worklist-filter-settings.png "Work list settings")  
 
+<a name="send-bulk-emails"></a>
 
 ## Send bulk email
 <!--note from editor: Via Microsoft Writing Style Guide, you use "email" when referring collectively to email messages.-->
