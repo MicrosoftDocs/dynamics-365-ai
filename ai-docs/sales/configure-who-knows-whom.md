@@ -1,7 +1,7 @@
 ---
 title: "Configure who knows whom (Sales Insights) | MicrosoftDocs"
 description: "Configure who knows whom to help sellers quickly identify colleagues within their organization who can introduce them to leads or contacts."
-ms.date: 08/10/2020
+ms.date: 09/10/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: c5e131e2-c4ba-4442-9580-dfc9badbc9ad

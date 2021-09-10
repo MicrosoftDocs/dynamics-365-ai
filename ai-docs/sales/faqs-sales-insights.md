@@ -2,7 +2,7 @@
 title: "Frequently asked questions for Sales Insights | MicrosoftDocs"
 description: "Find a list of frequently asked questions that are related to different features in Sales Insights add-in for Dynamics 365 Sales."
 keywords: ""
-ms.date: 09/10/2020
+ms.date: 09/10/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang

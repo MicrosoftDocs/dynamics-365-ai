@@ -1,7 +1,7 @@
 ---
 title: "Overview of Sales Insights Add-in for Dynamics 365 Sales | MicrosoftDocs"
 description: "Helps you understand business relationships, evaluate activities compared to previous successes, and choose the best path forward using AI-driven insights."
-ms.date: 08/10/2020
+ms.date: 09/10/2021
 ms.custom: intro-internal 
 ms.topic: article
 ms.assetid: 556c6c5b-d6a7-4017-b6f8-1f413237946f
