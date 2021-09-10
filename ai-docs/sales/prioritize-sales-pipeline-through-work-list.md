@@ -39,17 +39,19 @@ The work list displays a list of records that are assigned to you or to the secu
 2. From the site map, under **My Work**, select **Sales accelerator**.    
     The work list page opens, as shown in the following image.   
     > [!div class="mx-imgBorder"]
-    > ![Work list page](media/sa-worklist-page.png "Work list page")   
+    > ![Work list page.](media/sa-worklist-page.png "Work list page")   
 
     | Number | Feature | Description |
     |--------|---------|-------------|
     | 1 | **Search, filter, sort, and group records** | You can search, filter, sort, and group the records that you want to view in the list to quickly identify the customers to contact. More information: [Filter, sort, and more options](#filter-records-in-work-list)<br><br>By using the lookup icon, you can search for a specific record by using the record name. Select the **More options** icon to [send bulk emails](#send-bulk-emails), [configure work list settings](#configure-personal-settings), and refresh the list. |
     | 2 | **Records list** | Displays a list of records that are assigned to you or to a security role that you're part of. The unread records appear in bold with a blue vertical bar on the left. You must perform and complete the activities on these records from the current date and from previous dates.<br><br>Each record displays the name of the record, primary contact name, next best action, priority scoring, and entity name. Hover over the record to view more options and the activity to perform.<br><br> Select **More options** to perform the following actions on the record:<ul><li>Mark as complete</li><li>Skip the current activity</li><li>Snooze the activity</li><li>Change the state of the record to unread or read</li><li>Follow or unfollow the record</li><li>Skip wait time (this option is available for items that are in the wait state)</li></ul><br>Also, you can select the activity icon to perform the specified activity for the record.<br>![Options for records](media/sa-record-hover-view.png "Options for records")<br>More information: [Connect with customers by using a record or the Up next widget](connect-with-customers.md) <br><br>When you complete an activity on the record, select the refresh icon. The list will be refreshed, and the record will be removed from the list.<br><br>**Note**<br>The list displays records for a month from the current date. The records that are older than 30 days are automatically removed and won't be displayed.|
+
     | 3 | **Up next widget** | Displays the next best action that you can perform on a record for the given date. More information: [Understand the Up next widget](#understand-the-up-next-widget)|
     
 ## Filter, sort, and more options<a name="filter-records-in-work-list"></a>     
 #### Filter       
 Use filters to prioritize the records in the work list so you can reach customers at the right time. The following screen provides the list of options that are available to filter work list:    
+
 > [!div class="mx-imgBorder"]    
 > ![Work list filter options](media/sa-worklist-filter-options.png "Work list filter options")    
  
@@ -82,49 +84,62 @@ Use more options to do the following actions:
 > [!div class="mx-imgBorder"]
 > ![Work list settings](media/sa-worklist-filter-settings.png "Work list settings")  
 
-## Send bulk emails    
-The bulk email feature helps you to optimize your work by sending the same email to a list of leads simultaneously. The leads should have the same email step from the same sequence attached to all these records.    
-For example, there are 10 leads who have the sequence step to send an introduction email, which is pending for today. Using the bulk email feature, you can select all the 10 leads (or some of these 10 leads) and send the introduction email at once.
+<a name="send-bulk-emails"></a>
 
-**To send bulk emails:**
+## Send bulk email
+<!--note from editor: Via Microsoft Writing Style Guide, you use "email" when referring collectively to email messages.-->
+The bulk email feature helps you to optimize your work by sending the same email to a list of leads simultaneously. The leads need to have the same email step from the same sequence attached to all their records.
 
-1.	In the work list page, select **More options** > **Bulk email**.    
+For example, let's say 10 leads have a sequence step to send an introduction email, and this step is pending for today. By using the bulk email feature, you can select all (or some) of the 10 leads and send them the introduction email all at once.
+
+**To send bulk email**
+
+1.	On the work list page, select **More options** > **Bulk email**.
+
     > [!div class="mx-imgBorder"]
-    > ![Select bulk email from more options](media/sa-worklist-select-bulk-email.png "Select bulk email from more options")    
+    > ![Select Bulk email from More options.](media/sa-worklist-select-bulk-email.png "Select bulk email from more options")    
 
-    The work list records in the queue are automatically grouped according to sequence and then the action.    
-    For example, the **Lead nurturing** sequence has 10 leads, with nine on step to send a **Follow up mail** and one on the step to send an **Introduction email**. When you select the **Bulk email** option, the records are first grouped by Lead nurturing sequence and then subgrouped by **Follow up mail** and **Introduction mail** steps.     
-    Also, you can see that the **Bulk email** option is inactive and displayed on the top-right corner of the worklist records section.    
+    The work list records in the queue are automatically grouped according to the sequence and then the action.
+    For example, the **Lead nurturing** sequence has 10 leads, with nine on the **Follow up mail** step and one on the **Introduction mail** step. When you select the **Bulk email** option, the records are first grouped by the lead nurturing sequence and then subgrouped by the **Follow up mail** and **Introduction mail** steps.     
+
+    As shown in the following image, the **Bulk email** option in the upper-right corner is unavailable until you select the leads, as described in the following step.<!--note from editor: Edit okay? I couldn't understand the significance of having this image here. Also, I'm not sure what the alt text is saying.-->
+
     > [!div class="mx-imgBorder"]
-    > ![Records grouped according to task after selecting bulk email](media/sa-worklist-bulk-email-selected.png "Records grouped according to task after selecting bulk email")      
+    > ![Records grouped according to task after selecting bulk email.](media/sa-worklist-bulk-email-selected.png "Records grouped according to task after selecting bulk email")
  
-2.	Choose the leads for which you want to send the bulk email.    
-    You can select the step name to choose all leads at once or expand the step and choose the leads for which you want to send the bulk email.    
-    In this example, we're sending a bulk email to leads, Ivan Komashinsky, Lidman Anna, Counts Vong, and Nancy Anderson.     
+2.	Choose the leads to whom you want to send the bulk email.
+    You can select all the leads at once by selecting the step name, or you can expand the step and then select the leads individually.
+    In this example, we're sending a bulk email to the leads Ivan Komashinsky, Lidman Anna, Counts Vong<!--note from editor: I don't find Counts Vong in my list of approved fictitious names, but I assume it's there?-->, and Nancy Anderson.
+
     > [!div class="mx-imgBorder"]
-    > ![Lead records selected to send bulk email](media/sa-worklist-bulk-email-records-selected.png "Lead records selected to send bulk email")     
+    > ![Lead records selected to send bulk email to.](media/sa-worklist-bulk-email-records-selected.png "Lead records selected to send bulk email")
  
-3.	Select **Bulk email** on the top.    
-    The email composer opens. If you've selected an email template for the step, the template opens in the composer.    
+3.	On the command bar, select **Bulk email**.
+
+    The email composer opens. If you've selected an email template for the step, the template opens in the composer.<!--note from editor: There's something wrong with one of the names ("Counts Vongple)" - can you fix it?-->
     > [!div class="mx-imgBorder"]
-    > ![Email composer opened](media/sa-worklist-bulk-email-email-composer-open.png "Email composer opened")      
+    > ![Email composer opened.](media/sa-worklist-bulk-email-email-composer-open.png "Email composer opened")
 
     >[!NOTE]
-    >Each user in the recipient list must satisfy the following conditions in the entity form:  
-    >- Allow emails under the **CONTACT METHOD** section in the **Details** tab. 
-    >- Valid email address in **Email** under the **CONTACT** section, in the **Summary** tab.
+    >Each user in the recipient list must satisfy the following conditions on the entity form:  
+    >- On the **Details** tab under **CONTACT METHOD**, **Email** is set to **Allow**.<!--note from editor: Edit okay? I think it's good to be specific here. (I based this on a screenshot in the email-engagement.md article.)--> 
+    >- On the **Summary** tab under **CONTACT**, the user has a valid email address.
 
-4.	(Optional) To preview the email, select **Preview**.    
-    The preview opens with tags filled with information about the first recipient as an example email. However, when the actual email is sent, each email will have relevant information from that entity. In this example, the first recipient is Ivan Komashinsky.    
-    > [!div class="mx-imgBorder"]
-    > ![Preview of the email](media/sa-worklist-bulk-email-preview-email.png "Preview of the email")      
+4.	(Optional) To preview the email, select **Preview**.
 
-5. (Optional) To schedule the email, select **Schedule** and then choose a date and time at which you want the email to be sent.  
+    The preview opens and shows tags that contain information about the first recipient (in this example, Ivan Komashinsky). However, when the actual email is sent, each email will include relevant information from each lead in your recipient list.<!--note from editor: Edit okay?-->
+
     > [!div class="mx-imgBorder"]
-    > ![Choose date and time for the email to be sent](media/sa-worklist-bulk-email-schedule-email.png "Choose date and time for the email to be sent")      
+    > ![Preview of the email.](media/sa-worklist-bulk-email-preview-email.png "Preview of the email")
+
+5. (Optional) To schedule the email, select **Schedule** and then choose a date and time at which you want to send the email.  
+
+    > [!div class="mx-imgBorder"]
+    > ![Choose a date and time to send the email.](media/sa-worklist-bulk-email-schedule-email.png "Choose a date and time to send the email")      
  
-6.	Select **Send to all**.    
-    The email is sent to all the recipients, and you can verify that the entity’s timeline is updated with the email, which is just being sent. You can refresh the work list and records will move to the next step.    
+6.	Select **Send to all**.
+
+The email will be sent to all the recipients you specify. You can verify that the timelines for those entities are updated with the email. After you refresh the work list, all the records you just sent email to will move to the next step.<!--note from editor: Edit okay? I wasn't sure what "which is just being sent" meant. Also, I assume it's only those records you included in the bulk email that move to the next step, or am I wrong here?-->
 
 ## Understand the Up next widget
 
@@ -133,7 +148,7 @@ Using the **Up next** widget, you can view and perform actions on activities on 
 - For manual activities, you or a sales manager can create an activity on the timeline. The activity is displayed in the **Up next** widget as an activity, depending on its due time. This activity is available to you and other sellers who have access to the record.   
 The following image shows an example of the **Up next** widget.    
 > [!div class="mx-imgBorder"]
-> ![Up next widget](media/sa-up-next-widget.png "Up next widget")    
+> ![Up next widget.](media/sa-up-next-widget.png "Up next widget")    
 1. **Current activity**: The current activity is a task that you must complete or skip to go to the next activity, which moves the record closer to completion. To perform an action such as making a phone call or sending an email, select the action icon displayed in the activity. More information: [Connect with customers by using a record or the Up next widget ](connect-with-customers.md).   
     After you complete the action, select **Mark complete**, and the activity is closed and moved automatically to completed items and is displayed on the timeline.   
     You can choose to skip the activity if you think it's not relevant to the record or you don't want to perform the action. Select **More options**, and then select **Skip**. The activity is skipped and moved to completed items.   
@@ -141,7 +156,7 @@ The following image shows an example of the **Up next** widget.
 3. **Completed activities**: The completed activities are the activities that are marked as complete or skipped for a record.        
     To view the completed activities list, select **Show completed**. The section expands to display the list of completed activities with details such as whether the activity was completed or was it skipped, with date and time. You can't perform any actions on these tasks; they're view-only. The following screen is an example of an expanded section of completed items.    
     > [!div class="mx-imgBorder"]
-    > ![View completed activities](media/sa-view-completed-activities.png "View completed activities")   
+    > ![View completed activities.](media/sa-view-completed-activities.png "View completed activities")   
 
 ## Add manual activities to records
 
