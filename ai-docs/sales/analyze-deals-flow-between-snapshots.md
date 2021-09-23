@@ -1,15 +1,15 @@
 ---
-title: "Analyze deals flows between two snapshots (Sales Insights) | MicrosoftDocs"
+title: "Analyze deals flow between two snapshots (Sales Insights) | MicrosoftDocs"
 description: "Use snapshots to visualize and analyze how deals are trending between two moments in time in a deal flow chart."
-ms.date: 10/26/2020
+ms.date: 09/22/2021
 ms.custom: 
 ms.topic: article
-author: udaykirang
-ms.author: udag
+author: lavanyakr01
+ms.author: lavanyakr
 manager: shujoshi
 ---
 
-# Analyze deals flows between snapshots	
+# Analyze deals flow between snapshots
 
 The **Flow** chart provides a visual representation of how the forecast changes between two moments in time. Managers can use flow charts to drill in to the specific deals that have contributed to the increase or decrease in forecast commitment, thus enabling them to follow up with their teams and coach their teams on how to improve their forecast accuracy.	
 
@@ -30,7 +30,7 @@ Review the following prerequisite before you start using deals flow analysis:
    > [!div class="mx-imgBorder"]	
    > ![Deals flow sankey chart](media/predictive-forecasting-deal-flow-sankey-chart.png "Deals flow sankey chart") 
 
-4. To compare snapshots, choose **Start** and **End** dates from the calendar. The start date should always come before the end date. In this example, the start date is selected as **1** and the end date is selected as **27** in the month of July.	
+4. To compare snapshots, choose **Start** and **End** dates from the calendar. The start date should always come before the end date. In the following example, the start date is selected as **1** and the end date is selected as **27** in the month of July.	
 
    > [!div class="mx-imgBorder"]	
    > ![Select start and end dates](media/predictive-forecasting-deal-flow-select-start-end-date.png "Select start and end dates")	
@@ -45,8 +45,7 @@ Review the following prerequisite before you start using deals flow analysis:
    - The top node of the stack is always Won, if any won opportunities exist in the snapshot.   
    - The bottom node of the stack is always Lost, if any lost opportunities exist in the snapshot.    
    - The other nodes are displayed in the order that is defined in the layout selection within the forecast configuration.    
-   - New opportunities that are present in the end date snapshot and not available in the start date snapshot are classified as a **New deals** category under the start date snapshot column stack.         
-     The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast) are not part of this category but rather part of other categories known as [**Pulled in**](#pulled-in) and [**Pushed out**](#pushed-out). 	       
+   - New opportunities that are present in the end date snapshot and not available in the start date snapshot are classified as a **New deals** category under the start date snapshot column stack. Opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast) are not part of this category but rather part of other categories known as [**Pulled in**](#pulled-in) and [**Pushed out**](#pushed-out). 	       
      - <a name="pulled-in"></a>The opportunities that are added to the end date snapshot due to ownership change (within the forecast) or date change (within the forecast) are classified under the **Pulled in** category under the bottom of the start date snapshot.           
      - <a name="pushed-out"></a>The opportunities that are added to the start date snapshot due to ownership change (within the forecast) or date change (within the forecast) are classified under the **Pushed out** category under the bottom of the end date snapshot.          
       Let's look at the following examples:    
