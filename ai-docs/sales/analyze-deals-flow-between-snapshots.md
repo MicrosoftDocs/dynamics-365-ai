@@ -1,7 +1,7 @@
 ---
 title: "Analyze deals flow between two snapshots (Sales Insights) | MicrosoftDocs"
 description: "Use snapshots to visualize and analyze how deals are trending between two moments in time in a deal flow chart."
-ms.date: 09/22/2021
+ms.date: 10/06/2021
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
