@@ -1,7 +1,7 @@
 ---
 title: "View forecast projection through trend charts (Sales Insights) | MicrosoftDocs"
 description: "Use the trend charts to understand how each forecast amount is trending over time, comparing it against the period end prediction and quota."
-ms.date: 02/03/2020
+ms.date: 10/07/2021
 ms.custom: 
 ms.topic: article
 author: udaykirang
@@ -39,6 +39,12 @@ The following screenshot shows an example of a trend chart.
 
 > [!div class="mx-imgBorder"]
 > ![Trend chart](media/predictive-forecasting-trend-chart.png "Trend chart")
+
+The categories displayed on the trend chart depend on the forecast grid columns that your administrator has configured and the prediction columns. For more information on configuring forecast grid columns, see [Configure columns](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast#configure-columns).
+ 
+> [!NOTE]
+> The prediction realization line indicates the combined value of **Predicted from open** and **Predicted from new**. For more information on prediction columns, see [Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md).
+
 
 When you hover over a forecast category in the legend, the trend line of the forecast category gets highlighted.
 
