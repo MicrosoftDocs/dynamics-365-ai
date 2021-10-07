@@ -17,7 +17,7 @@ When a sequence contains steps that are related to LinkedIn activities, you can 
 -	Do research on customer to know better. More information: [Research activity](#research-activity)
 -	Get introduced to a customer. More information: [Get introduced activity](#get-introduced-activity)
 -	Send personal messages to connect. More information: [Connect activity](#connect-activity)
--	Send an InMail to customer. More information: [Send InMail activity](#send-inmail)
+-	Send an InMail to customer. More information: [Send InMail activity](#send-inmail-activity)
 
 ## Research activity
 
