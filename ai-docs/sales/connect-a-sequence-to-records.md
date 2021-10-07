@@ -52,8 +52,11 @@ You can connect a sequence to records in the following ways:
     > ![List of available lead records](media/sequence-list-of-available-leads.png "List of available lead records") 
 
     > [!NOTE]
-    > To connect segments, see [Connect a segment to sequence](connect-a-segment-to-sequence.md)
-  
+    > On the record selection page, you can do the following tasks on the grid:
+    > - Sort and filter the records based on the column options. Select the down arrow icon corresponding to column header, and then select the sort and filter options that are available.
+    > - Reorder the columns by dragging-and-dropping at the location you want in the grid.
+    > - Search is available only on the name and description of the sequence.
+
 8.	Choose the records that you want to connect to the sequence, and then select **Connect**.     
     Verify that the **Open leads without sequences** view is selected. Selecting this view helps to list only the records that aren't associated with other sequences. You can select other views to choose records to connect, but the records in that view must not be associated with other sequences.     
     > [!div class="mx-imgBorder"]

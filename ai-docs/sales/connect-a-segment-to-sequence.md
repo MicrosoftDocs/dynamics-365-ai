@@ -1,7 +1,7 @@
 ---
 title: "Connect segment to sequence in the sales accelerator | MicrosoftDocs"
 description: "Connect a segment to a sequence based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales."
-ms.date: 04/09/2021
+ms.date: 10/08/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag

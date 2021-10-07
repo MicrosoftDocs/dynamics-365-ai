@@ -57,7 +57,7 @@ Every organization has its own selling processes for sellers to follow. A sequen
 
     > [!NOTE]
     > On the sequence home page, you can do the following tasks:
-    > - Sort and filter the records based on the options provided. Select the down arrow icon corresponding to column header, and then select the sort and filter options that are available.
+    > - Sort and filter the records based on the column options. Select the down arrow icon corresponding to column header, and then select the sort and filter options that are available.
     > - Reorder the columns by dragging-and-dropping at the location you want in the grid.
     > - Search is available only on the name and description of the sequence.
    
