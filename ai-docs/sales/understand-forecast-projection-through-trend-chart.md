@@ -43,7 +43,7 @@ The following screenshot shows an example of a trend chart.
 The categories displayed on the trend chart depend on the forecast grid columns that your administrator has configured and the prediction columns. For more information on configuring forecast grid columns, see [Configure columns](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast#configure-columns).
  
 > [!NOTE]
-> The prediction realization line indicates the combined value of **Predicted from open** and **Predicted from new**. For more information on prediction columns, see [Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md).
+> The Predicted Realization line indicates the combined value of **Predicted from open** and **Predicted from new**. For more information on prediction columns, see [Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md).
 
 
 When you hover over a forecast category in the legend, the trend line of the forecast category gets highlighted.
