@@ -23,18 +23,18 @@ As an administrator or sequence manager, you can add the following activities to
 Ensure that you meet the following requirements before configuring the LinkedIn activities:   
 -	Verify that LinkedIn Sales Navigator is configured in your organization. More information: [Install and enable LinkedIn Sales Navigator](/dynamics365/linkedin/install-sales-navigator).
 -	Verify that the latest solution with version **3.0.1.1060** for **msdyn_LinkedInSalesNavigatorAnchor** is installed. 
-    - Go to **Advanced settings** > **Solutions** and search for **msdyn_LinkedInSalesNavigatorAnchor**. The version number should be 3.0.1.1060 or above. 
+    - Go to **Advanced settings** > **Solutions** and search for **msdyn_LinkedInSalesNavigatorAnchor**. The version number should be 3.0.1.1060 or later. 
 -	You have proper license to use LinkedIn Sales Navigator. More information: [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/).
 
 ## Research activity
 
-The **Research** activity allows sellers to view the LinkedIn profile including contact and account information of the customer. This helps sellers to better understand the customers before starting to work with them. More information: [Leads Module References](/linkedin/sales/display-services/leads-screenshots) and [Accounts Module References](/linkedin/sales/display-services/accounts-screenshots).    
+The **Research** activity allows sellers to view the LinkedIn profile, including the customer’s contact and account information. This helps sellers to better understand the customers before starting to work with them. More information: [Leads Module References](/linkedin/sales/display-services/leads-screenshots) and [Accounts Module References](/linkedin/sales/display-services/accounts-screenshots).    
 
 When the activity is displayed to the seller, the LinkedIn research step is displayed in the **Up next** widget and work list. 
 
 **To add the Research activity**
 
-1.	In the activity selection box, select the **LinkedIn** tab and then select **Research**.  
+1.	In the activity selection box, select the **LinkedIn** tab, and then select **Research**.  
 
     >[!div class="mx-imgBorder"]
     >![LinkedIn activity selection box](media/sa-linkedin-activity-selection.png "LinkedIn activity selection box")    
@@ -51,7 +51,7 @@ When the activity is displayed to the seller, the LinkedIn research step is disp
  
 ## Get introduced activity   
 
-The **Get introduced** activity allows sellers to ask for an introduction to the customer from anyone within their network in LinkedIn who may be connected to the customer. More information: [Get Introduced](/linkedin/sales/display-services/leads-screenshots#get-introduced).
+The **Get introduced** activity allows sellers to ask for an introduction to the customer from anyone within their network in LinkedIn who is already connected to the customer. More information: [Get Introduced](/linkedin/sales/display-services/leads-screenshots#get-introduced).
 
 When this activity is displayed to the seller, the Find intro person step is displayed in the Up next widget and work list. 
 
@@ -74,13 +74,13 @@ When this activity is displayed to the seller, the Find intro person step is dis
 
 ## Connect activity
 
-The **Connect** activity allows sellers to send connection invites along with personal messages, to solidify customer relationship and add them to their network. More information: [Connect](/linkedin/sales/display-services/leads-screenshots#connect).
+The **Connect** activity allows sellers to send connection invites along with personal messages, to solidify customer relationships and add them to their network. More information: [Connect](/linkedin/sales/display-services/leads-screenshots#connect).
 
 When this activity is displayed to the seller, the Connect via LinkedIn step is displayed in the Up next widget and work list. 
 
 **To add the Connect activity**
 
-1.	In the activity selection box, select the **LinkedIn** tab and then select **Connect**.
+1.	In the activity selection box, select the **LinkedIn** tab, and then select **Connect**.
 
     >[!div class="mx-imgBorder"]
     >![LinkedIn activity selection box](media/sa-linkedin-activity-selection.png "LinkedIn activity selection box")    
@@ -97,7 +97,7 @@ When this activity is displayed to the seller, the Connect via LinkedIn step is 
 
 ## Send InMail
 
-The **Send InMail** activity allows sellers to directly message customers through LinkedIn that they’re not connected to. More information: [Send an InMail Message](https://www.linkedin.com/help/linkedin/answer/437).
+The **Send InMail** activity allows sellers to directly message customers they’re not already connected to through LinkedIn. More information: [Send an InMail Message](https://www.linkedin.com/help/linkedin/answer/437).
 
 When this activity is displayed to the seller, the Send InMail step is displayed in the Up next widget and work list. 
 
