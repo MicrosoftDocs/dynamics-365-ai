@@ -94,7 +94,7 @@ You can do actions as described in the following table:
 | Action | Select **InMail**. | Hover over the item and then select the LinkedIn icon. |
 | Close step | Select **Mark as complete** to close the step and move to next step. <br>-Or-<br>Select the **More options** icon and then choose an appropriate option:<br>•	**Skip** to ignore the step.<br>•	**Snooze** to look into the step later.<br>•	**Assign** to transfer the step to a different seller. | Select the **More options** icon and then choose an appropriate option:<br>•	Select **Mark as complete** to close the step and move to next step.<br>•	**Skip** to ignore the step.<br>•	**Snooze** to look into the step later.<br>•	**Assign** to transfer the step to a different seller. |
 
-When the action is selected, the **Send InMail** pane opens on the bottom-right side. Go to the **Send InMail** tab, enter a subject, message, and any attachments if required, and then select Send. The InMail is sent to the customer.
+When the action is selected, the **Send InMail** pane opens on the bottom-right side. Go to the **Send InMail** tab, enter a subject, message, and any attachments if necessary, and then select **Send**. The InMail is sent to the customer.
 
 > [!NOTE]
 > To view the profile of the customer, select **Show profile**.
