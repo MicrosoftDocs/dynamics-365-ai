@@ -1621,11 +1621,6 @@
       "redirect_document_id": "false"
     },
     {
-      "source_path": "ai-docs/sales/TOC.md",
-      "redirect_url": "/dynamics365/sales/TOC",
-      "redirect_document_id": "false"
-    },
-    {
       "source_path": "ai-docs/sales/troubleshooting-sp.md",
       "redirect_url": "/dynamics365/sales/troubleshooting-sp",
       "redirect_document_id": "false"
