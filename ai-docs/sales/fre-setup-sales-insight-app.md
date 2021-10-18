@@ -1,7 +1,7 @@
 ---
 title: "First-run setup experience for conversation intelligence | MicrosoftDocs"
 description: "First-run configuration of conversation intelligence for Microsoft Teams and conversation intelligence application for your Dynamics 365 Sales environment."
-ms.date: 02/04/2021
+ms.date: 10/18/2021
 ms.custom: 
 ms.topic: article
 ms.assetid: 3e099e3a-f6cb-42cf-b84e-9f8b0c6ee9db
