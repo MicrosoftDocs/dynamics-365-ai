@@ -31,6 +31,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ai-docs/sales/create-manage-assignment-rules-lead-routing.md",
+      "redirect_url": "create-manage-assignment-rules",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ai-docs/sales/working-with-meetings-teams.md",
       "redirect_url": "removed-deprecated-features",
       "redirect_document_id": false

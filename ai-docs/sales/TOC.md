@@ -42,6 +42,7 @@
 #### [Manage sequences](create-manage-sequences.md)
 ##### [Create and activate a sequence](create-and-activate-a-sequence.md)
 ##### [Adaptive sequences](adaptive-sequence.md)
+##### [Add LinkedIn activities to sequence](linkedin-activities-sequence.md)
 ##### [Connect a sequence to records](connect-a-sequence-to-records.md)
 ##### [View details of a sequence and its connected records](view-sequence-details-connected-records.md)
 ##### [Clone a sequence](clone-a-sequence.md)
@@ -53,7 +54,7 @@
 ##### [Connect a segment to sequence](connect-a-segment-to-sequence.md)
 ##### [Edit a segment](edit-a-segment.md)
 ##### [Delete or deactivate a segment](delete-deactivate-a-segment.md)
-#### [Manage assignment rules for lead routing](create-manage-assignment-rules-lead-routing.md)
+#### [Manage assignment rules](create-manage-assignment-rules.md)
 ##### [Create and activate an assignment rule](create-and-activate-assignment-rule.md)
 ##### [Edit an assignment rule](edit-assignment-rule.md)
 ##### [Delete or deactivate an assignment rule](delete-deactivate-assignment-rule.md)
@@ -111,6 +112,7 @@
 #### [What is sales accelerator](sales-accelerator-intro.md)
 #### [Prioritize sales pipeline through work list](prioritize-sales-pipeline-through-work-list.md)
 #### [Connect with customers through a record or the up next widget ](connect-with-customers.md)
+#### [Work with LinkedIn activities](work-with-linkedin-activities.md)
 #### [Personalize your sales accelerator](personalize-sales-accelerator.md)
 
 ###	Conversation Intelligence
