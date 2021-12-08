@@ -2,7 +2,7 @@
 title: "Service limits in Dynamics 365 Customer Service Insights"
 description: "Understand limits and restrictions within the Dynamics 365 Customer Service Insights product."
 keywords: ""
-ms.date: 04/05/2021
+ms.date: 12/08/2021
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid:
@@ -63,6 +63,14 @@ This following table lists the built-in limits for the Customer Service Insights
 | Dashboard interactions | None | There are no limits on the number of interactions allowed on dashboards, such as cross filtering or drillthrough. |
 | Connecting to a Dynamics 365 environment | One workspace per Dynamics 365 environment per user | A Dynamics 365 environment cannot be connected with multiple workspaces at the same time by the same user. If a workspace is created and then deleted, it can be connected  again. <br> <br> In addition, a single workspace cannot be connected to more than one Dynamics 365 environment. |
 | Topics generated from cases | Topics are generated only from cases for which there are at least three related cases.| Because topics are automatically created based on similar customer service cases, the system needs a minimum number of cases to create a topic. <br> <br> In order for topics to be meaningful, we recommend having at least 1,000 cases.|
+
+
+### See also
+[Customer Service historical analytics](/dynamics365/customer-service/configure-cs-historical-analytics-csh)<br>
+[Topic clustering for cases](/dynamics365/customer-service/configure-topics-clustering-cases-cs)<br>
+[Customer Service Analytics in Power BI](/dynamics365/customer-service/configure-customer-service-analytics-dashboard)<br>
+[Knowledge search analytics](/dynamics365/customer-service/enable-knowledge-search-insights)<br>
+[AI suggestions for similar cases and knowledge articles](/dynamics365/customer-service/csw-enable-ai-suggested-cases-knowledge-articles)<br>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
