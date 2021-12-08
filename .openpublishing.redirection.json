@@ -1699,6 +1699,201 @@
       "source_path": "ai-docs/sales/developer/msdyn_predictivescore.md",
       "redirect_url": "/dynamics365/sales/developer/msdyn_predictivescore",
       "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/automate-topics.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/ci-admin-config-call-data.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/ci-admin-config-keywords-products.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/ci-admin-config-team.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/ci-admin-data-retention-deletion.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/ci-admin-fre-setup.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/ci-admin-prereqs.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/ci-agent-overview.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/ci-connect-customer-service-env.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/ci-overview.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/ci-team-overview.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/ci-user-redirection.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/ci-view-understand-call-summary.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/customer-service-entities.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/dashboard-case-resolutions.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/dashboard-CSAT.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/dashboard-incoming-cases.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/dashboard-kpi-summary.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/dashboard-overview.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/dashboard-topic-details.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/data-location.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/exportdata.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/gdpr-delete.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/gdpr-discovery.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/gdpr-export.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/gdpr-summary.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/granularity.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/improve-system.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/keyinsights.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/licensing-case-capacity.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/map-data.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/quickstart.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/settings.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/supported-languages.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/topics-page.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/trigger-refresh.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/use-dashboard-sample-data.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/use-external-data-sources.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/use-workspaces.md",
+      "redirect_url": "overview",
+      "redirect_document_id": "false"
     }
   ]
 }
