@@ -17,6 +17,9 @@ search.appverid: met150
 
 # Customer Service Insights overview
 
+> [!Important]
+> If you've been using the Customer Service Insights standalone web application, the app has deprecated, which means that your current working environments were terminated and became inaccessible as of December 8, 2021. With this change, the standalone service is no longer available, but the embedded Customer Service Insights features in the core applications will continue to be available and supported. For users who hold Customer Service Enterprise licenses, you can't create new workspaces, but existing access is retained.
+
 Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and proactively improve customer satisfaction by using artificial intelligence (AI) and analytics capabilities for Customer Service and Omnichannel for Customer Service. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers.
 
 The premium AI capabilities in Customer Service Insights use advanced AI technology in natural language understanding and natural language generation to help your service team resolve cases efficiently and guide them to success.
@@ -27,8 +30,6 @@ These capabilities are embedded into the core agent and manager experiences in C
 
 ![Example of KPI summary dashboard](media/summary-dashboard-analytics.png)
 
-> [!Important]
-> If you've been using the Customer Service Insights standalone web application, the app has deprecated, which means that your current working environments were terminated and became inaccessible on December 8, 2021. With this change, the standalone service is no longer available, but the embedded Customer Service Insights features in the core applications will continue to be available and supported. For users who hold Customer Service Enterprise licenses, you can't create new workspaces, but existing access is retained.
 
 ## Customer Service Insights across your organization
 
