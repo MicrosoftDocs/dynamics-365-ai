@@ -2,12 +2,12 @@
 title: "Customer Service Insights overview"
 description: "Learn the basics of Dynamics 365 Customer Service Insights."
 keywords: ""
-ms.date: 05/12/2021
+ms.date: 12/08/2021
 ms.service: dynamics-365-ai
 ms.topic: article
 ms.assetid: 
-author: meghanalanka 
-ms.author: v-mlanka
+author: lalexms 
+ms.author: laalexan
 manager: shujoshi
 search.app: capaedac-csi
 search.audienceType: enduser
@@ -16,6 +16,9 @@ search.appverid: met150
 ---
 
 # Customer Service Insights overview
+
+> [!Important]
+> If you've been using the Customer Service Insights standalone web application, the app has deprecated, which means that your current working environments were terminated and became inaccessible as of December 8, 2021. With this change, the standalone service is no longer available, but the embedded Customer Service Insights features in the core applications will continue to be available and supported. For users who hold Customer Service Enterprise licenses, you can't create new workspaces, but existing access is retained.
 
 Dynamics 365 Customer Service Insights helps both agents and customer service managers make better decisions and proactively improve customer satisfaction by using artificial intelligence (AI) and analytics capabilities for Customer Service and Omnichannel for Customer Service. You can empower your teams with insights into customer satisfaction–boosting analytics and AI-powered features to spend less time searching and more time engaging with customers.
 
@@ -27,13 +30,14 @@ These capabilities are embedded into the core agent and manager experiences in C
 
 ![Example of KPI summary dashboard](media/summary-dashboard-analytics.png)
 
+
 ## Customer Service Insights across your organization
 
 Customer Service Insights connects with your Dynamics 365 Customer Service and Omnichannel for Customer Service data to provide your support organization with out-of-the-box AI and BI capabilities, such as customer service analytics and similar case suggestions. Different applications will surface slightly different feature sets, as explained in this topic.
 
 ### Customer Service applications
 
-Customer Service Insights is now embedded in Customer Service. After it is enabled, this experience allows you to see historical analytics directly within the Customer Service environment, with several out-of-the-box dashboards that can be viewed by by your management team.
+Customer Service Insights is now embedded in Customer Service. After it's enabled, this experience allows you to see historical analytics directly within the Customer Service environment, with several out-of-the-box dashboards that can be viewed by by your management team.
 
 For details on the customer service offerings, see the following topics:
 
@@ -62,9 +66,13 @@ For details on Customer Service Omnichannel offerings, see the following topics:
 
 - [Monitor and analyze sentiments](/dynamics365/customer-service/supervisor-sentiment-monitoring)
 
+### See also
+[Customer Service historical analytics](/dynamics365/customer-service/configure-cs-historical-analytics-csh)<br>
+[Topic clustering for cases](/dynamics365/customer-service/configure-topics-clustering-cases-cs)<br>
+[Customer Service Analytics in Power BI](/dynamics365/customer-service/configure-customer-service-analytics-dashboard)<br>
+[Knowledge search analytics](/dynamics365/customer-service/enable-knowledge-search-insights)<br>
+[AI suggestions for similar cases and knowledge articles](/dynamics365/customer-service/csw-enable-ai-suggested-cases-knowledge-articles)<br>
 
-> [!Important]
-> If you are a customer who uses the Customer Service Insights standalone web application, your current working environments will be terminated and inaccessible by December 8, 2021. You will no longer be able to use the standalone service after this date. The embedded Customer Service Insights features in the core applications will continue to be available and supported. For users who hold Customer Service Enterprise licenses, you will no longer be able to create new workspaces, but you'll retain access to existing ones. In the interim, the [standalone app guide](quickstart.md) contains documentation for the web application.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
