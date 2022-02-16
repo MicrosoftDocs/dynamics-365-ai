@@ -6,7 +6,7 @@ brand: m365
 
 metadata:
   title: Microsoft Dynamics 365 AI apps documentation # Required; page title displayed in search results. Include the brand. < 60 chars.
-  ms.service: dynamics-365-crossapp #Required; service per approved list. service slug assigned to your service by ACOM.
+  
   ms.topic: hub-page # Required
   author: KumarVivek #Required; your GitHub user alias, with correct capitalization.
   ms.author: kvivek #Required; microsoft alias of author; optional team alias.
