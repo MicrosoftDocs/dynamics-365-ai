@@ -21,9 +21,9 @@ productDirectory:
       links:
         - url: ./customer-service-insights/overview.md
           text: Overview
-        - url: ./customer-service-insights/quickstart.md
+        - url: /ai-docs/overview
           text: Quickstart
-        - url: ./customer-service-insights/dashboard-overview.md
+        - url: /ai-docs/overview
           text: Dashboard overview
     # Card
     - title: Dynamics 365 Customer Insights
