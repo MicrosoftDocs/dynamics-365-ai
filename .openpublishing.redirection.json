@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ai-docs/index.md",
+      "redirect_url": "/dynamics365/index",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ai-docs/sales/dynamics-365-assistant-app-teams.md",
       "redirect_url": "removed-deprecated-features",
       "redirect_document_id": false
