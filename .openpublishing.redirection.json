@@ -1,6 +1,11 @@
 {
   "redirections": [
     {
+      "source_path": "ai-docs/market-insights/eos-faq.yml",
+      "redirect_url": "https://dynamics.microsoft.com/en-us/ai/customer-insights/",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ai-docs/index.md",
       "redirect_url": "/dynamics365/index",
       "redirect_document_id": false
