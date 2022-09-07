@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "ai-docs/customer-service-insights/service-limits.md",
+      "redirect_url": "/dynamics365/customer-service/introduction-customer-service-analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ai-docs/customer-service-insights/overview.md",
+      "redirect_url": "/dynamics365/customer-service/cs-region-availability-service-limits#service-limits-for-analytics-and-insights",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ai-docs/market-insights/eos-faq.yml",
       "redirect_url": "https://dynamics.microsoft.com/en-us/ai/customer-insights/",
       "redirect_document_id": false
@@ -12,7 +22,7 @@
     },
     {
       "source_path": "ai-docs/sales/dynamics-365-assistant-app-teams.md",
-      "redirect_url": "removed-deprecated-features",
+      "redirect_url": "/dynamics365/sales/deprecations-sales",
       "redirect_document_id": false
     },
     {
@@ -22,22 +32,22 @@
     },
     {
       "source_path": "ai-docs/sales/overview-dynamics-365-assistant-app-teams.md",
-      "redirect_url": "removed-deprecated-features",
+      "redirect_url": "/dynamics365/sales/deprecations-sales",
       "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/install-assistant-application-microsoft-teams.md",
-      "redirect_url": "removed-deprecated-features",
+      "redirect_url": "/dynamics365/sales/deprecations-sales",
       "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/access-assistant-application-teams.md",
-      "redirect_url": "removed-deprecated-features",
+      "redirect_url": "/dynamics365/sales/deprecations-sales",
       "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/sales/learn-basics-dynamics-365-application-teams.md",
-      "redirect_url": "removed-deprecated-features",
+      "redirect_url": "/dynamics365/sales/deprecations-sales",
       "redirect_document_id": false
     },
     {
