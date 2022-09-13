@@ -2,12 +2,12 @@
   "redirections": [
     {
       "source_path": "ai-docs/customer-service-insights/service-limits.md",
-      "redirect_url": "/dynamics365/customer-service/introduction-customer-service-analytics",
+      "redirect_url": "/dynamics365/customer-service/cs-region-availability-service-limits#service-limits-for-analytics-and-insights",
       "redirect_document_id": false
     },
     {
       "source_path": "ai-docs/customer-service-insights/overview.md",
-      "redirect_url": "/dynamics365/customer-service/cs-region-availability-service-limits#service-limits-for-analytics-and-insights",
+      "redirect_url": "/dynamics365/customer-service/introduction-customer-service-analytics",
       "redirect_document_id": false
     },
     {
