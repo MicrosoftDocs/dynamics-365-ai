@@ -18,9 +18,9 @@
     - name: Create a new environment
       href: /dynamics365/customer-insights/audience-insights/home
     - name: Create a unified customer profile
-      href: /learn/modules/unified-customer-profile/
+      href: /training/modules/unified-customer-profile/
     - name: Work with the app
-      href: /learn/modules/working-with-customer-insights/
+      href: /training/modules/working-with-customer-insights/
 
 - name: Data sources
   items:
@@ -141,4 +141,3 @@
 
 - name: DSR requests under GDPR
   href: /dynamics365/customer-insights/audience-insights/gdpr
-
